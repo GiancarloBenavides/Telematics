@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<title>Presentacion Tesis</title>
+	<!-- Content -->
+    <!--Load the AJAX API-->
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+	<!--Load the AJAX API-->
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+	<script type="text/javascript">
+	// Load the Visualization API and the piechart package.
+	google.load('visualization', '1.0', {'packages':['corechart','table']});
+
+	// Set a callback to run when the Google Visualization API is loaded.
+	google.setOnLoadCallback(drawChart);
+
+	// Callback that creates and populates a data table,
+	// instantiates the pie chart, passes in the data and
+	// draws it.
+	function drawChart() {
+		// Create the data table.
+		var data = new google.visualization.DataTable();
+		data.addColumn('string', 'Topping');
+		data.addColumn('number', 'Slices');
+		data.addRows([
+		  ['Campus Virtual', 10],
+		  ['Cursos Abiertos', 4],
+		  ['Repositorios', 4],
+		  ['Campus Abierto', 2],
+		  ['Wiki', 5]
+		]);
+		// Set chart options
+		var options = {'title':'Plataformas Evaluadas',
+					   'width':800,
+					   'height':600};
+		// Instantiate and draw our chart, passing in some options.
+		var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+		chart.draw(data, options);
+	}
+
+	function drawVisualization() {
+	  // Create and populate the data table.
+	  var data = google.visualization.arrayToDataTable([
+		['Name', 'Email'],
+		['John Lennon', 'john@beatles.co.uk'],
+		['Paul McCartney', 'paul@beatles.co.uk'],
+		['George Harrison', 'george@beatles.co.uk'],
+		['Ringo Starr', 'ringo@beatles.co.uk']
+	  ]);
+
+	  // Create and draw the visualization.
+	  var table = new google.visualization.Table(document.getElementById('visualization'));
+
+	  var formatter = new google.visualization.TablePatternFormat('<a href="mailto:{1}">{0}</a>');
+	  formatter.format(data, [0, 1]); // Apply formatter and set the formatted value of the first column.
+
+	  var view = new google.visualization.DataView(data);
+	  view.setColumns([0]); // Create a view with the first column only.
+
+	  table.draw(view, {allowHtml: true, showRowNumber: true});
+	}
+
+	google.setOnLoadCallback(drawVisualization);
+	</script>
+	<!-- Style -->
+    <link href="http://fonts.googleapis.com/css?family=Walter+Turncoat:regular" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Walter+Turncoat:regular" rel="stylesheet">
+    <link rel="stylesheet" href="Content/css/styleslide.css">
+    <!-- Default Style -->
+    <style>
+      * { margin: 0; padding: 0; }
+      details {display: none;}
+      body {
+        width: 800px; height: 600px;
+        margin-left: -400px; margin-top: -300px;
+        position: absolute; top: 50%; left: 50%;
+        overflow: hidden;
+      }
+      html {
+        overflow: hidden;
+      }
+      section {
+        position: absolute;
+        pointer-events: none;
+        width: 100%; height: 100%;
+      }
+      section[aria-selected] { pointer-events: auto;}
+      body {display: none}
+      body.loaded {display: block}
+    </style>
+</head>
+<body class="loaded" style="-webkit-transform: scale(0.875);">
+	<section id="intro" class="imgleft" aria-selected="true">
+		<h1>Desafio 03 - Laboratorio 01</h1>
+		<h2>Implementación de un entorno de trabajo virtual para prueba y desarrollo de aplicaciones web</h2>
+		<img src="Content/img/sl/00.svg">
+		<footer>by <a href="http://twitter.com/GiancarloOrtiz">@GiancarloOrtiz</a></footer>
+		<details>
+			Presentación
+		</details>
+	</section>
+	<section class="chapter">
+		<h1>Buena Suerte...!!!</h1>
+	</section>
+	<section>
+		<ul>
+			<li> ¡¡¡. . . Actividades !!!</li></br>
+			<li><span>1</span>Hypervisor</li>
+			<li><span>2</span>Instalación MV</li>
+			<li><span>3</span>GNU/Linux</li>
+			<li><span>4</span>Apache2</li>
+			<li><span>5</span>Sitio Web</li>
+		</ul>
+	</section>
+    <section class="only" >
+		<h2>Esquema lógico</h2>	
+		<img class="imgc" id="img16"src="Content/img/sl/logic.png" > 		
+	</section>
+	<section>
+		<h1>Comencemos...</h1>
+	</section>
+		<section class="imgleft">
+		<img id="fig1" src="Content/img/sl/01.svg">
+		<h1 id="num1" onclick="ocultar('fig1');">Instalación<strong>1</strong><span>Hypervisor!</span></h1>
+		<details>
+			Instalación del Hypervisor Virtual Box....
+		</details>
+	</section>
+	<section class="imgleft">
+		<img id="fig2" src="Content/img/sl/02.svg">
+		<h1 id="num2" onclick="ocultar('fig2');">Configuración<strong>2</strong><span>Maquina Virtual!</span></h1>
+		<details>
+			Configuración de la maquina Virtual....
+		</details>
+	</section>
+	<section class="imgleft">
+		<img id="fig3" src="Content/img/sl/03.svg">
+		<h1 id="num3" onclick="ocultar('fig3');">Instalación<strong>3</strong><span>GNU/Linux!</span></h1>
+		<details>
+			Instalación del servidor UbuntuServer Xenial
+		</details>
+	</section>
+    <section class="imgleft">
+		<img id="fig4" src="Content/img/sl/04.svg">
+		<h1 id="num4" onclick="ocultar('fig4');">Instalación<strong>4</strong><span>Apache!</span></h1>
+		<details>
+			Instalación del servidor web Apache....
+		</details>
+	</section>
+    <section class="imgleft">
+		<img id="fig5" src="Content/img/sl/05.svg">
+		<h1 id="num5" onclick="ocultar('fig5');">Configuración<strong>5</strong><span>Sitio Web!</span></h1>
+		<details>
+			Configuración del sitio web de ejemplo....
+		</details>
+	</section>
+	<section class="chapter">
+		<h1>Quiénes?</h1>
+	</section>
+	<section class="aturtle">
+		<h1>Estudiante 01</h1>
+		<img src="Content/img/sl/avatar01.jpg">
+		<p>reemplazar por gustos e intereses particulares<strong>su mayor deseo!!</strong></p>
+	</section>
+    <section class="chapter">
+		<h1>End</h1>
+	</section>
+<script>
+  var friendWindows = [];
+  var idx = 1;
+  var slides;
+
+  /* main() */
+
+  window.onload = function() {
+    slides = document.querySelectorAll("body > section");
+    onhashchange();
+    setSlide();
+    document.body.className = "loaded";
+    setupTouchEvents();
+    onresize();
+  }
+
+  /* Handle keys */
+
+  window.onkeydown = function(e) {
+    // Don't intercept keyboard shortcuts
+    if (e.altKey || e.ctrlKey || e.metaKey || e.shiftKey) {
+      return;
+    }
+    if ( e.keyCode == 37 // left arrow
+      || e.keyCode == 38 // up arrow
+      || e.keyCode == 33 // page up
+    ) {
+      e.preventDefault();
+      back();
+    }
+    if ( e.keyCode == 39 // right arrow
+      || e.keyCode == 40 // down arrow
+      || e.keyCode == 34 // page down
+    ) {
+      e.preventDefault();
+      forward();
+    }
+
+    if ( e.keyCode == 32) { // space
+        e.preventDefault();
+        toggleContent();
+    }
+  }
+
+  /* Touch Events */
+
+  function setupTouchEvents() {
+    var orgX, orgY;
+    var newX, newY;
+
+    var body = document.body;
+    body.addEventListener("touchstart", start, false);
+    body.addEventListener("touchmove", move, false);
+    body.addEventListener("touchend", end, false);
+
+    function start(e) {
+      e.preventDefault();
+      orgX = e.changedTouches[0].pageX;
+      orgY = e.changedTouches[0].pageY;
+    }
+
+    function move(e) {
+      newX = e.changedTouches[0].pageX;
+      newY = e.changedTouches[0].pageY;
+    }
+
+    function end(e) {
+      if (orgX - newX > 10) {
+        forward();
+      } else {
+        if (orgX - newY < 10) {
+          back();
+        }
+      }
+    }
+  }
+
+  /* Adapt the size of the slides to the window */
+
+  window.onresize = function() {
+    var sx = document.body.clientWidth / window.innerWidth;
+    var sy = document.body.clientHeight / window.innerHeight;
+    var transform = "scale(" + (1/Math.max(sx, sy)) + ")";
+    document.body.style.MozTransform = transform;
+    document.body.style.WebkitTransform = transform;
+    document.body.style.OTransform = transform;
+    document.body.style.msTransform = transform;
+    document.body.style.transform = transform;
+  }
+  function getDetails(idx) {
+    var s = document.querySelector("section:nth-of-type("+ idx +")");
+    var d = s.querySelector("details");
+    return d?d.innerHTML:"";
+  }
+  window.onmessage = function(e) {
+    msg = e.data;
+    win = e.source;
+    if (msg === "register") {
+      friendWindows.push(win);
+      win.postMessage(JSON.stringify({method: "registered", title: document.title, count: slides.length}), "*");
+      win.postMessage(JSON.stringify({method: "newslide", details: getDetails(idx), idx: idx}), "*");
+      return;
+    }
+    if (msg === "back") back();
+    if (msg === "forward") forward();
+    if (msg === "toggleContent") toggleContent();
+    // setSlide(42)
+    var r = /setSlide\((\d+)\)/.exec(msg);
+    if (r) {
+        idx = r[1];
+        setSlide();
+    }
+  }
+
+  /* If a Video is present in this new slide, play it.
+     If a Video is present in the previous slide, stop it. */
+
+  function toggleContent() {
+    var s = document.querySelector("section[aria-selected]");
+    if (s) {
+        var video = s.querySelector("video");
+        if (video) {
+            if (video.ended || video.paused) {
+                video.play();
+            } else {
+                video.pause();
+            }
+        }
+    }
+  }
+
+  /* If the user change the slide number in the URL bar, jump
+     to this slide. */
+
+  window.onhashchange = function(e) {
+    var newidx = ~~window.location.hash.split("#")[1];
+    if (!newidx) newidx = 1;
+    if (newidx == idx) return;
+    idx = newidx;
+    setSlide();
+  }
+
+  /* Slide controls */
+
+  function back() {
+    if (idx == 1) return;
+    idx--;
+    setSlide();
+  }
+  function forward() {
+    if (idx >= slides.length) return;
+    idx++;
+    setSlide();
+  }
+  function setSlide() {
+    var old = document.querySelector("section[aria-selected]");
+    var next = document.querySelector("section:nth-of-type("+ idx +")");
+    if (old) {
+      old.removeAttribute("aria-selected");
+      var video = old.querySelector("video");
+      if (video) { video.pause(); }
+    }
+    if (next) {
+      next.setAttribute("aria-selected", "true");
+      var video = next.querySelector("video");
+      if (video) { video.play(); }
+    } else {
+      console.warn("No such slide: " + idx);
+      idx = 0;
+      for (var i = 0; i < slides.length; i++) {
+          if (slides[i].hasAttribute("aria-selected")) {
+              idx = i + 1;
+          }
+      }
+    }
+    window.location.hash = idx;
+    for (var i = 0; i < friendWindows.length; i++) {
+        friendWindows[i].postMessage(JSON.stringify({method: "newslide", details: getDetails(idx), idx: idx}), "*");
+    }
+  }
+</script>
+<!-- vim: set fdm=marker: }}} -->
+<script language="JavaScript1.2">
+	function ocultar(element){
+		document.getElementById(element).style.display="none";
+	}
+</script>
+
+</body></html>
