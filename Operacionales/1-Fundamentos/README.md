@@ -3,11 +3,20 @@
 <p>Creado por <code>Giancarlo Ortiz</code> para explicar los fundamentos de los <code>Sistemas operativos</code></p>
 
 ---
-## Tipos de Datos
-En un lenguaje de programación los tipos definen los atributos que puede tomar una variable, clasificando los valores en un sistema de tipos que impone restricciones en las operaciones que se pueden realizar.
-s
-* ><i>"Se cometen muchos menos errores usando datos incorrectos... que no empleando dato alguno."</i><br>
-<cite style="display:block; text-align: right">[Charles Babbage](https://es.wikipedia.org/wiki/Charles_Babbage)</cite>
+## Sistemas de Información
+Un SI es una entidad cuyos múltiples y diversos componentes materiales o conceptuales permiten el procesamiento de información y así cubrir una necesidad o un objetivo especifico.
+
+* ><i>"Es indigno que hombres notables pierdan su tiempo como esclavos del cálculo cuando podrían dejar ese trabajo en manos de cualquiera si se usaran las máquinas."</i><br>
+<cite style="display:block; text-align: right">[Gottfried Leibniz](https://es.wikipedia.org/wiki/Gottfried_Leibniz)</cite>
+
+## Procesos en un SI
+
+![mapa de procesos](img/os_process_map.png)
+
+
+
+
+emulador vs simulador 
 
 
 ---
