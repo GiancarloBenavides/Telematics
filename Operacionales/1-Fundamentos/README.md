@@ -11,7 +11,26 @@ Un SI es una entidad cuyos múltiples y diversos componentes materiales o concep
 
 ## Procesos en un SI
 
-![mapa de procesos](img/os_process_map.png)
+![mapa de procesos](img/is_process_map.png)
+
+## Componentes de un SI
+* __Usuarios:__ personas que desarrollan, mantienen y utilizan el sistema.
+* __Infraestructura:__ la red que permite compartir la información y los recursos entre dispositivos.
+* [__Software:__][11] procedimientos lógicos utilizados para transformar y extraer información.
+* [__Hardware:__][12] equipo físico utilizado para procesar y almacenar la información.
+* __Datos:__ representación de la información.
+
+[11]:https://es.wikipedia.org/wiki/Software
+[12]:https://es.wikipedia.org/wiki/Hardware
+
+## Capas en un SI
+
+![mapa de procesos](img/is_layers.png)
+
+## Hardware
+Componentes eléctricos y mecánicos que sirven de soporte físico del equipo de computo.
+Interno.
+Periféricos: dispositivos auxiliares e independientes que se encuentran conectados por una interface al hardware interno del equipo de computo.
 
 
 
