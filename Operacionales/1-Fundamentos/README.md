@@ -40,12 +40,17 @@ Es una maquina que se puede programar para realizar secuencias e operaciones ló
 * Sistema operativo.
 * Aplicaciones.
 
-## Teoría de autómatas
+
+## Estructura del hardware - Teoría de autómatas
 ![mapa de procesos](img/automata_theory.png)
+
 
 ## Periféricos
 Dispositivos auxiliares e independientes que se encuentran conectados por una interface al hardware interno de un sistema de procesamiento digital.
 
+
+## Estructura del software - Teoría del núcleo
+![mapa de procesos](img/kernel_theory.png)
 
 
 
