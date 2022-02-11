@@ -9,9 +9,10 @@ Un SI es una entidad cuyos múltiples y diversos componentes materiales o concep
 * ><i>"Es indigno que hombres notables pierdan su tiempo como esclavos del cálculo cuando podrían dejar ese trabajo en manos de cualquiera si se usaran las máquinas."</i><br>
 <cite style="display:block; text-align: right">[Gottfried Leibniz](https://es.wikipedia.org/wiki/Gottfried_Leibniz)</cite>
 
-## Procesos en un SI
 
+## Procesos en un SI
 ![mapa de procesos](img/is_process_map.png)
+
 
 ## Componentes de un SI
 * __Usuarios:__ personas que desarrollan, mantienen y utilizan el sistema.
@@ -23,18 +24,33 @@ Un SI es una entidad cuyos múltiples y diversos componentes materiales o concep
 [11]:https://es.wikipedia.org/wiki/Software
 [12]:https://es.wikipedia.org/wiki/Hardware
 
-## Capas en un SI
 
+## Capas en un SI
 ![mapa de procesos](img/is_layers.png)
 
-## Hardware
-Componentes eléctricos y mecánicos que sirven de soporte físico del equipo de computo.
-Interno.
-Periféricos: dispositivos auxiliares e independientes que se encuentran conectados por una interface al hardware interno del equipo de computo.
+
+## Sistema de procesamiento digital
+Es una maquina que se puede programar para realizar secuencias e operaciones lógicas o aritméticas, que organizadas convenientemente permiten realizar tareas de complejidad cada ves mayor.
+
+[__Hardware:__][12]
+* Componentes procesamiento 
+* Componentes de almacenamiento.
+
+[__Software:__][11]
+* Sistema operativo.
+* Aplicaciones.
+
+## Teoría de autómatas
+![mapa de procesos](img/automata_theory.png)
+
+## Periféricos
+Dispositivos auxiliares e independientes que se encuentran conectados por una interface al hardware interno de un sistema de procesamiento digital.
 
 
 
 
+
+---
 emulador vs simulador 
 
 
