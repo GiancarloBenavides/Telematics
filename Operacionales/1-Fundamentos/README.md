@@ -33,8 +33,9 @@ Un SI es una entidad cuyos múltiples y diversos componentes materiales o concep
 Es una maquina que se puede programar para realizar secuencias e operaciones lógicas o aritméticas, que organizadas convenientemente permiten realizar tareas de complejidad cada ves mayor.
 
 [__Hardware:__][12]
-* Componentes procesamiento 
+* Componentes procesamiento.
 * Componentes de almacenamiento.
+* Componentes de control.
 
 [__Software:__][11]
 * Sistema operativo.
@@ -45,6 +46,31 @@ Es una maquina que se puede programar para realizar secuencias e operaciones ló
 ![mapa de procesos](img/automata_theory.png)
 
 
+## Elementos de procesamiento un sistema digital
+* [__CPU:__][13] Unidad central de procesamiento.
+* [__FPU:__][14] Unidad de coma flotante.
+* [__ALU:__][15] Unidad aritmético lógica.
+* [__DSP:__][16] Unidad de procesamiento de señales.
+
+[13]:https://es.wikipedia.org/wiki/Unidad_central_de_procesamiento
+[14]:https://es.wikipedia.org/wiki/Unidad_de_coma_flotante
+[15]:https://es.wikipedia.org/wiki/Unidad_aritm%C3%A9tica_l%C3%B3gica
+[16]:https://es.wikipedia.org/wiki/Procesador_de_se%C3%B1ales_digitales
+
+
+## Elementos de almacenamiento un sistema digital
+* [__HDD__][171]/[__SSD:__][172] Memoria persistente
+* [__MM:__][18] Memoria principal
+* [__L1/L2/L3:__][19] Cache
+* [__GPR:__][20] Registros
+
+[171]:https://es.wikipedia.org/wiki/Unidad_de_disco_duro
+[172]:https://es.wikipedia.org/wiki/Unidad_de_estado_s%C3%B3lido
+[18]:https://es.wikipedia.org/wiki/Memoria_principal
+[19]:https://es.wikipedia.org/wiki/Cach%C3%A9_(inform%C3%A1tica)#
+[20]:https://es.wikipedia.org/wiki/Registro_(hardware)#
+
+
 ## Periféricos
 Dispositivos auxiliares e independientes que se encuentran conectados por una interface al hardware interno de un sistema de procesamiento digital.
 
@@ -53,7 +79,9 @@ Dispositivos auxiliares e independientes que se encuentran conectados por una in
 ![mapa de procesos](img/kernel_theory.png)
 
 
-
+## Elementos de software se un sistema digital
+* Drivers 
+* API
 
 ---
 emulador vs simulador 
