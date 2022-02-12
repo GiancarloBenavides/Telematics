@@ -39,6 +39,7 @@ Es una maquina que se puede programar para realizar secuencias e operaciones ló
 
 [__Software:__][11]
 * Sistema operativo.
+* Utilidades.
 * Aplicaciones.
 
 
@@ -80,8 +81,61 @@ Dispositivos auxiliares e independientes que se encuentran conectados por una in
 
 
 ## Elementos de software se un sistema digital
-* Drivers 
-* API
+* [__Scheduler:__][21] Planificador de tareas 
+* [__Driver:__][22] Controladores de dispositivo
+* [__Library:__][23] Bibliotecas
+* [__Shell:__][24] Interpretes de comandos
+* [__API:__][25] Interfaces de programación
+
+[21]:https://es.wikipedia.org/wiki/Planificador
+[22]:https://es.wikipedia.org/wiki/Controlador_de_dispositivo
+[23]:https://es.wikipedia.org/wiki/Biblioteca_(inform%C3%A1tica)#
+[24]:https://en.wikipedia.org/wiki/Shell_(computing)#
+[25]:https://es.wikipedia.org/wiki/Interfaz_de_programaci%C3%B3n_de_aplicaciones
+
+
+## Utilidades en un sistema digital
+* [__Assembler:__][26] Ensambladores
+* [__Compiler:__][27] Compiladores
+* [__Linker:__][28] Enlazadores
+* [__Interpreter:__][29] Interpretes
+
+[26]:https://es.wikipedia.org/wiki/Ensamblador
+[27]:https://es.wikipedia.org/wiki/Compilador
+[28]:https://es.wikipedia.org/wiki/Enlazador
+[29]:https://es.wikipedia.org/wiki/Int%C3%A9rprete_(inform%C3%A1tica)#
+
+
+## Aplicaciones en un sistema digital
+| Tipo | Propietario | Libre |
+|--|--:|:--|
+| Procesador de Textos | [Word][31] | Writer - Words |
+| Hoja de Calculo | Excel | [Calc][32] - Sheets |
+| Presentaciones | [PowerPoint][33] | Stage |
+| Sistemas de gestión DB | Access | Base - [Kexi][34] |
+| Dibujo Vectorial | [Corel Draw][35] | Inkscape - Karbon |
+| Edición de imágenes| Photoshop | Gimp - [Krita][36] |
+
+[31]:https://es.wikipedia.org/wiki/Microsoft_Word
+[32]:https://es.wikipedia.org/wiki/LibreOffice_Calc
+[33]:https://es.wikipedia.org/wiki/Microsoft_PowerPoint
+[34]:https://en.wikipedia.org/wiki/Kexi
+[35]:https://es.wikipedia.org/wiki/CorelDRAW
+[36]:https://es.wikipedia.org/wiki/Krita
+
+
+## Interfaces de programación de aplicaciones
+* [__Win32 API__][aa] Windows API
+* [__Win64 API__][aa] Windows API
+* [__Cocoa API__][bb] Mac OS X API
+* [__Carbon API__][bb] macOS API
+* [__Posix__][cc] Unix API
+
+[aa]:https://es.wikipedia.org/wiki/Win32_API
+[aa]:https://es.wikipedia.org/wiki/Win32_API
+[bb]:https://es.wikipedia.org/wiki/Cocoa_(API)#
+[aa]:https://es.wikipedia.org/wiki/Carbon_(API)#
+[cc]:https://es.wikipedia.org/wiki/POSIX
 
 ---
 emulador vs simulador 
