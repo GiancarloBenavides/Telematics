@@ -1,4 +1,4 @@
-# Sistemas operativos
+# Sistemas operacionales
 <p><code>Fundamentos de sistemas operativos</code></p>
 <p>Creado por <code>Giancarlo Ortiz</code> para explicar los fundamentos de los <code>Sistemas operativos</code></p>
 
@@ -59,7 +59,7 @@ Es una maquina que se puede programar para realizar secuencias e operaciones ló
 [16]:https://es.wikipedia.org/wiki/Procesador_de_se%C3%B1ales_digitales
 
 
-## Elementos de almacenamiento un sistema digital
+## Elementos de almacenamiento en un sistema digital
 * [__HDD__][171]/[__SSD:__][172] Memoria persistente
 * [__MM:__][18] Memoria principal
 * [__L1/L2/L3:__][19] Cache
@@ -72,8 +72,16 @@ Es una maquina que se puede programar para realizar secuencias e operaciones ló
 [20]:https://es.wikipedia.org/wiki/Registro_(hardware)#
 
 
+## Elementos de control en un sistema digital
+* [__Chipset:__][20] Registros
+* [__Firmware:__][20] 
+
+
 ## Periféricos
 Dispositivos auxiliares e independientes que se encuentran conectados por una interface al hardware interno de un sistema de procesamiento digital.
+
+* ><i>"La única forma de aprender un nuevo lenguaje de programación es escribir programas en él."</i><br>
+<cite style="display:block; text-align: right">[Dennis Ritchie](https://es.wikipedia.org/wiki/Dennis_Ritchie)</cite>
 
 
 ## Estructura del software - Teoría del núcleo
@@ -124,11 +132,33 @@ Dispositivos auxiliares e independientes que se encuentran conectados por una in
 [36]:https://es.wikipedia.org/wiki/Krita
 
 
+## Sistema Operativo
+ Es una colección de software que administra los recursos del sistema proporcionando servicios comunes para otros programas de la computadora.
+
+* ><i>"Un concepto clave en todos los sistemas operativos es el de proceso. Un proceso es básicamente un programa en ejecución."</i><br>
+<cite style="display:block; text-align: right">[Andrew Tanenbaum](https://es.wikipedia.org/wiki/Andrew_S._Tanenbaum)</cite>
+
+
+## Definiciones
+* El software y/o firmware que hace utilizable al hardware [^1] [[Deitel]][155].
+* Es un programa que controla la ejecución de los programas de aplicación y que 
+actúa como interfaz entre las aplicaciones de usuarios y el hardware [Satllings].
+* Es un programa que actúa como intermediario entre el usuario y el hardware. El 
+primer objetivo es la comodidad, el segundo la eficiencia [Silberschatz].
+* Es un programa que tiene encomendada una serie de funciones diferentes cuyo 
+objetivo es simplificar el manejo y utilización de la computadora; haciéndolo 
+seguro y eficiente [Carretero].
+
+[155]:https://www.amazon.com/Libros-Paul-Deitel-Harvey
+
+
+[^1]: Deitel, H. M., Deitel, P. J., & Choffnes, D. R. (2004). Operating systems. Pearson/Prentice Hall.
+
 ## Interfaces de programación de aplicaciones
-* [__Win32 API__][aa] Windows API
-* [__Win64 API__][aa] Windows API
-* [__Cocoa API__][bb] Mac OS X API
-* [__Carbon API__][bb] macOS API
+* Windows API => ([__Win32__][aa], [__Win64__][aa])
+* Mac OS X API [__Cocoa__][bb] 
+* [__Carbon__][bb] macOS API
+* [__Linux API__][bb] Linux API
 * [__Posix__][cc] Unix API
 
 [aa]:https://es.wikipedia.org/wiki/Win32_API
