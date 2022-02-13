@@ -17,6 +17,8 @@
 * Típico de [sistemas embebidos][13].
 * Programación en [lenguaje Ensamblador][14].
 * Ejecución en [Tiempo Real][15].
+* Boot loader
+* Perro guardian
 
 [11]:https://es.wikipedia.org/wiki/Programa_inform%C3%A1tico
 [12]:https://es.wikipedia.org/wiki/Bucle_(programaci%C3%B3n)#
@@ -30,7 +32,7 @@
 <table>
 	<tr >
 	    <td rowspan="9"> <img src="img/arduino_uno.png" alt="Arduino Uno"> </td>
-	    <td colspan="2" style="text-align: center">
+	    <td colspan="2" style="text-align: center;">
             <a href="https://es.wikipedia.org/wiki/Arduino_Uno">
                 <b>Arduino UNO</b>
             </a>
@@ -45,19 +47,29 @@
 	    <td>16 Mhz</td>
 	</tr>
     <tr >
-	    <td>Memoria:</td>
-	    <td>32 KB</td>
+	    <td>Memoria principal:</td>
+	    <td>2 KB 
+            <a href="https://es.wikipedia.org/wiki/SRAM">SRAM</a>
+        </td>
+	</tr>
+    <tr >
+	    <td>Memoria programa:</td>
+	    <td>32 KB 
+            <a href="https://es.wikipedia.org/wiki/Memoria_flash">Flash</a>
+        </td>
+	</tr>
+    <tr >
+	    <td>Potencia:</td>
+	    <td>100 mW</td>
 	</tr>
     <tr >
 	    <td>Comunicación:</td>
-	    <td>UART - SPI</td>
+	    <td>
+            <a href="https://es.wikipedia.org/wiki/Universal_Asynchronous_Receiver-Transmitter">UART</a> - 
+            <a href="https://es.wikipedia.org/wiki/Serial_Peripheral_Interface">SPI</a>
+        </td>
 	</tr>
 </table>
-
-
-|||
-|---|---|
-|  | ![Arduino](img/arduino_uno.png "Arduino") |
 
 
 ## 1.1.1 Caso de estudio - Arduino
