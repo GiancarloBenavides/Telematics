@@ -158,6 +158,27 @@ Dispositivos auxiliares e independientes que se encuentran conectados por una in
 [313]:https://www.amazon.com/-/es/Abraham-Silberschatz/dp/1119800366
 [314]:https://www.amazon.com/-/es/Abraham-Silberschatz/dp/1119800366
 
+
+## 3.2 Objetivos SO
+* [__Comodidad:__][321] Funcionar como una interfaz entre el usuario y el hardware facilitando su aprovechamiento.
+* [__Eficiencia:__][322] Administrar los recursos físicos y lógicos del sistema informático de forma eficiente.
+* [__Capacidad de evolución:__][323] Permitir la introducción de nuevas características al sistema sin afectar la experiencia.
+
+[321]:https://es.wikipedia.org/wiki/Experiencia_de_usuario
+[322]:https://es.wikipedia.org/wiki/Eficiencia_algor%C3%ADtmica
+[323]:https://es.wikipedia.org/wiki/Escalabilidad
+
+
+## 3.3 Calidad SO
+* Son aplicables los principios de la [calidad del software][331] 
+* Modelo [ISO/IEC 25000][332]
+
+![mapa de procesos](img/software_quality.png "Calidad del Software")
+
+[331]:https://es.wikipedia.org/wiki/Calidad_de_software
+[332]:https://es.wikipedia.org/wiki/ISO/IEC_25000
+
+
 ## Interfaces de programación de aplicaciones
 * Windows API => ([__Win32__][aa], [__Win64__][aa])
 * Mac OS X API [__Cocoa__][bb] 
