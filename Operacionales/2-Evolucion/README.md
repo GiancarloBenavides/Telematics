@@ -64,9 +64,11 @@
 	</tr>
     <tr >
 	    <td>Comunicación:</td>
-	    <td>
-            <a href="https://es.wikipedia.org/wiki/Universal_Asynchronous_Receiver-Transmitter">UART</a> - 
-            <a href="https://es.wikipedia.org/wiki/Serial_Peripheral_Interface">SPI</a>
+	    <td><small>
+            <a href="https://es.wikipedia.org/wiki/Universal_Serial_Bus">USB</a> -
+            <a href="https://es.wikipedia.org/wiki/Universal_Asynchronous_Receiver-Transmitter">UART</a>
+            <a href="https://es.wikipedia.org/wiki/Serial_Peripheral_Interface">SPI</a> -
+            <a href="https://es.wikipedia.org/wiki/I%C2%B2C">I²C</a></small>
         </td>
 	</tr>
 </table>
