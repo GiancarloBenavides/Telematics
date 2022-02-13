@@ -3,18 +3,18 @@
 <p>Creado por <code>Giancarlo Ortiz</code> para explicar los fundamentos de los <code>Sistemas operativos</code></p>
 
 ---
-# Sistemas de Información
+# 1. Sistemas de Información
 Un SI es una entidad cuyos múltiples y diversos componentes materiales o conceptuales permiten el procesamiento de información y así cubrir una necesidad o un objetivo especifico.
 
 * ><i>"Es indigno que hombres notables pierdan su tiempo como esclavos del cálculo cuando podrían dejar ese trabajo en manos de cualquiera si se usaran las máquinas."</i><br>
 <cite style="display:block; text-align: right">[Gottfried Leibniz](https://es.wikipedia.org/wiki/Gottfried_Leibniz)</cite>
 
 
-## Procesos en un SI
+## 1.1. Procesos en un SI
 ![mapa de procesos](img/is_process_map.png)
 
 
-## Componentes de un SI
+## 1.2. Componentes en un SI
 * __Usuarios:__ personas que desarrollan, mantienen y utilizan el sistema.
 * __Infraestructura:__ la red que permite compartir la información y los recursos entre dispositivos.
 * [__Software:__][11] procedimientos lógicos utilizados para transformar y extraer información.
@@ -25,11 +25,11 @@ Un SI es una entidad cuyos múltiples y diversos componentes materiales o concep
 [12]:https://es.wikipedia.org/wiki/Hardware
 
 
-## Capas en un SI
+## 1.3. Capas en un SI
 ![mapa de procesos](img/is_layers.png)
 
 
-# Sistema de procesamiento digital
+# 2. Sistema de procesamiento digital
 Es una maquina que se puede programar para realizar secuencias e operaciones lógicas o aritméticas, que organizadas convenientemente permiten realizar tareas de complejidad cada ves mayor.
 
 [__Hardware:__][12]
@@ -43,11 +43,11 @@ Es una maquina que se puede programar para realizar secuencias e operaciones ló
 * Aplicaciones.
 
 
-## Estructura del hardware - Teoría de autómatas
+## 2.1. Estructura del hardware - Teoría de autómatas
 ![mapa de procesos](img/automata_theory.png)
 
 
-### Elementos de procesamiento un sistema digital
+### 2.1.1. Elementos de procesamiento un sistema digital
 * [__CPU:__][13] Unidad central de procesamiento.
 * [__FPU:__][14] Unidad de coma flotante.
 * [__ALU:__][15] Unidad aritmético lógica.
@@ -59,7 +59,7 @@ Es una maquina que se puede programar para realizar secuencias e operaciones ló
 [16]:https://es.wikipedia.org/wiki/Procesador_de_se%C3%B1ales_digitales
 
 
-### Elementos de almacenamiento en un sistema digital
+### 2.1.2. Elementos de almacenamiento en un sistema digital
 * [__HDD__][171]/[__SSD:__][172] Memoria persistente
 * [__MM:__][18] Memoria principal
 * [__L1/L2/L3:__][19] Cache
@@ -72,23 +72,23 @@ Es una maquina que se puede programar para realizar secuencias e operaciones ló
 [20]:https://es.wikipedia.org/wiki/Registro_(hardware)#
 
 
-### Elementos de control en un sistema digital
+### 2.1.3. Elementos de control en un sistema digital
 * [__Chipset:__][20] Registros
 * [__Firmware:__][20]
 
 
-### Periféricos
+## 2.2. Periféricos
 Dispositivos auxiliares e independientes que se encuentran conectados por una interface al hardware interno de un sistema de procesamiento digital.
 
 * ><i>"La única forma de aprender un nuevo lenguaje de programación es escribir programas en él."</i><br>
 <cite style="display:block; text-align: right">[Dennis Ritchie](https://es.wikipedia.org/wiki/Dennis_Ritchie)</cite>
 
 
-## Estructura del software - Teoría del núcleo
+## 2.3. Estructura del software - Teoría del núcleo
 ![mapa de procesos](img/kernel_theory.png "Teoría del núcleo")
 
 
-### Elementos de software se un sistema digital
+### 2.3.1. Elementos de software se un sistema digital
 * [__Scheduler:__][21] Planificador de tareas 
 * [__Driver:__][22] Controladores de dispositivo
 * [__Library:__][23] Bibliotecas
@@ -102,7 +102,7 @@ Dispositivos auxiliares e independientes que se encuentran conectados por una in
 [25]:https://es.wikipedia.org/wiki/Interfaz_de_programaci%C3%B3n_de_aplicaciones
 
 
-### Utilidades en un sistema digital
+### 2.3.2. Utilidades en un sistema digital
 * [__Assembler:__][26] Ensambladores
 * [__Compiler:__][27] Compiladores
 * [__Linker:__][28] Enlazadores
@@ -114,7 +114,7 @@ Dispositivos auxiliares e independientes que se encuentran conectados por una in
 [29]:https://es.wikipedia.org/wiki/Int%C3%A9rprete_(inform%C3%A1tica)#
 
 
-### Aplicaciones en un sistema digital
+### 2.3.3. Aplicaciones en un sistema digital
 | Tipo | Propietario | Libre |
 |--|--:|:--|
 | Procesador de Textos | [Word][31] | Writer - Words |
@@ -132,30 +132,32 @@ Dispositivos auxiliares e independientes que se encuentran conectados por una in
 [36]:https://es.wikipedia.org/wiki/Krita
 
 
-# Sistema Operativo
+# 3. Sistema Operativo
  Es una colección de software que administra los recursos del sistema proporcionando servicios comunes para otros programas de la computadora.
 
 * ><i>"Un concepto clave en todos los sistemas operativos es el de proceso. Un proceso es básicamente un programa en ejecución."</i><br>
 <cite style="display:block; text-align: right">[Andrew Tanenbaum](https://es.wikipedia.org/wiki/Andrew_S._Tanenbaum)</cite>
 
 
----
-## Otras definiciones para SO
-* El software y/o firmware que hace utilizable al hardware (Deitel, 2004). [<sup>[1]</sup>][155]
-* Es un programa que controla la ejecución de los programas de aplicación y que 
-actúa como interfaz entre las aplicaciones de usuarios y el hardware [Satllings].
-* Es un programa que actúa como intermediario entre el usuario y el hardware. El 
-primer objetivo es la comodidad, el segundo la eficiencia [Silberschatz].
-* Es un programa que tiene encomendada una serie de funciones diferentes cuyo 
-objetivo es simplificar el manejo y utilización de la computadora; haciéndolo 
-seguro y eficiente [Carretero].
 
-[1]: [Deitel, H. M., Deitel, P. J., & Choffnes, D. R. (2004). Operating systems. Pearson/Prentice Hall.][155]
-
-[155]:https://www.amazon.com/-/es/Harvey-M-Deitel/dp/0131828274
-
+## 3.1 Otras definiciones para SO
+* El software y/o firmware que hace utilizable al hardware __(Deitel, 2004)__. [<sup>[1]</sup>][311]
+* Es un programa que controla la ejecución de los programas de aplicación y que actúa como interfaz entre las aplicaciones de usuarios y el hardware __(Satllings, 2017)__. [<sup>[2]</sup>][312]
+* Es un programa que actúa como intermediario entre el usuario y el hardware. El primer objetivo es la comodidad, el segundo la eficiencia __(Silberschatz, 2021)__. [<sup>[3]</sup>][313]
+* Es un programa que tiene encomendada una serie de funciones diferentes cuyo objetivo es simplificar el manejo y utilización de la computadora; haciéndolo seguro y eficiente __(Carballeira, 2021)__. [<sup>[4]</sup>][314]
 
 ---
+<small>[1]: [Deitel, H. M., Deitel, P. J., & Choffnes, D. R. (2004). Operating systems. Pearson/Prentice Hall.][311]
+[2]: [Stallings, W. (2017). Operating systems: Internals and design principles (9th ed.). Pearson Education.][312]
+[3]: [Silberschatz, A., Galvin, P. B., & Gagne, G. (2021). Operating System Concepts (10th ed.). John Wiley & Sons.][313]
+[4]: [Garcia Carballeira, F., Perez Costoya, F., & Carretero Perez, J. (2021). Sistemas Operativos: Una Vision Aplicada. 3 Ed.: Volumen I. Independently Published.][314]
+</small>
+
+[311]:https://www.amazon.com/-/es/Harvey-M-Deitel/dp/0131828274
+[312]:https://www.amazon.com/-/es/William-Stallings/dp/0134670957
+[313]:https://www.amazon.com/-/es/Abraham-Silberschatz/dp/1119800366
+[314]:https://www.amazon.com/-/es/Abraham-Silberschatz/dp/1119800366
+
 ## Interfaces de programación de aplicaciones
 * Windows API => ([__Win32__][aa], [__Win64__][aa])
 * Mac OS X API [__Cocoa__][bb] 
