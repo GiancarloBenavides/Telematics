@@ -2,6 +2,12 @@
 <p><code>Fundamentos de sistemas operativos</code></p>
 <p>Creado por <code>Giancarlo Ortiz</code> para explicar los fundamentos de los <code>Sistemas operativos</code></p>
 
+## Agenda
+1. Sistemas de información.
+1. Sistemas de procesamiento digital.
+1. Sistemas operativos.
+
+
 ---
 # 1. Sistemas de Información
 Un SI es una entidad cuyos múltiples y diversos componentes materiales o conceptuales permiten el procesamiento de información y así cubrir una necesidad o un objetivo especifico.
@@ -132,7 +138,7 @@ Dispositivos auxiliares e independientes que se encuentran conectados por una in
 [36]:https://es.wikipedia.org/wiki/Krita
 
 
-# 3. Sistema Operativo
+# 3. Sistemas Operativos
  Es una colección de software que administra los recursos del sistema proporcionando servicios comunes para otros programas de la computadora.
 
 * ><i>"Un concepto clave en todos los sistemas operativos es el de proceso. Un proceso es básicamente un programa en ejecución."</i><br>
@@ -169,36 +175,54 @@ Dispositivos auxiliares e independientes que se encuentran conectados por una in
 [323]:https://es.wikipedia.org/wiki/Escalabilidad
 
 
-## 3.3 Calidad SO
-* Son aplicables los principios de la [calidad del software][331] 
-* Modelo [ISO/IEC 25000][332]
+## 3.3 Funciones SO
+* Asignar recursos a los usuarios y programas.
+* Recuperar los recursos asignados y desocupados.
+* Permitir el dialogo interactivo de los usuarios con el sistema.
+* Asegurar la confidencialidad de la información.
+* Garantizar que los programas no interfieran entre sí.
+* Detectar y tratar errores.
+* Llevar historial de uso.
+
+
+## 3.4 Calidad SO
+* Son aplicables los principios de la [calidad del software][341] 
+* Modelo [ISO/IEC 25000][342]
 
 ![mapa de procesos](img/software_quality.png "Calidad del Software")
 
-[331]:https://es.wikipedia.org/wiki/Calidad_de_software
-[332]:https://es.wikipedia.org/wiki/ISO/IEC_25000
+[341]:https://es.wikipedia.org/wiki/Calidad_de_software
+[342]:https://es.wikipedia.org/wiki/ISO/IEC_25000
 
 
-## Interfaces de programación de aplicaciones
-* Windows API => ([__Win32__][aa], [__Win64__][aa])
-* Mac OS X API [__Cocoa__][bb] 
-* [__Carbon__][bb] macOS API
-* [__Linux API__][bb] Linux API
-* [__Posix__][cc] Unix API
+# 3.5. Ejemplos
+* [__Unix:__][351] programado en C de los [laboratorios Bell][351_1].
+* [__Windows:__][352] programado en C, C++ de [Microsoft][352_1].
+* [__macOS:__][353] programado en C, Objetive-C de [Apple][353_1].
+* [__Ubuntu:__][354] programado en C, C++ de [Canonical][354_1].
+* [__Android:__][355] programado en C, Java de [Google][355_1].
+* [__FreeRTOS:__][356] programado en C de [AWS][356_1].
 
-[aa]:https://es.wikipedia.org/wiki/Win32_API
-[aa]:https://es.wikipedia.org/wiki/Win32_API
-[bb]:https://es.wikipedia.org/wiki/Cocoa_(API)#
-[aa]:https://es.wikipedia.org/wiki/Carbon_(API)#
-[cc]:https://es.wikipedia.org/wiki/POSIX
+![mapa de procesos](img/os_examples.png "Sistemas operativos")
 
----
-emulador vs simulador 
+[351]:https://es.wikipedia.org/wiki/Unix
+[352]:https://es.wikipedia.org/wiki/Microsoft_Windows
+[353]:https://es.wikipedia.org/wiki/MacOS
+[354]:https://es.wikipedia.org/wiki/Ubuntu
+[355]:https://es.wikipedia.org/wiki/Android
+[356]:https://en.wikipedia.org/wiki/FreeRTOS
+
+[351_1]:https://es.wikipedia.org/wiki/Bell_Labs
+[352_1]:https://es.wikipedia.org/wiki/Microsoft_Windows
+[353_1]:https://es.wikipedia.org/wiki/Apple
+[354_1]:https://es.wikipedia.org/wiki/Canonical
+[355_1]:https://es.wikipedia.org/wiki/Google
+[356_1]:https://es.wikipedia.org/wiki/Amazon_Web_Services
 
 
 ---
 ## Mas Recursos
-- [Arboles](https://es.wikipedia.org/wiki/%C3%81rbol_(inform%C3%A1tica)) (Wikipedia)
-- [Pilas](https://es.wikipedia.org/wiki/Pila_(inform%C3%A1tica)) (Wikipedia)
-- [Colas](https://es.wikipedia.org/wiki/Cola_(inform%C3%A1tica)) (Wikipedia)
-- [Grafos](https://es.wikipedia.org/wiki/Grafo_(tipo_de_dato_abstracto)) (Wikipedia)
+- [Calidad de software](https://es.wikipedia.org/wiki/Calidad_de_software) (Wikipedia)
+- [Sistema operativo](https://es.wikipedia.org/wiki/Sistema_operativo) (Wikipedia)
+- [Comparación de sistemas operativos](https://es.wikipedia.org/wiki/Anexo:Comparaci%C3%B3n_de_sistemas_operativos) (Wikipedia)
+- [Usage share of operating systems](https://en.wikipedia.org/wiki/Usage_share_of_operating_systems) (Wikipedia)

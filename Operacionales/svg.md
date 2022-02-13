@@ -363,6 +363,27 @@ $j_0=45  jj$
 ![svg](img/grafika.svg "svg")
 
 
+
+
+
+
+## Interfaces de programación de aplicaciones
+* Windows API => ([__Win32__][aa], [__Win64__][aa])
+* Mac OS X API [__Cocoa__][bb] 
+* [__Carbon__][bb] macOS API
+* [__Linux API__][bb] Linux API
+* [__Posix__][cc] Unix API
+
+[aa]:https://es.wikipedia.org/wiki/Win32_API
+[aa]:https://es.wikipedia.org/wiki/Win32_API
+[bb]:https://es.wikipedia.org/wiki/Cocoa_(API)#
+[aa]:https://es.wikipedia.org/wiki/Carbon_(API)#
+[cc]:https://es.wikipedia.org/wiki/POSIX
+
+# emulador vs simulador 
+
+
+
 ---
 ## Mas Recursos
 - [Arboles](https://es.wikipedia.org/wiki/%C3%81rbol_(inform%C3%A1tica)) (Wikipedia)
