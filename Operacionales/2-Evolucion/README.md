@@ -81,7 +81,7 @@
 
 
 ## 1.1.1 Arquitectura Arduino
-![Arqitectura Aruino](img/arduino_architecture.png "Arquitectura Arduino")
+![Arqitectura Aruino](img/arduino_architecture.svg "Arquitectura Arduino")
 
 ## 1.1.2 flujo de programación 
 
@@ -303,3 +303,5 @@ Dispositivos auxiliares e independientes que se encuentran conectados por una in
 - [Sistema operativo](https://es.wikipedia.org/wiki/Sistema_operativo) (Wikipedia)
 - [Comparación de sistemas operativos](https://es.wikipedia.org/wiki/Anexo:Comparaci%C3%B3n_de_sistemas_operativos) (Wikipedia)
 - [Usage share of operating systems](https://en.wikipedia.org/wiki/Usage_share_of_operating_systems) (Wikipedia)
+
+<https://github.com/arduino/ArduinoCore-avr/tree/master/bootloaders>
