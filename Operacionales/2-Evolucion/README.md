@@ -17,14 +17,16 @@
 * Típico de [sistemas embebidos][13].
 * Programación en [lenguaje Ensamblador][14].
 * Ejecución en [Tiempo Real][15].
-* Boot loader
-* Perro guardian
+* Necesario un gestor de [carga y arranque][16].
+* Necesario un temporizador o [perro guardian][17].
 
 [11]:https://es.wikipedia.org/wiki/Programa_inform%C3%A1tico
 [12]:https://es.wikipedia.org/wiki/Bucle_(programaci%C3%B3n)#
 [13]:https://es.wikipedia.org/wiki/Sistema_embebido
 [14]:https://es.wikipedia.org/wiki/Lenguaje_ensamblador
 [15]:https://es.wikipedia.org/wiki/Tiempo_real
+[16]:https://es.wikipedia.org/wiki/Cargador_de_arranque
+[17]:https://es.wikipedia.org/wiki/Perro_guardi%C3%A1n_(electr%C3%B3nica)#
 
 
 ## 1.1. Caso de estudio - Arduino
@@ -59,6 +61,10 @@
         </td>
 	</tr>
     <tr >
+	    <td>Voltaje:</td>
+	    <td>5 V</td>
+	</tr>
+        <tr >
 	    <td>Potencia:</td>
 	    <td>100 mW</td>
 	</tr>
@@ -74,8 +80,21 @@
 </table>
 
 
-## 1.1.1 Caso de estudio - Arduino
+## 1.1.1 Arquitectura Arduino
+![Arqitectura Aruino](img/arduino_architecture.png "Arquitectura Arduino")
 
+## 1.1.2 flujo de programación 
+
+
+## 1.1.3 flujo de ejecución 
+
+
+## 1.1.3 Memoria
+
+
+
+flow ota program
+arquitectura 
 
 
 ## 1.2. Componentes en un SI
