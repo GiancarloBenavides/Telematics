@@ -3,7 +3,6 @@
 <p>Creado por <code>Giancarlo Ortiz</code> para explicar los fundamentos de los <code>Sistemas operativos</code></p>
 
 ## Agenda
-1. Antecedentes.
 1. Primera generación.
 1. Segunda generación.
 1. Tercera generación.
@@ -48,36 +47,57 @@
 
 # 2. Primera generación
 * Después de [1950][2_0].
-* Hoy típico uso en [sistemas embebidos][2_6].
-* Aparece un cargador de programas o [monitor residente][2_1].
-* Procesamiento [por lotes][2_2] en un [ciclo continuo][2_3].
-* Se introduce el [buffering][2_4] para almacenamiento temporal.
-* Se introduce el [spooling][2_5] para operación simultanea.
-* Programación en [lenguaje Ensamblador][2_7].
-* Ejecución en [Tiempo Real][2_8].
-* Necesario un temporizador o [perro guardian][2_9].
+* Enfoque típico en la implementación de [sistemas embebidos][2_1].
+* Aparece un cargador de programas o [monitor residente][2_2].
+* Aparece el [cargador de arranque][2_3].
+* Procesamiento [por lotes][2_4] en un [ciclo continuo][2_5].
+* Necesario un temporizador o [perro guardian][2_6].
+* Se introduce el [buffering][2_7] para almacenamiento temporal.
+* Se introduce el [spooling][2_8] para operación simultanea.
+* Programación en [lenguaje ensamblador][2_9].
+* Ejecución en [tiempo real][2_10].
 
 [2_0]:https://es.wikipedia.org/wiki/Categor%C3%ADa:Ordenadores_de_la_d%C3%A9cada_de_1950
-[2_1]:https://es.wikipedia.org/wiki/Monitor_residente
-[2_1_]:https://es.wikipedia.org/wiki/Cargador_de_arranque
-[2_2]:https://es.wikipedia.org/wiki/Procesamiento_por_lotes
-[2_3]:https://es.wikipedia.org/wiki/Bucle_(programaci%C3%B3n)#
-[2_4]:https://es.wikipedia.org/wiki/B%C3%BAfer_de_datos
-[2_5]:https://es.wikipedia.org/wiki/Spooling
-[2_6]:https://es.wikipedia.org/wiki/Sistema_embebido
-[2_7]:https://es.wikipedia.org/wiki/Lenguaje_ensamblador
-[2_8]:https://es.wikipedia.org/wiki/Tiempo_real
-[2_9]:https://es.wikipedia.org/wiki/Perro_guardi%C3%A1n_(electr%C3%B3nica)#
+[2_1]:https://es.wikipedia.org/wiki/Sistema_embebido
+[2_2]:https://es.wikipedia.org/wiki/Monitor_residente
+[2_3]:https://es.wikipedia.org/wiki/Cargador_de_arranque
+[2_4]:https://es.wikipedia.org/wiki/Procesamiento_por_lotes
+[2_5]:https://es.wikipedia.org/wiki/Bucle_(programaci%C3%B3n)#
+[2_6]:https://es.wikipedia.org/wiki/Perro_guardi%C3%A1n_(electr%C3%B3nica)#
+[2_7]:https://es.wikipedia.org/wiki/B%C3%BAfer_de_datos
+[2_8]:https://es.wikipedia.org/wiki/Spooling
+[2_9]:https://es.wikipedia.org/wiki/Lenguaje_ensamblador
+[2_10]:https://es.wikipedia.org/wiki/Tiempo_real
+
+# 2.1 Ejemplos de primera generación
+* __1951:__ [EDSAC][21_1] - construido en [Cambridge][21_2].    
+* __1955:__ [UNIVAC][21_3] - construido por [Remington][21_4].
+* __1955:__ [IBM-701][21_5] - construido por [GM][21_6].
+* __1956:__ [__GM-NAA I/O__][21_7] - por [GM][21_6] para [IBM-704][21_8].
+* __1957:__ [BESYS][21_9] - por [Bell Labs][351_1] para [IBM-704][21_8].
+* __1959:__ [SOS][21_10] - por [Share User Group][21_11] para [IBM-704][21_8].
+
+[21_1]:https://es.wikipedia.org/wiki/EDSAC
+[21_2]:https://es.wikipedia.org/wiki/Universidad_de_Cambridge
+[21_3]:https://es.wikipedia.org/wiki/UNIVAC_1103
+[21_4]:https://es.wikipedia.org/wiki/Remington_Rand
+[21_5]:https://es.wikipedia.org/wiki/IBM_701
+[21_6]:https://es.wikipedia.org/wiki/General_Motors
+[21_7]:https://es.wikipedia.org/wiki/GM-NAA_I/O
+[21_8]:https://es.wikipedia.org/wiki/IBM_704
+[21_9]:https://en.wikipedia.org/wiki/BESYS
+[21_10]:https://es.wikipedia.org/wiki/SHARE_Operating_System
+[21_11]:https://en.wikipedia.org/wiki/SHARE_(computing)#
 
 
 # 3. Segunda generación
 * Después de [1960][3_0] apoyados en [CI][3_1].
 * Enfocado en [mainframes][3_2]. 
-* Mas de un programa disponible o [Multi-programación][3_3].
+* Mas de un programa disponible o [multi-programación][3_3].
 * Diseño de [transferencia de control][3_4] y [cambio de contexto][3_5]
 * Arquitecturas [multi-procesador][3_6].
 * Programación en [lenguajes de bajo nivel][3_7].
-* Ejecución en [Tiempo Compartido][3_8].
+* Ejecución en [tiempo compartido][3_8].
 
 [3_0]:https://es.wikipedia.org/wiki/Categor%C3%ADa:Ordenadores_de_la_d%C3%A9cada_de_1960
 [3_1]:https://es.wikipedia.org/wiki/Circuito_integrado
@@ -85,7 +105,7 @@
 [3_3]:https://es.wikipedia.org/wiki/Multiprogramaci%C3%B3n
 [3_4]:https://es.wikipedia.org/wiki/Estructuras_de_control#Transferencia_de_control
 [3_5]:https://es.wikipedia.org/wiki/Cambio_de_contexto
-[3_6_]:https://es.wikipedia.org/wiki/Multiprocesador
+[3_6]:https://es.wikipedia.org/wiki/Multiprocesador
 [3_7]:https://es.wikipedia.org/wiki/Lenguaje_de_bajo_nivel
 [3_8]:https://es.wikipedia.org/wiki/Tiempo_compartido_(inform%C3%A1tica)#
 
@@ -96,20 +116,22 @@
 # 4. Tercera generación
 * Después de [1970][4_0].
 * Enfocado en [mainframes][3_2] y [computadoras personales][4_1].
-* Diseño [modular][4_2].
-* Sistemas de multiples nodos de operación o [multi-modo][4_3].
+* Diseño del sistema por [módulos][4_2].
+* Sistemas de multiples [modos de operación][4_3].
 * Sistemas [multi-usuario][4_4].
 * Listas de [control de acceso][4_5].
-* Programación [lenguajes de medio nivel][4_6] compilados.
 * Problemas de rendimiento.
 * Baja estandarización.
+* Programación [lenguajes de medio nivel][3_7] compilados.
 
 
-
+[4_0]:https://es.wikipedia.org/wiki/Anexo:Cronolog%C3%ADa_de_los_sistemas_operativos#1970
 [4_1]:https://es.wikipedia.org/wiki/Computadora_personal
 [4_2]:https://es.wikipedia.org/wiki/Programaci%C3%B3n_modular
+[4_3]:
 [4_4]:https://es.wikipedia.org/wiki/Multiusuario
 [4_5]:https://es.wikipedia.org/wiki/ACL
+[4_6]:
 
 # 4.1. CP/M
 
@@ -121,6 +143,7 @@
 * Gestión de redes y procesamiento distribuido.
 * interfaces de programación estándar.
 * Programación en C y otros [lenguajes de medio nivel][36].
+
 # 5.1. Unix
 
 

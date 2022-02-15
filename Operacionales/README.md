@@ -9,15 +9,20 @@ Notas y algoritmos para el curso de Sistemas Operacionales I 2021-B
 
 ---
 ## Agenda
-1. [Fundamentos][1]
-1. [Virtualización][2]
-1. [Procesos][3]
-1. [Memoria][4]
-1. [Archivos][5]
+1. [Fundamentos][11]
+    1. [Sistemas operacionales][11]
+    1. [Antecedentes][12]
+    1. [Evolución][13]
+1. [Virtualización][20]
+1. [Procesos][30]
+1. [Memoria][40]
+1. [Archivos][50]
 
 
-[1]: https://github.com/GiancarloBenavides/Telematics/tree/master/Operacionales/1-Fundamentos
-[2]: https://github.com/GiancarloBenavides/Telematics/tree/master/Operacionales/2-Virtualizacion
-[3]: https://github.com/GiancarloBenavides/Telematics/tree/master/Operacionales/3-Procesos
-[4]: https://github.com/GiancarloBenavides/Telematics/tree/master/Operacionales/4-Memoria
-[5]: https://github.com/GiancarloBenavides/Telematics/tree/master/Operacionales/5-Archivos
+[11]: https://github.com/GiancarloBenavides/Telematics/tree/master/Operacionales/11-Fundamentos
+[12]: https://github.com/GiancarloBenavides/Telematics/tree/master/Operacionales/12-Antecedentes
+[13]: https://github.com/GiancarloBenavides/Telematics/tree/master/Operacionales/13-Evolucion
+[20]: https://github.com/GiancarloBenavides/Telematics/tree/master/Operacionales/20-Virtualizacion
+[30]: https://github.com/GiancarloBenavides/Telematics/tree/master/Operacionales/30-Procesos
+[40]: https://github.com/GiancarloBenavides/Telematics/tree/master/Operacionales/40-Memoria
+[50]: https://github.com/GiancarloBenavides/Telematics/tree/master/Operacionales/50-Archivos
