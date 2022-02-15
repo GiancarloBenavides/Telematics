@@ -12,21 +12,135 @@
 
 ---
 # 1. Antecedentes
-* Interacción directa de los [programas][11] y el hardware.
-* Procesamiento [ciclo continuo][12].
-* Típico de [sistemas embebidos][13].
-* Programación en [lenguaje Ensamblador][14].
-* Ejecución en [Tiempo Real][15].
-* Necesario un gestor de [carga y arranque][16].
-* Necesario un temporizador o [perro guardian][17].
+* Antes de [1950][1_0].
+* Diseño de [arquitecturas de hardware][1_1] con propósitos muy específicos.
+* Interacción directa de los [programas][1_2] y el hardware.
+* Procesamiento de instrucciones [secuencial][1_3].
+* Típico de las [computadoras serie][1_4].
+* Programación en [lenguaje maquina][1_5].
+* Ejecución en [tiempo Real][1_6].
 
-[11]:https://es.wikipedia.org/wiki/Programa_inform%C3%A1tico
-[12]:https://es.wikipedia.org/wiki/Bucle_(programaci%C3%B3n)#
-[13]:https://es.wikipedia.org/wiki/Sistema_embebido
-[14]:https://es.wikipedia.org/wiki/Lenguaje_ensamblador
-[15]:https://es.wikipedia.org/wiki/Tiempo_real
-[16]:https://es.wikipedia.org/wiki/Cargador_de_arranque
-[17]:https://es.wikipedia.org/wiki/Perro_guardi%C3%A1n_(electr%C3%B3nica)#
+[1_0]:https://es.wikipedia.org/wiki/Categor%C3%ADa:Ordenadores_de_la_d%C3%A9cada_de_1940
+[1_1]:https://es.wikipedia.org/wiki/Arquitectura_de_computadoras
+[1_2]:https://es.wikipedia.org/wiki/Programa_inform%C3%A1tico
+[1_3]:https://es.wikipedia.org/wiki/Estructuras_de_control#Ejecuci%C3%B3n_secuencial
+[1_4]:https://en.wikipedia.org/wiki/Serial_computer
+[1_5]:https://es.wikipedia.org/wiki/Lenguaje_de_m%C3%A1quina
+[1_6]:https://es.wikipedia.org/wiki/Tiempo_real
+
+
+## 1.1. Caso de estudio - Z1
+* Diseñado en 1937 por [Konrad Zuse][11_1].
+* Construido en 1938 por [Konrad Zuse][11_1].
+* Primer ordenador programable de [lógica booleana][11_2].
+* Permitía números de [punto flotante][11_3] binarios.
+* 64 palabras de 22 bits como [memoria de programa][11_4].
+
+[11_1]:https://es.wikipedia.org/wiki/Konrad_Zuse
+[11_2]:https://es.wikipedia.org/wiki/%C3%81lgebra_de_Boole
+[11_3]:https://es.wikipedia.org/wiki/Coma_flotante
+[11_4]:https://es.wikipedia.org/wiki/Memoria_de_solo_lectura
+
+
+## 1.1.1 Arquitectura básica Z1
+![Arquitectura Z1](img/z1_architecture.svg "Arquitectura Z1")
+
+
+# 2. Primera generación
+* Después de [1950][2_0].
+* Hoy típico uso en [sistemas embebidos][2_6].
+* Aparece un cargador de programas o [monitor residente][2_1].
+* Procesamiento [por lotes][2_2] en un [ciclo continuo][2_3].
+* Se introduce el [buffering][2_4] para almacenamiento temporal.
+* Se introduce el [spooling][2_5] para operación simultanea.
+* Programación en [lenguaje Ensamblador][2_7].
+* Ejecución en [Tiempo Real][2_8].
+* Necesario un temporizador o [perro guardian][2_9].
+
+[2_0]:https://es.wikipedia.org/wiki/Categor%C3%ADa:Ordenadores_de_la_d%C3%A9cada_de_1950
+[2_1]:https://es.wikipedia.org/wiki/Monitor_residente
+[2_1_]:https://es.wikipedia.org/wiki/Cargador_de_arranque
+[2_2]:https://es.wikipedia.org/wiki/Procesamiento_por_lotes
+[2_3]:https://es.wikipedia.org/wiki/Bucle_(programaci%C3%B3n)#
+[2_4]:https://es.wikipedia.org/wiki/B%C3%BAfer_de_datos
+[2_5]:https://es.wikipedia.org/wiki/Spooling
+[2_6]:https://es.wikipedia.org/wiki/Sistema_embebido
+[2_7]:https://es.wikipedia.org/wiki/Lenguaje_ensamblador
+[2_8]:https://es.wikipedia.org/wiki/Tiempo_real
+[2_9]:https://es.wikipedia.org/wiki/Perro_guardi%C3%A1n_(electr%C3%B3nica)#
+
+
+# 3. Segunda generación
+* Después de [1960][3_0] apoyados en [CI][3_1].
+* Enfocado en [mainframes][3_2]. 
+* Mas de un programa disponible o [Multi-programación][3_3].
+* Diseño de [transferencia de control][3_4] y [cambio de contexto][3_5]
+* Arquitecturas [multi-procesador][3_6].
+* Programación en [lenguajes de bajo nivel][3_7].
+* Ejecución en [Tiempo Compartido][3_8].
+
+[3_0]:https://es.wikipedia.org/wiki/Categor%C3%ADa:Ordenadores_de_la_d%C3%A9cada_de_1960
+[3_1]:https://es.wikipedia.org/wiki/Circuito_integrado
+[3_2]:https://es.wikipedia.org/wiki/Unidad_central
+[3_3]:https://es.wikipedia.org/wiki/Multiprogramaci%C3%B3n
+[3_4]:https://es.wikipedia.org/wiki/Estructuras_de_control#Transferencia_de_control
+[3_5]:https://es.wikipedia.org/wiki/Cambio_de_contexto
+[3_6_]:https://es.wikipedia.org/wiki/Multiprocesador
+[3_7]:https://es.wikipedia.org/wiki/Lenguaje_de_bajo_nivel
+[3_8]:https://es.wikipedia.org/wiki/Tiempo_compartido_(inform%C3%A1tica)#
+
+
+# 3.1. Caso de estudio - Multics
+
+
+# 4. Tercera generación
+* Después de [1970][4_0].
+* Enfocado en [mainframes][3_2] y [computadoras personales][4_1].
+* Diseño [modular][4_2].
+* Sistemas de multiples nodos de operación o [multi-modo][4_3].
+* Sistemas [multi-usuario][4_4].
+* Listas de [control de acceso][4_5].
+* Programación [lenguajes de medio nivel][4_6] compilados.
+* Problemas de rendimiento.
+* Baja estandarización.
+
+
+
+[4_1]:https://es.wikipedia.org/wiki/Computadora_personal
+[4_2]:https://es.wikipedia.org/wiki/Programaci%C3%B3n_modular
+[4_4]:https://es.wikipedia.org/wiki/Multiusuario
+[4_5]:https://es.wikipedia.org/wiki/ACL
+
+# 4.1. CP/M
+
+
+# 5. Cuarta generación
+* Después de [1980][5_0] apoyados en [LSI][5_1].
+* Shell interactivo GUI.
+* Gestores de ventanas.
+* Gestión de redes y procesamiento distribuido.
+* interfaces de programación estándar.
+* Programación en C y otros [lenguajes de medio nivel][36].
+# 5.1. Unix
+
+
+---
+* Procesamiento [por lotes][22] en un [ciclo continuo][23].
+* Hoy típico de [sistemas embebidos][26].
+* Necesario un temporizador o [perro guardian][29].
+
+
+
+
+
+
+
+
+
+---
+[21_]:https://es.wikipedia.org/wiki/Cargador_de_arranque
+[26]:https://es.wikipedia.org/wiki/Sistema_embebido
+[29]:https://es.wikipedia.org/wiki/Perro_guardi%C3%A1n_(electr%C3%B3nica)#
 
 
 ## 1.1. Caso de estudio - Arduino
@@ -81,23 +195,36 @@
 
 
 ## 1.1.1 Arquitectura Arduino
-![Arqitectura Aruino](img/arduino_architecture.svg "Arquitectura Arduino")
+![Arquitectura Arduino](img/arduino_architecture.svg "Arquitectura Arduino")
 
 ## 1.1.2 flujo de programación 
+
+
 
 
 ## 1.1.3 flujo de ejecución 
 
 
+
+
 ## 1.1.3 Memoria
+![Arquitectura Arduino](img/arduino_memory.svg "Memory Arduino")
 
 
 
-flow ota program
-arquitectura 
 
 
-## 1.2. Componentes en un SI
+
+
+
+# 3. Segunda generación
+
+# 4. Tercera generación
+
+# 5. Cuarta generación
+
+
+
 * __Usuarios:__ personas que desarrollan, mantienen y utilizan el sistema.
 * __Infraestructura:__ la red que permite compartir la información y los recursos entre dispositivos.
 * [__Software:__][11] procedimientos lógicos utilizados para transformar y extraer información.
