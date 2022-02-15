@@ -3,14 +3,20 @@
 <p>Creado por <code>Giancarlo Ortiz</code> para explicar los fundamentos de los <code>Sistemas operativos</code></p>
 
 ## Agenda
-1. [Antecedentes de hardware](#1-antecedentes).
-1. [Arquitectura Harvard](#2-arquitectura-harvard).
-1. [Arquitectura del Z1](#3-arquitectura-z1).
-1. [Arquitectura de Arduino](#4-arquitectura-arduino).
+1. [Arquitectura de computadores](#1-arquitectura-de-computadores).
+1. [Arquitecturas preliminares](#2-arquitecturas-preliminares).
+1. [Arquitecturas de micro-controlador](#5-arquitecturas-de-micro-controlador).
 
 
 ---
-# 1. Antecedentes
+# 1. Arquitectura de computadores
+Es un conjunto de reglas, métodos y componentes conceptuales que describen la funcionalidad, la organización y la implementación de los sistema de procesamiento digital.
+ 
+* ><i>"Temo el día en que la tecnología sobrepase nuestra humanidad; el mundo solo tendrá una generación de idiotas."</i><br>
+<cite style="display:block; text-align: right">[Albert Einstein](https://es.wikipedia.org/wiki/Albert_Einstein)</cite>
+
+
+# 2. Arquitecturas preliminares
 * Antes de [1950][1_0].
 * Diseño de [arquitecturas de hardware][1_1] con propósitos muy específicos.
 * Interacción directa de los [programas][1_2] y el hardware.
@@ -19,17 +25,19 @@
 * Programación en [lenguaje maquina][1_5].
 * Ejecución en [tiempo Real][1_6].
 
-# 2. Arquitectura Harvard
-![Arquitectura Z1](img/z1_architecture.svg "Arquitectura Z1")
-
-# 3. Arquitectura Z1
+# 2.1. Primer ordenador programable
+* [Z1][11_0] era un ordenador electromecánico.
 * Diseñado en 1937 por [Konrad Zuse][11_1].
 * Construido en 1938 por [Konrad Zuse][11_1].
 * Primer ordenador programable de [lógica booleana][11_2].
 * Permitía números de [punto flotante][11_3] binarios.
 * 64 palabras de 22 bits como [memoria de programa][11_4].
 
-# 4. Arquitectura Arduino
+# 2.2 Arquitectura Harvard
+![Arquitectura Z1](img/z1_architecture.svg "Arquitectura Z1")
+
+
+# 3. Arquitecturas de micro-controlador
 
 <table>
 	<tr >
@@ -100,6 +108,7 @@
 [1_4]:https://en.wikipedia.org/wiki/Serial_computer
 [1_5]:https://es.wikipedia.org/wiki/Lenguaje_de_m%C3%A1quina
 [1_6]:https://es.wikipedia.org/wiki/Tiempo_real
+[11_0]:https://es.wikipedia.org/wiki/Z1
 [11_1]:https://es.wikipedia.org/wiki/Konrad_Zuse
 [11_2]:https://es.wikipedia.org/wiki/%C3%81lgebra_de_Boole
 [11_3]:https://es.wikipedia.org/wiki/Coma_flotante
