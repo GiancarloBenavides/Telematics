@@ -3,9 +3,9 @@
 <p>Creado por <code>Giancarlo Ortiz</code> para explicar los fundamentos de los <code>Sistemas operativos</code></p>
 
 ## Agenda
-1. Sistemas de información.
-1. Sistemas de procesamiento digital.
-1. Sistemas operativos.
+1. [Sistemas de información](#1-sistemas-de-información).
+1. [Sistemas de procesamiento digital](#2-sistema-de-procesamiento-digital).
+1. [Sistemas operativos](#3-sistemas-operativos).
 
 
 ---

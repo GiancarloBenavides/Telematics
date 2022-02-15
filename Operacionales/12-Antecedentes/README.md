@@ -3,10 +3,10 @@
 <p>Creado por <code>Giancarlo Ortiz</code> para explicar los fundamentos de los <code>Sistemas operativos</code></p>
 
 ## Agenda
-1. [Antecedentes](#1.-antecedentes).
-1. [Arquitectura básica](#2.-arquitectura-básica).
-1. [Z1](#3.-z1)
-1. [Arduino](#4.-arduino)
+1. [Antecedentes de hardware](#1-antecedentes).
+1. [Arquitectura Harvard](#2-arquitectura-harvard).
+1. [Arquitectura del Z1](#3-arquitectura-z1).
+1. [Arquitectura de Arduino](#4-arquitectura-arduino).
 
 
 ---
@@ -19,34 +19,17 @@
 * Programación en [lenguaje maquina][1_5].
 * Ejecución en [tiempo Real][1_6].
 
-[1_0]:https://es.wikipedia.org/wiki/Categor%C3%ADa:Ordenadores_de_la_d%C3%A9cada_de_1940
-[1_1]:https://es.wikipedia.org/wiki/Arquitectura_de_computadoras
-[1_2]:https://es.wikipedia.org/wiki/Programa_inform%C3%A1tico
-[1_3]:https://es.wikipedia.org/wiki/Estructuras_de_control#Ejecuci%C3%B3n_secuencial
-[1_4]:https://en.wikipedia.org/wiki/Serial_computer
-[1_5]:https://es.wikipedia.org/wiki/Lenguaje_de_m%C3%A1quina
-[1_6]:https://es.wikipedia.org/wiki/Tiempo_real
-
-# 2. Arquitectura básica
+# 2. Arquitectura Harvard
 ![Arquitectura Z1](img/z1_architecture.svg "Arquitectura Z1")
 
-
-# 3. Z1
+# 3. Arquitectura Z1
 * Diseñado en 1937 por [Konrad Zuse][11_1].
 * Construido en 1938 por [Konrad Zuse][11_1].
 * Primer ordenador programable de [lógica booleana][11_2].
 * Permitía números de [punto flotante][11_3] binarios.
 * 64 palabras de 22 bits como [memoria de programa][11_4].
 
-[11_1]:https://es.wikipedia.org/wiki/Konrad_Zuse
-[11_2]:https://es.wikipedia.org/wiki/%C3%81lgebra_de_Boole
-[11_3]:https://es.wikipedia.org/wiki/Coma_flotante
-[11_4]:https://es.wikipedia.org/wiki/Memoria_de_solo_lectura
-
-
-
-
-# 4. Arduino
+# 4. Arquitectura Arduino
 
 <table>
 	<tr >
@@ -110,7 +93,17 @@
 
 ## 4.4 flujo de ejecución 
 
-
+[1_0]:https://es.wikipedia.org/wiki/Categor%C3%ADa:Ordenadores_de_la_d%C3%A9cada_de_1940
+[1_1]:https://es.wikipedia.org/wiki/Arquitectura_de_computadoras
+[1_2]:https://es.wikipedia.org/wiki/Programa_inform%C3%A1tico
+[1_3]:https://es.wikipedia.org/wiki/Estructuras_de_control#Ejecuci%C3%B3n_secuencial
+[1_4]:https://en.wikipedia.org/wiki/Serial_computer
+[1_5]:https://es.wikipedia.org/wiki/Lenguaje_de_m%C3%A1quina
+[1_6]:https://es.wikipedia.org/wiki/Tiempo_real
+[11_1]:https://es.wikipedia.org/wiki/Konrad_Zuse
+[11_2]:https://es.wikipedia.org/wiki/%C3%81lgebra_de_Boole
+[11_3]:https://es.wikipedia.org/wiki/Coma_flotante
+[11_4]:https://es.wikipedia.org/wiki/Memoria_de_solo_lectura
 
 ---
 ## Mas Recursos
