@@ -42,6 +42,7 @@
 
 ![IBM 704 mainframe](img/ibm_704_mainframe.png "IBM 704")
 
+
 # 2. Segunda generación
 * Después de [1960][2_0] apoyados en [CI][2_1].
 * Enfocado en [mainframes][2_2]. 
@@ -61,20 +62,25 @@
 * __1966:__ [OS/360][21_9] - construido por [IBM][21_11] para [S/360][21_12]. 
 * __1966:__ [DOS/360][21_10] - construido por [IBM][21_11] para [S/360][21_12].
 
+# 2.2. Dominio de IBM en los Mainframes
+* [IBM suministró mainframes][22_0] desde 1952.
+* Domino el mercado con su plataforma [S/360][21_12].
+* Eventualmente [suministró a sus clientes SO][22_1] según características.
+* Suministró [OS/360 y sucesores][22_2] para los [S/360][21_12] mas grandes.
+* Suministró [DOS/360 y sucesores][22_3] para los [S/360][21_12] mas pequeños.
 
-# 2.2. Caso de estudio - Multics
+
+# 2.3. Caso de estudio - Multics
 * Desarrollado en el [MIT][21_4] desde 1965.
 * Financiado por _GM_ y _Bell Labs_.
-* Desarrollado para la [__GE-645__][22_0] de 36 Bit.
+* Desarrollado para la [__GE-645__][23_0] de 36 Bit.
 * Basado en el sistema monitor del _IBM 701_.
-* Programado en	[PL/1][22_1] de _IBM_.
+* Programado en	[PL/1][23_1] de _IBM_.
 * Agrego muchas ideas nuevas y valiosas.
 * Incluía sistema de archivos, pilas, ACLs, Enlace dinámico.
 
 ![GE-645 mainframe](img/GE_645_mainframe.png "GE 645")
 
-[22_0]:https://es.wikipedia.org/wiki/Serie_GE-600
-[22_1]:https://es.wikipedia.org/wiki/PL/1
 
 # 3. Tercera generación
 * Después de [1970][3_0].
@@ -83,12 +89,15 @@
 * Sistemas de multiples [modos de operación][3_3].
 * Sistemas [multi-usuario][3_4].
 * Listas de [control de acceso][3_5].
-* Problemas de rendimiento.
-* Baja estandarización.
+* Problemas de rendimiento y baja estandarización.
 * Programación [lenguajes de medio nivel][2_7] compilados.
 
-# 3.1. Ejemplos de segunda generación
-* __1962:__ [GECOS][21_1] - construido por [GE][21_2].
+
+# 3.1. Ejemplos de tercera generación
+* __1971:__ [OS/8][31_1] - construido por [DEC][21_7] para [PDP-8][31_2].
+
+[31_1]:https://en.wikipedia.org/wiki/OS/8
+[31_2]:https://en.wikipedia.org/wiki/PDP-8
 
 
 # 3.2. Caso de estudio - CP/M
@@ -178,6 +187,12 @@
 [21_10]:https://es.wikipedia.org/wiki/OS/360
 [21_11]:https://es.wikipedia.org/wiki/IBM
 [21_12]:https://es.wikipedia.org/wiki/IBM_S/360
+[22_0]:https://es.wikipedia.org/wiki/Sistema_IBM_de_gran_porte_(mainframe)#
+[22_1]:https://en.wikipedia.org/wiki/History_of_IBM_mainframe_operating_systems
+[22_2]:https://en.wikipedia.org/wiki/DOS/360_and_successors
+[22_3]:https://en.wikipedia.org/wiki/OS/360_and_successors
+[23_0]:https://es.wikipedia.org/wiki/Serie_GE-600
+[23_1]:https://es.wikipedia.org/wiki/PL/1
 
 [3_0]:https://es.wikipedia.org/wiki/Anexo:Cronolog%C3%ADa_de_los_sistemas_operativos#1970
 [3_1]:https://es.wikipedia.org/wiki/Computadora_personal
