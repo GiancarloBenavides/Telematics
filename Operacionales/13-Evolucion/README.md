@@ -76,8 +76,8 @@
 * Desarrollado para la [__GE-645__][23_0] de 36 Bit.
 * Basado en el sistema monitor del _IBM 701_.
 * Programado en	[PL/1][23_1] de _IBM_.
-* Agrego muchas ideas nuevas y valiosas.
-* Incluía sistema de archivos, pilas, ACLs, Enlace dinámico.
+* Agrego [__muchas ideas nuevas y valiosas__][23_2].
+* Incluía sistema de archivos Jerárquico, ACLs, pilas, Enlace dinámico.
 
 ![GE-645 mainframe](img/GE_645_mainframe.png "GE 645")
 
@@ -89,15 +89,39 @@
 * Sistemas de multiples [modos de operación][3_3].
 * Sistemas [multi-usuario][3_4].
 * Listas de [control de acceso][3_5].
-* Problemas de rendimiento y baja estandarización.
+* Problemas de [rendimiento][3_6] y baja estandarización.
 * Programación [lenguajes de medio nivel][2_7] compilados.
 
 
 # 3.1. Ejemplos de tercera generación
-* __1971:__ [OS/8][31_1] - construido por [DEC][21_7] para [PDP-8][31_2].
+* __1970:__ [Unics][31_1] - por [Thompson][31_2] y [Ritchie][31_3] para [PDP-7][21_8].
+* __1971:__ [OS/8][31_4] - construido por [DEC][21_7] para [PDP-8][31_5].
+* __1973:__ [RT-11][31_6] - construido por [DEC][21_7] para [PDP-11][31_7].
+* __1973:__ [Alto OS][31_8] - construido por [Xerox][21_7] para [Xerox Alto][31_2].
+* __1975:__ [__Unix__][31_1] - construido por [DEC][21_7] para [PDP-8][31_2].
 
-[31_1]:https://en.wikipedia.org/wiki/OS/8
-[31_2]:https://en.wikipedia.org/wiki/PDP-8
+Alto OS
+CP/M
+
+(later Unix) (AT&T, initially on DEC computers)
+
+[3_6]:https://es.wikipedia.org/wiki/Rendimiento_del_equipo
+
+[23_2]:http://web.mit.edu/Saltzer/www/multics.html
+[31_1]:https://en.wikipedia.org/wiki/Unix
+[31_2]:https://es.wikipedia.org/wiki/Ken_Thompson
+[31_3]:https://es.wikipedia.org/wiki/Dennis_Ritchie
+[31_4]:https://en.wikipedia.org/wiki/OS/8
+[31_5]:https://es.wikipedia.org/wiki/PDP-8
+[31_6]:https://es.wikipedia.org/wiki/RT-11
+[31_7]:https://es.wikipedia.org/wiki/PDP-11
+
+
+
+[31_2]:
+[31_2]:https://en.wikipedia.org/wiki/PARC_(company)#
+[31_2]:https://es.wikipedia.org/wiki/Xerox_Alto
+
 
 
 # 3.2. Caso de estudio - CP/M
