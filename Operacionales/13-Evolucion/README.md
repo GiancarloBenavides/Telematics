@@ -97,31 +97,9 @@
 * __1970:__ [Unics][31_1] - por [Thompson][31_2] y [Ritchie][31_3] para [PDP-7][21_8].
 * __1971:__ [OS/8][31_4] - construido por [DEC][21_7] para [PDP-8][31_5].
 * __1973:__ [RT-11][31_6] - construido por [DEC][21_7] para [PDP-11][31_7].
-* __1973:__ [Alto OS][31_8] - construido por [Xerox][21_7] para [Xerox Alto][31_2].
-* __1975:__ [__Unix__][31_1] - construido por [DEC][21_7] para [PDP-8][31_2].
-
-Alto OS
-CP/M
-
-(later Unix) (AT&T, initially on DEC computers)
-
-[3_6]:https://es.wikipedia.org/wiki/Rendimiento_del_equipo
-
-[23_2]:http://web.mit.edu/Saltzer/www/multics.html
-[31_1]:https://en.wikipedia.org/wiki/Unix
-[31_2]:https://es.wikipedia.org/wiki/Ken_Thompson
-[31_3]:https://es.wikipedia.org/wiki/Dennis_Ritchie
-[31_4]:https://en.wikipedia.org/wiki/OS/8
-[31_5]:https://es.wikipedia.org/wiki/PDP-8
-[31_6]:https://es.wikipedia.org/wiki/RT-11
-[31_7]:https://es.wikipedia.org/wiki/PDP-11
-
-
-
-[31_2]:
-[31_2]:https://en.wikipedia.org/wiki/PARC_(company)#
-[31_2]:https://es.wikipedia.org/wiki/Xerox_Alto
-
+* __1973:__ [Alto OS][31_8] - construido por [Xerox][31_9] para [Xerox Alto][31_10].
+* __1974:__ [__Unix V__][31_11] - licenciado a IE construido en [C][31_12] por [Bell Labs][11_10].
+* __1975:__ [__Unix VI__][31_11] - financiado por [Bell Labs][11_10] de [AT&T][31_13].
 
 
 # 3.2. Caso de estudio - CP/M
@@ -158,12 +136,6 @@ CP/M
 * Procesamiento [por lotes][22] en un [ciclo continuo][23].
 * Hoy típico de [sistemas embebidos][26].
 * Necesario un temporizador o [perro guardian][29].
-
-
-
-
-
-
 
 
 [1_0]:https://es.wikipedia.org/wiki/Categor%C3%ADa:Ordenadores_de_la_d%C3%A9cada_de_1950
@@ -217,6 +189,7 @@ CP/M
 [22_3]:https://en.wikipedia.org/wiki/OS/360_and_successors
 [23_0]:https://es.wikipedia.org/wiki/Serie_GE-600
 [23_1]:https://es.wikipedia.org/wiki/PL/1
+[23_2]:http://web.mit.edu/Saltzer/www/multics.html
 
 [3_0]:https://es.wikipedia.org/wiki/Anexo:Cronolog%C3%ADa_de_los_sistemas_operativos#1970
 [3_1]:https://es.wikipedia.org/wiki/Computadora_personal
@@ -224,7 +197,21 @@ CP/M
 [3_3]:-
 [3_4]:https://es.wikipedia.org/wiki/Multiusuario
 [3_5]:https://es.wikipedia.org/wiki/ACL
-[3_6]:-
+[3_6]:https://es.wikipedia.org/wiki/Rendimiento_del_equipo
+
+[31_1]:https://en.wikipedia.org/wiki/Unix
+[31_2]:https://es.wikipedia.org/wiki/Ken_Thompson
+[31_3]:https://es.wikipedia.org/wiki/Dennis_Ritchie
+[31_4]:https://en.wikipedia.org/wiki/OS/8
+[31_5]:https://es.wikipedia.org/wiki/PDP-8
+[31_6]:https://es.wikipedia.org/wiki/RT-11
+[31_7]:https://es.wikipedia.org/wiki/PDP-11
+[31_8]:https://es.wikipedia.org/wiki/Xerox_Alto
+[31_9]:https://en.wikipedia.org/wiki/PARC_(company)#
+[31_10]:https://es.wikipedia.org/wiki/Xerox_Alto
+[31_11]:https://en.wikipedia.org/wiki/Research_Unix
+[31_12]:https://es.wikipedia.org/wiki/C_(lenguaje_de_programaci%C3%B3n)#
+[31_13]:https://es.wikipedia.org/wiki/AT%26T
 ---
 [11_]:https://es.wikipedia.org/wiki/Cargador_de_arranque
 [26]:https://es.wikipedia.org/wiki/Sistema_embebido
