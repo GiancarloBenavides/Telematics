@@ -94,11 +94,12 @@ Es un conjunto de reglas, métodos y componentes conceptuales que describen la f
 ## 3.2 Memoria
 ![Arquitectura Arduino](img/arduino_memory.svg "Memory Arduino")
 
-## 3.3 flujo de programación 
+## 3.3 Flujo de programación 
+![Ejecución de instrucciones](img/arduino_uno_flow.png "Ejecución de instrucciones")
 
-
-## 3.4 flujo de ejecución
+## 3.4 Flujo de ejecución
 ![Ejecución de instrucciones](img/fetch_execute.svg "Ejecución de instrucciones")
+
 
 [2_0]:https://es.wikipedia.org/wiki/Categor%C3%ADa:Ordenadores_de_la_d%C3%A9cada_de_1940
 [2_1]:https://es.wikipedia.org/wiki/Arquitectura_de_computadoras
@@ -112,6 +113,7 @@ Es un conjunto de reglas, métodos y componentes conceptuales que describen la f
 [21_2]:https://es.wikipedia.org/wiki/%C3%81lgebra_de_Boole
 [21_3]:https://es.wikipedia.org/wiki/Coma_flotante
 [21_4]:https://es.wikipedia.org/wiki/Memoria_de_solo_lectura
+
 
 ---
 ## Mas Recursos
