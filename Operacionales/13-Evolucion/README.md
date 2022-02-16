@@ -31,6 +31,15 @@
 * __1959:__ [SOS][11_11] - por [Share User Group][11_12] para [IBM-704][11_8].
 
 
+# 1.2. Caso de estudio - GM-NAA I/O
+* Desarrollado en 1956 por _General Motors Research Laboratories_.
+* Desarrollado para [__IBM-704__][11_8] de 36 Bit.
+* Basado en el sistema monitor del _IBM 701_.
+* Programado en	_lenguaje ensamblador_.
+* La función principal era ejecutar automáticamente un nuevo programa una vez que el que se estaba ejecutando terminaba.
+
+![IBM 704 mainframe](img/ibm_704_mainframe.png "IBM 704")
+
 # 2. Segunda generación
 * Después de [1960][2_0] apoyados en [CI][2_1].
 * Enfocado en [mainframes][2_2]. 
@@ -41,6 +50,9 @@
 * Programación en [lenguajes de bajo nivel][2_8].
 * Ejecución en [tiempo compartido][2_9].
 
+
+
+
 # 2.1 Ejemplos de segunda generación
 * __1962:__ [GECOS][21_1] - construido por [GE][21_2].
 * __1963:__ [CTSS][21_3] - construido en [MIT][21_4].  
@@ -49,11 +61,7 @@
 * __1966:__ [OS/360][21_9] - construido por [IBM][21_11] para [S/360][21_12]. 
 * __1966:__ [DOS/360][21_10] - construido por [IBM][21_11] para [S/360][21_12].
 
-
-
-
-
-# 2.1. Caso de estudio - Multics
+# 2.2. Caso de estudio - Multics
 
 
 # 3. Tercera generación
@@ -67,9 +75,11 @@
 * Baja estandarización.
 * Programación [lenguajes de medio nivel][2_7] compilados.
 
+# 3.1 Ejemplos de segunda generación
+* __1962:__ [GECOS][21_1] - construido por [GE][21_2].
 
 
-# 3.1. Caso de estudio - CP/M
+# 3.2. Caso de estudio - CP/M
 
 
 # 4. Cuarta generación
