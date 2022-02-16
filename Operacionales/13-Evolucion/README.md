@@ -32,7 +32,8 @@
 
 
 # 1.2. Caso de estudio - GM-NAA I/O
-* Desarrollado en 1956 por _General Motors Research Laboratories_.
+* Desarrollado en 1956.
+* Financiado por _General Motors Research Laboratories_.
 * Desarrollado para [__IBM-704__][11_8] de 36 Bit.
 * Basado en el sistema monitor del _IBM 701_.
 * Programado en	_lenguaje ensamblador_.
@@ -40,7 +41,6 @@
 * Ejecutaba automáticamente un nuevo programa cada vez que  otro terminaba.
 
 ![IBM 704 mainframe](img/ibm_704_mainframe.png "IBM 704")
-
 
 # 2. Segunda generación
 * Después de [1960][2_0] apoyados en [CI][2_1].
@@ -63,14 +63,18 @@
 
 
 # 2.2. Caso de estudio - Multics
-* Desarrollado en 1956 por _General Motors Research Laboratories_.
-* Desarrollado para [__IBM-704__][11_8] de 36 Bit.
+* Desarrollado en el [MIT][21_4] desde 1965.
+* Financiado por _GM_ y _Bell Labs_.
+* Desarrollado para la [__GE-645__][22_0] de 36 Bit.
 * Basado en el sistema monitor del _IBM 701_.
-* Programado en	_lenguaje ensamblador_.
-* La función principal era el _monitor residente_.
-* Ejecutaba automáticamente un nuevo programa cada vez que  otro terminaba.
+* Programado en	[PL/1][22_1] de _IBM_.
+* Agrego muchas ideas nuevas y valiosas.
+* Incluía sistema de archivos, pilas, ACLs, Enlace dinámico.
 
-![IBM 704 mainframe](img/ibm_704_mainframe.png "IBM 704")
+![GE-645 mainframe](img/GE_645_mainframe.png "GE 645")
+
+[22_0]:https://es.wikipedia.org/wiki/Serie_GE-600
+[22_1]:https://es.wikipedia.org/wiki/PL/1
 
 # 3. Tercera generación
 * Después de [1970][3_0].
