@@ -5,7 +5,7 @@
 ## Agenda
 1. [Arquitectura de computadores](#1-arquitectura-de-computadores).
 1. [Arquitecturas preliminares](#2-arquitecturas-preliminares).
-1. [Arquitecturas de micro-controlador](#5-arquitecturas-de-micro-controlador).
+1. [Arquitecturas de micro-controlador](#3-arquitecturas-de-micro-controlador).
 
 
 ---
@@ -17,21 +17,21 @@ Es un conjunto de reglas, métodos y componentes conceptuales que describen la f
 
 
 # 2. Arquitecturas preliminares
-* Antes de [1950][1_0].
-* Diseño de [arquitecturas de hardware][1_1] con propósitos muy específicos.
-* Interacción directa de los [programas][1_2] y el hardware.
+* Antes de [1950][2_0].
+* Diseño de [arquitecturas de hardware][2_1] con propósitos muy específicos.
+* Interacción directa de los [programas][2_2] y el hardware.
 * Procesamiento de instrucciones [secuencial][1_3].
-* Típico de las [computadoras serie][1_4].
-* Programación en [lenguaje maquina][1_5].
-* Ejecución en [tiempo Real][1_6].
+* Típico de las [computadoras serie][2_4].
+* Programación en [lenguaje maquina][2_5].
+* Ejecución en [tiempo Real][2_6].
 
 # 2.1. Primer ordenador programable
-* [Z1][11_0] era un ordenador electromecánico.
-* Diseñado en 1937 por [Konrad Zuse][11_1].
-* Construido en 1938 por [Konrad Zuse][11_1].
-* Primer ordenador programable de [lógica booleana][11_2].
-* Permitía números de [punto flotante][11_3] binarios.
-* 64 palabras de 22 bits como [memoria de programa][11_4].
+* [Z1][21_0] era un ordenador electromecánico.
+* Diseñado en 1937 por [Konrad Zuse][21_1].
+* Construido en 1938 por [Konrad Zuse][21_1].
+* Primer ordenador programable de [lógica booleana][21_2].
+* Permitía números de [punto flotante][21_3] binarios.
+* 64 palabras de 22 bits como [memoria de programa][21_4].
 
 # 2.2 Arquitectura Harvard
 ![Arquitectura Z1](img/z1_architecture.svg "Arquitectura Z1")
@@ -88,37 +88,34 @@ Es un conjunto de reglas, métodos y componentes conceptuales que describen la f
 </table>
 
 
-## 4.1 Arquitectura Arduino
+## 3.1 Arquitectura Arduino
 ![Arquitectura Arduino](img/arduino_architecture.svg "Arquitectura Arduino")
 
-## 4.2 Memoria
+## 3.2 Memoria
 ![Arquitectura Arduino](img/arduino_memory.svg "Memory Arduino")
 
-## 4.3 flujo de programación 
+## 3.3 flujo de programación 
 
 
+## 3.4 flujo de ejecución
+![Ejecución de instrucciones](img/fetch_execute.svg "Ejecución de instrucciones")
 
-
-## 4.4 flujo de ejecución 
-
-[1_0]:https://es.wikipedia.org/wiki/Categor%C3%ADa:Ordenadores_de_la_d%C3%A9cada_de_1940
-[1_1]:https://es.wikipedia.org/wiki/Arquitectura_de_computadoras
-[1_2]:https://es.wikipedia.org/wiki/Programa_inform%C3%A1tico
-[1_3]:https://es.wikipedia.org/wiki/Estructuras_de_control#Ejecuci%C3%B3n_secuencial
-[1_4]:https://en.wikipedia.org/wiki/Serial_computer
-[1_5]:https://es.wikipedia.org/wiki/Lenguaje_de_m%C3%A1quina
-[1_6]:https://es.wikipedia.org/wiki/Tiempo_real
-[11_0]:https://es.wikipedia.org/wiki/Z1
-[11_1]:https://es.wikipedia.org/wiki/Konrad_Zuse
-[11_2]:https://es.wikipedia.org/wiki/%C3%81lgebra_de_Boole
-[11_3]:https://es.wikipedia.org/wiki/Coma_flotante
-[11_4]:https://es.wikipedia.org/wiki/Memoria_de_solo_lectura
+[2_0]:https://es.wikipedia.org/wiki/Categor%C3%ADa:Ordenadores_de_la_d%C3%A9cada_de_1940
+[2_1]:https://es.wikipedia.org/wiki/Arquitectura_de_computadoras
+[2_2]:https://es.wikipedia.org/wiki/Programa_inform%C3%A1tico
+[2_3]:https://es.wikipedia.org/wiki/Estructuras_de_control#Ejecuci%C3%B3n_secuencial
+[2_4]:https://en.wikipedia.org/wiki/Serial_computer
+[2_5]:https://es.wikipedia.org/wiki/Lenguaje_de_m%C3%A1quina
+[2_6]:https://es.wikipedia.org/wiki/Tiempo_real
+[21_0]:https://es.wikipedia.org/wiki/Z1
+[21_1]:https://es.wikipedia.org/wiki/Konrad_Zuse
+[21_2]:https://es.wikipedia.org/wiki/%C3%81lgebra_de_Boole
+[21_3]:https://es.wikipedia.org/wiki/Coma_flotante
+[21_4]:https://es.wikipedia.org/wiki/Memoria_de_solo_lectura
 
 ---
 ## Mas Recursos
-- [Calidad de software](https://es.wikipedia.org/wiki/Calidad_de_software) (Wikipedia)
-- [Sistema operativo](https://es.wikipedia.org/wiki/Sistema_operativo) (Wikipedia)
-- [Comparación de sistemas operativos](https://es.wikipedia.org/wiki/Anexo:Comparaci%C3%B3n_de_sistemas_operativos) (Wikipedia)
-- [Usage share of operating systems](https://en.wikipedia.org/wiki/Usage_share_of_operating_systems) (Wikipedia)
-
-<https://github.com/arduino/ArduinoCore-avr/tree/master/bootloaders>
+- [Arquitectura de computadoras](https://es.wikipedia.org/wiki/Arquitectura_de_computadoras) (Wikipedia)
+- [Arquitectura Harvard](https://es.wikipedia.org/wiki/Arquitectura_Harvard) (Wikipedia)
+- [Arquitectura de Von Newman](https://es.wikipedia.org/wiki/Arquitectura_de_Von_Neumann) (Wikipedia)
+- [Bootloaders para Arduino](https://github.com/arduino/ArduinoCore-avr/tree/master/bootloaders) (Wikipedia)
