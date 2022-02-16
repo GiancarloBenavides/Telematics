@@ -203,7 +203,7 @@ Dispositivos auxiliares e independientes que se encuentran conectados por una in
 * [__Android:__][355] programado en C, Java de [Google][355_1].
 * [__FreeRTOS:__][356] programado en C de [AWS][356_1].
 
-![mapa de procesos](img/os_examples.png "Sistemas operativos")
+![Ejemplos de sistemas operativos](img/os_examples.png "Ejemplos sistemas operativos")
 
 [351]:https://es.wikipedia.org/wiki/Unix
 [352]:https://es.wikipedia.org/wiki/Microsoft_Windows
