@@ -94,10 +94,10 @@ Es un conjunto de reglas, métodos y componentes conceptuales que describen la f
 ## 3.2 Memoria
 ![Arquitectura Arduino](img/arduino_memory.svg "Memory Arduino")
 
-## 3.3 Flujo de programación 
+## 3.3 Diafragma de Flujo de operación
 ![Ejecución de instrucciones](img/arduino_uno_flow.png "Ejecución de instrucciones")
 
-## 3.4 Flujo de ejecución
+## 3.4 Ejecución de instrucciones
 ![Ejecución de instrucciones](img/fetch_execute.svg "Ejecución de instrucciones")
 
 
