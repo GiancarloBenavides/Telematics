@@ -22,7 +22,7 @@
 * Ejecución en [tiempo real][1_9].
 
 
-# 1.1 Ejemplos de primera generación
+# 1.1. Ejemplos de primera generación
 * __1951:__ [EDSAC][11_1] - construido en [Cambridge][11_2].    
 * __1955:__ [UNIVAC][11_3] - construido por [Remington][11_4].
 * __1955:__ [IBM-701][11_5] - construido por [GM][11_6].
@@ -36,9 +36,11 @@
 * Desarrollado para [__IBM-704__][11_8] de 36 Bit.
 * Basado en el sistema monitor del _IBM 701_.
 * Programado en	_lenguaje ensamblador_.
-* La función principal era ejecutar automáticamente un nuevo programa una vez que el que se estaba ejecutando terminaba.
+* La función principal era el _monitor residente_.
+* Ejecutaba automáticamente un nuevo programa cada vez que  otro terminaba.
 
 ![IBM 704 mainframe](img/ibm_704_mainframe.png "IBM 704")
+
 
 # 2. Segunda generación
 * Después de [1960][2_0] apoyados en [CI][2_1].
@@ -51,9 +53,7 @@
 * Ejecución en [tiempo compartido][2_9].
 
 
-
-
-# 2.1 Ejemplos de segunda generación
+# 2.1. Ejemplos de segunda generación
 * __1962:__ [GECOS][21_1] - construido por [GE][21_2].
 * __1963:__ [CTSS][21_3] - construido en [MIT][21_4].  
 * __1965:__ [__Multics__][21_5] - en el [MIT][21_4] por [GE][21_2] y [Bell Labs][11_10].
@@ -61,8 +61,16 @@
 * __1966:__ [OS/360][21_9] - construido por [IBM][21_11] para [S/360][21_12]. 
 * __1966:__ [DOS/360][21_10] - construido por [IBM][21_11] para [S/360][21_12].
 
-# 2.2. Caso de estudio - Multics
 
+# 2.2. Caso de estudio - Multics
+* Desarrollado en 1956 por _General Motors Research Laboratories_.
+* Desarrollado para [__IBM-704__][11_8] de 36 Bit.
+* Basado en el sistema monitor del _IBM 701_.
+* Programado en	_lenguaje ensamblador_.
+* La función principal era el _monitor residente_.
+* Ejecutaba automáticamente un nuevo programa cada vez que  otro terminaba.
+
+![IBM 704 mainframe](img/ibm_704_mainframe.png "IBM 704")
 
 # 3. Tercera generación
 * Después de [1970][3_0].
@@ -75,11 +83,19 @@
 * Baja estandarización.
 * Programación [lenguajes de medio nivel][2_7] compilados.
 
-# 3.1 Ejemplos de segunda generación
+# 3.1. Ejemplos de segunda generación
 * __1962:__ [GECOS][21_1] - construido por [GE][21_2].
 
 
 # 3.2. Caso de estudio - CP/M
+* Desarrollado en 1956 por _General Motors Research Laboratories_.
+* Desarrollado para [__IBM-704__][11_8] de 36 Bit.
+* Basado en el sistema monitor del _IBM 701_.
+* Programado en	_lenguaje ensamblador_.
+* La función principal era el _monitor residente_.
+* Ejecutaba automáticamente un nuevo programa cada vez que  otro terminaba.
+
+![IBM 704 mainframe](img/ibm_704_mainframe.png "IBM 704")
 
 
 # 4. Cuarta generación
@@ -90,8 +106,16 @@
 * interfaces de programación estándar.
 * Programación en C y otros [lenguajes de medio nivel][36].
 
-# 4.1. Caso de estudio - Unix
 
+# 4.1. Caso de estudio - Unix
+* Desarrollado en 1956 por _General Motors Research Laboratories_.
+* Desarrollado para [__IBM-704__][11_8] de 36 Bit.
+* Basado en el sistema monitor del _IBM 701_.
+* Programado en	_lenguaje ensamblador_.
+* La función principal era el _monitor residente_.
+* Ejecutaba automáticamente un nuevo programa cada vez que  otro terminaba.
+
+![IBM 704 mainframe](img/ibm_704_mainframe.png "IBM 704")
 
 ---
 * Procesamiento [por lotes][22] en un [ciclo continuo][23].
