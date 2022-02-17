@@ -114,7 +114,7 @@
 * Con el desarrollo de redes invento el [Cluster de computadoras][32_5].
 * Patrocinaron [X window][32_6] que fue desarrollado en el [MIT][21_4].
 
-![IBM 704 mainframe](img/dec_pdp_8e.png "IBM 704")
+![IBM 704 mainframe](img/dec_pdp.png "IBM 704")
 
 
 # 3.3. Caso de estudio - CP/M
