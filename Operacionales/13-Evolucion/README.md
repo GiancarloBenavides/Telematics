@@ -62,6 +62,7 @@
 * __1966:__ [OS/360][21_9] - construido por [IBM][21_11] para [S/360][21_12]. 
 * __1966:__ [DOS/360][21_10] - construido por [IBM][21_11] para [S/360][21_12].
 
+
 # 2.2. Dominio de IBM en los Mainframes
 * [IBM suministró mainframes][22_0] desde 1952.
 * Domino el mercado con su plataforma [S/360][21_12].
@@ -123,18 +124,6 @@
 * Incluía sistemas [BIOS][33_2] y [CPP][33_4].
 
 ![IBM 704 mainframe](img/ibm_704_mainframe.png "IBM 704")
-
-[32_0]:https://es.wikipedia.org/wiki/Minicomputadora
-[32_1]:https://es.wikipedia.org/wiki/Programmed_Data_Processor
-[32_2]:https://en.wikipedia.org/wiki/Category:DEC_operating_systems
-[32_3]:https://en.wikipedia.org/wiki/Time-sharing_system_evolution
-[32_4]:https://en.wikipedia.org/wiki/DECnet
-[32_5]:https://es.wikipedia.org/wiki/Cl%C3%BAster_de_computadoras
-[32_6]:https://es.wikipedia.org/wiki/Sistema_de_ventanas_X
-[33_1]:https://es.wikipedia.org/wiki/Intel_8080
-[33_2]:https://es.wikipedia.org/wiki/BIOS
-[33_3]:https://en.wikipedia.org/wiki/CP/M#BDOS
-[33_4]:https://es.wikipedia.org/wiki/Interfaz_de_l%C3%ADnea_de_comandos
 
 
 # 4. Cuarta generación
@@ -241,6 +230,18 @@
 [31_15]:https://es.wikipedia.org/wiki/AT%26T
 [31_16]:https://es.wikipedia.org/wiki/Berkeley_Software_Distribution
 [31_17]:https://es.wikipedia.org/wiki/Universidad_de_California_en_Berkeley
+[32_0]:https://es.wikipedia.org/wiki/Minicomputadora
+[32_1]:https://es.wikipedia.org/wiki/Programmed_Data_Processor
+[32_2]:https://en.wikipedia.org/wiki/Category:DEC_operating_systems
+[32_3]:https://en.wikipedia.org/wiki/Time-sharing_system_evolution
+[32_4]:https://en.wikipedia.org/wiki/DECnet
+[32_5]:https://es.wikipedia.org/wiki/Cl%C3%BAster_de_computadoras
+[32_6]:https://es.wikipedia.org/wiki/Sistema_de_ventanas_X
+[33_1]:https://es.wikipedia.org/wiki/Intel_8080
+[33_2]:https://es.wikipedia.org/wiki/BIOS
+[33_3]:https://en.wikipedia.org/wiki/CP/M#BDOS
+[33_4]:https://es.wikipedia.org/wiki/Interfaz_de_l%C3%ADnea_de_comandos
+
 
 ---
 [11_]:https://es.wikipedia.org/wiki/Cargador_de_arranque
