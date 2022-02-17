@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="2011.799" height="1461.968" version="1.1" id="svg593" sodipodi:docname="Unix_history-simple.svg" inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <defs id="defs597"/>
+  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="1920" inkscape:window-height="2096" id="namedview595" showgrid="false" fit-margin-top="25" fit-margin-left="25" fit-margin-right="25" fit-margin-bottom="25" inkscape:zoom="0.78" inkscape:cx="1040.5242" inkscape:cy="385.95069" inkscape:window-x="1920" inkscape:window-y="27" inkscape:window-maximized="0" inkscape:current-layer="g6776"/>
+  <metadata id="metadata467">image/svg+xml<rdf:RDF>
+  <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+  </cc:Work>
+</rdf:RDF>
+</metadata>
+  <g id="g6" transform="translate(26,26)">
+    <title id="title3">background</title>
+    <rect x="-1" y="-1" width="1961.799" height="1359.9083" id="canvas_background" style="fill:none"/>
+  </g>
+  <g id="g591" transform="translate(26,26)">
+    <title id="title8">Layer 1</title>
+    <path id="path1430" d="m 1378.4918,557.92562 -74.5276,-23.3375" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path id="path1422" d="m 770.35858,590.50016 18.6184,10.06183" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 1246.6234,1319.3474 -9.0831,-9.0831 H 785.42761 l -0.0442,-266.7093 -145.03892,-68.80713" id="path5917" inkscape:connector-curvature="0" style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px"/>
+    <path id="path1766" d="m 640.37342,996.28237 75.52447,56.69943" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <rect id="rect1012" y="1054.1885" x="1189.8708" height="231.5114" width="113.50488" stroke-miterlimit="4" style="fill:#ff8187;stroke:#000000;stroke-miterlimit:4"/>
+    <text id="text3334-04" y="1167.8403" x="1246.1965" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-rule:nonzero">    <tspan id="tspan3338-47" y="1167.8403" x="1246.1965" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">OpenServer</tspan>    <tspan id="tspan4321" y="1183.3114" x="1246.1965" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">6.x</tspan>  </text>
+    <rect id="rect1150" y="909.62909" x="1321.7394" height="377.21841" width="113.50488" style="fill:#ff8187;stroke:#000000"/>
+    <text id="text3334-07" y="1079.889" x="1377.8875" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-rule:nonzero">    <tspan id="tspan3338-5" y="1079.889" x="1377.8875" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">UnixWare</tspan>    <tspan id="tspan4304" y="1095.3601" x="1377.8875" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">7.x</tspan>    <tspan y="1110.8312" x="1377.8875" id="tspan1659" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">(System V</tspan>    <tspan y="1126.3022" x="1377.8875" id="tspan1661" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">R5)</tspan>  </text>
+    <rect id="rect738" y="990.36792" x="1706.6031" height="412.43359" width="113.4371" stroke-miterlimit="4" style="fill:#ff8187;stroke:#000000;stroke-width:1.06778836;stroke-miterlimit:4"/>
+    <text id="text3334-2" y="1204.5675" x="1760.8317" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-rule:nonzero">    <tspan y="1205.5675" x="1764.8317" id="tspan3336-0" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">HP-UX</tspan>    <tspan id="tspan3338-4" y="1221.0386" x="1764.8317" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">11i+</tspan>  </text>
+    <g id="g6790">
+      <text id="text174" y="12.636007" x="57.425179" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle;fill:#000000">
+        <tspan id="tspan176" y="27.636011" x="57.628304" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle">1969</tspan>
+      </text>
+      <text id="text178" y="66.19059" x="57.417366" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle;fill:#000000">
+        <tspan id="tspan180" y="81.19059" x="57.706429" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle">1971 to 1973</tspan>
+      </text>
+      <text id="text182" y="106.99449" x="57.47596" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle;fill:#000000">
+        <tspan id="tspan184" y="121.99448" x="57.765022" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle">1974 to 1975</tspan>
+      </text>
+      <text id="text186" y="150.97118" x="57.409554" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle;fill:#000000">
+        <tspan id="tspan188" y="165.97118" x="57.612679" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle">1978</tspan>
+      </text>
+      <text id="text190" y="204.06818" x="57.425179" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle;fill:#000000">
+        <tspan id="tspan192" y="219.06818" x="57.628304" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle">1979</tspan>
+      </text>
+      <text id="text194" y="270.52081" x="57.393929" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle;fill:#000000">
+        <tspan id="tspan196" y="285.52081" x="57.597054" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle">1980</tspan>
+      </text>
+      <text id="text198" y="310.76181" x="57.60096" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle;fill:#000000">
+        <tspan id="tspan200" y="325.76181" x="57.804085" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle">1981</tspan>
+      </text>
+      <text id="text202" y="348.23282" x="57.66346" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle;fill:#000000">
+        <tspan id="tspan204" y="363.23282" x="57.866585" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle">1982</tspan>
+      </text>
+      <text id="text206" y="385.7038" x="57.503304" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle;fill:#000000">
+        <tspan id="tspan208" y="400.7038" x="57.706429" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle">1983</tspan>
+      </text>
+      <text id="text210" y="422.52881" x="57.311897" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle;fill:#000000">
+        <tspan id="tspan212" y="437.52881" x="57.515022" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle">1984</tspan>
+      </text>
+      <text id="text214" y="461.13782" x="57.561897" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle;fill:#000000">
+        <tspan id="tspan216" y="476.13782" x="57.765022" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle">1985</tspan>
+      </text>
+      <text id="text218" y="493.76382" x="57.366585" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle;fill:#000000">
+        <tspan id="tspan220" y="508.76379" x="57.56971" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle">1986</tspan>
+      </text>
+      <text id="text222" y="532.3045" x="57.546272" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle;fill:#000000">
+        <tspan id="tspan224" y="547.3045" x="57.749397" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle">1987</tspan>
+      </text>
+      <text id="text226" y="561.82452" x="57.409554" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle;fill:#000000">
+        <tspan id="tspan228" y="576.82452" x="57.612679" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle">1988</tspan>
+      </text>
+      <text id="text230" y="591.34454" x="57.425179" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle;fill:#000000">
+        <tspan id="tspan232" y="606.34454" x="57.628304" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle">1989</tspan>
+      </text>
+      <text id="text234" y="622.5545" x="57.393929" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle;fill:#000000">
+        <tspan id="tspan236" y="637.5545" x="57.597054" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle">1990</tspan>
+      </text>
+      <text id="text249" y="650.38354" x="57.60096" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle;fill:#000000">
+        <tspan id="tspan251" y="665.38354" x="57.804085" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle">1991</tspan>
+      </text>
+      <text id="text253" y="723.10626" x="57.66346" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle;fill:#000000">
+        <tspan id="tspan255" y="738.10626" x="57.866585" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle">1992</tspan>
+      </text>
+      <text id="text257" y="774.53528" x="57.503304" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle;fill:#000000">
+        <tspan id="tspan259" y="789.53528" x="57.706429" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle">1993</tspan>
+      </text>
+      <text id="text261" y="804.07825" x="57.311897" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle;fill:#000000">
+        <tspan id="tspan263" y="819.07825" x="57.515022" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle">1994</tspan>
+      </text>
+      <text id="text265" y="831.66748" x="57.561897" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle;fill:#000000">
+        <tspan id="tspan267" y="846.66748" x="57.765022" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle">1995</tspan>
+      </text>
+      <text id="text269" y="860.83746" x="57.366585" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle;fill:#000000">
+        <tspan id="tspan271" y="875.83746" x="57.56971" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle">1996</tspan>
+      </text>
+      <text id="text273" y="888.26746" x="57.546272" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle;fill:#000000">
+        <tspan id="tspan275" y="903.26746" x="57.749397" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle">1997</tspan>
+      </text>
+      <text id="text277" y="921.39056" x="57.409554" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle;fill:#000000">
+        <tspan id="tspan279" y="936.39056" x="57.612679" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle">1998</tspan>
+      </text>
+      <text id="text281" y="958.53522" x="57.425179" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle;fill:#000000">
+        <tspan id="tspan283" y="973.53522" x="57.628304" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle">1999</tspan>
+      </text>
+      <text id="text285" y="984.69525" x="57.686897" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle;fill:#000000">
+        <tspan id="tspan287" y="999.69525" x="57.890022" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle">2000</tspan>
+      </text>
+      <text id="text289" y="1032.8081" x="57.518929" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle;fill:#000000">
+        <tspan id="tspan291" y="1047.8081" x="57.807991" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle">2001 to 2004</tspan>
+      </text>
+      <text id="text293" y="1094.9976" x="57.753304" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle;fill:#000000">
+        <tspan id="tspan295" y="1109.9976" x="58.042366" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle">2006 to 2007</tspan>
+      </text>
+      <text id="text293-5" y="1131.0298" x="57.616585" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle;fill:#000000">
+        <tspan id="tspan295-4" y="1146.0298" x="57.905647" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle">2008</tspan>
+      </text>
+      <text id="text297" y="1060.6481" x="57.854866" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle;fill:#000000">
+        <tspan id="tspan299" y="1075.6481" x="58.057991" font-size="16px" font-style="normal" style="font-style:normal;font-size:16px;text-anchor:middle">2005</tspan>
+      </text>
+      <text xml:space="preserve" id="text4636" y="1180.4218" x="57.921272" font-style="normal" style="font-style:normal;text-anchor:middle;fill:#000000">     <tspan y="1180.4218" x="57.921272" id="tspan4639" font-size="16px" style="font-size:16px">2009</tspan>   </text>
+      <text id="text4645" y="1212.4218" x="57.890022" xml:space="preserve" font-style="normal" style="font-style:normal;text-anchor:middle;fill:#000000">     <tspan y="1212.4218" x="57.890022" id="tspan4647" font-size="16px" style="font-size:16px">2010</tspan>   </text>
+      <text id="text4656" y="1244.4218" x="58.097054" xml:space="preserve" font-style="normal" style="font-style:normal;text-anchor:middle;fill:#000000">     <tspan y="1244.4218" x="58.097054" id="tspan4658" font-size="16px" style="font-size:16px">2011</tspan>   </text>
+      <text id="text4674" y="1276.4218" x="58.057991" xml:space="preserve" font-style="normal" style="font-style:normal;text-anchor:middle;fill:#000000">     <tspan y="1276.4218" x="58.057991" id="tspan4676" font-size="16px" style="font-size:16px">2012 to 2015</tspan>   </text>
+      <text xml:space="preserve" x="57.862679" y="1308.9216" id="text5813" font-style="normal" style="font-style:normal;text-anchor:middle;fill:#000000">     <tspan id="tspan5815" x="57.862679" y="1308.9216" font-size="16px" style="font-size:16px">2016</tspan>   </text>
+      <text id="text5817" y="1341.4215" x="58.042366" xml:space="preserve" font-style="normal" style="font-style:normal;text-anchor:middle;fill:#000000">     <tspan y="1341.4215" x="58.042366" id="tspan5819" font-size="16px" style="font-size:16px">2017</tspan>   </text>
+      <text id="text5817-3" y="1373.6981" x="52.896816" xml:space="preserve" font-style="normal" style="font-style:normal;text-anchor:middle;fill:#000000">    <tspan y="1373.6981" x="52.896816" id="tspan5819-6" font-size="16px" style="font-size:16px">2018</tspan> </text>
+      <text id="text5817-3-7" y="1404.7325" x="52.896809" xml:space="preserve" font-style="normal" style="font-style:normal;text-anchor:middle;fill:#000000">    <tspan y="1404.7325" x="52.896809" id="tspan5819-6-5" font-size="16px" style="font-size:16px">2019</tspan></text>
+    </g>
+    <path d="m 774.65734,499.81527 122.27107,78.73224 h 76.75776" id="path3678" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 973.66827,575.79757 0.0358,5.49987" id="path3676" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 984.71284,575.79757 0.0358,5.49987" id="path3674" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 984.73074,578.54751 126.28726,-10e-6" id="path3672" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 1123.5116,578.5475 h 118.2007" id="path3666" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 1241.6943,575.79757 0.036,5.49986" id="path3664" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 1252.6944,575.79756 0.036,5.49988" id="path3662" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 1252.7124,578.5475 h 69.0269" id="path157" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 577.27369,906.60962 -0.0277,5.49988" id="path3952" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 588.27359,906.60963 -0.0277,5.49987" id="path3950" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 588.25974,909.35957 69.89984,-10e-6" id="path3948" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 658.17343,906.60962 -0.0277,5.49988" id="path3946" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 669.24326,906.60963 -0.0277,5.49987" id="path3944" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="M 669.72941,909.35956 H 793.14833" id="path159" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path id="path3940" d="m 689.2476,852.66016 -40.41164,56.6994" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="M 577.25984,909.35956 H 516.47559 L 447.85747,959.2059" id="path161" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <line x1="320.75342" y1="684.95404" x2="320.39185" y2="709.3371" id="line439" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <line x1="320.39185" y1="850.47711" x2="320.39185" y2="871.12109" id="line441" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 661.15234,499.81527 h -72.8927" id="path3873" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 588.25964,497.06538 v 5.49978" id="path3871" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 577.26002,497.06537 v 5.4998" id="path3869" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="M 577.26002,499.81527 H 480.96345 L 448.2227,559.24519" id="path443" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <line x1="850.40082" y1="41.477875" x2="850.40082" y2="62.754311" id="line554" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <line x1="850.66693" y1="99.218964" x2="850.66449" y2="104.57683" id="line556" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 905.48909,81.7619 291.00511,0.6701 50.278,27.07811" id="path558" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <line x1="850.88092" y1="141.93185" x2="850.70087" y2="192.1431" id="line560" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 850.23504,228.32489 -63.6767,24.8532 h -61.9935 m 0,-2.75 v 5.5 m -11,-5.5 v 5.5 m 0,-2.75 H 582.93732 l -0.17706,195.46701" id="path562" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <line x1="582.75983" y1="485.14505" x2="582.75983" y2="510.27814" id="line564" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <line x1="793.67169" y1="122.76971" x2="719.06488" y2="156.0311" id="line566" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <line x1="719.06488" y1="234.98848" x2="719.06488" y2="266.50607" id="line579" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <line x1="924.71832" y1="248.77707" x2="775.81732" y2="272.16537" id="line581" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 719.06484,339.132 -87.8555,41.2631 -48.449,68.16158" id="path583" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <line x1="775.81744" y1="302.81903" x2="979.2309" y2="351.08508" id="line596" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <line x1="979.2309" y1="570.68146" x2="979.2309" y2="585.0741" id="line622" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 717.90482,517.81527 -78.39247,47.86088" id="line624" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="M 639.51234,466.55668 H 712.6553" id="path3811" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 723.78167,463.80674 v 5.49988" id="path3807" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 723.78167,466.55668 60.6589,-5.56218 h 60.6589" id="path3805" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 845.09947,458.24456 v 5.49988" id="path3803" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 862.09917,458.24456 v 5.49988" id="path3801" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 862.09917,460.9945 c 5e-5,2e-5 36.12012,0 36.12012,0" id="path3799" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 898.21929,458.2445 v 5.5" id="path3797" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 921.21929,458.243 v 5.5" id="path3795" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 921.21929,460.9945 h 52.51148" id="path3793" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 973.73077,458.246 v 5.5" id="path3791" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 984.73077,458.24655 v 5.5" id="path3789" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 984.73077,460.99655 148.06903,0.11549" id="path3787" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 1132.7998,458.36228 v 5.49952" id="path3785" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 1143.7993,458.36229 v 5.49951" id="path3783" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 1143.7993,461.11205 46.3658,-4.59117 h 51.548" id="path3781" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 1241.7131,453.77088 v 5.5" id="path3779" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 1252.7131,453.77088 v 5.5" id="path3777" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 1252.7131,456.52088 h 45.5707" id="path3775" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 1298.2838,453.77088 v 5.5" id="path3773" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 1309.0563,453.77088 v 5.5" id="path3771" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 1309.0563,456.52088 42.372,-0.008 27.0635,20.23181" id="path637" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 1037.3912,249.60926 h 193.6805" id="path3642" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 1231.0718,246.87039 v 5.47774" id="path3640" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 1242.0919,246.97914 v 5.47773" id="path3638" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 1242.0919,249.71801 33.6984,-0.10875 100.2232,53.2781" id="path648" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 1247.2116,146.16416 128.8019,156.7232" id="line650" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 1378.4918,338.88736 v 45.95383" id="line663" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 1252.4126,406.7675 h 51.2574 l 18.0693,9.59124" id="path3753" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 1252.4126,404.01753 v 5.49994" id="path3751" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 1241.4014,404.06017 0.021,5.49993" id="path3749" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 1241.4119,406.81013 -68.5739,0.26697 -44.0608,68.95206" id="path665" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 1378.4918,447.87629 v 28.8684" id="line678" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 582.75984,673.66547 -1e-5,15.8913" id="line711" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <line x1="1432.8341" y1="321.13107" x2="1766.3217" y2="481.78308" id="line752" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 1435.2442,578.5475 273.947,21.54325" id="line754" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 1378.4918,598.86403 -37.5397,34.60477 -88.2398,-0.0102" id="path3657" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 1252.7123,630.7086 v 5.5" id="path3655" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 1241.7121,630.6984 v 5.5" id="path3653" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 1241.7121,633.4484 -67.695,0.0204" id="path767" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 1378.4918,514.9843 v 43.24667" id="line780" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 1508.8417,1059.5381 v 9.8702" id="line795" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 582.75983,725.55677 1e-5,15.8913" id="line808" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 526.83949,933.61311 -16.48415,64.36495 -36.2649,21.51484" id="path860" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <line x1="449.49557" y1="997.31403" x2="449.70734" y2="1019.7482" id="line1232" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <line x1="582.75983" y1="903.52209" x2="582.75983" y2="915.61304" id="line845" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 583.592,951.61311 v 8.37677" id="line858" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="M 717.62386,852.66016 640.3445,933.61311" id="line862" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 642.39064,655.31551 69.88102,28.9718 m 1.02363,-2.55243 -2.04725,5.10487 m 13.21995,-0.4728 -2.04726,5.10485 m 1.02362,-2.55243 127.70469,52.94477" id="path886" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 639.92842,710.00217 72.32006,10.74318 m 0.41706,-2.7182 -0.8341,5.4364 m 11.70683,-3.76825 -0.8341,5.4364 m 0.41707,-2.7182 128.02779,19.45064" id="path888" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 849.90084,777.86406 v 20.16687 m 2.75,0 h -5.5 m 5.5,11 h -5.5 m 2.75,0 v 7.62917" id="path890" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 850.36921,778.0396 72.10913,27.02373 h 47.39 l 9.7825,9.74372" id="path892" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 774.87464,797.3035 141.4119,11.7376 0.56,83.979" id="path916" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 849.90083,875.89204 -1e-5,15.46752" id="line929" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 717.62386,852.66016 75.52447,56.6994" id="line931" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <line x1="979.65082" y1="889.40955" x2="979.65082" y2="905.46021" id="line933" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <line x1="907.65741" y1="210.5997" x2="924.71832" y2="248.77707" id="line946" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 1378.4918,514.9843 330.6095,53.52492" id="line959" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 1378.4918,598.86403 130.3499,70.0631" id="line961" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="M 1378.4918,598.86403 V 730.79212" id="line974" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <line x1="1321.7393" y1="1073.0022" x2="1303.9641" y2="1088.1294" id="line1022" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <line x1="1246.9657" y1="1023.2581" x2="1247.2117" y2="1054.1885" id="line1035" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="M 1247.2117,624.94215 V 768.70313" id="line1070" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <line x1="1247.3523" y1="503.88367" x2="1247.3523" y2="516.45154" id="line1072" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <line x1="1247.3523" y1="349.9762" x2="1247.3523" y2="361.50449" id="line1094" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <line x1="1247.3523" y1="462.10043" x2="1247.3523" y2="451.2565" id="line1096" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 907.45337,210.1431 319.99593,1.487 19.6427,79.59752" id="path1098" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 1378.4918,338.88736 -74.5276,40.16532" id="line1111" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 1246.9175,397.05268 v 17.75201" id="line1113" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 1111,575.79757 0.036,5.49986" id="path3670" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 1123.4936,575.79756 0.036,5.49988" id="path3668" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 1117.2649,517.84002 -10e-5,94.90095" id="line1115" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <line x1="1247.2117" y1="804.70306" x2="1247.2117" y2="818.77405" id="line1117" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="M 775.81266,391.43269 921.6462,522.3074" id="line1119" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <line x1="718.47186" y1="408.91104" x2="718.20782" y2="482.99207" id="line1143" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <line x1="719.06488" y1="339.13199" x2="718.47186" y2="372.91107" id="line1145" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 774.39205,578.80079 147.25421,8.29908" id="line1147" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="M 1378.4918,875.06019 V 909.6291" id="line1160" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <line x1="1247.2117" y1="896.40717" x2="1246.9617" y2="909.62903" id="line1173" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <line x1="1303.947" y1="885.22925" x2="1347.589" y2="909.34039" id="line1175" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <line x1="1766.3217" y1="896.59406" x2="1766.3217" y2="990.33392" id="line1177" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <line x1="1766.3217" y1="550.04114" x2="1766.3217" y2="544.81824" id="line1179" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <line x1="1766.3217" y1="591.2641" x2="1766.3217" y2="586.04108" id="line1181" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 1303.67,483.1287 18.0693,12.7358" id="line1183" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 1247.3524,552.45148 -0.1407,31.85761" id="line1196" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 661.15234,629.83969 -18.7617,25.47582" id="line1222" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <line x1="717.90485" y1="648.42816" x2="717.62384" y2="741.86414" id="line1224" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="M 717.90485,611.83969 V 596.54751" id="line1226" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 717.90482,517.81527 3e-5,42.73224" id="line1228" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 448.2227,903.93916 -0.36523,55.26674" id="line1230" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 849.90082,927.35956 1e-5,36.49341" id="line1245" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 775.81266,391.43269 146.66568,76.20841 51.2525,0.006 m 3e-4,-2.75 -6e-4,5.5 m 11.0006,-5.49872 -6e-4,5.5 m 3e-4,-2.75 118.59846,0.0138 12.7625,8.78839" id="path1247" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <line x1="979.2309" y1="455.99109" x2="979.2309" y2="472.2691" id="line1249" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 1321.7393,416.35874 -23.0742,51.62799" id="line1251" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <rect width="113.40938" height="349.13605" x="136.92014" y="1061.2842" id="rect1265" stroke-miterlimit="4" style="fill:#487e40;stroke:#000000;stroke-width:1.09561598;stroke-miterlimit:4"/>
+    <line x1="193.62483" y1="879.8811" x2="193.68083" y2="890.3111" id="line1275" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <line x1="193.68083" y1="1051.9691" x2="193.62483" y2="1060.6479" id="line1277" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 1035.9833,521.47529 67.2819,57.07221" id="line1279" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <path d="m 1378.4918,514.9843 -74.5276,19.60382" id="line1281" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <line x1="916.84662" y1="893.02014" x2="979.16034" y2="905.36304" id="line1283" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <rect id="rect989" y="22.523001" x="1577.1472" height="132.48868" width="241.98511" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <rect id="rect999" y="36.635303" x="1594.1812" height="24.864796" width="30.093018" style="fill:#487e40"/>
+    <rect id="rect1001" y="36.635303" x="1594.1812" height="24.864796" width="30.093018" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <rect id="rect1003" y="74.795288" x="1594.1812" height="24.864807" width="30.093018" style="fill:#ffc187"/>
+    <rect id="rect1005" y="74.795288" x="1594.1812" height="24.864807" width="30.093018" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <rect id="rect1007" y="112.1228" x="1594.1812" height="24.864807" width="30.093018" style="fill:#ff8187"/>
+    <rect id="rect1009" y="112.1228" x="1594.1812" height="24.864807" width="30.093018" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <text id="text3274-8-4" y="52.54134" x="1640.896" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:start;fill:#000000;fill-rule:nonzero">    <tspan id="tspan3305-3" y="52.54134" x="1640.896" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">Open source</tspan>  </text>
+    <text id="text3274-8-4-4" y="91.560768" x="1639.918" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:start;fill:#000000;fill-rule:nonzero">    <tspan id="tspan3305-3-9" y="91.560768" x="1639.918" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">Mixed/shared source</tspan>  </text>
+    <text id="text3274-8-4-6" y="129.28435" x="1638.739" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:start;fill:#000000;fill-rule:nonzero">    <tspan id="tspan3305-3-3" y="129.28435" x="1638.739" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">Closed source</tspan>  </text>
+    <g id="g1748">
+      <rect id="rect714" y="482.09515" x="1709.0491" height="63.035126" width="113.50488" stroke-miterlimit="4" style="fill:#ff8187;stroke:#000000;stroke-miterlimit:4"/>
+      <text id="text3334" y="511.40689" x="1765.7297" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-rule:nonzero">     <tspan y="511.40689" x="1765.7297" id="tspan3336" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">HP-UX</tspan>     <tspan id="tspan3338" y="526.87799" x="1765.7297" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">1.0 to 1.2</tspan>   </text>
+    </g>
+    <g id="g6776">
+      <rect id="rect783" y="1130.8771" x="1581.2847" height="272.69373" width="112.59415" stroke-miterlimit="4" style="fill:#487e40;stroke:#000000;stroke-width:1.11020744;stroke-miterlimit:4"/>
+      <text id="text3334-55" y="1265.6" x="1654.5815" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#ffffff;fill-rule:nonzero">     <tspan id="tspan3557" y="1265.6" x="1654.5815" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">OpenSolaris</tspan>           <tspan y="1281.071" x="1654.5815" id="tspan1768" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">&amp; derivatives</tspan>          <tspan id="tspan3556" y="1296.5421" x="1654.5815" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">(illumos, etc.)</tspan>          </text>
+    </g>
+    <g id="g3725">
+      <path id="path640" d="m 1338.7649,302.88736 h 79.4537 c 9.3982,0 17.0256,8.06399 17.0256,18 0,9.93601 -7.6274,18 -17.0256,18 h -79.4537 c -9.3981,0 -17.0256,-8.06399 -17.0256,-18 0,-9.93601 7.6275,-18 17.0256,-18" inkscape:connector-curvature="0" style="fill:#ff8187;stroke:#000000"/>
+      <text id="text3334-3" y="325.01953" x="1378.7411" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-rule:nonzero">     <tspan id="tspan3338-11" y="325.01953" x="1378.7411" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">System III</tspan>   </text>
+    </g>
+    <g id="g3719">
+      <rect id="rect653" y="384.84119" x="1321.7394" height="63.035095" width="113.50488" style="fill:#ff8187;stroke:#000000"/>
+      <text id="text3334-38" y="414.25488" x="1378.0424" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-rule:nonzero">     <tspan id="tspan3338-3" y="414.25488" x="1378.0424" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">System V</tspan>     <tspan id="tspan4232" y="429.72598" x="1378.0424" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">R1 to R2</tspan>   </text>
+    </g>
+    <g id="g1631">
+      <rect id="rect1163" y="910.21747" x="1190.2092" height="113.12897" width="113.50488" style="fill:#ff8187;stroke:#000000"/>
+      <text id="text3334-9" y="964.6781" x="1247.0297" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-rule:nonzero">     <tspan id="tspan3338-0" y="964.6781" x="1247.0297" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">OpenServer</tspan>     <tspan id="tspan4338" y="980.14917" x="1247.0297" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">5.0.5 to 5.0.7</tspan>   </text>
+    </g>
+    <g id="g1625">
+      <rect id="rect1025" y="818.77411" x="1190.4592" height="77.633057" width="113.50488" style="fill:#ff8187;stroke:#000000"/>
+      <text id="text3334-64" y="855.48676" x="1246.7849" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-rule:nonzero">     <tspan id="tspan3338-6" y="855.48676" x="1246.7849" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">OpenServer</tspan>     <tspan id="tspan4355" y="870.95782" x="1246.7849" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">5.0 to 5.04</tspan>   </text>
+    </g>
+    <g id="g1619">
+      <rect id="rect5634" y="768.70312" x="1190.4592" height="36" width="113.50488" style="fill:#ff8187;stroke:#000000"/>
+      <text id="text3334-1" y="784.73523" x="1246.9548" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-rule:nonzero">     <tspan id="tspan3338-17" y="784.73523" x="1246.9548" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">SCO UNIX</tspan>     <tspan id="tspan4372" y="800.2063" x="1246.9548" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">3.2.4</tspan>   </text>
+    </g>
+    <g id="g1613">
+      <rect id="rect1038" y="584.30908" x="1190.4592" height="40.633057" width="113.50488" style="fill:#ff8187;stroke:#000000"/>
+      <text id="text3334-078" y="602.04962" x="1246.9548" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-rule:nonzero">     <tspan id="tspan3338-63" y="602.04962" x="1246.9548" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">SCO Xenix</tspan>     <tspan id="tspan4389" y="617.52069" x="1246.9548" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">V/386</tspan>   </text>
+    </g>
+    <g id="g3732">
+      <path id="path1186" d="m 1207.485,516.58812 h 79.4536 c 9.3982,0 17.0256,8.06403 17.0256,18 0,9.93598 -7.6274,18 -17.0256,18 h -79.4536 c -9.3982,0 -17.0257,-8.06402 -17.0257,-18 0,-9.93597 7.6275,-18 17.0257,-18" inkscape:connector-curvature="0" style="fill:#ff8187;stroke:#000000"/>
+      <text id="text3334-03" y="532.01215" x="1246.955" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-rule:nonzero">     <tspan id="tspan3338-64" y="532.01215" x="1246.955" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">SCO Xenix</tspan>     <tspan id="tspan4406" y="547.48322" x="1246.955" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">V/386</tspan>   </text>
+    </g>
+    <g id="g1607">
+      <path id="path1049" d="m 1207.1908,462.23707 h 79.4536 c 9.3982,0 17.0256,9.35944 17.0256,20.8916 0,11.53217 -7.6274,20.8916 -17.0256,20.8916 h -79.4536 c -9.3982,0 -17.0257,-9.35943 -17.0257,-20.8916 0,-11.53216 7.6275,-20.8916 17.0257,-20.8916" inkscape:connector-curvature="0" style="fill:#ff8187;stroke:#000000"/>
+      <text id="text3334-68" y="480.55267" x="1246.6606" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-rule:nonzero">     <tspan id="tspan3338-27" y="480.55267" x="1246.6606" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">SCO Xenix</tspan>     <tspan id="tspan4423" y="496.02377" x="1246.6606" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">V/286</tspan>   </text>
+    </g>
+    <g id="g3756">
+      <rect id="rect1075" y="414.80469" x="1190.1652" height="36" width="113.50488" style="fill:#ff8187;stroke:#000000"/>
+      <text id="text3334-99" y="438.57236" x="1246.6608" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-rule:nonzero">     <tspan id="tspan3338-44" y="438.57236" x="1246.6608" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">SCO Xenix</tspan>   </text>
+    </g>
+    <g id="g3761">
+      <rect id="rect1101" y="361.05267" x="1190.1652" height="36" width="113.50488" style="fill:#ff8187;stroke:#000000"/>
+      <text id="text3334-39" y="377.08481" x="1246.9402" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-rule:nonzero">     <tspan id="tspan3338-55" y="377.08481" x="1246.9402" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">Xenix</tspan>     <tspan id="tspan4455" y="392.55591" x="1246.9402" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">3.0</tspan>   </text>
+    </g>
+    <g id="g1601">
+      <rect id="rect1084" y="291.12463" x="1190.7534" height="58.39978" width="113.50488" style="fill:#ff8187;stroke:#000000"/>
+      <text id="text3334-7" y="318.35666" x="1247.2792" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-rule:nonzero">     <tspan id="tspan3338-66" y="318.35666" x="1247.2792" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">Xenix</tspan>     <tspan id="tspan4472" y="333.82776" x="1247.2792" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">1.0 to 2.3</tspan>   </text>
+    </g>
+    <g id="g1595">
+      <rect id="rect468" y="110.16416" x="1190.4591" height="36" width="113.50488" style="fill:#ffc187;stroke:#000000"/>
+      <text id="text3334-75" y="133.32372" x="1246.7054" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-rule:nonzero">     <tspan id="tspan3338-21" y="133.32372" x="1246.7054" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">PWB/Unix</tspan>   </text>
+    </g>
+    <g id="g1584">
+      <path id="path627" d="m 1077.538,476.05681 h 79.4536 c 9.3982,0 17.0256,9.35943 17.0256,20.89161 0,11.53215 -7.6274,20.8916 -17.0256,20.8916 h -79.4536 c -9.3982,0 -17.0257,-9.35945 -17.0257,-20.8916 0,-11.53218 7.6275,-20.89161 17.0257,-20.89161" inkscape:connector-curvature="0" style="fill:#ff8187;stroke:#000000"/>
+      <text id="text3334-8" y="494.74258" x="1117.4498" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-rule:nonzero">     <tspan id="tspan3338-54" y="494.74258" x="1117.4498" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">AIX</tspan>     <tspan id="tspan4504" y="510.21368" x="1117.4498" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">1.0</tspan>   </text>
+    </g>
+    <g id="g1590">
+      <rect id="rect757" y="612.7594" x="1060.5306" height="794.80072" width="113.46806" stroke-miterlimit="4" style="fill:#ff8187;stroke:#000000;stroke-width:1.03682435;stroke-miterlimit:4"/>
+      <text id="text3334-87" y="1043.1888" x="1117.4523" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-size:11.99998665px;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-rule:nonzero;stroke-width:0.99999887" transform="scale(1.0000011,0.99999889)">     <tspan id="tspan3338-35" y="1043.1888" x="1117.4523" font-size="15.471087px" style="font-size:15.47107029px;font-family:sans-serif;stroke-width:0.99999887">AIX</tspan>     <tspan id="tspan4521" y="1058.6604" x="1117.4523" font-size="15.471087px" style="font-size:15.47107029px;font-family:sans-serif;stroke-width:0.99999887">3.0-7.2</tspan>   </text>
+    </g>
+    <g id="g6764">
+      <g id="g1578">
+        <rect width="113.44392" height="502.84775" x="924.5932" y="905.49072" id="rect906" stroke-miterlimit="4" style="fill:#487e40;stroke:#000000;stroke-width:1.06107378;stroke-miterlimit:4"/>
+        <text xml:space="preserve" x="989.22894" y="1184.6527" id="text3334-28" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#ffffff;fill-rule:nonzero">      <tspan x="989.22894" y="1184.6527" id="tspan3338-212" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">OpenBSD</tspan>      <tspan x="989.22894" y="1200.1238" id="tspan4538" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">2.3-6.8 </tspan>   </text>
+      </g>
+    </g>
+    <g id="g1572">
+      <rect id="rect895" y="813.97498" x="925.39471" height="74.602417" width="113.505" style="fill:#487e40;stroke:#000000"/>
+      <text id="text3334-60" y="849.1723" x="982.16608" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#ffffff;fill-rule:nonzero">     <tspan id="tspan3338-00" y="849.1723" x="982.16608" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">OpenBSD</tspan>     <tspan id="tspan4555" y="864.64337" x="982.16608" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">1.0 to 2.2</tspan>   </text>
+    </g>
+    <g id="g1560">
+      <rect id="rect977" y="473.10123" x="921.64618" height="98.412323" width="113.505" style="fill:#ff8187;stroke:#000000"/>
+      <text id="text3334-398" y="520.20355" x="978.06628" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-rule:nonzero">     <tspan id="tspan3338-89" y="520.20355" x="978.06628" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">SunOS</tspan>     <tspan id="tspan4589" y="535.67462" x="978.06628" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">1.2 to 3.0</tspan>   </text>
+    </g>
+    <g id="g1554">
+      <rect id="rect586" y="351.08508" x="922.47833" height="104.90601" width="113.505" style="fill:#ff8187;stroke:#000000"/>
+      <text id="text3334-89" y="401.43423" x="979.09863" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-rule:nonzero">     <tspan id="tspan3338-20" y="401.43423" x="979.09863" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">SunOS</tspan>     <tspan id="tspan4606" y="416.90533" x="979.09863" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">1 to 1.1</tspan>   </text>
+    </g>
+    <g id="g1548">
+      <path id="path546" d="m 940.91193,231.60922 h 79.45347 c 9.3982,0 17.0258,8.064 17.0258,18 0,9.93601 -7.6276,18 -17.0258,18 h -79.45347 c -9.39819,0 -17.02574,-8.06399 -17.02574,-18 0,-9.936 7.62755,-18 17.02574,-18" inkscape:connector-curvature="0" style="fill:#ffc187;stroke:#000000"/>
+      <text id="text3334-51" y="254.76877" x="980.02679" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-rule:nonzero">     <tspan id="tspan3338-83" y="254.76877" x="980.02679" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">Unix/32V</tspan>   </text>
+    </g>
+    <g id="g1514">
+      <rect id="rect446" y="62.929756" x="791.98407" height="36" width="113.505" style="fill:#ffc187;stroke:#000000"/>
+      <text id="text3334-265" y="78.961876" x="849.11426" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-rule:nonzero">     <tspan id="tspan3338-08" y="78.961876" x="849.11426" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">Unix</tspan>     <tspan id="tspan4638" y="94.432961" x="849.11426" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">Version 1 to 4</tspan>   </text>
+    </g>
+    <g id="g1520">
+      <rect id="rect477" y="105.39824" x="793.29633" height="36" width="113.505" style="fill:#ffc187;stroke:#000000"/>
+      <text id="text3334-50" y="121.43036" x="850.47943" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-rule:nonzero">     <tspan id="tspan3338-33" y="121.43036" x="850.47943" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">Unix</tspan>     <tspan id="tspan4655" y="136.90146" x="850.47943" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">Version 5 to 6</tspan>   </text>
+    </g>
+    <g id="g1526">
+      <path id="path490" d="m 810.142,192.14311 h 79.4535 c 9.39814,0 17.02574,8.06399 17.02574,18 0,9.936 -7.6276,18 -17.02574,18 H 810.142 c -9.3982,0 -17.02577,-8.064 -17.02577,-18 0,-9.93601 7.62757,-18 17.02577,-18" inkscape:connector-curvature="0" style="fill:#ffc187;stroke:#000000"/>
+      <text id="text3334-91" y="208.17523" x="850.47308" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-rule:nonzero">     <tspan id="tspan3338-14" y="208.17523" x="850.47308" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">Unix</tspan>     <tspan id="tspan4672" y="223.64632" x="850.47308" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">Version 7</tspan>   </text>
+    </g>
+    <g id="g1508">
+      <path id="path459" d="m 748.22786,5.78247 h 197.68875 c 23.38364,0 42.36193,7.93745 42.36193,17.71753 0,9.78007 -18.97829,17.71753 -42.36193,17.71753 H 748.22786 c -23.38372,0 -42.36186,-7.93746 -42.36186,-17.71753 0,-9.78008 18.97814,-17.71753 42.36186,-17.71753" stroke-miterlimit="4" inkscape:connector-curvature="0" style="fill:#ffc187;stroke:#000000;stroke-miterlimit:4"/>
+      <text id="text3334-29" y="27.767847" x="847.06091" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-rule:nonzero">     <tspan id="tspan3338-75" y="27.767847" x="847.06091" font-size="15.47px" style="font-size:15.47000027px;font-family:sans-serif">Unnamed PDP-7 operating system</tspan>   </text>
+    </g>
+    <g id="g1485">
+      <rect id="rect535" y="156.0311" x="664.07758" height="78.957397" width="113.505" style="fill:#ffc187;stroke:#000000"/>
+      <text id="text3334-09" y="193.40594" x="720.49768" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-rule:nonzero">     <tspan id="tspan3338-270" y="193.40594" x="720.49768" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">BSD</tspan>     <tspan id="tspan4704" y="208.87703" x="720.49768" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">1.0 to 2.0</tspan>   </text>
+    </g>
+    <g id="g1491">
+      <rect id="rect569" y="265.91766" x="661.13556" height="72.625916" width="113.505" style="fill:#ffc187;stroke:#000000"/>
+      <text id="text3334-76" y="300.12677" x="718.01648" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-rule:nonzero">     <tspan id="tspan3338-19" y="300.12677" x="718.01648" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">BSD</tspan>     <tspan id="tspan4721" y="315.59787" x="718.01648" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">3.0 to 4.1</tspan>   </text>
+    </g>
+    <g id="g1496">
+      <path id="path1122" d="m 679.33355,373.4995 h 79.45347 c 9.3982,0 17.02576,8.06399 17.02576,18 0,9.93601 -7.62756,18 -17.02576,18 h -79.45347 c -9.3982,0 -17.02578,-8.06399 -17.02578,-18 0,-9.93601 7.62758,-18 17.02578,-18" inkscape:connector-curvature="0" style="fill:#ffc187;stroke:#000000"/>
+      <text id="text3334-20" y="397.1312" x="719.07916" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-rule:nonzero">     <tspan id="tspan3338-39" y="397.1312" x="719.07916" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">BSD 4.2</tspan>   </text>
+    </g>
+    <g id="g1479">
+      <path id="path503" d="m 543.03309,448.55668 h 79.45349 c 9.39819,0 17.02576,8.064 17.02576,18 0,9.936 -7.62757,18 -17.02576,18 h -79.45349 c -9.39823,0 -17.02575,-8.064 -17.02575,-18 0,-9.936 7.62752,-18 17.02575,-18" inkscape:connector-curvature="0" style="fill:#ffc187;stroke:#000000"/>
+      <text id="text3334-06" y="464.58881" x="583.23199" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-rule:nonzero">     <tspan id="tspan3338-081" y="464.58881" x="583.23199" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">Unix</tspan>     <tspan id="tspan4768" y="480.05991" x="583.23199" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">Version 8</tspan>   </text>
+    </g>
+    <g id="g3901">
+      <rect id="rect516" y="510.2782" x="526.00732" height="110.79602" width="113.505" style="fill:#ff8187;stroke:#000000"/>
+      <text id="text3334-30" y="539.59143" x="582.47656" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-rule:nonzero">     <tspan id="tspan4787" y="539.59143" x="582.47656" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">Unix</tspan>     <tspan id="tspan4789" y="555.0625" x="582.47656" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">9 and 10</tspan>     <tspan id="tspan3549" y="570.53363" x="582.47656" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">(last versions</tspan>     <tspan id="tspan3551" y="586.0047" x="582.47656" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">from</tspan>     <tspan id="tspan3553" y="601.47577" x="582.47656" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">Bell Labs)</tspan>   </text>
+    </g>
+    <g id="g1459">
+      <rect id="rect681" y="559.24518" x="391.47018" height="344.69397" width="113.505" style="fill:#ff8187;stroke:#000000"/>
+      <text id="text3334-914" y="721.75275" x="447.47104" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-rule:nonzero">     <tspan id="tspan3338-42" y="721.75275" x="447.47104" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">NexTSTEP/</tspan>     <tspan id="tspan4806" y="737.22382" x="447.47104" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">OPENSTEP</tspan>     <tspan id="tspan4808" y="752.69495" x="447.47104" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">1.0 to 4.0</tspan>   </text>
+    </g>
+    <g id="g3959">
+      <path id="path824" d="m 408.49596,959.2059 h 79.45349 c 9.39823,0 17.02575,8.064 17.02575,18 0,9.9359 -7.62752,18.00006 -17.02575,18.00006 h -79.45349 c -9.39822,0 -17.02576,-8.06416 -17.02576,-18.00006 0,-9.936 7.62754,-18 17.02576,-18" inkscape:connector-curvature="0" style="fill:#ff8187;stroke:#000000"/>
+      <text id="text3334-78" y="975.10205" x="447.70901" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-rule:nonzero">     <tspan id="tspan3338-645" y="975.10205" x="447.70901" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">Mac OS X</tspan>     <tspan id="tspan4825" y="990.57312" x="447.70901" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">Server</tspan>   </text>
+    </g>
+    <g id="g1468">
+      <rect id="rect811" y="1019.5819" x="393.21402" height="390.32645" width="112.98662" stroke-miterlimit="4" style="fill:#ffc187;stroke:#000000;stroke-width:1.08338797;stroke-miterlimit:4"/>
+      <text id="text3334-95" y="1178.2196" x="457.54068" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-rule:nonzero">     <tspan id="tspan3338-79" y="1178.2196" x="457.54068" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">Mac OS X,</tspan>     <tspan id="tspan6732" y="1193.6907" x="457.54068" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">OS X,</tspan>     <tspan id="tspan6734" y="1209.1617" x="457.54068" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">macOS</tspan>     <tspan y="1224.6328" x="457.54068" id="tspan1772" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">10.0 to 10.15</tspan>     <tspan id="tspan4844" y="1240.104" x="457.54068" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">(Darwin</tspan>     <tspan id="tspan6736" y="1255.5751" x="457.54068" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">1.2.1 to 19)</tspan>   </text>
+    </g>
+    <g id="g1435">
+      <rect id="rect429" y="540.48822" x="136.65309" height="339.70801" width="113.505" style="fill:#487e40;stroke:#000000"/>
+      <text id="text3334-646" y="708.48389" x="192.89946" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#ffffff;fill-rule:nonzero">     <tspan id="tspan3338-01" y="708.48389" x="192.89946" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">Minix</tspan>     <tspan id="tspan4861" y="723.95496" x="192.89946" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">1.x</tspan>   </text>
+    </g>
+    <g id="g1441">
+      <rect id="rect1254" y="890.89948" x="136.92833" height="161.65802" width="113.505" style="fill:#487e40;stroke:#000000"/>
+      <text id="text3334-646-2" y="969.87012" x="193.1747" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#ffffff;fill-rule:nonzero">     <tspan id="tspan3338-01-8" y="969.87012" x="193.1747" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">Minix</tspan>     <tspan id="tspan4861-1" y="985.34119" x="193.1747" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">2.x</tspan>   </text>
+    </g>
+    <text xml:space="preserve" x="193.15779" y="1229.4752" id="text3334-646-5" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#ffffff;fill-rule:nonzero">    <tspan x="193.15779" y="1229.4752" id="tspan3338-01-2" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">Minix</tspan>    <tspan x="193.15779" y="1244.9463" id="tspan4861-3" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">3.1.0-3.4.0</tspan>  </text>
+    <g id="g5821">
+      <rect id="rect164" y="871.70953" x="264.81619" height="382.88797" width="112.56458" stroke-miterlimit="4" style="fill:#487e40;stroke:#000000;stroke-miterlimit:4"/>
+      <text id="text3334-646-9" y="1061.2952" x="320.59235" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#ffffff;fill-rule:nonzero">     <tspan id="tspan4861-6" y="1061.2952" x="320.59235" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">Linux</tspan>     <tspan id="tspan4919" y="1076.7662" x="320.59235" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">2.x</tspan>   </text>
+    </g>
+    <g id="g1452">
+      <rect id="rect418" y="709.92554" x="264.81616" height="141.14001" width="113.505" style="fill:#487e40;stroke:#000000"/>
+      <text id="text3334-646-8" y="778.52765" x="321.31183" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#ffffff;fill-rule:nonzero">     <tspan id="tspan4861-4" y="778.52765" x="321.31183" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">Linux</tspan>     <tspan id="tspan4936" y="793.99872" x="321.31183" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">0.95 to 1.2.x</tspan>   </text>
+    </g>
+    <g id="g1446">
+      <path id="path6460" d="m 280.61802,648.66213 h 79.45349 c 9.39823,0 17.02576,8.064 17.02576,18 0,9.93596 -7.62753,18 -17.02576,18 h -79.45349 c -9.39822,0 -17.02575,-8.06404 -17.02575,-18 0,-9.936 7.62753,-18 17.02575,-18" inkscape:connector-curvature="0" style="fill:#487e40;stroke:#000000"/>
+      <text id="text3334-646-1" y="672.42981" x="320.30322" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#ffffff;fill-rule:nonzero">     <tspan id="tspan4953" y="672.42981" x="320.30322" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">Linux 0.0.1</tspan>   </text>
+    </g>
+    <g id="g1503">
+      <rect id="rect599" y="741.86414" x="660.8714" height="110.79602" width="113.505" style="fill:#487e40;stroke:#000000"/>
+      <text id="text3334-646-21" y="779.68719" x="717.64276" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#ffffff;fill-rule:nonzero">     <tspan id="tspan4861-0" y="779.68719" x="717.64276" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">BSD</tspan>     <tspan id="tspan5006" y="795.15826" x="717.64276" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">4.4-Lite</tspan>     <tspan y="810.62939" x="717.64276" id="tspan1424" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">&amp;</tspan>     <tspan id="tspan5008" y="826.10046" x="717.64276" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">Lite Release 2</tspan>   </text>
+    </g>
+    <g id="g1532">
+      <rect id="rect876" y="741.86414" x="794.39655" height="36" width="113.505" style="fill:#487e40;stroke:#000000"/>
+      <text id="text3334-646-84" y="757.76025" x="851.15662" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#ffffff;fill-rule:nonzero">     <tspan id="tspan4861-8" y="757.76025" x="851.15662" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">NetBSD</tspan>     <tspan id="tspan5025" y="773.23132" x="851.15662" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">0.8 to 1.0</tspan>   </text>
+    </g>
+    <g id="g1538">
+      <rect id="rect865" y="817.49225" x="793.14838" height="58.39978" width="113.505" style="fill:#487e40;stroke:#000000"/>
+      <text id="text3334-646-0" y="844.58826" x="849.8291" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#ffffff;fill-rule:nonzero">     <tspan id="tspan4861-65" y="844.58826" x="849.8291" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">NetBSD</tspan>     <tspan id="tspan5042" y="860.05933" x="849.8291" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">1.1 to 1.2</tspan>   </text>
+    </g>
+    <g id="g3965">
+      <g id="g1543">
+        <path d="m 810.17407,891.35956 h 79.45349 c 9.39817,0 17.02577,8.06405 17.02577,18 0,9.936 -7.6276,18 -17.02577,18 h -79.45349 c -9.3982,0 -17.02574,-8.064 -17.02574,-18 0,-9.93595 7.62754,-18 17.02574,-18" id="path1235" inkscape:connector-curvature="0" style="fill:#487e40;stroke:#000000"/>
+        <text xml:space="preserve" x="849.76483" y="914.99127" id="text3334-646-6" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#ffffff;fill-rule:nonzero">      <tspan x="849.76483" y="914.99127" id="tspan5059" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">NetBSD 1.3</tspan>    </text>
+      </g>
+    </g>
+    <g id="g3978">
+      <rect id="rect919" y="963.88843" x="793.18378" height="445.23569" width="113.4341" stroke-miterlimit="4" style="fill:#487e40;stroke:#000000;stroke-width:1.07089436;stroke-miterlimit:4"/>
+      <text id="text3334-646-83" y="1196.5337" x="855.02197" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#ffffff;fill-rule:nonzero">     <tspan id="tspan4861-07" y="1196.5337" x="855.02197" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">NetBSD</tspan>     <tspan id="tspan5078" y="1212.0048" x="855.02197" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">1.3-8.1</tspan>   </text>
+    </g>
+    <g id="g3879">
+      <rect id="rect798" y="741.44806" x="526.00732" height="161.65796" width="113.505" style="fill:#487e40;stroke:#000000"/>
+      <text id="text3334-646-4" y="812.54718" x="582.45386" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#ffffff;fill-rule:nonzero">     <tspan id="tspan4861-06" y="812.54718" x="582.45386" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">FreeBSD</tspan>     <tspan id="tspan5129" y="828.01825" x="584.91656" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">1.0 to</tspan>     <tspan id="tspan5131" y="843.48938" x="582.45386" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">2.2.x</tspan>   </text>
+    </g>
+    <g id="g3886">
+      <path id="path703" d="m 543.03309,689.55677 h 79.45349 c 9.39819,0 17.02576,8.06403 17.02576,18 0,9.936 -7.62757,18 -17.02576,18 h -79.45349 c -9.39823,0 -17.02575,-8.064 -17.02575,-18 0,-9.93597 7.62752,-18 17.02575,-18" inkscape:connector-curvature="0" style="fill:#487e40;stroke:#000000"/>
+      <text id="text3334-646-31" y="713.18848" x="582.62384" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#ffffff;fill-rule:nonzero">     <tspan id="tspan4861-9" y="713.18848" x="582.62384" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">386BSD</tspan>   </text>
+    </g>
+    <g id="g3896">
+      <path id="path694" d="m 541.01826,636.96551 h 83.48316 c 9.87481,0 17.88922,8.22077 17.88922,18.35 0,10.1292 -8.01441,18.34996 -17.88922,18.34996 h -83.48316 c -9.87485,0 -17.88922,-8.22076 -17.88922,-18.34996 0,-10.12923 8.01437,-18.35 17.88922,-18.35" inkscape:connector-curvature="0" style="fill:#487e40;stroke:#000000"/>
+      <text id="text3334-646-13" y="660.33905" x="582.77875" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#ffffff;fill-rule:nonzero">     <tspan id="tspan4861-94" y="660.33905" x="582.77875" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">BSD Net/2</tspan>   </text>
+    </g>
+    <g id="g6770">
+      <rect y="1069.4082" x="1452.0892" height="151.0135" width="113.50488" id="rect4084" style="fill:#ff8187;stroke:#000000"/>
+      <text id="text4086" y="1142.947" x="1508.7133" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-rule:nonzero">     <tspan y="1142.947" x="1508.7133" id="tspan4088" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">Solaris</tspan>     <tspan id="tspan4090" y="1158.4181" x="1508.7133" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">10</tspan>   </text>
+    </g>
+    <g id="g1668">
+      <rect y="1230.5181" x="1452.1855" height="173.01154" width="113.31223" id="rect4652" style="fill:#ff8187;stroke:#000000;stroke-width:1.19265175"/>
+      <text id="text4664" y="1315.6488" x="1510.5913" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-rule:nonzero">     <tspan y="1315.6488" x="1510.5913" id="tspan4666" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">Solaris</tspan>     <tspan id="tspan4668" y="1331.1199" x="1510.5913" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">11.0-11.4 </tspan>  </text>
+    </g>
+    <path d="m 1508.8417,1220.4217 v 10.0001" id="path4684" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-width:1px"/>
+    <line id="line4688" x1="1565.5941" y1="1099.915" x2="1637.5817" y2="1130.4218" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <g id="g3707">
+      <path id="path936" d="m 1338.7649,558.23097 h 79.4537 c 9.3982,0 17.0256,9.10181 17.0256,20.31653 0,11.21472 -7.6274,20.31653 -17.0256,20.31653 h -79.4537 c -9.3981,0 -17.0256,-9.10181 -17.0256,-20.31653 0,-11.21472 7.6275,-20.31653 17.0256,-20.31653" inkscape:connector-curvature="0" style="fill:#ff8187;stroke:#000000"/>
+      <text id="text3334-56" y="576.55316" x="1378.0422" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-rule:nonzero">     <tspan id="tspan3338-15" y="576.55316" x="1378.0422" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">System V</tspan>     <tspan id="tspan4268" y="592.02423" x="1378.0422" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">R4</tspan>   </text>
+    </g>
+    <g id="g1674">
+      <rect id="rect770" y="668.92712" x="1452.0892" height="390.61096" width="113.50488" stroke-miterlimit="4" style="fill:#ff8187;stroke:#000000;stroke-miterlimit:4"/>
+      <text id="text3334-6" y="862.26471" x="1508.8228" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-rule:nonzero">     <tspan id="tspan3338-2" y="862.26471" x="1508.8228" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">Solaris</tspan>     <tspan id="tspan4200" y="877.73578" x="1508.8228" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">2.1 to 9</tspan>   </text>
+    </g>
+    <g id="g3861">
+      <path id="path1133" d="m 678.17808,481.81527 h 79.45349 c 9.3982,0 17.02577,8.064 17.02577,18 0,9.936 -7.62757,18 -17.02577,18 h -79.45349 c -9.39819,0 -17.02574,-8.064 -17.02574,-18 0,-9.936 7.62755,-18 17.02574,-18" inkscape:connector-curvature="0" style="fill:#ffc187;stroke:#000000"/>
+      <text id="text3334-033" y="505.44696" x="717.76886" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-rule:nonzero">     <tspan id="tspan3338-58" y="505.44696" x="717.76886" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">BSD 4.3</tspan>   </text>
+    </g>
+    <g id="g1566">
+      <rect id="rect612" y="585.90625" x="921.6463" height="211.33301" width="113.505" style="fill:#ff8187;stroke:#000000"/>
+      <text id="text3334-26" y="689.57843" x="978.31946" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-rule:nonzero">     <tspan id="tspan3338-34" y="689.57843" x="978.31946" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">SunOS</tspan>     <tspan id="tspan4572" y="705.0495" x="978.31946" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">4</tspan>   </text>
+    </g>
+    <g id="g1742">
+      <rect id="rect949" y="550.50922" x="1709.1012" height="36" width="113.50488" stroke-miterlimit="4" style="fill:#ff8187;stroke:#000000;stroke-miterlimit:4"/>
+      <text id="text3334-0" y="566.30341" x="1765.8046" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-rule:nonzero">     <tspan y="566.30341" x="1765.8046" id="tspan3336-1" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">HP-UX</tspan>     <tspan id="tspan3338-1" y="581.77448" x="1765.8046" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">2.0 to 3.0</tspan>   </text>
+    </g>
+    <g id="g1736">
+      <rect id="rect725" y="591.57617" x="1709.1912" height="305.32996" width="113.50488" stroke-miterlimit="4" style="fill:#ff8187;stroke:#000000;stroke-miterlimit:4"/>
+      <text id="text3334-5" y="742.03534" x="1766.1211" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-rule:nonzero">     <tspan y="742.03534" x="1766.1211" id="tspan3336-4" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">HP-UX</tspan>     <tspan id="tspan3338-8" y="757.50641" x="1766.1211" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">6 to 11</tspan>   </text>
+    </g>
+    <g id="g3713">
+      <path id="path668" d="m 1338.7649,476.74469 h 79.4537 c 9.3982,0 17.0256,8.56567 17.0256,19.11981 0,10.55414 -7.6274,19.1198 -17.0256,19.1198 h -79.4537 c -9.3981,0 -17.0256,-8.56566 -17.0256,-19.1198 0,-10.55414 7.6275,-19.11981 17.0256,-19.11981" inkscape:connector-curvature="0" style="fill:#ff8187;stroke:#000000"/>
+      <text id="text3334-36" y="493.76062" x="1378.0422" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-rule:nonzero">     <tspan id="tspan3338-9" y="493.76062" x="1378.0422" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">System V</tspan>     <tspan id="tspan4249" y="509.23169" x="1378.0422" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">R3</tspan>   </text>
+    </g>
+    <g id="g3695">
+      <rect id="rect964" y="730.79211" x="1321.7393" height="144.26807" width="113.50488" style="fill:#ff8187;stroke:#000000"/>
+      <text id="text3334-00" y="784.5769" x="1377.8875" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-rule:nonzero">     <tspan id="tspan3338-76" y="784.5769" x="1377.8875" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">UnixWare</tspan>     <tspan id="tspan4287" y="800.04797" x="1377.8875" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">1.x to 2.x</tspan>     <tspan y="815.5191" x="1377.8875" id="tspan1655" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">(System V</tspan>     <tspan y="830.99017" x="1377.8875" id="tspan1657" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">R4.2)</tspan>   </text>
+    </g>
+    <path id="path3826" d="m 712.6553,463.80674 v 5.49988" inkscape:connector-curvature="0" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"/>
+    <g id="g3849">
+      <path id="path1199" d="m 678.17811,560.54751 h 79.45347 c 9.3982,0 17.02576,8.064 17.02576,18 0,9.93597 -7.62756,18 -17.02576,18 h -79.45347 c -9.3982,0 -17.02578,-8.06403 -17.02578,-18 0,-9.936 7.62758,-18 17.02578,-18" inkscape:connector-curvature="0" style="fill:#ffc187;stroke:#000000"/>
+      <text id="text3334-646-50" y="576.44366" x="717.76886" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-rule:nonzero">     <tspan id="tspan4861-36" y="576.44366" x="717.76886" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif;fill:#000000">BSD 4.3</tspan>     <tspan id="tspan4972" y="591.91473" x="717.76886" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif;fill:#000000">Tahoe</tspan>   </text>
+    </g>
+    <g id="g3855">
+      <path id="path1212" d="m 678.1781,611.83969 h 79.4535 c 9.39819,0 17.02574,8.064 17.02574,18 0,9.93596 -7.62755,18 -17.02574,18 h -79.4535 c -9.39819,0 -17.02576,-8.06404 -17.02576,-18 0,-9.936 7.62757,-18 17.02576,-18" inkscape:connector-curvature="0" style="fill:#ffc187;stroke:#000000"/>
+      <text id="text3334-646-82" y="627.73584" x="717.76886" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-rule:nonzero">     <tspan id="tspan4861-5" y="627.73584" x="717.76886" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif;fill:#000000">BSD 4.3</tspan>     <tspan id="tspan4989" y="643.20691" x="717.76886" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif;fill:#000000">Reno</tspan>   </text>
+    </g>
+    <g id="g3912">
+      <rect id="rect835" y="915.6131" x="526.83948" height="36" width="113.505" style="fill:#487e40;stroke:#000000"/>
+      <text id="text3334-646-3" y="931.50922" x="583.78082" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#ffffff;fill-rule:nonzero">     <tspan id="tspan4861-875" y="931.50922" x="583.78082" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">FreeBSD</tspan>     <tspan id="tspan5112" y="946.98029" x="583.78082" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">3.0 to 3.2</tspan>   </text>
+    </g>
+    <g id="g3925">
+      <rect id="rect848" y="960.02545" x="526.87506" height="449.88904" width="113.43385" stroke-miterlimit="4" style="fill:#487e40;stroke:#000000;stroke-width:1.07115543;stroke-miterlimit:4"/>
+      <text id="text3334-646-65" y="1193.3101" x="583.58496" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#ffffff;fill-rule:nonzero">     <tspan id="tspan4861-87" y="1193.3101" x="583.58496" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">FreeBSD</tspan>     <tspan id="tspan5095" y="1208.7811" x="583.58496" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">3.3-12.x</tspan>   </text>
+    </g>
+    <g id="g5827">
+      <rect width="112.56461" height="32.249966" x="264.81619" y="1254.5975" id="rect5829" stroke-miterlimit="4" style="fill:#487e40;stroke:#000000;stroke-miterlimit:4"/>
+      <text xml:space="preserve" x="320.59238" y="1268.7546" id="text5831" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#ffffff;fill-rule:nonzero">     <tspan x="320.59238" y="1268.7546" id="tspan5833" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">Linux</tspan>     <tspan x="320.59238" y="1284.2257" id="tspan5835" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">3.x</tspan>   </text>
+    </g>
+    <g id="g5839">
+      <rect id="rect5841" y="1286.9386" x="264.90741" height="91.024307" width="112.38216" stroke-miterlimit="4" style="fill:#487e40;stroke:#000000;stroke-width:1.18241632;stroke-miterlimit:4"/>
+      <text id="text5843" y="1334.0408" x="321.28198" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#ffffff;fill-rule:nonzero">     <tspan id="tspan5845" y="1334.0408" x="321.28198" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">Linux</tspan>     <tspan id="tspan5847" y="1349.5118" x="321.28198" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">4.x</tspan>   </text>
+    </g>
+    <g id="g5863">
+      <rect width="112.87142" height="87.202415" x="1190.1876" y="1319.6642" id="rect5865" stroke-miterlimit="4" style="clip-rule:nonzero;fill:#ffc187;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;shape-rendering:auto"/>
+      <text xml:space="preserve" x="1254.8922" y="1358.4049" id="text5867" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-rule:nonzero">     <tspan x="1254.8922" y="1358.4049" id="tspan5869" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">OpenServer</tspan>     <tspan x="1254.8922" y="1373.876" id="tspan5871" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">10.x</tspan>   </text>
+    </g>
+    <use x="1842" y="0" xlink:href="#g6790" id="use1429" width="100%" height="100%"/>
+    <g transform="matrix(1,0,0,1.2909491,-1.4257813e-6,-313.477)" id="g5278" style="stroke-width:0.88012701">
+      <rect width="113.41317" height="275.95114" x="662.55011" y="1058.7047" id="rect5077" stroke-miterlimit="4" style="fill:#487e40;stroke:#000000;stroke-width:0.96085858;stroke-miterlimit:4"/>
+      <text id="text3334-646-65-8" y="1355.7345" x="635.966" xml:space="preserve" transform="scale(1.1361994,0.8801272)" font-size="10.561526px" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-size:10.5615263px;font-family:sans-serif;text-anchor:middle;fill:#ffffff;fill-rule:nonzero;stroke-width:0.77462399">     <tspan id="tspan5095-2" y="1355.7345" x="635.966" font-size="13.616525px" style="font-size:13.6165247px;font-family:sans-serif;stroke-width:0.77462399">DragonFly</tspan>     <tspan y="1369.3511" x="635.966" id="tspan1828" font-size="13.616525px" style="font-size:13.6165247px;font-family:sans-serif;stroke-width:0.77462399">BSD</tspan>     <tspan y="1382.9675" x="635.966" id="tspan1830" font-size="13.616525px" style="font-size:13.6165247px;font-family:sans-serif;stroke-width:0.77462399">1.0 to 4.8</tspan>   </text>
+    </g>
+    <g id="g1420">
+      <path d="m 805.3376,589.64132 h 83.48316 c 9.87481,0 17.88922,8.22077 17.88922,18.35 0,10.1292 -8.01441,18.34996 -17.88922,18.34996 H 805.3376 c -9.87485,0 -17.88922,-8.22076 -17.88922,-18.34996 0,-10.12923 8.01437,-18.35 17.88922,-18.35" id="path1414" inkscape:connector-curvature="0" style="fill:#487e40;stroke:#000000"/>
+      <text xml:space="preserve" x="847.03766" y="613.01483" id="text1418" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#ffffff;fill-rule:nonzero">     <tspan x="847.03766" y="613.01483" id="tspan1416" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">BSD Net/1</tspan>   </text>
+    </g>
+    <path d="M 385.27377,1408.8288 V 7.42026" id="path1432" stroke-miterlimit="4" inkscape:connector-curvature="0" style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.02094734;stroke-miterlimit:4;stroke-dasharray:1.02094734, 3.06284202;stroke-dashoffset:0"/>
+    <text id="text3334-76-3" y="507.32733" x="251.98405" xml:space="preserve" font-weight="normal" font-style="normal" style="font-style:normal;font-weight:normal;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-rule:nonzero">    <tspan id="tspan4721-7" y="507.32733" x="251.98405" font-size="15.471087px" style="font-size:15.47108746px;font-family:sans-serif">Unix-like systems</tspan>  </text>
+    <line stroke-linecap="null" stroke-linejoin="null" id="svg_3" y2="1318" x2="1246" y1="1286" x1="1246" fill-opacity="null" stroke-opacity="null" stroke-width="NaN" style="fill:none;stroke:#000000"/>
+    <line stroke-linecap="null" stroke-linejoin="null" id="svg_4" y2="1319" x2="1246" y1="1286" x1="1375" fill-opacity="null" stroke-opacity="null" stroke-width="NaN" style="fill:none;stroke:#000000"/>
+    <g transform="translate(-0.09124756,123.36536)" id="g5827-9">
+      <rect width="112.56461" height="32.249966" x="264.81619" y="1254.5975" id="rect5829-1" stroke-miterlimit="4" style="fill:#487e40;stroke:#000000;stroke-miterlimit:4"/>
+    </g>
+    <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none" x="282.79446" y="1398.0387" id="text657"><tspan sodipodi:role="line" x="282.79446" y="1398.0387" id="tspan659" style="font-size:15.47108746px;line-height:0;fill:#ffffff">Linux 5.x</tspan></text>
+  </g>
+</svg>

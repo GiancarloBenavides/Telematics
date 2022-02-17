@@ -114,7 +114,7 @@
 * Con el desarrollo de redes invento el [Cluster de computadoras][32_5].
 * Patrocinaron [X window][32_6] que fue desarrollado en el [MIT][21_4].
 
-![IBM 704 mainframe](img/dec_pdp.png "IBM 704")
+![Plataforma DEC-PDP](img/dec_pdp.png "DEC-PDP")
 
 
 # 3.3. Caso de estudio - CP/M
@@ -168,7 +168,7 @@
 * La función principal era el _monitor residente_.
 * Ejecutaba automáticamente un nuevo programa cada vez que  otro terminaba.
 
-![IBM 704 mainframe](img/ibm_704_mainframe.png "IBM 704")
+![Unix](img/Unix_history-simple.svg "Unix")
 
 
 ---
