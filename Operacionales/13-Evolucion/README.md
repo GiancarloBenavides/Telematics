@@ -109,28 +109,32 @@
 * Domino el mercado con su plataforma [PDP][32_1].
 * Eventualmente [suministró a sus clientes SO][32_2] según características.
 * Fueron defensores de los sistemas de [tiempo compartido][32_3].
-* Con el desarrollo de redes invento el [Clúster de computadoras][32_0].
-* Patrocinaron [X window][32_4] que fue desarrollado en el [MIT][21_4].
- 
-* Suministró [OS/8][22_2] para los [PDP-8][21_12] mas grandes.
-* Suministró [RT-11][22_3] para los [S/360][21_12] mas pequeños.
-
-[32_0]:https://es.wikipedia.org/wiki/Minicomputadora
-[32_1]:https://es.wikipedia.org/wiki/Programmed_Data_Processor
-[32_2]:https://en.wikipedia.org/wiki/Category:DEC_operating_systems
-[32_3]:https://es.wikipedia.org/wiki/Cl%C3%BAster_de_computadoras
-[32_4]:https://es.wikipedia.org/wiki/Sistema_de_ventanas_X
+* Desarrollo una pila de [protocolos de red][32_4].
+* Con el desarrollo de redes invento el [Clúster de computadoras][32_5].
+* Patrocinaron [X window][32_6] que fue desarrollado en el [MIT][21_4].
 
 
 # 3.3. Caso de estudio - CP/M
 * Desarrollado en 1974 por _Gary Kildall_.
-* Desarrollado para [__IBM-704__][11_8] de 36 Bit.
+* Desarrollado para [__Intel 8080__][33_1] de 8 Bit.
 * Basado en el sistemas _OS/8_ y _RT-11_ de _DEC_.
 * Programado en	_PL/M_.
-* La función principal era el _monitor residente_.
-* Ejecutaba automáticamente un nuevo programa cada vez que  otro terminaba.
+* Este sistema incluia un controlador de discos
+* Incluía sistemas [BIOS][33_2] y [CPP][33_4].
 
 ![IBM 704 mainframe](img/ibm_704_mainframe.png "IBM 704")
+
+[32_0]:https://es.wikipedia.org/wiki/Minicomputadora
+[32_1]:https://es.wikipedia.org/wiki/Programmed_Data_Processor
+[32_2]:https://en.wikipedia.org/wiki/Category:DEC_operating_systems
+[32_3]:https://en.wikipedia.org/wiki/Time-sharing_system_evolution
+[32_4]:https://en.wikipedia.org/wiki/DECnet
+[32_5]:https://es.wikipedia.org/wiki/Cl%C3%BAster_de_computadoras
+[32_6]:https://es.wikipedia.org/wiki/Sistema_de_ventanas_X
+[33_1]:https://es.wikipedia.org/wiki/Intel_8080
+[33_2]:https://es.wikipedia.org/wiki/BIOS
+[33_3]:https://en.wikipedia.org/wiki/CP/M#BDOS
+[33_4]:https://es.wikipedia.org/wiki/Interfaz_de_l%C3%ADnea_de_comandos
 
 
 # 4. Cuarta generación
@@ -151,6 +155,7 @@
 * Ejecutaba automáticamente un nuevo programa cada vez que  otro terminaba.
 
 ![IBM 704 mainframe](img/ibm_704_mainframe.png "IBM 704")
+
 
 ---
 * Procesamiento [por lotes][22] en un [ciclo continuo][23].
