@@ -129,6 +129,17 @@
 
 ![DEC PDP-8/E minicomputer](img/altair_microcomputer.png "DEC PDP-8/E")
 
+# 3.4. Caso de estudio - Unix
+* Inicio su desarrollo 1969.
+* Inicio como __Unics__ un proyecto personal.
+* Impulsado por ex-programadores de [Multics][21_5].
+* Desarrollado _Ken Thompson_ y _Dennis Richie_.
+* mas tarde financiado por [AT&T][31_15] en [Bell Labs][11_10]. 
+* Desarrollado para [PDP-7][21_8] de 18 Bit.
+* Desarrollado a la par del [lenguaje C][31_12].
+
+![Work Setup](img/work_setup_richie_thompson.png "Dennis Richie")
+
 
 # 4. Cuarta generación
 * Después de [1980][4_0] apoyados en [LSI][4_1].
@@ -136,7 +147,7 @@
 * Incluyen [gestores de ventanas][4_3].
 * Gestión de [redes][4_4] y procesamiento [distribuido][4_5].
 * Interfaces de [programación estándar][4_6].
-* Programación en C y otros [lenguajes de medio nivel][2_7].
+* Programación en [C][31_12] y otros [lenguajes de medio nivel][2_7].
 
 
 # 4.1. Ejemplos 4 generación - x86
@@ -149,6 +160,9 @@
 * __2021:__ [Fuchsia][43_6] - diseñado por [Google][41_11].
 
 
+![Unix](img/Unix_history-simple.svg "Unix")
+
+
 # 4.2. Ejemplos  4 generación - ARM
 * __2007:__ [iOS][41_9] - diseñado por [Apple][41_6].
 * __2008:__ [__Android__][41_10] - diseñado por [Google][41_11].
@@ -156,19 +170,12 @@
 
 # 4.3. Mención especial
 * __1982:__ [SunOS][43_1] - diseñado por [Oracle][43_2].
-* __1983:__ [GNU][43_3] - diseñado por [Free Software Foundation][43_4].
+* __1983:__ [__GNU__][43_3] - diseñado por [Free Software Foundation][43_4].
 * __1989:__ [NeXTSTEP][43_5] - diseñado por [Apple][41_6].
 
 
-# 4.2. Caso de estudio - Unix
-* Desarrollado en 1956 por _General Motors Research Laboratories_.
-* Desarrollado para [__IBM-704__][11_8] de 36 Bit.
-* Basado en el sistema monitor del _IBM 701_.
-* Programado en	_lenguaje ensamblador_.
-* La función principal era el _monitor residente_.
-* Ejecutaba automáticamente un nuevo programa cada vez que  otro terminaba.
 
-![Unix](img/Unix_history-simple.svg "Unix")
+
 
 
 [1_0]:https://es.wikipedia.org/wiki/Categor%C3%ADa:Ordenadores_de_la_d%C3%A9cada_de_1950
@@ -288,13 +295,6 @@
 [43_4]:https://es.wikipedia.org/wiki/Free_Software_Foundation
 [43_5]:https://es.wikipedia.org/wiki/NEXTSTEP
 [43_6]:https://es.wikipedia.org/wiki/Google_Fuchsia
-
-
-
-[11_]:https://es.wikipedia.org/wiki/Cargador_de_arranque
-[26]:https://es.wikipedia.org/wiki/Sistema_embebido
-[29]:https://es.wikipedia.org/wiki/Perro_guardi%C3%A1n_(electr%C3%B3nica)#
-
 
 ---
 ## Mas Recursos
