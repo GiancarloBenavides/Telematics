@@ -94,19 +94,39 @@
 
 
 # 3.1. Ejemplos de tercera generación
-* __1970:__ [Unics][31_1] - por [Thompson][31_2] y [Ritchie][31_3] para [PDP-7][21_8].
+* __1970:__ [Unics][31_1] - por [Thompson][31_2] y [__Ritchie__][31_3] para [PDP-7][21_8].
 * __1971:__ [OS/8][31_4] - construido por [DEC][21_7] para [PDP-8][31_5].
 * __1973:__ [RT-11][31_6] - construido por [DEC][21_7] para [PDP-11][31_7].
 * __1973:__ [Alto OS][31_8] - construido por [Xerox][31_9] para [Xerox Alto][31_10].
 * __1974:__ [__Unix V__][31_11] - licenciado a IE construido en [C][31_12] por [Bell Labs][11_10].
-* __1975:__ [__Unix VI__][31_11] - financiado por [Bell Labs][11_10] de [AT&T][31_13].
+* __1974:__ [CP/M][31_13] - construido por [__Kildall__][31_14] basado en [OS/8][31_4] y [RT-11][31_6].
+* __1975:__ [Unix VI][31_11] - financiado por [Bell Labs][11_10] de [AT&T][31_15].
+* __1977:__ [BSD][31_16] - diseñado por [UC Berkeley][31_17]. 
 
 
-# 3.2. Caso de estudio - CP/M
-* Desarrollado en 1956 por _General Motors Research Laboratories_.
+# 3.2. Dominio de DEC en los mini-ordenadores
+* DEC suministró [mini-ordenadores][32_0] desde 1957.
+* Domino el mercado con su plataforma [PDP][32_1].
+* Eventualmente [suministró a sus clientes SO][32_2] según características.
+* Fueron defensores de los sistemas de [tiempo compartido][32_3].
+* Con el desarrollo de redes invento el [Clúster de computadoras][32_0].
+* Patrocinaron [X window][32_4] que fue desarrollado en el [MIT][21_4].
+ 
+* Suministró [OS/8][22_2] para los [PDP-8][21_12] mas grandes.
+* Suministró [RT-11][22_3] para los [S/360][21_12] mas pequeños.
+
+[32_0]:https://es.wikipedia.org/wiki/Minicomputadora
+[32_1]:https://es.wikipedia.org/wiki/Programmed_Data_Processor
+[32_2]:https://en.wikipedia.org/wiki/Category:DEC_operating_systems
+[32_3]:https://es.wikipedia.org/wiki/Cl%C3%BAster_de_computadoras
+[32_4]:https://es.wikipedia.org/wiki/Sistema_de_ventanas_X
+
+
+# 3.3. Caso de estudio - CP/M
+* Desarrollado en 1974 por _Gary Kildall_.
 * Desarrollado para [__IBM-704__][11_8] de 36 Bit.
-* Basado en el sistema monitor del _IBM 701_.
-* Programado en	_lenguaje ensamblador_.
+* Basado en el sistemas _OS/8_ y _RT-11_ de _DEC_.
+* Programado en	_PL/M_.
 * La función principal era el _monitor residente_.
 * Ejecutaba automáticamente un nuevo programa cada vez que  otro terminaba.
 
@@ -207,11 +227,16 @@
 [31_6]:https://es.wikipedia.org/wiki/RT-11
 [31_7]:https://es.wikipedia.org/wiki/PDP-11
 [31_8]:https://es.wikipedia.org/wiki/Xerox_Alto
-[31_9]:https://en.wikipedia.org/wiki/PARC_(company)#
+[31_9]:https://es.wikipedia.org/wiki/PARC
 [31_10]:https://es.wikipedia.org/wiki/Xerox_Alto
 [31_11]:https://en.wikipedia.org/wiki/Research_Unix
 [31_12]:https://es.wikipedia.org/wiki/C_(lenguaje_de_programaci%C3%B3n)#
-[31_13]:https://es.wikipedia.org/wiki/AT%26T
+[31_13]:https://es.wikipedia.org/wiki/CP/M
+[31_14]:https://es.wikipedia.org/wiki/Gary_Kildall
+[31_15]:https://es.wikipedia.org/wiki/AT%26T
+[31_16]:https://es.wikipedia.org/wiki/Berkeley_Software_Distribution
+[31_17]:https://es.wikipedia.org/wiki/Universidad_de_California_en_Berkeley
+
 ---
 [11_]:https://es.wikipedia.org/wiki/Cargador_de_arranque
 [26]:https://es.wikipedia.org/wiki/Sistema_embebido
