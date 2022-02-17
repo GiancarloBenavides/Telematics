@@ -122,9 +122,10 @@
 * Desarrollado para [__Intel 8080__][33_1] de 8 Bit.
 * Basado en el sistemas _OS/8_ y _RT-11_ de _DEC_.
 * Programado en	_PL/M_.
-* monousuario y monotarea
+* Sistema mono-usuario y mono-tarea.
 * Este sistema incluía un primitivo controlador de discos.
 * Incluía sistemas [BIOS][33_2] y [CPP][33_4].
+* Altair 8800 Instructional [Videos](https://www.youtube.com/watch?v=WAYcLM5krB8&list=PLB3mwSROoJ4KLWM8KwK0cD1dhX35wILBj&index=9)
 
 ![DEC PDP-8/E minicomputer](img/altair_microcomputer.png "DEC PDP-8/E")
 
@@ -138,7 +139,50 @@
 * Programación en C y otros [lenguajes de medio nivel][36].
 
 
-# 4.1. Caso de estudio - Unix
+# 4.1. Ejemplos 4 generación - x86
+* __1981:__ [MS-DOS][41_1] - diseñado por [Microsoft][41_2]. 
+* __1982:__ [QNX][41_3] - diseñado por [BlackBerry][41_4].
+* __1984:__ [Mac OS][41_5] - diseñado por [Apple][41_6].
+* __1985:__ [Windows][41_7] - diseñado por [Microsoft][41_2].
+* __1991:__ [__GNU/Linux__][41_8] - que es software libre.
+* __2011:__ [Chrome OS][41_12] - diseñado por [Google][41_11].
+* __2021:__ [Fuchsia][43_6] - diseñado por [Google][41_11].
+
+
+# 4.2. Ejemplos  4 generación - ARM
+* __2007:__ [iOS][41_9] - diseñado por [Apple][41_6].
+* __2008:__ [__Android__][41_10] - diseñado por [Google][41_11].
+
+
+# 4.3. Mención especial
+* __1982:__ [SunOS][43_1] - diseñado por [Oracle][43_2].
+* __1983:__ [GNU][43_3] - diseñado por [Free Software Foundation][43_4].
+* __1989:__ [NeXTSTEP][43_5] - diseñado por [Apple][41_6].
+
+
+
+[41_1]:https://es.wikipedia.org/wiki/MS-DOS
+[41_2]:https://es.wikipedia.org/wiki/Microsoft
+[41_3]:https://es.wikipedia.org/wiki/QNX
+[41_4]:https://es.wikipedia.org/wiki/BlackBerry_Limited
+[41_5]:https://es.wikipedia.org/wiki/MacOS
+[41_6]:https://es.wikipedia.org/wiki/Apple
+[41_7]:https://es.wikipedia.org/wiki/Microsoft_Windows
+[41_8]:https://es.wikipedia.org/wiki/GNU/Linux
+[41_9]:https://es.wikipedia.org/wiki/IOS
+[41_10]:https://es.wikipedia.org/wiki/Android
+[41_11]:https://es.wikipedia.org/wiki/Google
+[41_12]:https://es.wikipedia.org/wiki/Chrome_OS
+
+[43_1]:https://es.wikipedia.org/wiki/SunOS
+[43_2]:https://es.wikipedia.org/wiki/Oracle_Corporation
+[43_3]:https://es.wikipedia.org/wiki/GNU
+[43_4]:https://es.wikipedia.org/wiki/Free_Software_Foundation
+[43_5]:https://es.wikipedia.org/wiki/NEXTSTEP
+[43_6]:https://es.wikipedia.org/wiki/Google_Fuchsia
+
+
+# 4.2. Caso de estudio - Unix
 * Desarrollado en 1956 por _General Motors Research Laboratories_.
 * Desarrollado para [__IBM-704__][11_8] de 36 Bit.
 * Basado en el sistema monitor del _IBM 701_.
