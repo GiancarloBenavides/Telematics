@@ -132,11 +132,11 @@
 
 # 4. Cuarta generación
 * Después de [1980][4_0] apoyados en [LSI][4_1].
-* Shell interactivo GUI.
-* Gestores de ventanas.
-* Gestión de redes y procesamiento distribuido.
-* interfaces de programación estándar.
-* Programación en C y otros [lenguajes de medio nivel][36].
+* Sistemas con Shell interactivo [GUI][4_2].
+* Incluyen [gestores de ventanas][4_3].
+* Gestión de [redes][4_4] y procesamiento [distribuido][4_5].
+* Interfaces de [programación estándar][4_6].
+* Programación en C y otros [lenguajes de medio nivel][2_7].
 
 
 # 4.1. Ejemplos 4 generación - x86
@@ -158,28 +158,6 @@
 * __1982:__ [SunOS][43_1] - diseñado por [Oracle][43_2].
 * __1983:__ [GNU][43_3] - diseñado por [Free Software Foundation][43_4].
 * __1989:__ [NeXTSTEP][43_5] - diseñado por [Apple][41_6].
-
-
-
-[41_1]:https://es.wikipedia.org/wiki/MS-DOS
-[41_2]:https://es.wikipedia.org/wiki/Microsoft
-[41_3]:https://es.wikipedia.org/wiki/QNX
-[41_4]:https://es.wikipedia.org/wiki/BlackBerry_Limited
-[41_5]:https://es.wikipedia.org/wiki/MacOS
-[41_6]:https://es.wikipedia.org/wiki/Apple
-[41_7]:https://es.wikipedia.org/wiki/Microsoft_Windows
-[41_8]:https://es.wikipedia.org/wiki/GNU/Linux
-[41_9]:https://es.wikipedia.org/wiki/IOS
-[41_10]:https://es.wikipedia.org/wiki/Android
-[41_11]:https://es.wikipedia.org/wiki/Google
-[41_12]:https://es.wikipedia.org/wiki/Chrome_OS
-
-[43_1]:https://es.wikipedia.org/wiki/SunOS
-[43_2]:https://es.wikipedia.org/wiki/Oracle_Corporation
-[43_3]:https://es.wikipedia.org/wiki/GNU
-[43_4]:https://es.wikipedia.org/wiki/Free_Software_Foundation
-[43_5]:https://es.wikipedia.org/wiki/NEXTSTEP
-[43_6]:https://es.wikipedia.org/wiki/Google_Fuchsia
 
 
 # 4.2. Caso de estudio - Unix
@@ -289,7 +267,33 @@
 [33_3]:https://en.wikipedia.org/wiki/CP/M#BDOS
 [33_4]:https://es.wikipedia.org/wiki/Interfaz_de_l%C3%ADnea_de_comandos
 
+[4_0]:https://es.wikipedia.org/wiki/Anexo:Cronolog%C3%ADa_de_los_sistemas_operativos#1980
+[4_1]:https://es.wikipedia.org/wiki/Integraci%C3%B3n_a_muy_gran_escala
+[4_2]:https://es.wikipedia.org/wiki/Interfaz_gr%C3%A1fica_de_usuario
+[4_3]:https://es.wikipedia.org/wiki/Gestor_de_ventanas
+[4_4]:https://es.wikipedia.org/wiki/Arquitectura_de_red
+[4_5]:https://es.wikipedia.org/wiki/Computaci%C3%B3n_distribuida
+[4_6]:https://es.wikipedia.org/wiki/Interfaz_de_programaci%C3%B3n_de_aplicaciones
 
+[41_1]:https://es.wikipedia.org/wiki/MS-DOS
+[41_2]:https://es.wikipedia.org/wiki/Microsoft
+[41_3]:https://es.wikipedia.org/wiki/QNX
+[41_4]:https://es.wikipedia.org/wiki/BlackBerry_Limited
+[41_5]:https://es.wikipedia.org/wiki/MacOS
+[41_6]:https://es.wikipedia.org/wiki/Apple
+[41_7]:https://es.wikipedia.org/wiki/Microsoft_Windows
+[41_8]:https://es.wikipedia.org/wiki/GNU/Linux
+[41_9]:https://es.wikipedia.org/wiki/IOS
+[41_10]:https://es.wikipedia.org/wiki/Android
+[41_11]:https://es.wikipedia.org/wiki/Google
+[41_12]:https://es.wikipedia.org/wiki/Chrome_OS
+
+[43_1]:https://es.wikipedia.org/wiki/SunOS
+[43_2]:https://es.wikipedia.org/wiki/Oracle_Corporation
+[43_3]:https://es.wikipedia.org/wiki/GNU
+[43_4]:https://es.wikipedia.org/wiki/Free_Software_Foundation
+[43_5]:https://es.wikipedia.org/wiki/NEXTSTEP
+[43_6]:https://es.wikipedia.org/wiki/Google_Fuchsia
 ---
 [11_]:https://es.wikipedia.org/wiki/Cargador_de_arranque
 [26]:https://es.wikipedia.org/wiki/Sistema_embebido
