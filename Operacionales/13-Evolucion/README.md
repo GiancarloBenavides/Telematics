@@ -114,6 +114,8 @@
 * Con el desarrollo de redes invento el [Cluster de computadoras][32_5].
 * Patrocinaron [X window][32_6] que fue desarrollado en el [MIT][21_4].
 
+![IBM 704 mainframe](img/dec_pdp_8e.png "IBM 704")
+
 
 # 3.3. Caso de estudio - CP/M
 * Desarrollado en 1974 por _Gary Kildall_.
@@ -124,7 +126,7 @@
 * Este sistema incluía un primitivo controlador de discos.
 * Incluía sistemas [BIOS][33_2] y [CPP][33_4].
 
-![IBM 704 mainframe](img/altair_microcomputer.png "IBM 704")
+![DEC PDP-8/E minicomputer](img/altair_microcomputer.png "DEC PDP-8/E")
 
 
 # 4. Cuarta generación
