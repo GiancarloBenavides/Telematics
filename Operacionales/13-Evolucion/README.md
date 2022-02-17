@@ -111,7 +111,7 @@
 * Eventualmente [suministró a sus clientes SO][32_2] según características.
 * Fueron defensores de los sistemas de [tiempo compartido][32_3].
 * Desarrollo una pila de [protocolos de red][32_4].
-* Con el desarrollo de redes invento el [Clúster de computadoras][32_5].
+* Con el desarrollo de redes invento el [Cluster de computadoras][32_5].
 * Patrocinaron [X window][32_6] que fue desarrollado en el [MIT][21_4].
 
 
@@ -120,10 +120,11 @@
 * Desarrollado para [__Intel 8080__][33_1] de 8 Bit.
 * Basado en el sistemas _OS/8_ y _RT-11_ de _DEC_.
 * Programado en	_PL/M_.
-* Este sistema incluia un controlador de discos
+* monousuario y monotarea
+* Este sistema incluía un primitivo controlador de discos.
 * Incluía sistemas [BIOS][33_2] y [CPP][33_4].
 
-![IBM 704 mainframe](img/ibm_704_mainframe.png "IBM 704")
+![IBM 704 mainframe](img/altair_microcomputer.png "IBM 704")
 
 
 # 4. Cuarta generación
