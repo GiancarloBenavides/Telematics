@@ -171,12 +171,6 @@
 ![Unix](img/Unix_history-simple.svg "Unix")
 
 
----
-* Procesamiento [por lotes][22] en un [ciclo continuo][23].
-* Hoy típico de [sistemas embebidos][26].
-* Necesario un temporizador o [perro guardian][29].
-
-
 [1_0]:https://es.wikipedia.org/wiki/Categor%C3%ADa:Ordenadores_de_la_d%C3%A9cada_de_1950
 [1_1]:https://es.wikipedia.org/wiki/Sistema_embebido
 [1_2]:https://es.wikipedia.org/wiki/Monitor_residente
@@ -294,7 +288,9 @@
 [43_4]:https://es.wikipedia.org/wiki/Free_Software_Foundation
 [43_5]:https://es.wikipedia.org/wiki/NEXTSTEP
 [43_6]:https://es.wikipedia.org/wiki/Google_Fuchsia
----
+
+
+
 [11_]:https://es.wikipedia.org/wiki/Cargador_de_arranque
 [26]:https://es.wikipedia.org/wiki/Sistema_embebido
 [29]:https://es.wikipedia.org/wiki/Perro_guardi%C3%A1n_(electr%C3%B3nica)#
