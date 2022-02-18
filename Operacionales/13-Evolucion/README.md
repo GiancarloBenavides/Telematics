@@ -159,11 +159,10 @@
 * __2011:__ [Chrome OS][41_12] - diseñado por [Google][41_11].
 * __2021:__ [Fuchsia][43_6] - diseñado por [Google][41_11].
 
-
 ![Unix](img/Unix_history-simple.svg "Unix")
 
 
-# 4.2. Ejemplos  4 generación - ARM
+# 4.2. Generación - ARM
 * __2007:__ [iOS][41_9] - diseñado por [Apple][41_6].
 * __2008:__ [__Android__][41_10] - diseñado por [Google][41_11].
 
@@ -172,10 +171,6 @@
 * __1982:__ [SunOS][43_1] - diseñado por [Oracle][43_2].
 * __1983:__ [__GNU__][43_3] - diseñado por [Free Software Foundation][43_4].
 * __1989:__ [NeXTSTEP][43_5] - diseñado por [Apple][41_6].
-
-
-
-
 
 
 [1_0]:https://es.wikipedia.org/wiki/Categor%C3%ADa:Ordenadores_de_la_d%C3%A9cada_de_1950
@@ -295,6 +290,7 @@
 [43_4]:https://es.wikipedia.org/wiki/Free_Software_Foundation
 [43_5]:https://es.wikipedia.org/wiki/NEXTSTEP
 [43_6]:https://es.wikipedia.org/wiki/Google_Fuchsia
+
 
 ---
 ## Mas Recursos
