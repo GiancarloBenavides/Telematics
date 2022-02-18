@@ -159,7 +159,7 @@
 * __2011:__ [Chrome OS][41_12] - diseñado por [Google][41_11].
 * __2021:__ [Fuchsia][43_6] - diseñado por [Google][41_11].
 
-![Unix](img/Unix_history-simple.svg "Unix")
+![Unix](img/multics_influence.svg "Unix")
 
 
 # 4.2. Generación - ARM
