@@ -23,6 +23,6 @@ Notas y algoritmos para el curso de Sistemas Operacionales I 2021-B
 [12]: https://github.com/GiancarloBenavides/Telematics/tree/master/Operacionales/12-Antecedentes
 [13]: https://github.com/GiancarloBenavides/Telematics/tree/master/Operacionales/13-Evolucion
 [20]: https://github.com/GiancarloBenavides/Telematics/tree/master/Operacionales/20-Virtualizacion
-[30]: https://github.com/GiancarloBenavides/Telematics/tree/master/Operacionales/30-Procesos
-[40]: https://github.com/GiancarloBenavides/Telematics/tree/master/Operacionales/40-Memoria
+[30]: https://github.com/GiancarloBenavides/Telematics/tree/master/Operacionales/30-Memoria
+[40]: https://github.com/GiancarloBenavides/Telematics/tree/master/Operacionales/40-Procesos
 [50]: https://github.com/GiancarloBenavides/Telematics/tree/master/Operacionales/50-Archivos
