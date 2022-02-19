@@ -24,17 +24,15 @@
 * Asignar permisos a los roles y usuarios 
 
 
-### 1.1. Algunos ejemplos Linux
-| Comando |	Descripción |
-|---|---|
-| useradd | Agrega un nuevo usuario |
-| userdel | Borra un usuario |
-| passwd | Permite cambiar la contraseña |
-| groupadd | Agrega un nuevo grupo de trabajo |
-| groupdel | Borra un grupo de trabajo |
-| adduser | Agrega usuarios a un grupo |
-| deluser | Elimina usuarios a un grupo |
+## 1.1. Algunos ejemplos Linux
+| Comando |	Descripción | Comando |	Descripción |
+|:---:|---|:---:|---|
+| [useradd][man1] | Agrega un nuevo usuario | groupadd | Agrega un nuevo grupo de trabajo |
+| userdel | Borra un usuario | groupdel | Borra un grupo de trabajo |
+| passwd | Permite cambiar la contraseña | adduser | Agrega usuarios a un grupo |
+| id | Muestra datos de identificación del usuario | deluser | Elimina usuarios a un grupo |
 
+[man1]:/?qf=useradd&af=0&sf=0&of=Ubuntu&tf=2
 
 ### 1.2. Caso de uso
 ```ps
