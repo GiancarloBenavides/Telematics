@@ -24,16 +24,26 @@
 * Asignar permisos a los roles y usuarios 
 
 
-## 1.1. Algunos ejemplos Linux
-| Comando |	Descripción | Comando |	Descripción |
-|:---:|---|:---:|---|
-| [useradd][man1] | Agrega un nuevo usuario | groupadd | Agrega un nuevo grupo de trabajo |
-| [userdel][man2] | Borra un usuario | groupdel | Borra un grupo de trabajo |
-| passwd | Permite cambiar la contraseña | adduser | Agrega usuarios a un grupo |
-| id | Muestra datos de identificación del usuario | deluser | Elimina usuarios a un grupo |
+### 1.1. Algunos ejemplos Linux
+| Comando |	Descripción |
+|:---|:---|
+| [useradd][man8_1] | Agrega un nuevo usuario |
+| [userdel][man8_2]   | Borra un usuario |
+| [passwd][man8_3]   | Permite cambiar la contraseña |
+| [id][man8_4]        | Muestra identificación del usuario |
+| [groupadd][man8_5]  | Agrega un nuevo grupo de trabajo |
+| [groupdel][man8_6]  | Borra un grupo de trabajo |
+| [adduser][man8_7]   | Agrega usuarios a un grupo |
+| [deluser][man8_8]   | Elimina usuarios a un grupo |
 
-[man1]:/?qf=useradd&af=0&sf=0&of=Ubuntu&tf=2
-[man2]:https://man.cx/userdel(8)/es
+[man8_1]:http://www.polarhome.com/service/man/?qf=useradd&af=0&sf=0&of=Ubuntu&tf=2
+[man8_2]:http://www.polarhome.com/service/man/?qf=userdel&af=0&sf=0&of=Ubuntu&tf=2
+[man8_3]:http://www.polarhome.com/service/man/?qf=passwd&af=0&sf=0&of=Ubuntu&tf=2
+[man8_4]:http://www.polarhome.com/service/man/?qf=id&af=0&sf=0&of=Ubuntu&tf=2
+[man8_5]:http://www.polarhome.com/service/man/?qf=groupadd&af=0&sf=0&of=Ubuntu&tf=2
+[man8_6]:http://www.polarhome.com/service/man/?qf=groupdel&af=0&sf=0&of=Ubuntu&tf=2
+[man8_7]:http://www.polarhome.com/service/man/?qf=adduser&af=0&sf=0&of=Ubuntu&tf=2
+[man8_8]:http://www.polarhome.com/service/man/?qf=deluser&af=0&sf=0&of=Ubuntu&tf=2
 
 ### 1.2. Caso de uso
 ```ps
@@ -41,6 +51,8 @@ sudo useradd –g "operativos" –d /home/developer –m –s /bin/bash develope
 sudo groupadd "operativos"
 sudo useradd –g "operativos" –d /home/developer –m –s /bin/bash developer
 nano /etc/passwd
+
+adduser {{username}}
 ```
 
 
