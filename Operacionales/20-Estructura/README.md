@@ -28,11 +28,12 @@
 | Comando |	Descripción | Comando |	Descripción |
 |:---:|---|:---:|---|
 | [useradd][man1] | Agrega un nuevo usuario | groupadd | Agrega un nuevo grupo de trabajo |
-| userdel | Borra un usuario | groupdel | Borra un grupo de trabajo |
+| [userdel][man2] | Borra un usuario | groupdel | Borra un grupo de trabajo |
 | passwd | Permite cambiar la contraseña | adduser | Agrega usuarios a un grupo |
 | id | Muestra datos de identificación del usuario | deluser | Elimina usuarios a un grupo |
 
 [man1]:/?qf=useradd&af=0&sf=0&of=Ubuntu&tf=2
+[man2]:https://man.cx/userdel(8)/es
 
 ### 1.2. Caso de uso
 ```ps
