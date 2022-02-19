@@ -2,12 +2,16 @@
 <p><code>Fundamentos de sistemas operativos</code></p>
 <p>Creado por <code>Giancarlo Ortiz</code> para explicar los fundamentos de los <code>Sistemas operativos</code></p>
 
+## Estructura
+Un SO es complejo y solo puede entenderse dividiendo su operación en piezas funcionales mas pequeñas, definiendo cuidadosamente entradas, salidas de cada proceso.
+
 ## Agenda
 1. [Primera generación](#1-primera-generación).
 1. [Segunda generación](#2-segunda-generación).
 1. [Tercera generación](#3-tercera-generación).
 1. [Cuarta generación](#4-cuarta-generación).
 
+<br>
 
 ---
 # 1. Primera generación

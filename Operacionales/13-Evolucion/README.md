@@ -2,12 +2,16 @@
 <p><code>Fundamentos de sistemas operativos</code></p>
 <p>Creado por <code>Giancarlo Ortiz</code> para explicar los fundamentos de los <code>Sistemas operativos</code></p>
 
+## Fundamentos
+Los primeros sistemas de procesamiento digital, eran grandes máquinas operadas desde una consola maestra por los programadores, que carecían de todas las funciones que realiza un sistema operativo, desperdiciando un valiosos recurso computacional.
+
 ## Agenda
 1. [Primera generación](#1-primera-generación).
 1. [Segunda generación](#2-segunda-generación).
 1. [Tercera generación](#3-tercera-generación).
 1. [Cuarta generación](#4-cuarta-generación).
 
+<br>
 
 ---
 # 1. Primera generación

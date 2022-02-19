@@ -2,11 +2,15 @@
 <p><code>Fundamentos de sistemas operativos</code></p>
 <p>Creado por <code>Giancarlo Ortiz</code> para explicar los fundamentos de los <code>Sistemas operativos</code></p>
 
+## Fundamentos
+Los primeros sistemas de procesamiento digital, eran grandes máquinas operadas desde una consola maestra por los programadores, que carecían de todas las funciones que realiza un sistema operativo, desperdiciando un valiosos recurso computacional.
+
 ## Agenda
 1. [Sistemas de información](#1-sistemas-de-información).
 1. [Sistemas de procesamiento digital](#2-sistema-de-procesamiento-digital).
 1. [Sistemas operativos](#3-sistemas-operativos).
 
+<br>
 
 ---
 # 1. Sistemas de Información

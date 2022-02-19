@@ -2,21 +2,53 @@
 <p><code>Fundamentos de sistemas operativos</code></p>
 <p>Creado por <code>Giancarlo Ortiz</code> para explicar los fundamentos de los <code>Sistemas operativos</code></p>
 
+## Estructura
+Un SO es complejo y solo puede entenderse dividiendo su operación en piezas funcionales mas pequeñas, definiendo cuidadosamente entradas, salidas de cada proceso.
+
 ## Agenda
-1. [Componentes gestión](#1-componentes_de_gestión).
-1. [Segunda generación](#2-segunda-generación).
-1. [Tercera generación](#3-tercera-generación).
+1. [Gestión del Hardware](#1-componentes_de_gestión).
+1. [Maquina extendida](#2-segunda-generación).
+1. [Gestión del software](#3-tercera-generación).
 1. [Cuarta generación](#4-cuarta-generación).
 
+<br>
 
 ---
-# 1. Componentes de gestión
+
+
+
+# 1. Requisitos mínimos para la multi-tarea:
+* [__Scheduler:__][21] Planificador de tareas 
+
+# 1. Gestión del hardware
+* [Gestor de dispositivos (entrada/salida)][1_1].
+* [Gestor de memoria][1_2].
+* [Gestor de procesamiento][1_3]. 
+
+
+
+[1_1]:https://es.wikipedia.org/wiki/Arquitectura_del_sistema_de_E/S
+[1_2]:https://es.wikipedia.org/wiki/Gesti%C3%B3n_de_memoria
+[1_3]:https://es.wikipedia.org/wiki/Proceso_(inform%C3%A1tica)#
+
+
+# 2. Maquina Extendida
+![mapa de procesos](img/extended_machine.svg)
+
+
+
+
+
+[21]:https://es.wikipedia.org/wiki/Planificador
+
+# 1. Gestión del software
 * Gestor de usuarios y permisos.
 * Gestor de almacenamiento.
 * Gestor de redes.
-* Gestor de entrada salida.
-* Gestor de memoria.
-* Gestor de procesamiento. 
+
+
+
+
 
 # 1 Usuarios y permisos.
 * Crear, modificar y eliminar usuarios.
@@ -26,7 +58,7 @@
 
 
 
-### 1.1.  Algunos ejemplos Linux <img width="10" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />
+### 1.1. Algunos ejemplos <img title="Linux" width="12" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"/>
 
 | Comando |	Descripción |
 |:---|:---|
@@ -47,7 +79,8 @@
 * Modificar propiedades de directorios y archivos.
 
 
-## 2.1. Algunos ejemplos Linux
+## 2.1. Algunos ejemplos <img title="Linux" width="12" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"/>
+
 | Comando |	Descripción |
 |---|---|
 | [mount][man_9] | Monta un dispositivo almacenamiento |

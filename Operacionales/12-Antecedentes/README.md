@@ -2,11 +2,15 @@
 <p><code>Fundamentos de sistemas operativos</code></p>
 <p>Creado por <code>Giancarlo Ortiz</code> para explicar los fundamentos de los <code>Sistemas operativos</code></p>
 
+## Fundamentos
+Los primeros sistemas de procesamiento digital, eran grandes máquinas operadas desde una consola maestra por los programadores, que carecían de todas las funciones que realiza un sistema operativo, desperdiciando un valiosos recurso computacional.
+
 ## Agenda
 1. [Arquitectura de computadores](#1-arquitectura-de-computadores).
 1. [Arquitecturas preliminares](#2-arquitecturas-preliminares).
 1. [Arquitecturas de micro-controlador](#3-arquitecturas-de-micro-controlador).
 
+<br>
 
 ---
 # 1. Arquitectura de computadores
