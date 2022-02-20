@@ -54,7 +54,7 @@ La [multi-tarea][1_0] es la característica de los SO que permite que varios pro
 [24]:https://es.wikipedia.org/wiki/Bloque_de_control_del_proceso
 
 ## 1.4 Maquina Extendida
-![mapa de procesos](img/extended_machine.svg)
+![mapa de procesos](img/extended_machine.svg "Procesos maquina extendida")
 
 # 2. Jerarquía de memoria
 La [jerarquía de memoria][2_0] es la organización piramidal de la memoria en niveles de acceso para optimizar el rendimiento y el costo basándose en el principio de cercanía de referencias.
@@ -65,7 +65,7 @@ La [jerarquía de memoria][2_0] es la organización piramidal de la memoria en n
 [2_0]:https://es.wikipedia.org/wiki/Jerarqu%C3%ADa_de_memoria
 
 ## 2.1. Capacidad vs Costo
-![mapa de procesos](img/)
+![Jerarquía de almacenamiento](img/memory_hierarchy.svg "jerarquía de memoria")
 
 # 3. Protección de memoria
 La [protección de memoria][3_0] es un método para controlar que las tareas que se ejecutan en multi-tarea no interfieran entre si evitando que un proceso acceda a la memoria que no le ha sido asignada.
