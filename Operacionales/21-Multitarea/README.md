@@ -43,15 +43,17 @@ La [multi-tarea][1_0] es la característica de los SO que permite que varios pro
 ![diagrama de estado](img/process_state.svg "Estados de una tarea")
 
 ## 1.4. Componentes relacionados
-* [__Scheduler:__][21] Planificador de tareas.
-* [__Driver:__][22] Controladores de dispositivo.
-* [__MMU:__][23] Unidad de gestión de memoria.
-* [__PCB :__][24] Bloque de control del proceso.
+* [__Scheduler:__][14_1] Planificador de tareas.
+* [__Driver:__][14_2] Controladores de dispositivo.
+* [__MMU:__][14_3] Unidad de gestión de memoria.
+* [__PCB:__][14_4] Bloque de control del proceso.
+* [__SMP:__][14_5] Multi-procesamiento simétrico.
 
-[21]:https://es.wikipedia.org/wiki/Planificador
-[22]:https://es.wikipedia.org/wiki/Controlador_de_dispositivo
-[23]:https://es.wikipedia.org/wiki/Unidad_de_gesti%C3%B3n_de_memoria
-[24]:https://es.wikipedia.org/wiki/Bloque_de_control_del_proceso
+[14_1]:https://es.wikipedia.org/wiki/Planificador
+[14_2]:https://es.wikipedia.org/wiki/Controlador_de_dispositivo
+[14_3]:https://es.wikipedia.org/wiki/Unidad_de_gesti%C3%B3n_de_memoria
+[14_4]:https://es.wikipedia.org/wiki/Bloque_de_control_del_proceso
+[14_5]:https://es.wikipedia.org/wiki/Multiprocesamiento_sim%C3%A9trico
 
 ## 1.4 Maquina Extendida
 ![mapa de procesos](img/extended_machine.svg "Procesos maquina extendida")
@@ -66,6 +68,25 @@ La [jerarquía de memoria][2_0] es la organización piramidal de la memoria en n
 
 ## 2.1. Capacidad vs Costo
 ![Jerarquía de almacenamiento](img/memory_hierarchy.svg "jerarquía de memoria")
+
+## 2.2. Componentes relacionados
+* [__Coherence:__][22_1] Coherencia de la memoria.
+* [__Cluster:__][22_5] Clúster de computadoras.
+* [__NUMA:__][22_2] Acceso a memoria no uniforme.
+* [__DSM:__][22_3] Memoria distribuida compartida.
+* [__DBCC:__][22_4] Coherencia de caché basada en directorios.
+
+[22_1]:https://en.wikipedia.org/wiki/Memory_coherence
+[22_2]:https://es.wikipedia.org/wiki/NUMA
+[22_3]:https://es.wikipedia.org/wiki/Distributed_Shared_Memory
+[22_4]:https://es.wikipedia.org/wiki/Coherencia_de_cach%C3%A9
+[22_5]:https://en.wikipedia.org/wiki/Computer_cluster
+
+## 2.2 Caso de uso - [Epyc][22_1]
+![cache](img/epyc_amd_memory.svg "jerarquía de cache")
+
+[22_1]:https://en.wikipedia.org/wiki/Epyc
+
 
 # 3. Protección de memoria
 La [protección de memoria][3_0] es un método para controlar que las tareas que se ejecutan en multi-tarea no interfieran entre si evitando que un proceso acceda a la memoria que no le ha sido asignada.
