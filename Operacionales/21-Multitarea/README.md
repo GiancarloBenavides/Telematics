@@ -6,40 +6,47 @@
 Un SO es complejo y solo puede entenderse dividiendo su operación en piezas funcionales mas pequeñas, definiendo cuidadosamente entradas, salidas de cada proceso.
 
 ## Agenda
-1. [Gestión del Hardware](#1-componentes_de_gestión).
-1. [Maquina extendida](#2-segunda-generación).
+1. [Multi-tarea](#1-componentes_de_gestión).
+1. [Requisitos mínimos](#2-segunda-generación).
 1. [Gestión del software](#3-tercera-generación).
 1. [Cuarta generación](#4-cuarta-generación).
 
 <br>
 
 ---
+# 1. Multi-tarea
+La multi-tarea es la característica de los SO que permite que varios procesos o aplicaciones se ejecuten aparentemente al mismo tiempo, compartiendo uno o más procesadores.
 
 
+# 1.1. Requisitos mínimos
+* Gestión del hardware.
+* Permitir seleccionar entre tareas listas para ejecutar.
+* Decidir que procesos pueden interrumpir la ejecución de tareas.
+* Asignar memoria a las tareas que lo demandan.
+* Permitir acceso a los dispositivos a aquellas tareas que lo requieren.
 
-# 1. Requisitos mínimos para la multi-tarea:
-* [__Scheduler:__][21] Planificador de tareas 
-
-# 1. Gestión del hardware
+## 1.2. Gestión del hardware
 * [Gestor de dispositivos (entrada/salida)][1_1].
 * [Gestor de memoria][1_2].
 * [Gestor de procesamiento][1_3]. 
-
-
 
 [1_1]:https://es.wikipedia.org/wiki/Arquitectura_del_sistema_de_E/S
 [1_2]:https://es.wikipedia.org/wiki/Gesti%C3%B3n_de_memoria
 [1_3]:https://es.wikipedia.org/wiki/Proceso_(inform%C3%A1tica)#
 
+## 1.3. Diagrama de estados
+![diagrama de estado](img/process_state.svg)
 
-# 2. Maquina Extendida
-![mapa de procesos](img/extended_machine.svg)
-
-
-
-
+## 1.4. Componentes relacionados
+* [__Scheduler:__][21] Planificador de tareas
+* [__Driver:__][22] Controladores de dispositivo
 
 [21]:https://es.wikipedia.org/wiki/Planificador
+[22]:https://es.wikipedia.org/wiki/Controlador_de_dispositivo
+
+## 1.4 Maquina Extendida
+![mapa de procesos](img/extended_machine.svg)
+
 
 # 1. Gestión del software
 * Gestor de usuarios y permisos.
