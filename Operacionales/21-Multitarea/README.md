@@ -6,16 +6,21 @@
 Un SO es complejo y solo puede entenderse dividiendo su operación en piezas funcionales mas pequeñas, definiendo cuidadosamente entradas, salidas de cada proceso.
 
 ## Agenda
-1. [Multi-tarea](#1-componentes_de_gestión).
-1. [Requisitos mínimos](#2-segunda-generación).
-1. [Gestión del software](#3-tercera-generación).
+1. [Multi-tarea](#1-multi-tarea).
+1. [Jerarquía de Memoria](#2-jerarquía-de-memoria).
+1. [Protección de memoria](#3-protección-de-memoria).
 1. [Cuarta generación](#4-cuarta-generación).
 
 <br>
 
 ---
 # 1. Multi-tarea
-La multi-tarea es la característica de los SO que permite que varios procesos o aplicaciones se ejecuten aparentemente al mismo tiempo, compartiendo uno o más procesadores.
+La [multi-tarea][1_0] es la característica de los SO que permite que varios procesos o aplicaciones se ejecuten aparentemente al mismo tiempo, compartiendo uno o más procesadores.
+
+* ><i>"Al aumentar nuestra capacidad de obtener, procesar y distribuir información, la demanda de procesamiento de información cada vez más complejo crece incluso con más celeridad."</i><br>
+<cite style="display:block; text-align: right">[Andrew S. Tanenbaum](https://es.wikipedia.org/wiki/Andrew_S._Tanenbaum)</cite>
+
+[1_0]:https://es.wikipedia.org/wiki/Multitarea
 
 
 # 1.1. Requisitos mínimos
@@ -38,14 +43,37 @@ La multi-tarea es la característica de los SO que permite que varios procesos o
 ![diagrama de estado](img/process_state.svg)
 
 ## 1.4. Componentes relacionados
-* [__Scheduler:__][21] Planificador de tareas
-* [__Driver:__][22] Controladores de dispositivo
+* [__Scheduler:__][21] Planificador de tareas.
+* [__Driver:__][22] Controladores de dispositivo.
+* [__MMU:__][23] Unidad de gestión de memoria.
+* [__PCB :__][24] Bloque de control del proceso.
 
 [21]:https://es.wikipedia.org/wiki/Planificador
 [22]:https://es.wikipedia.org/wiki/Controlador_de_dispositivo
+[23]:https://es.wikipedia.org/wiki/Unidad_de_gesti%C3%B3n_de_memoria
+[24]:https://es.wikipedia.org/wiki/Bloque_de_control_del_proceso
 
 ## 1.4 Maquina Extendida
 ![mapa de procesos](img/extended_machine.svg)
+
+# 2. Jerarquía de memoria
+La [jerarquía de memoria][2_0] es la organización piramidal de la memoria en niveles de acceso para optimizar el rendimiento y el costo basándose en el principio de cercanía de referencias.
+
+* ><i>"Una buena ingeniería de software requiere la diferenciación entre la especificación y la implementación."</i><br>
+<cite style="display:block; text-align: right">[Andrew S. Tanenbaum](https://es.wikipedia.org/wiki/Andrew_S._Tanenbaum)</cite>
+
+[2_0]:https://es.wikipedia.org/wiki/Jerarqu%C3%ADa_de_memoria
+
+## 2.1. 
+
+# 3. Protección de memoria
+La [protección de memoria][3_0] es un método para controlar que las tareas que se ejecutan en multi-tarea no interfieran entre si evitando que un proceso acceda a la memoria que no le ha sido asignada.
+
+* ><i>"Al aumentar nuestra capacidad de obtener, procesar y distribuir información, la demanda de procesamiento de información cada vez más complejo crece incluso con más celeridad."</i><br>
+<cite style="display:block; text-align: right">[Andrew S. Tanenbaum](https://es.wikipedia.org/wiki/Andrew_S._Tanenbaum)</cite>
+
+[3_0]:https://es.wikipedia.org/wiki/Protecci%C3%B3n_de_memoria
+
 
 
 # 1. Gestión del software
