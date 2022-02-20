@@ -40,7 +40,7 @@ La [multi-tarea][1_0] es la característica de los SO que permite que varios pro
 [1_3]:https://es.wikipedia.org/wiki/Proceso_(inform%C3%A1tica)#
 
 ## 1.3. Diagrama de estados
-![diagrama de estado](img/process_state.svg)
+![diagrama de estado](img/process_state.svg "Estados de una tarea")
 
 ## 1.4. Componentes relacionados
 * [__Scheduler:__][21] Planificador de tareas.
@@ -64,7 +64,8 @@ La [jerarquía de memoria][2_0] es la organización piramidal de la memoria en n
 
 [2_0]:https://es.wikipedia.org/wiki/Jerarqu%C3%ADa_de_memoria
 
-## 2.1. 
+## 2.1. Capacidad vs Costo
+![mapa de procesos](img/)
 
 # 3. Protección de memoria
 La [protección de memoria][3_0] es un método para controlar que las tareas que se ejecutan en multi-tarea no interfieran entre si evitando que un proceso acceda a la memoria que no le ha sido asignada.
