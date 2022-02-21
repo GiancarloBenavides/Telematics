@@ -71,6 +71,7 @@ La [jerarquía de memoria][2_0] es la organización piramidal de la memoria en n
 
 ## 2.2. Componentes relacionados
 * [__Coherence:__][22_1] Coherencia de la memoria.
+* [__Multi-channel:__][22_6] Arquitectura de memoria multi-canal.
 * [__Cluster:__][22_5] Clúster de computadoras.
 * [__NUMA:__][22_2] Acceso a memoria no uniforme.
 * [__DSM:__][22_3] Memoria distribuida compartida.
@@ -81,13 +82,14 @@ La [jerarquía de memoria][2_0] es la organización piramidal de la memoria en n
 [22_3]:https://es.wikipedia.org/wiki/Distributed_Shared_Memory
 [22_4]:https://es.wikipedia.org/wiki/Coherencia_de_cach%C3%A9
 [22_5]:https://en.wikipedia.org/wiki/Computer_cluster
+[22_6]:https://en.wikipedia.org/wiki/Multi-channel_memory_architecture
 
-## 2.2 Caso de uso - [Epyc][22_1]
+## 2.3 Caso de uso - [Epyc 73F3][23_1]
 ![cache](img/epyc_amd_memory.svg "jerarquía de cache")
 
-[22_1]:https://en.wikipedia.org/wiki/Epyc
+[23_1]:https://en.wikipedia.org/wiki/Epyc
 
-
+<small>Paper: [Kochhar, G.(2018). AMD EPYC: estudio de rendimiento en STREAM, HPL, InfiniBand y WRF, Dell Technologies](https://www.dell.com/support/kbdoc/es-co/000143393/amd-epyc-stream-hpl-infiniband-and-wrf-performance-study)</small>
 # 3. Protección de memoria
 La [protección de memoria][3_0] es un método para controlar que las tareas que se ejecutan en multi-tarea no interfieran entre si evitando que un proceso acceda a la memoria que no le ha sido asignada.
 
@@ -97,13 +99,22 @@ La [protección de memoria][3_0] es un método para controlar que las tareas que
 [3_0]:https://es.wikipedia.org/wiki/Protecci%C3%B3n_de_memoria
 
 
+## 3.2. Componentes relacionados
+* [__Microprocessor modes:__][32_1] Modos de funcionamiento del procesador.
+
+
+[32_1]:https://es.wikipedia.org/wiki/Modos_de_operaci%C3%B3n_de_la_unidad_central_de_procesamiento
+
+
+
+
 
 # 1. Gestión del software
 * Gestor de usuarios y permisos.
 * Gestor de almacenamiento.
 * Gestor de redes.
 
-
+![cache](img/hla.png "jerarquía de cache")
 
 
 
