@@ -89,7 +89,11 @@ La [jerarquía de memoria][2_0] es la organización piramidal de la memoria en n
 
 [23_1]:https://en.wikipedia.org/wiki/Epyc
 
-<small>Paper: [Kochhar, G.(2018). AMD EPYC: estudio de rendimiento en STREAM, HPL, InfiniBand y WRF, Dell Technologies](https://www.dell.com/support/kbdoc/es-co/000143393/amd-epyc-stream-hpl-infiniband-and-wrf-performance-study)</small>
+<small>Paper: 
+1: [Kochhar, G.(2018). AMD EPYC: estudio de rendimiento en STREAM, HPL, InfiniBand y WRF, Dell Technologies](https://www.dell.com/support/kbdoc/es-co/000143393/amd-epyc-stream-hpl-infiniband-and-wrf-performance-study)
+2: [Kennedy. P. (2019). Why AMD EPYC Rome 2P Will Have 128-160 PCIe Gen4 Lanes and a Bonus. ServeTheHome](https://www.servethehome.com/why-amd-epyc-rome-2p-will-have-128-160-pcie-gen4-lanes-and-a-bonus/)
+3: [. Cutress, I. (2021). AMD 3rd Gen EPYC Milan Review: A Peak vs Per Core Performance Balance. Anandtech](https://www.anandtech.com/show/16529/amd-epyc-milan-review/4)
+</small>
 # 3. Protección de memoria
 La [protección de memoria][3_0] es un método para controlar que las tareas que se ejecutan en multi-tarea no interfieran entre si evitando que un proceso acceda a la memoria que no le ha sido asignada.
 
@@ -114,7 +118,7 @@ La [protección de memoria][3_0] es un método para controlar que las tareas que
 * Gestor de almacenamiento.
 * Gestor de redes.
 
-![cache](img/hla.png "jerarquía de cache")
+![cache](img/ryzen_amd_io.png "jerarquía de cache")
 
 
 
