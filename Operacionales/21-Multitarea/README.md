@@ -94,6 +94,8 @@ La [jerarquía de memoria][2_0] es la organización piramidal de la memoria en n
 2: [Kennedy. P. (2019). Why AMD EPYC Rome 2P Will Have 128-160 PCIe Gen4 Lanes and a Bonus. ServeTheHome](https://www.servethehome.com/why-amd-epyc-rome-2p-will-have-128-160-pcie-gen4-lanes-and-a-bonus/)
 3: [. Cutress, I. (2021). AMD 3rd Gen EPYC Milan Review: A Peak vs Per Core Performance Balance. Anandtech](https://www.anandtech.com/show/16529/amd-epyc-milan-review/4)
 </small>
+
+
 # 3. Protección de memoria
 La [protección de memoria][3_0] es un método para controlar que las tareas que se ejecutan en multi-tarea no interfieran entre si evitando que un proceso acceda a la memoria que no le ha sido asignada.
 
@@ -102,18 +104,29 @@ La [protección de memoria][3_0] es un método para controlar que las tareas que
 
 [3_0]:https://es.wikipedia.org/wiki/Protecci%C3%B3n_de_memoria
 
+## 3.1. Características
+* Abreviado como P-Mode.
+* Es un modo operacional de los CPUs arquitectura x86 modernas.
+* Segmenta la memoria en paginas antes de asignarlas a un proceso.
+* Oculta las direcciones físicas o reales en una tabla de direcciones.
+* Implementa un sistema de memoria virtual.
+* Asigna un espacio de memoria a cada proceso.
+
 
 ## 3.2. Componentes relacionados
 * [__Microprocessor modes:__][32_1] Modos de funcionamiento del procesador.
+* [__Virtual memory:__][32_2] Memoria virtual.
+* [__Memory paging:__][32_3] Paginacion de memoria.
+* [__Pre-emptive multitasking:__][32_4] Multi-tarea preferente.
 
 
 [32_1]:https://es.wikipedia.org/wiki/Modos_de_operaci%C3%B3n_de_la_unidad_central_de_procesamiento
+[32_2]:https://es.wikipedia.org/wiki/Memoria_virtual
+[32_3]:https://es.wikipedia.org/wiki/Paginaci%C3%B3n_de_memoria
+[32_4]:https://es.wikipedia.org/wiki/Multitarea_apropiativa
 
 
-
-
-
-# 1. Gestión del software
+# 4. Gestión del software
 * Gestor de usuarios y permisos.
 * Gestor de almacenamiento.
 * Gestor de redes.
@@ -127,7 +140,7 @@ La [protección de memoria][3_0] es un método para controlar que las tareas que
 * Asignar roles a los usuarios.
 * Asignar permisos a los roles y usuarios 
 
-
+![cache](img/pagination.svg "jerarquía de cache")
 
 
 ### 1.1. Algunos ejemplos <img title="Linux" width="12" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"/>
