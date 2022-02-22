@@ -30,17 +30,20 @@ La [multi-tarea][1_0] es la característica de los SO que permite que varios pro
 * Asignar memoria a las tareas que lo demandan.
 * Permitir acceso a los dispositivos a aquellas tareas que lo requieren.
 
-## 1.2. Gestión del hardware
-* [Gestor de dispositivos (entrada/salida)][1_1].
-* [Gestor de memoria][1_2].
-* [Gestor de procesamiento][1_3]. 
 
-[1_1]:https://es.wikipedia.org/wiki/Arquitectura_del_sistema_de_E/S
-[1_2]:https://es.wikipedia.org/wiki/Gesti%C3%B3n_de_memoria
-[1_3]:https://es.wikipedia.org/wiki/Proceso_(inform%C3%A1tica)#
+## 1.2. Gestión del hardware
+* [Gestor de dispositivos (entrada/salida)][12_1].
+* [Gestor de memoria][12_2].
+* [Gestor de procesamiento][12_3]. 
+
+[12_1]:https://es.wikipedia.org/wiki/Arquitectura_del_sistema_de_E/S
+[12_2]:https://es.wikipedia.org/wiki/Gesti%C3%B3n_de_memoria
+[12_3]:https://es.wikipedia.org/wiki/Proceso_(inform%C3%A1tica)#
+
 
 ## 1.3. Diagrama de estados
 ![diagrama de estado](img/process_state.svg "Estados de una tarea")
+
 
 ## 1.4. Componentes relacionados
 * [__Scheduler:__][14_1] Planificador de tareas.
@@ -55,8 +58,10 @@ La [multi-tarea][1_0] es la característica de los SO que permite que varios pro
 [14_4]:https://es.wikipedia.org/wiki/Bloque_de_control_del_proceso
 [14_5]:https://es.wikipedia.org/wiki/Multiprocesamiento_sim%C3%A9trico
 
-## 1.4. Maquina Extendida
-![mapa de procesos](img/extended_machine.svg "Procesos maquina extendida")
+
+## 1.5. Maquina Extendida
+![mapa de procesos so](img/extended_machine.svg "Procesos maquina extendida")
+
 
 # 2. Jerarquía de memoria
 La [jerarquía de memoria][2_0] es la organización piramidal de la memoria en niveles de acceso para optimizar el rendimiento y el costo basándose en el principio de cercanía de referencias.
@@ -66,8 +71,10 @@ La [jerarquía de memoria][2_0] es la organización piramidal de la memoria en n
 
 [2_0]:https://es.wikipedia.org/wiki/Jerarqu%C3%ADa_de_memoria
 
+
 ## 2.1. Capacidad vs Costo
 ![Jerarquía de almacenamiento](img/memory_hierarchy.svg "jerarquía de memoria")
+
 
 ## 2.2. Componentes relacionados
 * [__Coherence:__][22_1] Coherencia de la memoria.
@@ -83,6 +90,7 @@ La [jerarquía de memoria][2_0] es la organización piramidal de la memoria en n
 [22_4]:https://es.wikipedia.org/wiki/Coherencia_de_cach%C3%A9
 [22_5]:https://en.wikipedia.org/wiki/Computer_cluster
 [22_6]:https://en.wikipedia.org/wiki/Multi-channel_memory_architecture
+
 
 ## 2.3. Caso de uso - [Epyc 73F3][23_1]
 ![cache](img/epyc_amd_memory.svg "jerarquía de cache")
@@ -103,6 +111,7 @@ La [protección de memoria][3_0] es un método para controlar que las tareas que
 <cite style="display:block; text-align: right">[Andrew S. Tanenbaum](https://es.wikipedia.org/wiki/Andrew_S._Tanenbaum)</cite>
 
 [3_0]:https://es.wikipedia.org/wiki/Protecci%C3%B3n_de_memoria
+
 
 ## 3.1. Características
 * Abreviado como P-Mode.
@@ -129,6 +138,10 @@ La [protección de memoria][3_0] es un método para controlar que las tareas que
 ![API](img/protected_mode.svg "Llamadas al sistema")
 
 
+## 3.4. Paginación de memoria
+![Cache](img/pagination.svg "jerarquía de cache")
+
+
 # 4. Persistencia de datos
 
 
@@ -146,7 +159,7 @@ Gestión del software
 * Asignar roles a los usuarios.
 * Asignar permisos a los roles y usuarios 
 
-![cache](img/pagination.svg "jerarquía de cache")
+
 
 
 ### 1.1. Algunos ejemplos <img title="Linux" width="12" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"/>
