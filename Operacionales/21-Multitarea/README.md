@@ -107,8 +107,8 @@ La [jerarquía de memoria][2_0] es la organización piramidal de la memoria en n
 # 3. Protección de memoria
 La [protección de memoria][3_0] es un método para controlar que las tareas que se ejecutan en multi-tarea no interfieran entre si evitando que un proceso acceda a la memoria que no le ha sido asignada.
 
-* ><i>"Al aumentar nuestra capacidad de obtener, procesar y distribuir información, la demanda de procesamiento de información cada vez más complejo crece incluso con más celeridad."</i><br>
-<cite style="display:block; text-align: right">[Andrew S. Tanenbaum](https://es.wikipedia.org/wiki/Andrew_S._Tanenbaum)</cite>
+* ><i>"Si necesitas más de tres niveles de indentación, estás totalmente jodido, y deberías organizar tu programa."</i><br><cite style="display:block; text-align: right">
+[Linus Torvalds](https://es.wikipedia.org/wiki/Linus_Torvalds)</cite>
 
 [3_0]:https://es.wikipedia.org/wiki/Protecci%C3%B3n_de_memoria
 
@@ -125,7 +125,7 @@ La [protección de memoria][3_0] es un método para controlar que las tareas que
 ## 3.2. Componentes relacionados
 * [__Microprocessor modes:__][32_1] Modos de funcionamiento del procesador.
 * [__Virtual memory:__][32_2] Memoria virtual.
-* [__Memory paging:__][32_3] Paginacion de memoria.
+* [__Memory paging:__][32_3] Paginación de memoria.
 * [__Pre-emptive multitasking:__][32_4] Multi-tarea preferente.
 
 [32_1]:https://es.wikipedia.org/wiki/Modos_de_operaci%C3%B3n_de_la_unidad_central_de_procesamiento
@@ -142,10 +142,39 @@ La [protección de memoria][3_0] es un método para controlar que las tareas que
 ![Cache](img/pagination.svg "jerarquía de cache")
 
 
-# 4. Persistencia de datos
+# 4. la persistencia de datos
+la [persistencia de datos][4_0] a nivel de aplicación es la capacidad para que los datos sobrevivan a la ejecución del programa que los ha creado. Sin esta capacidad, los datos solo existen en memoria RAM, y se pierden cuando la memoria pierde energía, como cuando se apaga el computador.
+
+* ><i>"Al aumentar nuestra capacidad de obtener, procesar y distribuir información, la demanda de procesamiento de información cada vez más complejo crece incluso con más celeridad."</i><br><cite style="display:block; text-align: right">
+[Andrew S. Tanenbaum](https://es.wikipedia.org/wiki/Andrew_S._Tanenbaum)</cite>
+
+[4_0]:https://es.wikipedia.org/wiki/Persistencia_(inform%C3%A1tica)#
 
 
-Gestión del software
+## 4.1. Características
+* Almacenamiento secundario no volátil.
+* Alta capacidad comparado con memoria principal.
+* Baja velocidad comparado con memoria principal.
+
+
+## 4.2. tiempos de acceso
+| Tipo |  [Ciclos de retardo][42_1] |
+|---|---|
+| [Cache L1][42_2] | 3-5 |
+| [Cache L2][42_2] | 8-20 |
+| [Cache L3][42_2] | 30-80 |
+| [RAM][42_3] | 50+ |
+
+[42_1]:https://en.wikipedia.org/wiki/Clock_rate
+[42_2]:https://en.wikipedia.org/wiki/Cache_hierarchy
+[42_3]:https://en.wikipedia.org/wiki/Random-access_memory
+
+
+## 4.2. Diagrama de estados
+![diagrama de estado](img/process_state.svg "Estados de una tarea")
+
+
+## 4.3. Gestión del software
 * Gestor de usuarios y permisos.
 * Gestor de almacenamiento.
 * Gestor de redes.
