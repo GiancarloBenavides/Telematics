@@ -9,7 +9,7 @@ Un SO es complejo y solo puede entenderse dividiendo su operación en piezas fun
 1. [Multi-tarea](#1-multi-tarea).
 1. [Jerarquía de Memoria](#2-jerarquía-de-memoria).
 1. [Protección de memoria](#3-protección-de-memoria).
-1. [Cuarta generación](#4-cuarta-generación).
+1. [Persistencia de datos](#4-persistencia).
 
 <br>
 
@@ -106,9 +106,9 @@ La [protección de memoria][3_0] es un método para controlar que las tareas que
 
 ## 3.1. Características
 * Abreviado como P-Mode.
-* Es un modo operacional de los CPUs arquitectura x86 modernas.
+* Es un modo operacional de las CPUs modernas.
 * Segmenta la memoria en paginas antes de asignarlas a un proceso.
-* Oculta las direcciones físicas o reales en una tabla de direcciones.
+* Oculta las direcciones físicas o reales en tablas de direcciones.
 * Implementa un sistema de memoria virtual.
 * Asigna un espacio de memoria a cada proceso.
 
