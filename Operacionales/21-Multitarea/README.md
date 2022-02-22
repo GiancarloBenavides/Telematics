@@ -55,7 +55,7 @@ La [multi-tarea][1_0] es la característica de los SO que permite que varios pro
 [14_4]:https://es.wikipedia.org/wiki/Bloque_de_control_del_proceso
 [14_5]:https://es.wikipedia.org/wiki/Multiprocesamiento_sim%C3%A9trico
 
-## 1.4 Maquina Extendida
+## 1.4. Maquina Extendida
 ![mapa de procesos](img/extended_machine.svg "Procesos maquina extendida")
 
 # 2. Jerarquía de memoria
@@ -84,7 +84,7 @@ La [jerarquía de memoria][2_0] es la organización piramidal de la memoria en n
 [22_5]:https://en.wikipedia.org/wiki/Computer_cluster
 [22_6]:https://en.wikipedia.org/wiki/Multi-channel_memory_architecture
 
-## 2.3 Caso de uso - [Epyc 73F3][23_1]
+## 2.3. Caso de uso - [Epyc 73F3][23_1]
 ![cache](img/epyc_amd_memory.svg "jerarquía de cache")
 
 [23_1]:https://en.wikipedia.org/wiki/Epyc
@@ -119,14 +119,20 @@ La [protección de memoria][3_0] es un método para controlar que las tareas que
 * [__Memory paging:__][32_3] Paginacion de memoria.
 * [__Pre-emptive multitasking:__][32_4] Multi-tarea preferente.
 
-
 [32_1]:https://es.wikipedia.org/wiki/Modos_de_operaci%C3%B3n_de_la_unidad_central_de_procesamiento
 [32_2]:https://es.wikipedia.org/wiki/Memoria_virtual
 [32_3]:https://es.wikipedia.org/wiki/Paginaci%C3%B3n_de_memoria
 [32_4]:https://es.wikipedia.org/wiki/Multitarea_apropiativa
 
 
-# 4. Gestión del software
+## 3.3. Llamadas al sistema
+![API](img/protected_mode.svg "Llamadas al sistema")
+
+
+# 4. Persistencia de datos
+
+
+Gestión del software
 * Gestor de usuarios y permisos.
 * Gestor de almacenamiento.
 * Gestor de redes.
