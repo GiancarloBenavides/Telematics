@@ -201,6 +201,34 @@ La [persistencia de datos][4_0] a nivel de aplicación es la capacidad para que 
 | [adduser][man_7] | Agrega usuarios a un grupo |
 | [deluser][man_8] | Elimina usuarios a un grupo |
 
+[man_1]:http://www.polarhome.com/service/man/?qf=useradd&af=0&sf=0&of=Ubuntu&tf=2
+[man_2]:http://www.polarhome.com/service/man/?qf=userdel&af=0&sf=0&of=Ubuntu&tf=2
+[man_3]:http://www.polarhome.com/service/man/?qf=passwd&af=0&sf=0&of=Ubuntu&tf=2
+[man_4]:http://www.polarhome.com/service/man/?qf=id&af=0&sf=0&of=Ubuntu&tf=2
+[man_5]:http://www.polarhome.com/service/man/?qf=groupadd&af=0&sf=0&of=Ubuntu&tf=2
+[man_6]:http://www.polarhome.com/service/man/?qf=groupdel&af=0&sf=0&of=Ubuntu&tf=2
+[man_7]:http://www.polarhome.com/service/man/?qf=adduser&af=0&sf=0&of=Ubuntu&tf=2
+[man_8]:http://www.polarhome.com/service/man/?qf=deluser&af=0&sf=0&of=Ubuntu&tf=2
+
+
+### 4.5.2. Caso de uso <img title="Linux" width="12" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"/>
+```ps
+# Create a new user with a default home directory and prompt the user to set a password:
+adduser {{username}}
+
+# Create a new user without a home directory:
+adduser --no-create-home {{username}}
+
+# Create a new user with a home directory at the specified path:
+adduser --home {{path/to/home}} {{username}}
+
+# Create a new user with the specified shell set as the login shell:
+adduser --shell {{path/to/shell}} {{username}}
+
+# Create a new user belonging to the specified group:
+adduser --ingroup {{group}} {{username}}
+```
+
 
 # 4.6. Almacenamiento
 * Agregar y eliminar dispositivos del sistema de archivos.
@@ -223,15 +251,6 @@ La [persistencia de datos][4_0] a nivel de aplicación es la capacidad para que 
 | [mv][man_16] | Mueve archivos y directorios |
 | [find][man_17] | Busca archivos en un directorio |
 
-[man_1]:http://www.polarhome.com/service/man/?qf=useradd&af=0&sf=0&of=Ubuntu&tf=2
-[man_2]:http://www.polarhome.com/service/man/?qf=userdel&af=0&sf=0&of=Ubuntu&tf=2
-[man_3]:http://www.polarhome.com/service/man/?qf=passwd&af=0&sf=0&of=Ubuntu&tf=2
-[man_4]:http://www.polarhome.com/service/man/?qf=id&af=0&sf=0&of=Ubuntu&tf=2
-[man_5]:http://www.polarhome.com/service/man/?qf=groupadd&af=0&sf=0&of=Ubuntu&tf=2
-[man_6]:http://www.polarhome.com/service/man/?qf=groupdel&af=0&sf=0&of=Ubuntu&tf=2
-[man_7]:http://www.polarhome.com/service/man/?qf=adduser&af=0&sf=0&of=Ubuntu&tf=2
-[man_8]:http://www.polarhome.com/service/man/?qf=deluser&af=0&sf=0&of=Ubuntu&tf=2
-
 [man_9]:http://www.polarhome.com/service/man/?qf=mount&af=0&sf=0&of=Ubuntu&tf=2
 [man_10]:http://www.polarhome.com/service/man/?qf=umount&af=0&sf=0&of=Ubuntu&tf=2
 [man_11]:http://www.polarhome.com/service/man/?qf=mkfs&af=0&sf=0&of=Ubuntu&tf=2
@@ -242,35 +261,15 @@ La [persistencia de datos][4_0] a nivel de aplicación es la capacidad para que 
 [man_16]:http://www.polarhome.com/service/man/?qf=mv&af=0&sf=0&of=Ubuntu&tf=2
 [man_17]:http://www.polarhome.com/service/man/?qf=find&af=0&sf=0&of=Ubuntu&tf=2
 
+
 ### 1.2. Caso de uso
+
 ```ps
 sudo useradd –g "operativos" –d /home/developer –m –s /bin/bash developer
 sudo groupadd "operativos"
 sudo useradd –g "operativos" –d /home/developer –m –s /bin/bash developer
 nano /etc/passwd
-
-
-# Create a new user with a default home directory and prompt the user to set a password:
-adduser {{username}}
-
-# Create a new user without a home directory:
-adduser --no-create-home {{username}}
-
-# Create a new user with a home directory at the specified path:
-adduser --home {{path/to/home}} {{username}}
-
-# Create a new user with the specified shell set as the login shell:
-adduser --shell {{path/to/shell}} {{username}}
-
-# Create a new user belonging to the specified group:
-adduser --ingroup {{group}} {{username}}
-
-
 ```
-
-
-
-
 
 ---
 ## Mas Recursos
