@@ -172,14 +172,11 @@ adduser --shell {{path/to/shell}} {{username}}
 adduser --ingroup {{group}} {{username}}
 ```
 
-
-```ps
-sudo useradd –g "operativos" –d /home/developer –m –s /bin/bash developer
-sudo groupadd "operativos"
-sudo useradd –g "operativos" –d /home/developer –m –s /bin/bash developer
-nano /etc/passwd
-```
-
 ---
 ## Mas Recursos
-- [Sistema operativo](https://es.wikipedia.org/wiki/Sistema_operativo) (Wikipedia)
+- [Tipos de sistemas de archivos](https://es.wikipedia.org/wiki/Tipos_de_acceso_por_sistema_operativo) (Wikipedia)
+- [Inodo](https://es.wikipedia.org/wiki/Inodo) (Wikipedia)
+- [Fragmentación de archivos](https://es.wikipedia.org/wiki/Fragmentaci%C3%B3n_de_un_sistema_de_ficheros) (Wikipedia)
+- [Permisos del sistema de archivos](https://es.wikipedia.org/wiki/Permisos_de_acceso_a_archivos) (Wikipedia)
+- [Identificador de usuario](https://es.wikipedia.org/wiki/Identificador_de_usuario) (Wikipedia)
+- [Identificador de grupo](https://es.wikipedia.org/wiki/Identificador_de_grupo) (Wikipedia)
