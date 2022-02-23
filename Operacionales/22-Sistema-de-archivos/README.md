@@ -53,10 +53,15 @@ La [persistencia de datos][1_0] a nivel de aplicación es la capacidad para que 
 
 ## 1.4. Componentes relacionados
 * [__File system:__][14_1] Sistema de archivos.
-* [__Driver:__][14_2] Controladores de dispositivo.
+* [__Access control:__][14_2] Lista de control de acceso.
+* [__journaling file system:__][14_3] Sistema de seguimiento de archivos.
+* [__Driver:__][14_4] Controladores de dispositivo.
 
 [14_1]:https://es.wikipedia.org/wiki/Sistema_de_archivos
-[14_2]:https://es.wikipedia.org/wiki/Controlador_de_dispositivo
+[14_2]:https://es.wikipedia.org/wiki/Lista_de_control_de_acceso
+[14_3]:https://es.wikipedia.org/wiki/Journaling
+[14_4]:https://es.wikipedia.org/wiki/Controlador_de_dispositivo
+
 
 ## 1.5. Maquina Extendida
 ![mapa de procesos so](img/extended_machine_secondary.svg "Procesos maquina extendida")
@@ -94,13 +99,27 @@ La [persistencia de datos][1_0] a nivel de aplicación es la capacidad para que 
 [man_17]:http://www.polarhome.com/service/man/?qf=find&af=0&sf=0&of=Ubuntu&tf=2
 
 
-### 2.2. Caso de uso
+### 2.2. Caso de uso <img title="Linux" width="12" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"/>
 
 ```ps
-sudo useradd –g "operativos" –d /home/developer –m –s /bin/bash developer
-sudo groupadd "operativos"
-sudo useradd –g "operativos" –d /home/developer –m –s /bin/bash developer
-nano /etc/passwd
+# Mostrar todos los sistemas de archivos montados:
+mount
+
+# Montar un dispositivo en un directorio:
+mount -t {{filesystem_type}} {{path/to/device_file}} {{path/to/target_directory}}
+
+# Monte un dispositivo de solo lectura CD-ROM con el tipo de archivo ISO9660 en /cdrom:
+mount -t {{iso9660}} -o ro {{/dev/cdrom}} {{/cdrom}}
+
+# Monte todo el sistema de archivos definido en /etc/fstab:
+mount -a
+
+# Monte un sistema de archivos específico descrito en /etc/fstab 
+# por ejemplo, /dev/sda1 /my_drive ext2 defaults 0 2):
+mount {{/my_drive}}
+
+# Montar un directorio en otro directorio:
+mount --bind {{path/to/old_dir}} {{path/to/new_dir}}
 ```
 
 
@@ -134,25 +153,32 @@ nano /etc/passwd
 
 
 ### 3.2. Caso de uso <img title="Linux" width="12" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"/>
+
+
 ```ps
-# Create a new user with a default home directory and prompt the user to set a password:
+# Cree un nuevo usuario con un directorio de inicio predeterminado y solicite al usuario que establezca una contraseña:
 adduser {{username}}
 
-# Create a new user without a home directory:
+# Crear un nuevo usuario sin un directorio de inicio:
 adduser --no-create-home {{username}}
 
-# Create a new user with a home directory at the specified path:
+# Cree un nuevo usuario con un directorio de inicio en la ruta especificada:
 adduser --home {{path/to/home}} {{username}}
 
-# Create a new user with the specified shell set as the login shell:
+# Cree un nuevo usuario con el conjunto de shell especificado como shell de inicio de sesión:
 adduser --shell {{path/to/shell}} {{username}}
 
-# Create a new user belonging to the specified group:
+# Crear un nuevo usuario perteneciente al grupo especificado:
 adduser --ingroup {{group}} {{username}}
 ```
 
 
-
+```ps
+sudo useradd –g "operativos" –d /home/developer –m –s /bin/bash developer
+sudo groupadd "operativos"
+sudo useradd –g "operativos" –d /home/developer –m –s /bin/bash developer
+nano /etc/passwd
+```
 
 ---
 ## Mas Recursos
