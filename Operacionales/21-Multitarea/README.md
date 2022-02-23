@@ -170,11 +170,11 @@ La [persistencia de datos][4_0] a nivel de aplicación es la capacidad para que 
 [42_3]:https://en.wikipedia.org/wiki/Random-access_memory
 
 
-## 4.2. Diagrama de estados
+## 4.3. Diagrama de estados
 ![diagrama de estado](img/process_state_secondary.svg "Estados de una tarea")
 
 
-## 4.3. Gestión del software
+## 4.4. Gestión del software
 * Gestor de usuarios y permisos.
 * Gestor de almacenamiento.
 * Gestor de redes.
@@ -182,16 +182,13 @@ La [persistencia de datos][4_0] a nivel de aplicación es la capacidad para que 
 ![cache](img/ryzen_amd_io.png "jerarquía de cache")
 
 
-
-# 1 Usuarios y permisos.
+## 4.5. Usuarios y permisos.
 * Crear, modificar y eliminar usuarios.
 * Asignar roles a los usuarios.
 * Asignar permisos a los roles y usuarios 
 
 
-
-
-### 1.1. Algunos ejemplos <img title="Linux" width="12" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"/>
+### 4.5.1. Algunos ejemplos <img title="Linux" width="12" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"/>
 
 | Comando |	Descripción |
 |:---|:---|
@@ -205,14 +202,14 @@ La [persistencia de datos][4_0] a nivel de aplicación es la capacidad para que 
 | [deluser][man_8] | Elimina usuarios a un grupo |
 
 
-# 2. Almacenamiento
+# 4.6. Almacenamiento
 * Agregar y eliminar dispositivos del sistema de archivos.
 * Crear, leer, modificar y eliminar directorios.
 * Crear, leer, modificar y eliminar archivos.
 * Modificar propiedades de directorios y archivos.
 
 
-## 2.1. Algunos ejemplos <img title="Linux" width="12" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"/>
+## 4.6.1. Algunos ejemplos <img title="Linux" width="12" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"/>
 
 | Comando |	Descripción |
 |---|---|
