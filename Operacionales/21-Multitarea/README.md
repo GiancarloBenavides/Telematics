@@ -143,7 +143,7 @@ La [protección de memoria][3_0] es un método para controlar que las tareas que
 
 
 # 4. la persistencia de datos
-la [persistencia de datos][4_0] a nivel de aplicación es la capacidad para que los datos sobrevivan a la ejecución del programa que los ha creado. Sin esta capacidad, los datos solo existen en memoria RAM, y se pierden cuando la memoria pierde energía, como cuando se apaga el computador.
+La [persistencia de datos][4_0] a nivel de aplicación es la capacidad para que los datos sobrevivan a la ejecución del programa que los ha creado. Sin esta capacidad, los datos solo existen en memoria RAM, y se pierden cuando la memoria pierde energía, como cuando se apaga el computador.
 
 * ><i>"Al aumentar nuestra capacidad de obtener, procesar y distribuir información, la demanda de procesamiento de información cada vez más complejo crece incluso con más celeridad."</i><br><cite style="display:block; text-align: right">
 [Andrew S. Tanenbaum](https://es.wikipedia.org/wiki/Andrew_S._Tanenbaum)</cite>
@@ -157,7 +157,7 @@ la [persistencia de datos][4_0] a nivel de aplicación es la capacidad para que 
 * Baja velocidad comparado con memoria principal.
 
 
-## 4.2. tiempos de acceso
+## 4.2. Tiempos de acceso
 | Tipo |  [Ciclos de retardo][42_1] |
 |---|---|
 | [Cache L1][42_2] | 3-5 |
@@ -171,7 +171,7 @@ la [persistencia de datos][4_0] a nivel de aplicación es la capacidad para que 
 
 
 ## 4.2. Diagrama de estados
-![diagrama de estado](img/process_state.svg "Estados de una tarea")
+![diagrama de estado](img/process_state_secondary.svg "Estados de una tarea")
 
 
 ## 4.3. Gestión del software
