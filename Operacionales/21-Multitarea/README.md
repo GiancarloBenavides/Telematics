@@ -92,7 +92,7 @@ La [jerarquía de memoria][2_0] es la organización piramidal de la memoria en n
 [22_6]:https://en.wikipedia.org/wiki/Multi-channel_memory_architecture
 
 
-## 2.3. Caso de uso - [Epyc 73F3][23_1]
+## 2.3. Caso de uso - Zen3 \[[Epyc 73F3][23_1]\]
 ![cache](img/epyc_amd_memory.svg "jerarquía de cache")
 
 [23_1]:https://en.wikipedia.org/wiki/Epyc
@@ -102,6 +102,12 @@ La [jerarquía de memoria][2_0] es la organización piramidal de la memoria en n
 2: [Kennedy. P. (2019). Why AMD EPYC Rome 2P Will Have 128-160 PCIe Gen4 Lanes and a Bonus. ServeTheHome](https://www.servethehome.com/why-amd-epyc-rome-2p-will-have-128-160-pcie-gen4-lanes-and-a-bonus/)
 3: [. Cutress, I. (2021). AMD 3rd Gen EPYC Milan Review: A Peak vs Per Core Performance Balance. Anandtech](https://www.anandtech.com/show/16529/amd-epyc-milan-review/4)
 </small>
+
+
+## 2.4. Caso de uso - Zen3 \[[Ryzen][24_1]\]
+![Ryzen](img/ryzen_amd_io.png "Entrada/Salida")
+
+[24_1]:https://en.wikipedia.org/wiki/Epyc
 
 
 # 3. Protección de memoria
@@ -170,18 +176,18 @@ La [persistencia de datos][4_0] a nivel de aplicación es la capacidad para que 
 [42_3]:https://en.wikipedia.org/wiki/Random-access_memory
 
 
-## 4.3. Diagrama de estados
-![diagrama de estado](img/process_state_secondary.svg "Estados de una tarea")
-
-
-## 4.4. Gestión del software
+## 4.3. Gestión del software
 * Gestor de usuarios y permisos.
 * Gestor de almacenamiento.
 * Gestor de redes.
 
 ![cache](img/ryzen_amd_io.png "jerarquía de cache")
 
+## 4.4. Diagrama de estados
+![diagrama de estado](img/process_state_secondary.svg "Estados de una tarea")
 
+
+---
 ## 4.5. Usuarios y permisos.
 * Crear, modificar y eliminar usuarios.
 * Asignar roles a los usuarios.
