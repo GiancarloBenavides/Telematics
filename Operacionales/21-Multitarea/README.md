@@ -97,7 +97,7 @@ La [jerarquía de memoria][2_0] es la organización piramidal de la memoria en n
 
 [23_1]:https://en.wikipedia.org/wiki/Epyc
 
-<small>Paper: 
+<small>White papers: 
 1: [Kochhar, G.(2018). AMD EPYC: estudio de rendimiento en STREAM, HPL, InfiniBand y WRF, Dell Technologies](https://www.dell.com/support/kbdoc/es-co/000143393/amd-epyc-stream-hpl-infiniband-and-wrf-performance-study)
 2: [Kennedy. P. (2019). Why AMD EPYC Rome 2P Will Have 128-160 PCIe Gen4 Lanes and a Bonus. ServeTheHome](https://www.servethehome.com/why-amd-epyc-rome-2p-will-have-128-160-pcie-gen4-lanes-and-a-bonus/)
 3: [. Cutress, I. (2021). AMD 3rd Gen EPYC Milan Review: A Peak vs Per Core Performance Balance. Anandtech](https://www.anandtech.com/show/16529/amd-epyc-milan-review/4)
@@ -107,7 +107,7 @@ La [jerarquía de memoria][2_0] es la organización piramidal de la memoria en n
 ## 2.4. Caso de uso - Zen3 \[[Ryzen][24_1]\]
 ![Ryzen](img/ryzen_amd_io.png "Entrada/Salida")
 
-[24_1]:https://en.wikipedia.org/wiki/Epyc
+[24_1]:https://en.wikipedia.org/wiki/Ryzen
 
 
 # 3. Protección de memoria
