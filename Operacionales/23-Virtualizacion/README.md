@@ -30,13 +30,16 @@ La [virtualización][1_0] utiliza software para imitar las características de u
 * Virtualización de datos.
 
 
-# 1.1. Maquinas virtuales
+## 1.2. Maquinas virtuales
 Un [hipervisor][11_0] (en inglés hypervisor) o monitor de máquina virtual (virtual machine monitor)1​ es una capa de software para realizar una virtualización de hardware que permite utilizar, al mismo tiempo, diferentes sistemas operativos (sin modificar o modificados, en el caso de paravirtualización) en una misma computadora.
 
 * ><i>"Puedes tener la mejor tecnología, puedes tener el mejor modelo de negocio, pero si no sabes cómo contar tu historia; nada de eso importará. Nadie te verá."</i><br>
 <cite style="display:block; text-align: right">[Jeff Bezos](https://es.wikipedia.org/wiki/Jeff_Bezos)</cite>
 
 [11_0]:https://es.wikipedia.org/wiki/Hipervisor
+
+## 1.3. Hipervisor
+![Hipervisor](img/type-hypervisors.svg "Tipos de hipervisores")
 
 
 
