@@ -29,7 +29,7 @@ La [persistencia de datos][1_0] a nivel de aplicación es la capacidad para que 
 
 
 ### 1.1.1. Tiempos de acceso
-| Tipo |  [Ciclos de retardo][11_1] |
+| Tipo | [Ciclos de retardo][11_1] |
 |---|---|
 | [Cache L1][11_2] | 3-5 |
 | [Cache L2][11_2] | 8-20 |
