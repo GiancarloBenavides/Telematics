@@ -10,7 +10,7 @@ graph TD;
     c-->D;
 ```
 
-
+```mermaid
 gantt
   title My Product Roadmap
   dateFormat  YYYY-MM-DD
@@ -20,3 +20,11 @@ gantt
   section Rad Feature
   Task in sequence :2022-03-04, 12d
   Task, No. 2      :24d
+ ```
+  
+ ```mermaid
+  erDiagram
+    CUSTOMER ||--o{ ORDER : places
+    ORDER ||--|{ LINE-ITEM : contains
+    CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
+ ```
