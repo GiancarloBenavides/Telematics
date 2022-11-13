@@ -4,8 +4,8 @@ Udenar telematics repository
 
 ```mermaid
 graph TD;
-    A-->B;
-    A-->C;
+    Telematics-->B;
+    Telematics-->C;
     B-->D;
     c-->D;
 ```
