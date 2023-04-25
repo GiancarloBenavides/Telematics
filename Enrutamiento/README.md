@@ -47,37 +47,35 @@ El [estado del enlace][122] es un método que resuelve el problema de la ruta ma
 Son secuencias de instrucciones iterativas que convergen a encontrar el camino optimo entre cada nodo de una red.
 
 ```mermaid
-stateDiagram-v2
-    [*] --> A
-    C --> |No| A
-    C --> B   
-    B --> A
-    B --> C
-    D --> B
-    D --> E   
-    E --> C
-    E --> D
-    D --> [*]
+graph TD;
+    C --> |4| A;
+    C --> B;  
+    B --> A;
+    B --> C;
+    D --> B;
+    D --> E;
+    E --> C;
+    E --> D;
 ```
 
 ### 1.3.1 Algoritmo de Bellman-Ford ✔
-se usa en protocolos de encaminamiento basados en vector de distancias
+Se usa en protocolos de encaminamiento basados en vector de distancias
+
 
 ### 1.3.2 Algoritmo de Dijkstra ✔
+Se usa en protocolos de encaminamiento basados en el estado del enlace
+
 
 ---
 ## Mas Recursos
 - [Teoría de grafos](https://es.wikipedia.org/wiki/Teor%C3%ADa_de_grafos) (Wikipedia)
-- [Problema de los dos generales](https://es.wikipedia.org/wiki/Problema_de_los_dos_generales) (Wikipedia)
+- [Algoritmo de Bellman-Ford](https://es.wikipedia.org/wiki/Algoritmo_de_Bellman-Ford) (Wikipedia)
+- [Algoritmo de Dijkstra](https://es.wikipedia.org/wiki/Algoritmo_de_Dijkstra) (Wikipedia)
 
 
-- [Cadena de bloques](https://es.wikipedia.org/wiki/Cadena_de_bloques) (Wikipedia)
+
 - [Red entre iguales](https://es.wikipedia.org/wiki/Peer-to-peer) (Wikipedia)
-
-
 - [Llamada a procedimiento remoto](https://es.wikipedia.org/wiki/Llamada_a_procedimiento_remotos) (Wikipedia)
-
-
 - [Distributed Component Object Model](https://es.wikipedia.org/wiki/Modelo_de_Objetos_de_Componentes_Distribuidos) (Wikipedia)
 - [Common Object Request Broker Architecture](https://es.wikipedia.org/wiki/CORBA) (Wikipedia)
 - [Remote Method Invocation](https://es.wikipedia.org/wiki/Java_Remote_Method_Invocation) (Wikipedia)
