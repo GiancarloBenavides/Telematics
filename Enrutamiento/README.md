@@ -17,7 +17,7 @@ La administración y los servicios que ofrece un sistema de procesamiento digita
 # 1. Encaminamiento
 El [Encaminamiento][1] o enrutamiento es la función de buscar el camino mas optimo entre dos posibles nodos en un red formada por sistema de nodos interconectados.
 
-[1](https://es.wikipedia.org/wiki/Encaminamiento)
+[1]:https://es.wikipedia.org/wiki/Encaminamiento
 
 * ><i>"Muchos matemáticos derivan parte de su autoestima sintiéndose orgullosos herederos de una larga tradición de pensamiento racional, me temo que idealizan sus ancestros culturales."</i><br>
 <cite style="display:block; text-align: right">[Edsger Dijkstra](https://es.wikipedia.org/wiki/Edsger_Dijkstra)</cite>
@@ -34,22 +34,34 @@ Los métodos de encaminamiento puedes ser:
 * __Dinámicos o adaptativos:__ la valoración de las métricas se modifica continuamente según los cambios de estado del sistema, cuantificando en cada iteración una solución del problema buscando que en un número de iteraciones converja a la solución optima.
 
 ### 1.2.1 Basados en vector de distancias ✔
-El [vector de distancias][121] es un método que resuelve el problema de la ruta mas corta, calculando las distancias que conoce entre cada nodo y los demás nodos del sistema consignando estos valores en una tabla que luego comparte con sus vecinos. Este método se usa para sistemas con un numero reducido de nodos porque no escala bien en sistemas demasiado grandes.
+El [vector de distancias][121] es un método que resuelve el problema de la ruta mas corta, calculando el costo entre cada nodo origen y los demás nodos del sistema consignando estos valores en una tabla que luego comparte con sus vecinos. Este método se usa para sistemas con un numero reducido de nodos porque no escala bien en sistemas demasiado grandes.
 
-  luego este no considerando unicamente la distancia entre cada nodo. Se trata de uno de los más importantes junto con el de estado de enlace. Utiliza el algoritmo de Bellman-Ford para calcular las rutas.
+[121]:https://es.wikipedia.org/wiki/Vector_de_distancias
 
-[121](https://es.wikipedia.org/wiki/Vector_de_distancias)
+## 1.2.2 Basados en el estado del enlace ✔
+El [estado del enlace][122] es un método que resuelve el problema de la ruta mas corta, calculando el costo entre el y sus vecinos y lo comunica a todos los nodos de la red. Este método converge rápidamente y escala bien en sistemas de muchos nodos.
 
+[122]:https://es.wikipedia.org/wiki/Estado_de_enlace
 
-## 1.1. Tipos de Métodos de encaminamiento ✔
+## 1.3. Algoritmos de encaminamiento ✔
+Son secuencias de instrucciones iterativas que convergen a encontrar el camino optimo entre cada nodo de una red.
 
-## 1.2. Algoritmos de encaminamiento ✔
+```mermaid
+graph TD;
+    C-->A;
+    B-->A;
+    B-->C;
+    C-->B;
+    D-->B;
+    E-->C;
+    D-->E;
+    D-->D;
+```
 
-
-### 1.2.1 Algoritmo_de_Bellman-Ford ✔
+### 1.3.1 Algoritmo de Bellman-Ford ✔
 se usa en protocolos de encaminamiento basados en vector de distancias
 
-### 1.2.1 Algoritmo_de_Bellman-Ford ✔
+### 1.3.2 Algoritmo de Dijkstra ✔
 
 ---
 ## Mas Recursos
