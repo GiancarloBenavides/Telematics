@@ -55,7 +55,7 @@ graph TD;
     D-->B;
     E-->C;
     D-->E;
-    D-->D;
+    E-->D;
 ```
 
 ### 1.3.1 Algoritmo de Bellman-Ford ✔
