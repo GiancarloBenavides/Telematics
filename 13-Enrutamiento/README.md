@@ -49,18 +49,25 @@ Son secuencias de instrucciones iterativas que convergen a encontrar el camino o
 ```mermaid
 graph TD;
     C --> |4| A;
-    C --> B;  
-    B --> A;
-    B --> C;
-    D --> B;
-    D --> E;
-    E --> C;
-    E --> D;
+    C --> |1| B;  
+    B --> |1| A;
+    B --> |2| C;
+    D --> |8| B;
+    D --> |4| E;
+    E --> |2| C;
+    E --> |4| D;
 ```
 
 ### 1.3.1 Algoritmo de Bellman-Ford ✔
-Se usa en protocolos de encaminamiento basados en vector de distancias
+Se usa en protocolos de encaminamiento basados en vector de distancias:
 
+* [__RIP:___][131_1] Routing Information Protocol
+* [__IGRP:___][131_2] Interior Gateway Routing Protocol (CISCO)
+* [__IGRP:___][131_3] Interior Gateway Routing Protocol (CISCO)
+
+[131_1]:https://es.wikipedia.org/wiki/Routing_Information_Protocol
+[131_2]:https://es.wikipedia.org/wiki/Interior_Gateway_Routing_Protocol
+[131_3]:https://es.wikipedia.org/wiki/Enhanced_Interior_Gateway_Routing_Protocol
 
 ### 1.3.2 Algoritmo de Dijkstra ✔
 Se usa en protocolos de encaminamiento basados en el estado del enlace
@@ -74,7 +81,7 @@ Se usa en protocolos de encaminamiento basados en el estado del enlace
 
 
 
-- [Red entre iguales](https://es.wikipedia.org/wiki/Peer-to-peer) (Wikipedia)
+- [Wiki Mikrotik](https://wiki.mikrotik.com/wiki/Main_Page) (Wiki)
 - [Llamada a procedimiento remoto](https://es.wikipedia.org/wiki/Llamada_a_procedimiento_remotos) (Wikipedia)
 - [Distributed Component Object Model](https://es.wikipedia.org/wiki/Modelo_de_Objetos_de_Componentes_Distribuidos) (Wikipedia)
 - [Common Object Request Broker Architecture](https://es.wikipedia.org/wiki/CORBA) (Wikipedia)

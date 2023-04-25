@@ -16,25 +16,24 @@
 
 ---
 ## Agenda
-1. [Sistemas Descentralizados][11]
-    1. [Descentralizados][11]
-    1. [Distribuidos][12]
-1. [Arquitecturas][21]
-    1. [Cliente-Servidor][21]
-    1. [n-Tier][21]
-    1. [P2P][21]
-    1. [blockchain][21]
-1. [Objetos Distribuidos][31]
-    1. [DCOM][31]
-    1. [CORBA][31]
-    1. [RMI][31]
-    1. [SOA][31]
-1. [Bases de datos Distribuidas][41]
-1. [Cluster][51]
+1. [Gestión de dispositivos de Red][11]
+    1. [Caracterización][11]
+    1. [Direccionamiento][12]
+    1. [Enrutamiento][13]
+1. [Gestión de usuarios][21]
+    1. [Autentificación][21]
+    1. [Control de colas][22]
+1. [Gestión de Seguridad][31]
+    1. [Traducción][31]
+    1. [Filtrado][32]
+    1. [Tunelado][33]
 
-[11]:https://github.com/GiancarloBenavides/Sistemas-Distribuidos/tree/main/11-Sistemas-descentralizados
-[12]:https://github.com/GiancarloBenavides/Sistemas-Distribuidos/tree/main/12-Sistemas-Distribuidos
-[21]:https://github.com/GiancarloBenavides/Sistemas-Distribuidos/tree/main/21-Arquitecturas
-[31]:https://github.com/GiancarloBenavides/Sistemas-Distribuidos/tree/main/31-Ojetos-Distribuidos
-[41]:https://github.com/GiancarloBenavides/Sistemas-Distribuidos/tree/main/41-Bases-Distribuidas
-[51]:https://github.com/GiancarloBenavides/Sistemas-Distribuidos/tree/main/51-Cluster
+
+[11]:https://github.com/GiancarloBenavides/Telematics/tree/main/11-Caracterizacion
+[12]:https://github.com/GiancarloBenavides/Telematics/tree/main/12-Direccionamiento
+[13]:https://github.com/GiancarloBenavides/Telematics/tree/main/13-Enrutamiento
+[21]:https://github.com/GiancarloBenavides/Telematics/tree/main/21-Autentificacion
+[22]:https://github.com/GiancarloBenavides/Telematics/tree/main/22-Encolamiento
+[31]:https://github.com/GiancarloBenavides/Telematics/tree/main/31-Traduccion
+[32]:https://github.com/GiancarloBenavides/Telematics/tree/main/32-Filtrado
+[33]:https://github.com/GiancarloBenavides/Telematics/tree/main/33-Tunelado
