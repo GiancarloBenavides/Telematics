@@ -57,15 +57,7 @@ stateDiagram-v2
     D --> E   
     E --> C
     E --> D
-```
-
-```mermaid
-pie title Commits en GitHub
-  "Sábado" : 4
-  "Lunes" : 5
-  "Martes" : 7
-  "Miércoles" : 3
-  "Jueves" : 2
+    D --> [*]
 ```
 
 ### 1.3.1 Algoritmo de Bellman-Ford ✔
