@@ -49,7 +49,7 @@ Son secuencias de instrucciones iterativas que convergen a encontrar el camino o
 ```mermaid
 stateDiagram-v2
     [*] --> A
-    C --> A
+    C --> |No| A
     C --> B   
     B --> A
     B --> C
