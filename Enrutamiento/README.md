@@ -49,12 +49,12 @@ Son secuencias de instrucciones iterativas que convergen a encontrar el camino o
 ```mermaid
 graph TD;
     C-->A;
+    C-->B;    
     B-->A;
     B-->C;
-    C-->B;
     D-->B;
+    D-->E;    
     E-->C;
-    D-->E;
     E-->D;
 ```
 
