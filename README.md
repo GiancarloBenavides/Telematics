@@ -29,11 +29,11 @@
     1. [Tunelado][33]
 
 
-[11]:https://github.com/GiancarloBenavides/Telematics/tree/main/11-Caracterizacion
-[12]:https://github.com/GiancarloBenavides/Telematics/tree/main/12-Direccionamiento
-[13]:https://github.com/GiancarloBenavides/Telematics/tree/main/13-Enrutamiento
-[21]:https://github.com/GiancarloBenavides/Telematics/tree/main/21-Autentificacion
-[22]:https://github.com/GiancarloBenavides/Telematics/tree/main/22-Encolamiento
-[31]:https://github.com/GiancarloBenavides/Telematics/tree/main/31-Traduccion
-[32]:https://github.com/GiancarloBenavides/Telematics/tree/main/32-Filtrado
-[33]:https://github.com/GiancarloBenavides/Telematics/tree/main/33-Tunelado
+[11]:https://github.com/GiancarloBenavides/Telematics/tree/master/11-Caracterizacion
+[12]:https://github.com/GiancarloBenavides/Telematics/tree/master/12-Direccionamiento
+[13]:https://github.com/GiancarloBenavides/Telematics/tree/master/13-Enrutamiento
+[21]:https://github.com/GiancarloBenavides/Telematics/tree/master/21-Autentificacion
+[22]:https://github.com/GiancarloBenavides/Telematics/tree/master/22-Encolamiento
+[31]:https://github.com/GiancarloBenavides/Telematics/tree/master/31-Traduccion
+[32]:https://github.com/GiancarloBenavides/Telematics/tree/master/32-Filtrado
+[33]:https://github.com/GiancarloBenavides/Telematics/tree/master/33-Tunelado
