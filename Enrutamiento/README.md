@@ -47,7 +47,7 @@ El [estado del enlace][122] es un método que resuelve el problema de la ruta ma
 Son secuencias de instrucciones iterativas que convergen a encontrar el camino optimo entre cada nodo de una red.
 
 ```mermaid
-graph TD;
+stateDiagram-v2
     [*] --> A;
     C --> A;
     C --> B;    
