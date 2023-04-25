@@ -22,7 +22,7 @@ El [Encaminamiento][1] o enrutamiento es la función de buscar el camino mas opt
 * ><i>"Muchos matemáticos derivan parte de su autoestima sintiéndose orgullosos herederos de una larga tradición de pensamiento racional, me temo que idealizan sus ancestros culturales."</i><br>
 <cite style="display:block; text-align: right">[Edsger Dijkstra](https://es.wikipedia.org/wiki/Edsger_Dijkstra)</cite>
 
-### 1.1. Métricas ✔
+## 1.1. Métricas ✔
 Las métricas que se puede tener en cuenta para encontrar el camino mas optimo de comunicación entre dos nodos del sistema pueden ser:
 * Numero de saltos (menor)
 * Costo o distancia (menor)
@@ -38,7 +38,7 @@ El [vector de distancias][121] es un método que resuelve el problema de la ruta
 
 [121]:https://es.wikipedia.org/wiki/Vector_de_distancias
 
-## 1.2.2 Basados en el estado del enlace ✔
+### 1.2.2 Basados en el estado del enlace ✔
 El [estado del enlace][122] es un método que resuelve el problema de la ruta mas corta, calculando el costo entre el y sus vecinos y lo comunica a todos los nodos de la red. Este método converge rápidamente y escala bien en sistemas de muchos nodos.
 
 [122]:https://es.wikipedia.org/wiki/Estado_de_enlace
@@ -61,9 +61,9 @@ graph TD;
 ### 1.3.1 Algoritmo de Bellman-Ford ✔
 Se usa en protocolos de encaminamiento basados en [vector de distancias][121]:
 
-* [__RIP:___][131_1] Routing Information Protocol
-* [__IGRP:___][131_2] Interior Gateway Routing Protocol (CISCO)
-* [__IGRP:___][131_3] Interior Gateway Routing Protocol (CISCO)
+* [__RIP:__][131_1] Routing Information Protocol
+* [__IGRP:__][131_2] Interior Gateway Routing Protocol (CISCO)
+* [__IGRP:__][131_3] Interior Gateway Routing Protocol (CISCO)
 
 [131_1]:https://es.wikipedia.org/wiki/Routing_Information_Protocol
 [131_2]:https://es.wikipedia.org/wiki/Interior_Gateway_Routing_Protocol
@@ -72,9 +72,9 @@ Se usa en protocolos de encaminamiento basados en [vector de distancias][121]:
 ### 1.3.2 Algoritmo de Dijkstra ✔
 Se usa en protocolos de encaminamiento basados en el [estado del enlace][122]:
 
-* [__IS-IS:___][132_1] Intermediate System to Intermediate System
-* [__OSPF:___][132_2] Open Shortest Path First
-* [__IGRP:___][132_3] Interior Gateway Routing Protocol (CISCO)
+* [__IS-IS:__][132_1] Intermediate System to Intermediate System
+* [__OSPF:__][132_2] Open Shortest Path First
+* [__IGRP:__][132_3] Interior Gateway Routing Protocol (CISCO)
 
 [132_1]:https://es.wikipedia.org/wiki/IS-IS
 [132_2]:https://es.wikipedia.org/wiki/Open_Shortest_Path_First
@@ -86,8 +86,18 @@ Un [Sistema autónomo][2] se define como un grupo de redes IP con un numero úni
 [2]:https://es.wikipedia.org/wiki/Sistema_aut%C3%B3nomo
 
 
-* ><i>"Muchos matemáticos derivan parte de su autoestima sintiéndose orgullosos herederos de una larga tradición de pensamiento racional, me temo que idealizan sus ancestros culturales."</i><br>
-<cite style="display:block; text-align: right">[Edsger Dijkstra](https://es.wikipedia.org/wiki/Edsger_Dijkstra)</cite>
+* ><i>"Si decides hacer solo las cosas que sabes que van a funcionar, dejaras un montón de oportunidades encima de la mesa."</i><br>
+<cite style="display:block; text-align: right">[Jeff Bezos](https://es.wikipedia.org/wiki/Jeff_Bezos)</cite>
+
+## 2.1. Intercambio de Rutas ✔
+Los sistemas autónomos de redes intercambian rutas con otros sistemas por medio de protocolos de borde como:
+
+* [__EGP:__][21_1] Exterior Gateway Protocol.
+* [__BGP:__][21_2] Border Gateway Protocol.
+
+[21_1]:https://es.wikipedia.org/wiki/Exterior_Gateway_Protocol
+[21_2]:https://es.wikipedia.org/wiki/Border_Gateway_Protocol
+
 
 ---
 ## Mas Recursos
