@@ -48,15 +48,15 @@ Son secuencias de instrucciones iterativas que convergen a encontrar el camino o
 
 ```mermaid
 stateDiagram-v2
-    [*] --> A;
-    C --> A;
-    C --> B;    
-    B --> A;
-    B --> C;
-    D --> B;
-    D --> E;    
-    E --> C;
-    E --> D;
+    [*] --> A
+    C --> A
+    C --> B   
+    B --> A
+    B --> C
+    D --> B
+    D --> E   
+    E --> C
+    E --> D
 ```
 
 ```mermaid
