@@ -48,14 +48,24 @@ Son secuencias de instrucciones iterativas que convergen a encontrar el camino o
 
 ```mermaid
 graph TD;
-    C-->A;
-    C-->B;    
-    B-->A;
-    B-->C;
-    D-->B;
-    D-->E;    
-    E-->C;
-    E-->D;
+    [*] --> A;
+    C --> A;
+    C --> B;    
+    B --> A;
+    B --> C;
+    D --> B;
+    D --> E;    
+    E --> C;
+    E --> D;
+```
+
+```mermaid
+pie title Commits en GitHub
+  "Sábado" : 4
+  "Lunes" : 5
+  "Martes" : 7
+  "Miércoles" : 3
+  "Jueves" : 2
 ```
 
 ### 1.3.1 Algoritmo de Bellman-Ford ✔

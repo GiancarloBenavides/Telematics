@@ -18,9 +18,18 @@ gantt
   Task, No. 2      :24d
  ```
   
- ```mermaid
-  erDiagram
-    CUSTOMER ||--o{ ORDER : places
-    ORDER ||--|{ LINE-ITEM : contains
-    CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
- ```
+```mermaid
+erDiagram
+  CUSTOMER ||--o{ ORDER : places
+  ORDER ||--|{ LINE-ITEM : contains
+  CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
+```
+
+```mermaid
+pie title Commits en GitHub
+  "Sábado" : 4
+  "Lunes" : 5
+  "Martes" : 7
+  "Miércoles" : 3
+  "Jueves" : 2
+```
