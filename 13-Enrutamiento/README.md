@@ -27,6 +27,7 @@ Las métricas que se puede tener en cuenta para encontrar el camino mas optimo d
 * Numero de saltos (menor)
 * Costo o distancia (menor)
 * Tiempo de retardo (menor)
+* Ancho de banda (menor)
 
 ## 1.2. Métodos de encaminamiento ✔
 Los métodos de encaminamiento puedes ser:
@@ -74,14 +75,12 @@ Se usa en protocolos de encaminamiento basados en el [estado del enlace][122]:
 
 * [__IS-IS:__][132_1] Intermediate System to Intermediate System
 * [__OSPF:__][132_2] Open Shortest Path First
-* [__IGRP:__][132_3] Interior Gateway Routing Protocol (CISCO)
 
 [132_1]:https://es.wikipedia.org/wiki/IS-IS
 [132_2]:https://es.wikipedia.org/wiki/Open_Shortest_Path_First
-[132_3]:https://es.wikipedia.org/wiki/Enhanced_Interior_Gateway_Routing_Protocol
 
 # 2. Sistemas Autónomos
-Un [Sistema autónomo][2] se define como un grupo de redes IP con un numero único que lo identifica y que posee una política de rutas propia e independiente.
+Un [Sistema autónomo][2] se define como un grupo de redes IP bajo control de una misma entidad con un numero único que la identifica y que posee una política de encaminamiento propia e independiente.
 
 [2]:https://es.wikipedia.org/wiki/Sistema_aut%C3%B3nomo
 
@@ -98,18 +97,15 @@ Los sistemas autónomos de redes intercambian rutas con otros sistemas por medio
 [21_1]:https://es.wikipedia.org/wiki/Exterior_Gateway_Protocol
 [21_2]:https://es.wikipedia.org/wiki/Border_Gateway_Protocol
 
+## 2.2. Rutas BGP ✔
+Segun indica n internet existen aproximadamente 75K sistemas autónomos que intercambian rutas BGP garantizando una elección de rutas libres de bucles. 
+ 
+>__Ejemplo:__ El sistema autónomo AS3356 corresponde a la red de Lumen Technologies ([CenturyLinK](https://es.wikipedia.org/wiki/Lumen_Technologies)) con alcance global (TIER 1) que comparte 49.212 rutas BGP en una red de 885.139 Km.
+
+
 
 ---
 ## Mas Recursos
 - [Teoría de grafos](https://es.wikipedia.org/wiki/Teor%C3%ADa_de_grafos) (Wikipedia)
 - [Algoritmo de Bellman-Ford](https://es.wikipedia.org/wiki/Algoritmo_de_Bellman-Ford) (Wikipedia)
 - [Algoritmo de Dijkstra](https://es.wikipedia.org/wiki/Algoritmo_de_Dijkstra) (Wikipedia)
-
-
-
-- [Wiki Mikrotik](https://wiki.mikrotik.com/wiki/Main_Page) (Wiki)
-- [Llamada a procedimiento remoto](https://es.wikipedia.org/wiki/Llamada_a_procedimiento_remotos) (Wikipedia)
-- [Distributed Component Object Model](https://es.wikipedia.org/wiki/Modelo_de_Objetos_de_Componentes_Distribuidos) (Wikipedia)
-- [Common Object Request Broker Architecture](https://es.wikipedia.org/wiki/CORBA) (Wikipedia)
-- [Remote Method Invocation](https://es.wikipedia.org/wiki/Java_Remote_Method_Invocation) (Wikipedia)
-- [Simple Object Access Protocol](https://es.wikipedia.org/wiki/Simple_Object_Access_Protocol) (Wikipedia)

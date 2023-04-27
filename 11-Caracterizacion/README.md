@@ -38,25 +38,22 @@ El [vector de distancias][121] es un método que resuelve el problema de la ruta
 
 [121]:https://es.wikipedia.org/wiki/Vector_de_distancias
 
-## 1.2.2 Basados en el estado del enlace ✔
-El [estado del enlace][122] es un método que resuelve el problema de la ruta mas corta, calculando el costo entre el y sus vecinos y lo comunica a todos los nodos de la red. Este método converge rápidamente y escala bien en sistemas de muchos nodos.
+## 1.2. Registro Regional de Internet ✔
+Un Regional Internet Registry ([__RIR__][12]), es una organización que supervisa la asignación y el registro de números de Internet dentro de una región particular del mundo. Los recursos incluyen direcciones IP (tanto IPv4 como IPv6) y números de sistemas autónomos (para su uso en encaminamiento BGP).
 
-[122]:https://es.wikipedia.org/wiki/Estado_de_enlace
+![](../img/rirs.svg)
 
-## 1.3. Algoritmos de encaminamiento ✔
-Son secuencias de instrucciones iterativas que convergen a encontrar el camino optimo entre cada nodo de una red.
+[12]:https://es.wikipedia.org/wiki/Registro_Regional_de_Internet
 
-```mermaid
-graph TD;
-    C --> |4| A;
-    C --> |1| B;  
-    B --> |1| A;
-    B --> |2| C;
-    D --> |8| B;
-    D --> |4| E;
-    E --> |2| C;
-    E --> |4| D;
-```
+## 1.3. Niveles de red ✔
+El [nivel de una red][13] o proveedor de internet indica como participa esta con acuerdos de interconexión o peering en internet asi:
+
+* __Red de nivel 1:__ ISP de mayor nivel cuya red que se empareja de forma gratuita con todas las redes de internet, sin comprar tránsito IP o pagar por interconexión.
+* __Red de nivel 2:__ una red que se empareja de forma gratuita con algunas redes, pero compra tránsito IP o paga por emparejamiento para alcanzar al menos una parte de Internet.
+* __Red de nivel 3:__ Una red que únicamente compra tránsito/peering de otras redes para participar en Internet.
+
+[13]:https://es.wikipedia.org/wiki/Red_tier_1
+
 
 ### 1.3.1 Algoritmo de Bellman-Ford ✔
 Se usa en protocolos de encaminamiento basados en vector de distancias:
