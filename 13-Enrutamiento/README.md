@@ -99,14 +99,13 @@ Un [Sistema autónomo][2] se define como un grupo de redes IP bajo control de un
 ### 2.1.1. Protocolos de enlace interior (IGP)
 Al interior de un único sistema autónomo las redes informan sus rutas optimas por medio de protocolos de enlace interior como los mencionados anteriormente:
 
-* Basados en vector de distancias:
-    * [__RIP:__][131_1] Routing Information Protocol
-    * [__IGRP:__][131_2] Interior Gateway Routing Protocol (CISCO)
-    * [__IGRP:__][131_3] Interior Gateway Routing Protocol (CISCO)
-
-* Basados en el estado del enlace.
-    * [__IS-IS:__][132_1] Intermediate System to Intermediate System
-    * [__OSPF:__][132_2] Open Shortest Path First
+| Protocolo | Nombre | Tipo de Algoritmo |
+|---:|:---|---:|
+|[__RIP__][131_1] | Routing Information Protocol | Estado del enlace|
+|[__IGRP__][131_2] | Interior Gateway Routing Protocol (CISCO) | Estado del enlace|
+|[__EIGRP__][131_3] | Enhanced Interior Gateway Routing Protocol (CISCO) | Estado del enlace|
+|[__IS-IS__][132_1] | Intermediate System to Intermediate System | Vector de distancias|
+|[__OSPF__][132_2] | Open Shortest Path First | Vector de distancias|
 
 
 [131_1]:https://es.wikipedia.org/wiki/Routing_Information_Protocol
