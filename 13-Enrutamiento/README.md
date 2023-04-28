@@ -60,24 +60,15 @@ graph TD;
 ```
 
 ### 1.3.1 Algoritmo de Bellman-Ford
-Se usa en protocolos de encaminamiento basados en [vector de distancias][121]:
-
-* [__RIP:__][131_1] Routing Information Protocol
-* [__IGRP:__][131_2] Interior Gateway Routing Protocol (CISCO)
-* [__IGRP:__][131_3] Interior Gateway Routing Protocol (CISCO)
-
-[131_1]:https://es.wikipedia.org/wiki/Routing_Information_Protocol
-[131_2]:https://es.wikipedia.org/wiki/Interior_Gateway_Routing_Protocol
-[131_3]:https://es.wikipedia.org/wiki/Enhanced_Interior_Gateway_Routing_Protocol
+* Genera el camino mas corto en un grafo dirigido ponderado.
+* El peso o ponderación de las aristas puede ser negativo.
+* Se usa en protocolos de encaminamiento basados en [vector de distancias][121]:
 
 ### 1.3.2 Algoritmo de Dijkstra
-Se usa en protocolos de encaminamiento basados en el [estado del enlace][122]:
+* Converge mas rápidamente que el algoritmo de de Bellman-Ford.
+* El peso o ponderación de las aristas no puede ser negativo.
+* Se usa en protocolos de encaminamiento basados en el [estado del enlace][122]:
 
-* [__IS-IS:__][132_1] Intermediate System to Intermediate System
-* [__OSPF:__][132_2] Open Shortest Path First
-
-[132_1]:https://es.wikipedia.org/wiki/IS-IS
-[132_2]:https://es.wikipedia.org/wiki/Open_Shortest_Path_First
 
 # 2. Sistemas Autónomos
 Un [Sistema autónomo][2] se define como un grupo de redes IP bajo control de una misma entidad con un numero único que la identifica y que posee una política de encaminamiento propia e independiente.
@@ -96,8 +87,24 @@ Un [Sistema autónomo][2] se define como un grupo de redes IP bajo control de un
 ### 2.1.1. Protocolos de enlace interior (IGP)
 Al interior de un único sistema autónomo las redes informan sus rutas optimas por medio de protocolos de enlace interior como los mencionados anteriormente:
 
-* Basados en vector de distancias.
+* Basados en vector de distancias:
+    * [__RIP:__][131_1] Routing Information Protocol
+    * [__IGRP:__][131_2] Interior Gateway Routing Protocol (CISCO)
+    * [__IGRP:__][131_3] Interior Gateway Routing Protocol (CISCO)
+
 * Basados en el estado del enlace.
+    * [__IS-IS:__][132_1] Intermediate System to Intermediate System
+    * [__OSPF:__][132_2] Open Shortest Path First
+
+
+[131_1]:https://es.wikipedia.org/wiki/Routing_Information_Protocol
+[131_2]:https://es.wikipedia.org/wiki/Interior_Gateway_Routing_Protocol
+[131_3]:https://es.wikipedia.org/wiki/Enhanced_Interior_Gateway_Routing_Protocol
+
+[132_1]:https://es.wikipedia.org/wiki/IS-IS
+[132_2]:https://es.wikipedia.org/wiki/Open_Shortest_Path_First
+
+
 
 ### 2.1.2. Protocolos de enlace exterior (EGP)
 Los sistemas autónomos de redes intercambian rutas con otros sistemas por medio de protocolos de borde como:
@@ -153,4 +160,5 @@ El sistema autónomo [AS3356][25_1] y [AS3549][25_2] pertenecen a una red de [40
 ## Mas Recursos
 - [Teoría de grafos](https://es.wikipedia.org/wiki/Teor%C3%ADa_de_grafos) (Wikipedia)
 - [Algoritmo de Bellman-Ford](https://es.wikipedia.org/wiki/Algoritmo_de_Bellman-Ford) (Wikipedia)
+- [Ejemplo de Bellman-Ford](https://es.wikipedia.org/wiki/Anexo:Ejemplo_de_Algoritmo_de_Bellman_-_Ford) (Wikipedia)
 - [Algoritmo de Dijkstra](https://es.wikipedia.org/wiki/Algoritmo_de_Dijkstra) (Wikipedia)
