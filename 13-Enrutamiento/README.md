@@ -35,14 +35,26 @@ Los métodos de encaminamiento puedes ser:
 * __Dinámicos o adaptativos:__ la valoración de las métricas se modifica continuamente según los cambios de estado del sistema, cuantificando en cada iteración una solución del problema buscando que en un número de iteraciones converja a la solución optima.
 
 ### 1.2.1 Basados en vector de distancias
-El [vector de distancias][121] es un método que resuelve el problema de la ruta mas corta, calculando el costo entre cada nodo origen y los demás nodos del sistema consignando estos valores en una tabla que luego comparte con sus vecinos. Este método se usa para sistemas con un numero reducido de nodos porque no escala bien en sistemas demasiado grandes.
+* El [vector de distancias][121] resuelve el problema de la ruta mas corta.
+* Cambios en la topología de red no se reflejan rápidamente
+* No escala bien en sistemas demasiado grandes.
+* Calcula el costo entre el origen y los demás nodos del sistema.
+* Consigna estos valores en una tabla.
+* Comparte la tabla de encaminamiento con sus vecinos.
 
 [121]:https://es.wikipedia.org/wiki/Vector_de_distancias
 
+
 ### 1.2.2 Basados en el estado del enlace
-El [estado del enlace][122] es un método que resuelve el problema de la ruta mas corta, calculando el costo entre el y sus vecinos y lo comunica a todos los nodos de la red. Este método converge rápidamente y escala bien en sistemas de muchos nodos.
+* El [estado del enlace][122] resuelve la ruta mas optima.
+* Este método converge rápidamente
+* Escala bien en sistemas de muchos nodos.
+* Calcula el costo entre el origen y sus vecinos.
+* Consigna estos valores en una tabla.
+* Comparte la tabla de encaminamiento con todos los nodos de la red.
 
 [122]:https://es.wikipedia.org/wiki/Estado_de_enlace
+
 
 ## 1.3. Algoritmos de encaminamiento ✔
 Son secuencias de instrucciones iterativas que convergen a encontrar el camino optimo entre cada nodo de una red.
@@ -162,3 +174,4 @@ El sistema autónomo [AS3356][25_1] y [AS3549][25_2] pertenecen a una red de [40
 - [Algoritmo de Bellman-Ford](https://es.wikipedia.org/wiki/Algoritmo_de_Bellman-Ford) (Wikipedia)
 - [Ejemplo de Bellman-Ford](https://es.wikipedia.org/wiki/Anexo:Ejemplo_de_Algoritmo_de_Bellman_-_Ford) (Wikipedia)
 - [Algoritmo de Dijkstra](https://es.wikipedia.org/wiki/Algoritmo_de_Dijkstra) (Wikipedia)
+- [Ejemplo de Dijkstra](https://es.wikipedia.org/wiki/Anexo:Ejemplo_de_Algoritmo_de_Dijkstra) (Wikipedia)
