@@ -8,8 +8,7 @@ La gestión de los servicios que ofrece un sistema de comunicaciones digital, pu
 ## Agenda
 1. [Encaminamiento](#1-encaminamiento-de-paquetes).
 1. [Sistemas Autónomos](#2-sistemas-autónomos).
-1. [Seguridad](#3-seguridad).
-1. [Redes](#3-redes).
+
 
 <br>
 
@@ -170,7 +169,5 @@ El sistema autónomo [AS3356][25_1] y [AS3549][25_2] pertenecen a una red de [40
 ---
 ## Mas Recursos
 - [Teoría de grafos](https://es.wikipedia.org/wiki/Teor%C3%ADa_de_grafos) (Wikipedia)
-- [Algoritmo de Bellman-Ford](https://es.wikipedia.org/wiki/Algoritmo_de_Bellman-Ford) (Wikipedia)
-- [Ejemplo de Bellman-Ford](https://es.wikipedia.org/wiki/Anexo:Ejemplo_de_Algoritmo_de_Bellman_-_Ford) (Wikipedia)
-- [Algoritmo de Dijkstra](https://es.wikipedia.org/wiki/Algoritmo_de_Dijkstra) (Wikipedia)
-- [Ejemplo de Dijkstra](https://es.wikipedia.org/wiki/Anexo:Ejemplo_de_Algoritmo_de_Dijkstra) (Wikipedia)
+- [Algoritmo de Bellman-Ford](https://es.wikipedia.org/wiki/Algoritmo_de_Bellman-Ford) - [Ejemplo](https://es.wikipedia.org/wiki/Anexo:Ejemplo_de_Algoritmo_de_Bellman_-_Ford) - [Video](https://www.youtube.com/watch?v=zvPToo1QP3c) (Wikipedia, YouTube) 
+- [Algoritmo de Dijkstra](https://es.wikipedia.org/wiki/Algoritmo_de_Dijkstra) - [Ejemplo](https://es.wikipedia.org/wiki/Anexo:Ejemplo_de_Algoritmo_de_Dijkstra) - [Video](https://www.youtube.com/watch?v=eGJRnwrTC5g) (Wikipedia, YouTube) 
