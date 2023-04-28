@@ -84,59 +84,64 @@ Un [Sistema autónomo][2] se define como un grupo de redes IP bajo control de un
 
 [2]:https://es.wikipedia.org/wiki/Sistema_aut%C3%B3nomo
 
-
 * ><i>"Si decides hacer solo las cosas que sabes que van a funcionar, dejaras un montón de oportunidades encima de la mesa."</i><br>
 <cite style="display:block; text-align: right">[Jeff Bezos](https://es.wikipedia.org/wiki/Jeff_Bezos)</cite>
 
-## 2.1. Protocolos de enlace interior ✔
+## 2.1. Protocolos de encaminamiento ✔
+* Son un conjunto de reglas que permiten a las entidades de red intercambiar información de forma segura.
+* Permiten a los routers (nodos) en una red intercambiar métricas como el número de saltos acumulados.
+* También permiten intercambiar información de la calidad de los canales adyacentes con sus vecinos.
+* Permiten a los conjuntos de redes (AS) intercambiar rutas con otros subconjuntos de internet. 
+
+### 2.1.1. Protocolos de enlace interior (IGP) ✔
 Al interior de un único sistema autónomo las redes informan sus rutas optimas por medio de protocolos de enlace interior como los mencionados anteriormente:
 
 * Basados en vector de distancias.
 * Basados en el estado del enlace.
 
-## 2.2. Protocolos de enlace exterior ✔
+### 2.1.2. Protocolos de enlace exterior (EGP) ✔
 Los sistemas autónomos de redes intercambian rutas con otros sistemas por medio de protocolos de borde como:
 
-* [__EGP:__][22_1] Exterior Gateway Protocol.
-* [__BGP:__][22_2] Border Gateway Protocol.
+* [__EGP:__][212_1] Exterior Gateway Protocol.
+* [__BGP:__][212_2] Border Gateway Protocol.
 
-[22_1]:https://es.wikipedia.org/wiki/Exterior_Gateway_Protocol
-[22_2]:https://es.wikipedia.org/wiki/Border_Gateway_Protocol
+[212_1]:https://es.wikipedia.org/wiki/Exterior_Gateway_Protocol
+[212_2]:https://es.wikipedia.org/wiki/Border_Gateway_Protocol
 
-## 2.3. Intercambio de Rutas BGP ✔
-Según indica el Center for Applied Internet Data Analysis [CAIDA][23_1] en internet existen aproximadamente 75K sistemas autónomos que intercambian encaminamiento por BGP para proporcionar accesibilidad a otros subconjuntos de internet garantizando una elección de rutas libres de bucles.
+## 2.2. Intercambio de Rutas por EGP ✔
+* Los EGP no registran el número de saltos acumulados.
+* Los EGP no usan métricas de calidad cono el ancho de banda o el retardo.
+* EGP toma decisiones de encaminamiento basándose en políticas de la red. 
+* Las políticas son reglas que utilizan varios atributos de la ruta.
 
-
-:flag_us:
-
-| AS Rank | AS Number | Compañía | Tamaño|
-|:--:|--:|--|--:|
-|1| 3356|Level 3 Parent, LLC|49212|
-|2| 1299|Arelion|41512|
-|3|  174|Cogent Communications|36870|
-|4| 6939|Hurricane Electric LLC|23822|
-|5| 6762|Telecom Italia Sparkle S.p.A.|21151|
-|6| 2914|NTT America, Inc.|19815|
-|7| 3257|GTT Communications Inc.|18336|
-|8| 6461|Zayo Bandwidth|17522|
-|9| 6453|TATA COMMUNICATIONS (AMERICA) INC|16785|
-
-				
-				
-				
-9				
-10	3491	PCCW Global, Inc.		11409
-
-
-
-
-### 2.3.1 Intercambio de Rutas BGP ✔
- 
->__Ejemplo:__ El sistema autónomo AS3356 corresponde a la red de Lumen Technologies ([CenturyLinK][23_2]) con un alcance global (TIER 1) que comparte 49.212 rutas BGP en una red de 885.139 Km.
+## 2.3. Mensajes BGP ✔
+* Según el Center for Applied Internet Data Analysis [CAIDA][23_1] en internet existen aproximadamente 75K AS.
+* Los AS intercambian rutas de encaminamiento via [BGP][212_2] y dar accesibilidad a otros subconjuntos de internet.
+* Los AS intercambian rutas usando mensajes [BGP][212_2] en una session activa, garantizando una elección de rutas libres de bucles.
 
 [23_1]:https://asrank.caida.org/
-[23_2]:https://es.wikipedia.org/wiki/Lumen_Technologies
 
+## 2.4. Número de redes BGP ✔
+| Rank | AS | Compañía | Sede| Tier | Tamaño| Redes |
+|:--:|--:|--|:--:|:--:|--:|--:|
+|1| 3356|Lumen Technologies|EE.UU.|1|885.139|49.212|
+|2| 1299|Arelion|Suecia|1|65.000|41.512|
+|3|  174|Cogent Communications|EE.UU.|2|129.990|36.870|
+|4| 6939|Hurricane Electric LLC|EE.UU.|2|80.467|23.822|
+|5| 6762|Gruppo TIM|Italia|1|560.000|21.151|
+|6| 2914|NTT, Inc.|Japón|1|?|19.815|
+|7| 3257|GTT Communications Inc.|EE.UU.|1|232.934|18.336|
+|8| 6461|Zayo Bandwidth|EE.UU.|1|196.339|17.522|
+|9| 6453|Tata Communications|India|1|700.000|16.785|
+|10|3491|PCCW Global, Inc.|China|1|664.000|11.409|
+
+
+## 2.5. Número de redes BGP ✔
+* El sistema autónomo [AS3356][25_1] corresponde a la red de Lumen Technologies ([CenturyLinK][25_2]) con un alcance global ([TIER 1][25_3]) que comparte 49.212 rutas BGP en una red de 885.139 Km y es la mas grande en internet.
+
+[25_1]:https://asrank.caida.org/asns/3356
+[25_2]:https://es.wikipedia.org/wiki/Lumen_Technologies
+[25_3]:https://es.wikipedia.org/wiki/Red_tier_1
 
 
 ---

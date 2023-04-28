@@ -40,6 +40,8 @@ El [nivel de una red][13] o proveedor de internet indica como participa esta con
 
 
 ### 1.3.1 Algoritmo de Bellman-Ford ✔
+El 3 de febrero de 2011, la IANA asignó los últimos bloques libres a los RIRs, efectivamente agotando el pool de direcciones IPv4 disponibles
+
 ### 1.3.2 Algoritmo de Dijkstra ✔
 
 
