@@ -121,7 +121,7 @@ Los sistemas autónomos de redes intercambian rutas con otros sistemas por medio
 
 [23_1]:https://asrank.caida.org/
 
-## 2.4. Número de redes BGP ✔
+## 2.4. Número de redes en la tabla BGP ✔
 | Rank | AS | Compañía | Sede| Tier | Tamaño| Redes |
 |:--:|--:|--|:--:|:--:|--:|--:|
 |1| 3356|Lumen Technologies|EE.UU.|1|885.139|49.212|
@@ -136,12 +136,17 @@ Los sistemas autónomos de redes intercambian rutas con otros sistemas por medio
 |10|3491|PCCW Global, Inc.|China|1|664.000|11.409|
 
 
-## 2.5. Número de redes BGP ✔
-* El sistema autónomo [AS3356][25_1] corresponde a la red de Lumen Technologies ([CenturyLinK][25_2]) con un alcance global ([TIER 1][25_3]) que comparte 49.212 rutas BGP en una red de 885.139 Km y es la mas grande en internet.
+## 2.5. Redes BGP ✔
+
+![Lumen-Network](../img/lumen.jpg)
+
+El sistema autónomo [AS3356][25_1] y [AS3549][25_2] pertenecen a una red de [40 Sistemas Autónomos][25_3] de la compañía Lumen Technologies ([CenturyLinK][25_4]) con un alcance global ([TIER 1][25_5]) que comparte 49.245 rutas BGP en una red de 885.139 Km que es la mas grande en internet.
 
 [25_1]:https://asrank.caida.org/asns/3356
-[25_2]:https://es.wikipedia.org/wiki/Lumen_Technologies
-[25_3]:https://es.wikipedia.org/wiki/Red_tier_1
+[25_2]:https://asrank.caida.org/asns/3549
+[25_3]:https://asrank.caida.org/orgs/589f9199b0
+[25_4]:https://es.wikipedia.org/wiki/Lumen_Technologies
+[25_5]:https://es.wikipedia.org/wiki/Red_tier_1
 
 
 ---
