@@ -4,7 +4,7 @@
 
 # Practica de laboratorio 01
 
-## Objetivos
+## Objetivos :+1:
 
 ### Objetivo General
 Proporcionar el conocimiento y generar las habilidades necesarias en la configuración y gestión de dispositivos de redes.
@@ -14,21 +14,13 @@ Proporcionar el conocimiento y generar las habilidades necesarias en la configur
 
 ---
 ## 1. [Preguntas de conocimiento](#) ✔
-`#0969DD` :EMOJICODE:
 
-@octocat :+1: This PR looks great - it's ready to merge! :shipit:
-
-$\color{#DD69DD}{\text{Giancarlo}}$
-
-1. responde las preguntas
-    i. holamundo
-
-
-<ol type="__a__">
+<ol type="a">
 <li>¿Cual es la dirección de red y de broadcast de un host que tiene una ip 192.168.10.10/30 .?</li>
 <li>¿Cuantos clientes puede tener la sub red 172.16.0.0/22?.</li>
 <li>¿Que clase de dirección es 10.10.10.0/24?.</li>
-<li>¿Que clase de dirección es 10.10.10.0/24?.</li></ol>
+<li>¿Que clase de dirección es 10.10.10.0/24?.</li>
+</ol>
 
 
 ## 2. [Caracterización de los adaptadores](#) ✔
@@ -156,3 +148,4 @@ $\color{#DD69DD}{\text{Giancarlo}}$
 - Número de actividades: 9
 - Valor de cada actividad: 0.55
 - Ponderación: 20%
+- $\color{#DD69DD}{\text{...Carpe Diem}}$
