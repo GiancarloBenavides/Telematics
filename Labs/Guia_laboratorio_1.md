@@ -13,10 +13,13 @@ Proporcionar el conocimiento y generar las habilidades necesarias en la configur
 - Conocer los números necesarios para configurar y caracterizar los diferentes dispositivos de red. :+1: 
 
 ---
-## 1. [Preguntas de conocimiento](#) ✔
-1. Instalar [visual Estudio Code][1_1]
+## 1. [Configurar el entorno de trabajo](#) ✔
+1. Instalar [VSCode][1_1]
 2. Instalar [Git][1_2]
-3. Instalar la [extension de github][1_3] para VsCode
+3. Instalar la [extension de github][1_3] para VScode
+4. Agregar Usuario y Correo globalmente para git.
+5. Crear el repositorio en Github.
+6. Clonar el repositorio remoto desde VScode.
 
 [1_1]:https://code.visualstudio.com/download
 [1_2]:https://git-scm.com/download/win
