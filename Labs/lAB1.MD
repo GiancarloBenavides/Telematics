@@ -34,7 +34,10 @@ Proporcionar el conocimiento y generar las habilidades necesarias en la configur
 |--|--:|
 |__Subnet__|192.168.254.0/24|
 |IPv4|192.168.254.104|
-|Subnet Mask|255.255.255.0|
+|Subnet Mask decimal|24|
+|Subnet Mask octetos|255.255.255.0|
+|Número de direcciones de Host|254|
+|Rango de direcciones de Host|192.168.254.1-254|
 |IP Broadcast|192.168.254.255|
 |Server DHCP|192.168.254.254|
 |Server DNS|8.8.8.8|
