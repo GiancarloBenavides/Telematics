@@ -1,0 +1,46 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="176.5" height="243">
+  <defs />
+  <g>
+    <g transform="translate(-208.25,9.390625)">
+      <rect fill="none" stroke="none" x="208.25" y="-9.390625" width="1121" height="482" />
+      <rect fill="none" stroke="none" x="208.25" y="-9.390625" width="1121" height="482" />
+	  
+      <path fill="none" stroke="#c7b7c7" paint-order="fill stroke markers" d=" M 257.0205358523751 70.09725175142198 L 335.9794641476249 41.12149824857802" stroke-miterlimit="10" stroke-width="4" />
+      <path fill="none" stroke="#c7b7c7" paint-order="fill stroke markers" d=" M 307.57108170979336 93.78773723782396 L 341.42891829020664 48.43101276217604" stroke-miterlimit="10" stroke-width="4" />
+      <path fill="none" stroke="#c7b7c7" paint-order="fill stroke markers" d=" M 251.0233863385205 175.39655929002353 L 288.97661366147946 119.82219070997648" stroke-miterlimit="10" stroke-width="4" />
+      <path fill="none" stroke="#c7b7c7" paint-order="fill stroke markers" d=" M 242 91.609375 L 242 172.609375" stroke-miterlimit="10" stroke-width="4" />
+      <path fill="none" stroke="#c7b7c7" paint-order="fill stroke markers" d=" M 256.74106968740875 182.3883731135706 L 336.25893031259125 148.8303768864294" stroke-miterlimit="10" stroke-width="4" />
+      <path fill="none" stroke="#c7b7c7" paint-order="fill stroke markers" d=" M 351 51.609375 L 351 126.609375" stroke-miterlimit="10" stroke-width="4" />
+      <path fill="#117EA7" stroke="#c7b7c7" paint-order="stroke fill markers" d=" M 257 75.609375 A 15 15 0 1 1 256.99999250000064 75.59437500249999 Z" stroke-miterlimit="10" stroke-width="2" />
+      <g>
+        <text fill="none" stroke="#117EA7" font-family="sans-serif" font-size="16px" font-style="normal" font-weight="bold" text-decoration="normal" x="237.55078125" y="75.609375" text-anchor="start" dominant-baseline="central" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="4">1</text>
+      </g>
+      <text fill="#F1FF35" stroke="none" font-family="sans-serif" font-size="16px" font-style="normal" font-weight="bold" text-decoration="normal" x="237.55078125" y="75.609375" text-anchor="start" dominant-baseline="central">1</text>
+      <text fill="#117EA7" stroke="none" font-family="sans-serif" font-size="12px" font-style="normal" font-weight="normal" text-decoration="normal" x="242" y="50.609375" text-anchor="start" dominant-baseline="central"></text>
+      <path fill="#117EA7" stroke="#c7b7c7" paint-order="stroke fill markers" d=" M 366 35.609375 A 15 15 0 1 1 365.99999250000064 35.594375002499994 Z" stroke-miterlimit="10" stroke-width="2" />
+      <g>
+        <text fill="none" stroke="#117EA7" font-family="sans-serif" font-size="16px" font-style="normal" font-weight="bold" text-decoration="normal" x="346.55078125" y="35.609375" text-anchor="start" dominant-baseline="central" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="4">2</text>
+      </g>
+      <text fill="#F1FF35" stroke="none" font-family="sans-serif" font-size="16px" font-style="normal" font-weight="bold" text-decoration="normal" x="346.55078125" y="35.609375" text-anchor="start" dominant-baseline="central">2</text>
+      <text fill="#117EA7" stroke="none" font-family="sans-serif" font-size="12px" font-style="normal" font-weight="normal" text-decoration="normal" x="351" y="10.609375" text-anchor="start" dominant-baseline="central"></text>
+      <path fill="#117EA7" stroke="#c7b7c7" paint-order="stroke fill markers" d=" M 313 106.609375 A 15 15 0 1 1 312.99999250000064 106.59437500249999 Z" stroke-miterlimit="10" stroke-width="2" />
+      <g>
+        <text fill="none" stroke="#117EA7" font-family="sans-serif" font-size="16px" font-style="normal" font-weight="bold" text-decoration="normal" x="293.55078125" y="106.609375" text-anchor="start" dominant-baseline="central" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="4">3</text>
+      </g>
+      <text fill="#F1FF35" stroke="none" font-family="sans-serif" font-size="16px" font-style="normal" font-weight="bold" text-decoration="normal" x="293.55078125" y="106.609375" text-anchor="start" dominant-baseline="central">3</text>
+      <text fill="#117EA7" stroke="none" font-family="sans-serif" font-size="12px" font-style="normal" font-weight="normal" text-decoration="normal" x="298" y="81.609375" text-anchor="start" dominant-baseline="central"></text>
+      <path fill="#117EA7" stroke="#c7b7c7" paint-order="stroke fill markers" d=" M 257 188.609375 A 15 15 0 1 1 256.99999250000064 188.5943750025 Z" stroke-miterlimit="10" stroke-width="2" />
+      <g>
+        <text fill="none" stroke="#117EA7" font-family="sans-serif" font-size="16px" font-style="normal" font-weight="bold" text-decoration="normal" x="237.55078125" y="188.609375" text-anchor="start" dominant-baseline="central" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="4">4</text>
+      </g>
+      <text fill="#F1FF35" stroke="none" font-family="sans-serif" font-size="16px" font-style="normal" font-weight="bold" text-decoration="normal" x="237.55078125" y="188.609375" text-anchor="start" dominant-baseline="central">4</text>
+      <text fill="#117EA7" stroke="none" font-family="sans-serif" font-size="12px" font-style="normal" font-weight="normal" text-decoration="normal" x="242" y="163.609375" text-anchor="start" dominant-baseline="central"></text>
+      <path fill="#117EA7" stroke="#c7b7c7" paint-order="stroke fill markers" d=" M 366 142.609375 A 15 15 0 1 1 365.99999250000064 142.5943750025 Z" stroke-miterlimit="10" stroke-width="2" />
+      <g>
+        <text fill="none" stroke="#117EA7" font-family="sans-serif" font-size="16px" font-style="normal" font-weight="bold" text-decoration="normal" x="346.55078125" y="142.609375" text-anchor="start" dominant-baseline="central" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="4">5</text>
+      </g>
+      <text fill="#F1FF35" stroke="none" font-family="sans-serif" font-size="16px" font-style="normal" font-weight="bold" text-decoration="normal" x="346.55078125" y="142.609375" text-anchor="start" dominant-baseline="central">5</text>
+      <text fill="#117EA7" stroke="none" font-family="sans-serif" font-size="12px" font-style="normal" font-weight="normal" text-decoration="normal" x="351" y="117.609375" text-anchor="start" dominant-baseline="central"></text>
+    </g>
+  </g>
+</svg>
