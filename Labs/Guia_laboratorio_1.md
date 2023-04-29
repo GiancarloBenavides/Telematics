@@ -13,12 +13,12 @@ Proporcionar el conocimiento y generar las habilidades necesarias en la configur
 - Conocer los números necesarios para configurar y caracterizar los diferentes dispositivos de red.
 
 ---
-## 1. Preguntas de conocimiento ✔
+## 1. [Preguntas de conocimiento](#) ✔
 `#0969DD` :EMOJICODE:
 
 @octocat :+1: This PR looks great - it's ready to merge! :shipit:
 
-foo <font color='red'>bar</font> foo
+$\color{#DD69DD}{\text{Giancarlo}}$
 
 1. responde las preguntas
     i. holamundo
