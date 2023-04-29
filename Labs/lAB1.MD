@@ -2,8 +2,21 @@
 <p><code>Fundamentos de Telemática</code></p>
 <p>Creado por <code>Giancarlo Ortiz</code> para explicar los fundamentos de los <code>Sistemas de comunicaciones</code> en los cursos de telemática y redes de computadores.</p>
 
+# Objetivos
 
-## Caracterización de los adaptadores
+## Objetivo General
+Proporcionar el conocimiento y generar las habilidades necesarias en la configuración y gestión de dispositivos de redes.
+
+## Objetivos Específicos:
+- Conocer los diferentes dispositivos de redes según el entorno de aplicabilidad.
+- Conocer la configuración y despliegue de protocolos de asignación de direccionamiento IP.
+- Conocer la configuración, afinamiento y puesta en marcha de firewall’s sobre los dispositivos de redes.
+- Desplegar un hotspot, su portal cautivo y políticas de control de ancho de banda
+- Conocer la configuración y despliegue de redes privadas virtuales sobre dispositivos de red.
+
+---
+
+## 1. Caracterización de los adaptadores
 |Parámetro||Valor|
 |--|:--:|--:|
 |Número de adaptadores Físicos|-->|3|
@@ -16,7 +29,7 @@
 >Nota: Para obtener los parámetros de la red, usaremos los comandos [ipconfig][10], [ifconfig][8], [getmac][9].
 
 
-## Caracterización de la red
+## 2. Caracterización de la red
 |Parámetro|Valor|
 |--|--:|
 |__Subnet__|192.168.254.0/24|
@@ -29,12 +42,13 @@
 >Nota: Para obtener los parámetros de la red, usaremos el comando [ipconfig][10] o [ifconfig][8].
 
 
-## Caracterización de la puerta de enlace
+## 3. Caracterización de la puerta de enlace
 |Parámetro|Valor|
 |--|--:|
 |Número de Entradas en la tabla ARP |11|
 |IPv4 Gateway|192.168.254.254|
 |MAC Gateway|3C-A0-67-E8-D8-77|
+|ISP|Dobleclick Software E Ingeneria|
 |[IP Publica][5]|138.0.90.4|
 |Sistema Autónomo|AS264646|
 
@@ -42,7 +56,7 @@
 >Nota: Para obtener los parámetros de la red, usaremos el comando [arp][11] y algún servicio web/HTTP.
 
 
-## Retardo de la red
+## 4. Retardo de la red
 |Servidor|IP|Tiempo promedio/ms|
 |--|--|--|
 |DNS Google|8.8.8.8||
@@ -55,7 +69,7 @@
 >Nota: Para calcular el retardo de la red, usaremos el protocolo ICMP/[ping][12] con al menos 10 paquetes.
 
 
-## Capacidad del canal
+## 5. Capacidad del canal
 |Servidor|Ping/ms|Down/MB|Up/MB|
 |--|:--:|--:|--:|
 |[speed test][1]|39|96.4|69.2|
@@ -66,6 +80,26 @@
 >Nota: Para calcular el retardo de la red, usaremos el protocolo HTTP via servicio WEB.
 
 
+## 6. Distancia desde el host
+|Servidor|Ping/ms|Numero de Saltos|
+|--|:--:|--:|
+|google.com|14|10|
+|GMail.com|15|9|
+|YouTube.com|14|10|
+|dns.google|15|9|
+|aws.amazon.com|154|17|
+|portal.azure.com|13|11|
+|login.live.com|88|22|
+|Facebook.com|120|11|
+|c.ns.WhatsApp.net|151|12|
+|claro.com.co|151|12|
+|platzi.com|122|11|
+|rappi.com.co|184|30|
+
+>Nota: Para calcular el retardo de la red, usaremos el comando ICMP/[tracert][13].
+
+
+---
 
 [1]:https://www.speedtest.net/es
 [2]:https://fast.com/es/#
@@ -78,3 +112,9 @@
 [10]:https://learn.microsoft.com/es-es/windows-server/administration/windows-commands/ipconfig
 [11]:https://learn.microsoft.com/es-es/windows-server/administration/windows-commands/arp
 [12]:https://learn.microsoft.com/es-es/windows-server/administration/windows-commands/ping
+[13]:https://learn.microsoft.com/es-es/windows-server/administration/windows-commands/tracert
+
+
+---
+## Mas Recursos
+- [Teoría de grafos](https://es.wikipedia.org/wiki/Teor%C3%ADa_de_grafos) (Wikipedia)
