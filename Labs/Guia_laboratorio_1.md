@@ -23,6 +23,8 @@ Proporcionar el conocimiento y generar las habilidades necesarias en la configur
 <li>¿Que información se puede inferir de la dirección 169.254.255.200/26?.</li>
 </ol>
 
+![rirs](../img/rirs.svg)
+
 
 ## 2. [Caracterización de los adaptadores](#) ✔
 |Parámetro||Valor|
