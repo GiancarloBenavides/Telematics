@@ -22,8 +22,8 @@ Proporcionar el conocimiento y generar las habilidades necesarias en la configur
 6. Agregar <code>Usuario</code> y <code>Correo</code> globalmente para Git.
 7. Clonar el repositorio remoto desde VScode.
 
-Para agregar Usuario y Contraseña a GIT
 ```bash
+# Para agregar Usuario y Contraseña a GIT
 $ git config --global user.name "John Doe"
 $ git config --global user.email johndoe@example.com
 ```
