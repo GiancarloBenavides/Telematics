@@ -35,8 +35,11 @@
 |Número de Entradas en la tabla ARP |11|
 |IPv4 Gateway|192.168.254.254|
 |MAC Gateway|3C-A0-67-E8-D8-77|
+|[IP Publica][5]|138.0.90.4|
+|Sistema Autónomo|AS264646|
 
->Nota: Para obtener los parámetros de la red, usaremos el comando [arp][11].
+
+>Nota: Para obtener los parámetros de la red, usaremos el comando [arp][11] y algún servicio web/HTTP.
 
 
 ## Retardo de la red
@@ -68,6 +71,7 @@
 [2]:https://fast.com/es/#
 [3]:http://speedtest.claro.net.co/
 [4]:https://www.nperf.com/es/
+[5]:https://www.cual-es-mi-ip.net/
 
 [8]:https://man7.org/linux/man-pages/man8/ifconfig.8.html
 [9]:https://learn.microsoft.com/es-es/windows-server/administration/windows-commands/getmac
