@@ -31,7 +31,7 @@ $\color{#DD69DD}{\text{Giancarlo}}$
 <li>¿Que clase de dirección es 10.10.10.0/24?.</li></ol>
 
 
-## 2. Caracterización de los adaptadores ✔
+## 2. [Caracterización de los adaptadores](#) ✔
 |Parámetro||Valor|
 |--|:--:|--:|
 |Número de adaptadores Físicos|-->|3|
@@ -44,7 +44,7 @@ $\color{#DD69DD}{\text{Giancarlo}}$
 >Nota: Para obtener los parámetros de la red, usaremos los comandos [ipconfig][10], [ifconfig][8], [getmac][9].
 
 
-## 3. Caracterización de la red ✔
+## 3. [Caracterización de la red](#) ✔
 |Parámetro|Valor|
 |--|--:|
 |__Subnet__|192.168.254.0/24|
@@ -60,7 +60,7 @@ $\color{#DD69DD}{\text{Giancarlo}}$
 >Nota: Para obtener los parámetros de la red, usaremos el comando [ipconfig][10] o [ifconfig][8].
 
 
-## 4. Caracterización de la puerta de enlace ✔
+## 4. [Caracterización de la puerta de enlace](#) ✔
 |Parámetro|Valor|
 |--|--:|
 |Número de Entradas en la tabla ARP |11|
@@ -74,7 +74,7 @@ $\color{#DD69DD}{\text{Giancarlo}}$
 >Nota: Para obtener los parámetros de la red, usaremos el comando [arp][11] y algún servicio web/HTTP.
 
 
-## 5. Retardo de la red ✔
+## 5. [Retardo de la red](#) ✔
 |Servidor|IP|Tiempo promedio/ms|
 |--|--|--|
 |DNS Google|8.8.8.8||
@@ -87,7 +87,7 @@ $\color{#DD69DD}{\text{Giancarlo}}$
 >Nota: Para calcular el retardo de la red, usaremos el protocolo ICMP/[ping][12] con al menos 10 paquetes.
 
 
-## 6. Capacidad del canal ✔
+## 6. [Capacidad del canal](#) ✔
 |Servidor|Ping/ms|Down/MB|Up/MB|
 |--|:--:|--:|--:|
 |[speed test][1]|39|96.4|69.2|
@@ -98,7 +98,7 @@ $\color{#DD69DD}{\text{Giancarlo}}$
 >Nota: Para calcular el retardo de la red, usaremos el protocolo HTTP via servicio WEB.
 
 
-## 7. Distancia desde el host ✔
+## 7. [Distancia desde el host](#) ✔
 |Servidor|Ping/ms|Numero de Saltos|
 |--|:--:|--:|
 |google.com|14|10|
@@ -116,12 +116,12 @@ $\color{#DD69DD}{\text{Giancarlo}}$
 
 >Nota: Para calcular el retardo de la red, usaremos el comando ICMP/[tracert][13].
 
-## 8. Diagrama de Red ✔
+## 8. [Diagrama de Red](#) ✔
 - Realice un diagrama topológico de la red que le ofrece conectividad a internet.
 - Incluya todos los detalles de la red de area local a la que se encuentra conectado.
 - Incluya los saltos conocidos incluyendo el equipo de borde de su ISP.
 
-## 9. Preguntas de conocimiento ✔
+## 9. [Preguntas de conocimiento](#) ✔
 1. Cual es la dirección de red y de broadcast de un host que tiene una ip 192.168.10.10/30.
 1. Cuantos equipos o.
 1. Incluya los saltos conocidos incluyendo el equipo de borde de su ISP.
