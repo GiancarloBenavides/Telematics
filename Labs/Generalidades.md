@@ -22,7 +22,7 @@ De conformidad con lo anterior se ha diseñado el trabajo de este laboratorio; d
 ## <code>Código de honor</code>
 Manifiesto que en los días anteriores a la realización de este taller he leído el material elaborado por el tutor de la asignatura y he estudiado con dedicación los temas que incluye este material; de tal forma que estoy preparado para debatir cualquiera de las cuestiones que incluya esta actividad. Así mismo entiendo que presentar como propio el trabajo realizado por un tercero, es un acto de deshonestidad académica, es mi noble deber probar el conocimiento en la práctica y revelar su poder.
 
-<center><code> “Solamente poseemos lo que sabemos” </code></center>
+<p align="center"><code> “Solamente poseemos lo que sabemos” </code></p>
 
 
 ## Objetivos de la asignatura
