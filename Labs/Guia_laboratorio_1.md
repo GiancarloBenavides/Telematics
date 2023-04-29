@@ -16,14 +16,18 @@ Proporcionar el conocimiento y generar las habilidades necesarias en la configur
 ## 1. [Configurar el entorno de trabajo](#) ✔
 1. Instalar [VSCode][1_1]
 2. Instalar [Git][1_2]
-3. Instalar la [extension de github][1_3] para VScode
-4. Agregar Usuario y Correo globalmente para git.
-5. Crear el repositorio en Github.
+3. Crear una cuenta en [github][1_3]
+5. Crear el repositorio en Github llamado <code>Redes-dos</code>
+3. Instalar la [extension de github][1_4] para VScode
+4. Agregar <code>Usuario</code> y <code>Correo</code> globalmente para Git.
 6. Clonar el repositorio remoto desde VScode.
+
+
 
 [1_1]:https://code.visualstudio.com/download
 [1_2]:https://git-scm.com/download/win
-[1_3]:https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github
+[1_3]:https://github.com/
+[1_4]:https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github
 
 
 
