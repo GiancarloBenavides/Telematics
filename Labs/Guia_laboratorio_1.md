@@ -14,6 +14,17 @@ Proporcionar el conocimiento y generar las habilidades necesarias en la configur
 
 ---
 ## 1. [Preguntas de conocimiento](#) ✔
+1. Instalar [visual Estudio Code][1_1]
+2. Instalar [Git][1_2]
+3. Instalar la [extension de github][1_3] para VsCode
+
+[1_1]:https://code.visualstudio.com/download
+[1_2]:https://git-scm.com/download/win
+[1_3]:https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github
+
+
+
+## 2. [Preguntas de conocimiento](#) ✔
 
 <ol type="a">
 <li>¿Cual es la dirección de red y de broadcast de un host que tiene una ip 192.168.10.10/30 .?</li>
@@ -23,10 +34,7 @@ Proporcionar el conocimiento y generar las habilidades necesarias en la configur
 <li>¿Que información se puede inferir de la dirección 169.254.255.200/26?.</li>
 </ol>
 
-![rirs](../img/rirs.svg)
-
-
-## 2. [Caracterización de los adaptadores](#) ✔
+## 3. [Caracterización de los adaptadores](#) ✔
 |Parámetro||Valor|
 |--|:--:|--:|
 |Número de adaptadores Físicos|-->|3|
@@ -39,7 +47,7 @@ Proporcionar el conocimiento y generar las habilidades necesarias en la configur
 >Nota: Para obtener los parámetros de la red, usaremos los comandos [ipconfig][10], [ifconfig][8], [getmac][9].
 
 
-## 3. [Caracterización de la red](#) ✔
+## 4. [Caracterización de la red](#) ✔
 |Parámetro|Valor|
 |--|--:|
 |__Subnet__|192.168.254.0/24|
@@ -55,7 +63,7 @@ Proporcionar el conocimiento y generar las habilidades necesarias en la configur
 >Nota: Para obtener los parámetros de la red, usaremos el comando [ipconfig][10] o [ifconfig][8].
 
 
-## 4. [Caracterización de la puerta de enlace](#) ✔
+## 5. [Caracterización de la puerta de enlace](#) ✔
 |Parámetro|Valor|
 |--|--:|
 |Número de Entradas en la tabla ARP |11|
@@ -69,7 +77,7 @@ Proporcionar el conocimiento y generar las habilidades necesarias en la configur
 >Nota: Para obtener los parámetros de la red, usaremos el comando [arp][11] y algún servicio web/HTTP.
 
 
-## 5. [Retardo de la red](#) ✔
+## 6. [Retardo de la red](#) ✔
 |Servidor|IP|Tiempo promedio/ms|
 |--|--|--|
 |DNS Google|8.8.8.8||
@@ -82,7 +90,7 @@ Proporcionar el conocimiento y generar las habilidades necesarias en la configur
 >Nota: Para calcular el retardo de la red, usaremos el protocolo ICMP/[ping][12] con al menos 10 paquetes.
 
 
-## 6. [Capacidad del canal](#) ✔
+## 7. [Capacidad del canal](#) ✔
 |Servidor|Ping/ms|Down/MB|Up/MB|
 |--|:--:|--:|--:|
 |[speed test][1]|39|96.4|69.2|
@@ -93,7 +101,7 @@ Proporcionar el conocimiento y generar las habilidades necesarias en la configur
 >Nota: Para calcular el retardo de la red, usaremos el protocolo HTTP via servicio WEB.
 
 
-## 7. [Distancia desde el host](#) ✔
+## 8. [Distancia desde el host](#) ✔
 |Servidor|Ping/ms|Numero de Saltos|
 |--|:--:|--:|
 |google.com|14|10|
@@ -111,12 +119,12 @@ Proporcionar el conocimiento y generar las habilidades necesarias en la configur
 
 >Nota: Para calcular el retardo de la red, usaremos el comando ICMP/[tracert][13].
 
-## 8. [Diagrama de Red](#) ✔
+## 9. [Diagrama de Red](#) ✔
 - Realice un diagrama topológico de la red que le ofrece conectividad a internet.
 - Incluya todos los detalles de la red de area local a la que se encuentra conectado.
 - Incluya los saltos conocidos incluyendo el equipo de borde de su ISP.
 
-## 9. [Preguntas de conocimiento](#) ✔
+## 10. [Preguntas de conocimiento](#) ✔
 1. Cual es la dirección de red y de broadcast de un host que tiene una ip 192.168.10.10/30.
 1. Cuantos equipos o.
 1. Incluya los saltos conocidos incluyendo el equipo de borde de su ISP.
@@ -148,7 +156,7 @@ Proporcionar el conocimiento y generar las habilidades necesarias en la configur
 - Fecha máximo entrega: 05 de Mayo de 2023
 - Hora de entrega: 11:59pm	
 - Nota máxima: 5.0 
-- Número de actividades: 9
-- Valor de cada actividad: 0.55
+- Número de actividades: 10
+- Valor de cada actividad: 0.5
 - Ponderación: 20%
 - $\color{#DD69DD}{\text{...Carpe Diem}}$
