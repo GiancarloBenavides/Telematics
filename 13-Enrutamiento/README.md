@@ -58,9 +58,6 @@ Los métodos de encaminamiento puedes ser:
 ## 1.3. Algoritmos de encaminamiento ✔
 Son secuencias de instrucciones iterativas que convergen a encontrar el camino optimo entre cada nodo de una red.
 
-
-![Grafo](../img/graph.svg)
-
 ```mermaid
 graph TD;
     C --> |4| A;
