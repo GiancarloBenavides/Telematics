@@ -38,5 +38,14 @@ Proporcionar el conocimiento y generar las habilidades necesarias en la configur
 - Conocer la configuración y despliegue de redes privadas virtuales sobre dispositivos de red.
 
 ---
+## Bibliografía
+- Sklar, B (2000). Digital Communications, Fundamentals And Applications. Prentice Hall. 2Ed.
+- Tanenbaum, A (2003). Computer Networks. 4 Ed. Pearson Prentice Hall.
+- Stallings, W (2004). Comunicaciones y Redes de Computadores. 7 Ed. Pearson Prentice Hall.
+
+---
 ## Mas Recursos
-- [Teoría de grafos](https://es.wikipedia.org/wiki/Teor%C3%ADa_de_grafos) (Wikipedia)
+- [Wiki Mikrotik](https://wiki.mikrotik.com/wiki/Main_Page) (Wikipedia)
+- [Cursos de Redes](https://www.netacad.com/es/courses/networking) (Cisco Networking Academy)
+- [Curso de Mikrotik](https://www.youtube.com/watch?v=AWtYiwTYR7A&list=PLf0g2cV4iCkH19_UhaVt0vDn1f9ObumjF) (YouTube)
+- [Calculadora IP](https://www.calculator.net/ip-subnet-calculator.html) (Wikipedia)

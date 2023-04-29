@@ -117,4 +117,14 @@ Proporcionar el conocimiento y generar las habilidades necesarias en la configur
 
 ---
 ## Mas Recursos
-- [Teoría de grafos](https://es.wikipedia.org/wiki/Teor%C3%ADa_de_grafos) (Wikipedia)
+- [Protocolo Ipv4](https://es.wikipedia.org/wiki/IPv4) (Wikipedia)
+- [Direccionamiento IP](https://es.wikipedia.org/wiki/Direcci%C3%B3n_IP) (Wikipedia)
+- [Calculadora IP](https://www.calculator.net/ip-subnet-calculator.html) (Wikipedia)
+
+# Evaluación y rúbrica
+- Fecha máximo entrega: 05 de Mayo de 2023
+- Hora de entrega: 11:59pm	
+- Nota máxima: 5.0 
+- Número de actividades: 5
+- Valor de cada actividad: 1
+- Ponderación: 20%
