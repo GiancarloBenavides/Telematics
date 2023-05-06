@@ -20,7 +20,8 @@ Proporcionar el conocimiento y generar las habilidades necesarias en la configur
 4. Crear el repositorio en Github llamado <code>Redes-dos</code>
 5. Instalar la [extension de github][1_4] para VScode
 6. Agregar <code>Usuario</code> y <code>Correo</code> globalmente para Git.
-7. Clonar el repositorio remoto desde VScode.
+7. Cerrar carpeta y clonar el repositorio remoto desde VScode.
+
 
 ```bash
 # Para agregar Usuario y Contraseña a GIT
@@ -35,14 +36,14 @@ $ git config --global user.email johndoe@example.com
 
 
 
-## 2. [Preguntas de conocimiento](#) ✔
+## 2. [Preguntas reflexivas de ambientación](#) ✔
 
 <ol type="a">
 <li>¿Cual es la dirección de red y de broadcast de un host que tiene una ip 192.168.10.10/30 .?</li>
+<li>¿Que información se puede inferir de un host con la dirección 169.254.255.200/26?.</li>
+<li>¿Cuantas sub-redes puede lograr con la mascara 172.16.0.0/22?.</li>
 <li>¿Cuantos clientes puede tener la sub red 172.16.0.0/22?.</li>
 <li>¿Que clase y tipo de dirección es 10.10.10.0/24?.</li>
-<li>¿Que información se puede inferir de la dirección 169.254.255.200/26?.</li>
-<li>¿Que información se puede inferir de la dirección 169.254.255.200/26?.</li>
 </ol>
 
 ## 3. [Caracterización de los adaptadores](#) ✔
