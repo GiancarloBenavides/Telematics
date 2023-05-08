@@ -4,7 +4,7 @@
 # pip install RouterOS-api
 import routeros_api
 
-connection = routeros_api.RouterOsApiPool('192.168.10.1', username='admin', password='')
+connection = routeros_api.RouterOsApiPool('192.168.10.1', username='admin', password='admin')
 api = connection.get_api()
 leases = api.get_resource('/ip/dhcp-server/lease')
 leases_list = leases.get()
@@ -18,7 +18,7 @@ for contrato in leases_list:
     estado.append(contrato["status"])
 
 # Imprimir los resultados en consola
-print("| Cliente        | Estado |")
-print("---------------------------")
+print(f"| {'Cliente'.ljust(17)} | Estado  |")
+print(f"-"*30)
 for item in range(num_contratos):
-    print("| " + direcciones[item] +"| " + estado[item] + "|")
+    print(f"| {direcciones[item]:>17} |  {estado[item]:>6} |")
