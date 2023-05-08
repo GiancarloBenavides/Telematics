@@ -13,7 +13,7 @@ La gestión de los servicios que ofrece un sistema de comunicaciones digital, pu
 <br>
 
 ---
-# 1. [Encaminamiento de paquetes][#]
+# 1. [Encaminamiento de paquetes](#)
 El [Encaminamiento][1] o enrutamiento es la función de buscar el camino mas optimo entre dos posibles nodos en un red formada por sistema de nodos interconectados.
 
 [1]:https://es.wikipedia.org/wiki/Encaminamiento
