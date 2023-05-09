@@ -15,7 +15,51 @@ La gestión de los servicios que ofrece un sistema de comunicaciones digital, pu
 <br>
 
 ---
-# 1. Números en internet
+# 1. [Nombres de internet](#agenda)
+Un [Dominio][1] es un nombre que identifica un area dentro de una red, en internet existen distintos tipos de dominios.
+
+[1]:https://es.wikipedia.org/wiki/Dominio_de_internet
+
+* ><i>"Afectas al mundo por lo que navegas."</i><br>
+<cite style="display:block; text-align: right">[Tim Berners-Lee](https://es.wikipedia.org/wiki/Tim_Berners-Lee)</cite>
+
+
+## 1.1. Niveles de Dominio ✔
+En internet existen subdominios de dentro de un dominio y dominios de nivel superior que agrupan dominios, esto se agrupa en el nombre de 
+
+<code>Nombre de un host:</code>
+... [subdominio][11_1] . [dominio][1] . [dominio_de_nivel_superior][11_2] ...
+
+<code>Ejemplos:</code>
+* https://mikrotik.com/
+    * https://help.mikrotik.com/docs/
+    * https://wiki.mikrotik.com/wiki/
+    * https://mum.mikrotik.com/
+* https://es.wikipedia.org/wiki/Localizador_de_recursos_uniforme
+* https://www.youtube.com/watch?v=4IuNKK2y49s
+* ftp://ftp.rediris.es/sites/releases.ubuntu.com/23.04
+* http://ftp.ufanet.ru/pub/firmware/
+
+[11_1]:https://es.wikipedia.org/wiki/Subdominio
+[11_2]:https://es.wikipedia.org/wiki/Dominio_de_nivel_superior
+
+## 1.2. Identificador de recursos uniforme ✔
+Una [URI][12_1] o identificador de recursos uniforme es una cadena de caracteres que identifica los recursos físicos o virtuales de una red de forma unívoca.
+
+![Componentes uri](../img/uri_.svg)
+
+[12_1]:https://es.wikipedia.org/wiki/Identificador_de_recursos_uniforme
+
+### 1.2.1. Componentes.
+Algunos elementos posibles son:
+* __Esquema:__ identificador de una especificación o protocolo.
+* __Autoridad de nombres:__ estructura jerárquico de nombres (dominio).
+* __Ruta:__ Información jerárquica, que identifica un recurso.
+* __Consulta:__ Información no jerárquica que identifica un recurso.
+* __Fragmento:__ identificador de una parte del recurso.
+
+
+# 2. Números en internet
 El [Encaminamiento][1] o enrutamiento es la función de buscar el camino mas optimo entre dos posibles nodos en un red formada por sistema de nodos interconectados.
 
 [1]:https://es.wikipedia.org/wiki/Encaminamiento
@@ -23,55 +67,8 @@ El [Encaminamiento][1] o enrutamiento es la función de buscar el camino mas opt
 * ><i>"Muchos matemáticos derivan parte de su autoestima sintiéndose orgullosos herederos de una larga tradición de pensamiento racional, me temo que idealizan sus ancestros culturales."</i><br>
 <cite style="display:block; text-align: right">[Edsger Dijkstra](https://es.wikipedia.org/wiki/Edsger_Dijkstra)</cite>
 
-### 1.1. Métricas ✔
-Las métricas que se puede tener en cuenta para encontrar el camino mas optimo de comunicación entre dos nodos del sistema pueden ser:
-* Numero de saltos (menor)
-* Costo o distancia (menor)
-* Tiempo de retardo (menor)
 
-## 1.2. Métodos de encaminamiento ✔
-Los métodos de encaminamiento puedes ser:
-* __Estáticos o deterministas:__ la cuantificación de todas las métricas se hace fuera de linea y se mantiene inalterada ante un cambio de estado del sistema.
-* __Dinámicos o adaptativos:__ la valoración de las métricas se modifica continuamente según los cambios de estado del sistema, cuantificando en cada iteración una solución del problema buscando que en un número de iteraciones converja a la solución optima.
 
-### 1.2.1 Basados en vector de distancias ✔
-El [vector de distancias][121] es un método que resuelve el problema de la ruta mas corta, calculando el costo entre cada nodo origen y los demás nodos del sistema consignando estos valores en una tabla que luego comparte con sus vecinos. Este método se usa para sistemas con un numero reducido de nodos porque no escala bien en sistemas demasiado grandes.
-
-[121]:https://es.wikipedia.org/wiki/Vector_de_distancias
-
-## 1.2.2 Basados en el estado del enlace ✔
-El [estado del enlace][122] es un método que resuelve el problema de la ruta mas corta, calculando el costo entre el y sus vecinos y lo comunica a todos los nodos de la red. Este método converge rápidamente y escala bien en sistemas de muchos nodos.
-
-[122]:https://es.wikipedia.org/wiki/Estado_de_enlace
-
-## 1.3. Algoritmos de encaminamiento ✔
-Son secuencias de instrucciones iterativas que convergen a encontrar el camino optimo entre cada nodo de una red.
-
-```mermaid
-graph TD;
-    C --> |4| A;
-    C --> |1| B;  
-    B --> |1| A;
-    B --> |2| C;
-    D --> |8| B;
-    D --> |4| E;
-    E --> |2| C;
-    E --> |4| D;
-```
-
-### 1.3.1 Algoritmo de Bellman-Ford ✔
-Se usa en protocolos de encaminamiento basados en vector de distancias:
-
-* [__RIP:___][131_1] Routing Information Protocol
-* [__IGRP:___][131_2] Interior Gateway Routing Protocol (CISCO)
-* [__IGRP:___][131_3] Interior Gateway Routing Protocol (CISCO)
-
-[131_1]:https://es.wikipedia.org/wiki/Routing_Information_Protocol
-[131_2]:https://es.wikipedia.org/wiki/Interior_Gateway_Routing_Protocol
-[131_3]:https://es.wikipedia.org/wiki/Enhanced_Interior_Gateway_Routing_Protocol
-
-### 1.3.2 Algoritmo de Dijkstra ✔
-Se usa en protocolos de encaminamiento basados en el estado del enlace
 
 
 ---

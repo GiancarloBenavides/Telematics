@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   x="0px"
+   y="0px"
+   width="1068px"
+   height="100px"
+   viewBox="0 0 1068 100"
+   enable-background="new 0 0 1068 100"
+   xml:space="preserve"
+   id="svg113"
+   sodipodi:docname="URI_syntax_diagram.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
+   id="metadata119"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title><cc:license
+         rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" /></cc:Work><cc:License
+       rdf:about="http://creativecommons.org/publicdomain/zero/1.0/"><cc:permits
+         rdf:resource="http://creativecommons.org/ns#Reproduction" /><cc:permits
+         rdf:resource="http://creativecommons.org/ns#Distribution" /><cc:permits
+         rdf:resource="http://creativecommons.org/ns#DerivativeWorks" /></cc:License></rdf:RDF></metadata><defs
+   id="defs117" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1920"
+   inkscape:window-height="1053"
+   id="namedview115"
+   showgrid="false"
+   inkscape:zoom="0.64044944"
+   inkscape:cx="744.14476"
+   inkscape:cy="127.65156"
+   inkscape:window-x="0"
+   inkscape:window-y="27"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="userinfo" />
+<line
+   fill="none"
+   stroke="#332900"
+   x1="0"
+   y1="17"
+   x2="1068"
+   y2="17"
+   id="line2" />
+<path
+   fill="none"
+   stroke="#332900"
+   d="M153.65,17c6.5,0,10,3,10,10v12c0,6.5,3,10,10,10H619c6.5,0,10-3,10-10V27c0-6.5,3-10,10-10"
+   id="path4" />
+<path
+   fill="none"
+   stroke="#332900"
+   d="M704.35,17c6.5,0,10,3,10,10v12c0,6.5,3,10,10,10h120c6.5,0,10-3,10-10V27c0-6.5,3-10,10-10"
+   id="path6" />
+<path
+   fill="none"
+   stroke="#332900"
+   d="M865.35,17c6.5,0,10,3,10,10v12c0,6.5,3,10,10,10h143.5c6.5,0,10-3,10-10V27c0-6.5,3-10,10-10"
+   id="path8" />
+<path
+   d="M228.82,49c6.5,0,10,3,10,10v12c0,6.5,3,10,10,10h136c6.5,0,10-3,10-10V59c0-6.5,3-10,10-10"
+   id="path10"
+   stroke="#332900"
+   fill="none" />
+<path
+   fill="none"
+   stroke="#332900"
+   d="M470.82,49c6.5,0,10,3,10,10v12c0,6.5,3,10,10,10h108c6.5,0,10-3,10-10V59c0-6.5,3-10,10-10"
+   id="path12" />
+<polygon
+   fill="#332900"
+   stroke="#332900"
+   points="8.5,17 0.5,13 0.5,21"
+   id="polygon14" />
+<polygon
+   fill="#332900"
+   stroke="#332900"
+   points="16.5,17 8.5,13 8.5,21"
+   id="polygon16" />
+<polygon
+   fill="#332900"
+   stroke="#332900"
+   points="1058,17 1050,13 1050,21"
+   id="polygon18" />
+<polygon
+   fill="#332900"
+   stroke="#332900"
+   points="1067.5,21 1067.5,13 1059.5,17"
+   id="polygon20" />
+<a
+   id="scheme"
+   xlink:href="#scheme">
+	<path
+   fill="#332900"
+   stroke="#332900"
+   d="M41.5,2.5h50c5.5,0,10,4.5,10,10v12c0,5.5-4.5,10-10,10h-50c-5.5,0-10-4.5-10-10v-12C31.5,7,36,2.5,41.5,2.5z"
+   id="path22" />
+	<path
+   fill="#FFDB4D"
+   stroke="#332900"
+   d="M40,0.5h50c5.5,0,10,4.5,10,10v12c0,5.5-4.5,10-10,10H39.5c-5.5,0-10-4.5-10-10v-12C30,5,34,0.5,40,0.5z"
+   id="path24" />
+	<text
+   transform="translate(64,20)"
+   font-weight="bold"
+   font-size="12px"
+   id="text26"
+   style="font-weight:bold;font-size:12px;font-family:'DejaVu Sans';text-anchor:middle;fill:#141000">esquema</text>
+
+</a>
+<a
+   id="scheme-delimiter"
+   xlink:href="#scheme-delimiter">
+	<path
+   fill="#332900"
+   stroke="#332900"
+   d="M130,2.5h6c5.5,0,10,4.5,10,10v12c0,5.5-4.5,10-10,10h-6c-5.5,0-10-4.5-10-10v-12C120,7,124,2.5,130,2.5z"
+   id="path29" />
+	<path
+   fill="#FFDB4D"
+   stroke="#332900"
+   d="M127.5,0.5h6c5.5,0,10,4.5,10,10v12c0,5.5-4.5,10-10,10h-6c-5.5,0-10-4.5-10-10v-12C117.5,5,122,0.5,127.5,0.5z"
+   id="path31" />
+	<text
+   transform="matrix(1 0 0 1 130 20)"
+   fill="#141000"
+   text-anchor="middle"
+   font-weight="bold"
+   font-family="'DejaVu Sans'"
+   font-size="12px"
+   id="text33">:</text>
+
+</a>
+<a
+   id="slashes"
+   xlink:href="#slashes">
+	<path
+   d="M194,35h17c5.5,0,10,4.5,10,10v12c0,5.5-4.5,10-10,10h-17c-5.5,0-10-4.5-10-10V45C184,39,189,35,194,35z"
+   id="path36"
+   stroke="#332900"
+   fill="#332900" />
+	<path
+   d="M192.35,32.75h17c5.5,0,10,4.5,10,10v12c0,5.5-4.5,10-10,10h-17c-5.5,0-10-4.5-10-10v-12c-0.35-5.75,4.65-10,9.65-10H192.35z"
+   id="path38"
+   stroke="#332900"
+   fill="#FFDB4D" />
+	<text
+   transform="matrix(1 0 0 1 200 52)"
+   font-weight="bold"
+   font-size="12px"
+   id="text40"
+   text-anchor="middle"
+   font-family="'DejaVu Sans'"
+   fill="#141000">//</text>
+
+</a>
+<a
+   id="userinfo"
+   xlink:href="#userinfo"
+   transform="matrix(1.0232755,0,0,1,-5.9438671,0)">
+	<rect
+   x="252.26514"
+   y="67.511131"
+   width="77.77552"
+   height="31.977736"
+   id="rect43"
+   style="fill:#332900;stroke:#332900;stroke-width:1.0770427" />
+	<rect
+   x="250.30957"
+   y="65.51368"
+   width="78.606445"
+   height="31.972647"
+   id="rect45"
+   style="fill:#ffec9e;stroke:#332900;stroke-width:1.08269465" />
+	<text
+   font-size="12px"
+   id="text47"
+   style="font-size:12px;font-family:'DejaVu Sans';text-anchor:middle;fill:#1a1400"
+   x="289.12872"
+   y="84.633774">infousuario</text>
+
+</a>
+<a
+   id="at-sign"
+   xlink:href="#at-sign">
+	<path
+   fill="#332900"
+   stroke="#332900"
+   d="M356,67.5h11c5.5,0,10,4.5,10,10v12c0,5.5-4.5,10-10,10h-11c-5.5,0-10-4.5-10-10v-12C346,72,351,67.5,356,67.5z"
+   id="path50" />
+	<path
+   fill="#FFDB4D"
+   stroke="#332900"
+   d="M354,65.5h11c5.5,0,10,4.5,10,10v12c0,5.5-4.5,10-10,10h-11c-5.5,0-10-4.5-10-10v-12C344,70,349,65.5,354,65.5z"
+   id="path52" />
+	<text
+   transform="matrix(1 0 0 1 360 85)"
+   fill="#141000"
+   text-anchor="middle"
+   font-weight="bold"
+   font-family="'DejaVu Sans'"
+   font-size="12px"
+   id="text54">@</text>
+
+</a>
+<a
+   id="host"
+   xlink:href="#host"
+   transform="matrix(1.1084359,0,0,1,-49.307474,0)">
+	<rect
+   x="411.30817"
+   y="35.02203"
+   width="56.017113"
+   height="31.955942"
+   id="rect57"
+   style="fill:#332900;stroke:#332900;stroke-width:1.09096861" />
+	<rect
+   x="409.3212"
+   y="33.022633"
+   width="56.340378"
+   height="31.954733"
+   id="rect59"
+   style="fill:#ffec9e;stroke:#332900;stroke-width:1.09409118" />
+	<text
+   font-size="12px"
+   id="text61"
+   style="font-size:11.3864584px;font-family:'DejaVu Sans';text-anchor:middle;fill:#1a1400;stroke-width:0.94887149"
+   x="461.25601"
+   y="49.959396"
+   transform="scale(0.9488715,1.0538835)">anfitrión</text>
+
+</a>
+<a
+   id="port-delimiter"
+   xlink:href="#port-delimiter">
+	<path
+   fill="#332900"
+   stroke="#332900"
+   d="M512,67.5h5c5.5,0,10,4.5,10,10v12c0,5.5-4.5,10-10,10h-5c-5.5,0-10-4.5-10-10v-12C502,72,507,67.5,512,67.5z"
+   id="path64" />
+	<path
+   fill="#FFDB4D"
+   stroke="#332900"
+   d="M510,65.5h5c5.5,0,10,4.5,10,10v12c0,5.5-4.5,10-10,10h-5c-5.5,0-10-4.5-10-10v-12C500,70,505,65.5,510,65.5z"
+   id="path66" />
+	<text
+   transform="matrix(1 0 0 1 512 85)"
+   fill="#141000"
+   text-anchor="middle"
+   font-weight="bold"
+   font-family="'DejaVu Sans'"
+   font-size="12px"
+   id="text68">:</text>
+
+</a>
+<a
+   id="port"
+   xlink:href="#port">
+	<rect
+   x="546"
+   y="67.5"
+   fill="#332900"
+   stroke="#332900"
+   width="46"
+   height="32"
+   id="rect71" />
+	<rect
+   x="544"
+   y="65.5"
+   fill="#FFEC9E"
+   stroke="#332900"
+   width="46"
+   height="32"
+   id="rect73" />
+	<text
+   transform="translate(567,86)"
+   font-size="12px"
+   id="text75"
+   style="font-size:12px;font-family:'DejaVu Sans';text-anchor:middle;fill:#1a1400">puerto</text>
+
+</a>
+<a
+   id="path"
+   xlink:href="#path">
+	<rect
+   x="650"
+   y="2.5"
+   fill="#332900"
+   stroke="#332900"
+   width="47"
+   height="32"
+   id="rect78" />
+	<rect
+   x="648"
+   y="0.5"
+   fill="#FFEC9E"
+   stroke="#332900"
+   width="47"
+   height="32"
+   id="rect80" />
+	<text
+   transform="translate(672,21)"
+   font-size="12px"
+   id="text82"
+   style="font-size:12px;font-family:'DejaVu Sans';text-anchor:middle;fill:#1a1400">ruta</text>
+
+</a>
+<a
+   id="question-mark"
+   xlink:href="#question-mark">
+	<path
+   fill="#332900"
+   stroke="#332900"
+   d="M746.5,34.75h7c5.5,0,10,4.5,10,10v12c0,5.5-4.5,10-10,10h-7c-5.5,0-10-4.5-10-10v-12C736.5,39,741,34.75,746.5,34.75z"
+   id="path85" />
+	<path
+   fill="#FFDB4D"
+   stroke="#332900"
+   d="M744.5,32.75h7c5.5,0,10,4.5,10,10v12c0,5.5-4.5,10-10,10h-7c-5.5,0-10-4.5-10-10v-12c0-5.75,4.5-10,10.5-10H744.5z"
+   id="path87" />
+	<text
+   transform="matrix(1 0 0 1 748 53)"
+   fill="#141000"
+   text-anchor="middle"
+   font-weight="bold"
+   font-family="'DejaVu Sans'"
+   font-size="12px"
+   id="text89">?</text>
+
+</a>
+<a
+   id="query"
+   xlink:href="#query">
+	<rect
+   x="783.02386"
+   y="35.023857"
+   width="58.265663"
+   height="31.952282"
+   id="rect92"
+   style="fill:#332900;stroke:#332900;stroke-width:1.04771793" />
+	<rect
+   x="777.26971"
+   y="33.025383"
+   width="62.560146"
+   height="31.949234"
+   id="rect94"
+   style="fill:#ffec9e;stroke:#332900;stroke-width:1.08559084" />
+	<text
+   transform="translate(807,53)"
+   font-size="12px"
+   id="text96"
+   style="font-size:12px;font-family:'DejaVu Sans';text-anchor:middle;fill:#1a1400">consulta</text>
+
+</a>
+<a
+   id="hash"
+   xlink:href="#hash">
+	<path
+   fill="#332900"
+   stroke="#332900"
+   d="M906.5,35h10c5.5,0,10,4.5,10,10v12c0,5.5-4.5,10-10,10h-10c-5.5,0-10-4.5-10-10V44.75C896.5,39,901,35,906.5,35z"
+   id="path99" />
+	<path
+   fill="#FFDB4D"
+   stroke="#332900"
+   d="M904.5,33h10c5.5,0,10,4.5,10,10v12c0,5.5-4.5,10-10,10h-10c-5.5,0-10-4.5-10-10V42.75C894.5,37,900,33,904.5,33z"
+   id="path101" />
+	<text
+   transform="matrix(1 0 0 1 909 53)"
+   fill="#141000"
+   text-anchor="middle"
+   font-weight="bold"
+   font-family="'DejaVu Sans'"
+   font-size="12px"
+   id="text103">#</text>
+
+</a>
+<a
+   id="fragment"
+   xlink:href="#fragment">
+	<rect
+   x="946"
+   y="35"
+   fill="#332900"
+   stroke="#332900"
+   width="76"
+   height="32"
+   id="rect106" />
+	<rect
+   x="944"
+   y="33"
+   fill="#FFEC9E"
+   stroke="#332900"
+   width="76"
+   height="32"
+   id="rect108" />
+	<text
+   transform="translate(982,53)"
+   font-size="12px"
+   id="text110"
+   style="font-size:12px;font-family:'DejaVu Sans';text-anchor:middle;fill:#1a1400">fragmento</text>
+
+</a>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+   x="260"
+   y="67.5"
+   id="text4631"><tspan
+     sodipodi:role="line"
+     id="tspan4629"
+     x="260"
+     y="102.89062"></tspan></text>
+</svg>

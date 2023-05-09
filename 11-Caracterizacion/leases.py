@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
 ### Para usar instalar paquete pip
+# https://pypi.org/project/RouterOS-api/
 # pip install RouterOS-api
 import routeros_api
 
