@@ -3,11 +3,11 @@
 <p>Creado por <code>Giancarlo Ortiz</code> para explicar los fundamentos de los <code>Sistemas de comunicaciones</code> en los cursos de telemática y redes de computadores.</p>
 
 ## Direccionamiento
-La gestión de los servicios que ofrece un sistema de comunicaciones digital, pueden estar distribuidos en diferentes componentes de hardware y de software, los conocimientos para configurar estos componentes dependen del fabricante pero conociendo la base técnica es posible adaptar las soluciones a la perspectiva de las diferentes marcas. 
+A cada dispositivo o host que se conecta a una red IP como Internet se le asigna al menos una dirección de Internet única. Esta dirección es utilizada por los protocolos de internet de la capa tres y superiores para garantizar una comunicación segura y sin errores.
 
 ## Agenda
 1. [Nombres usados en redes](#1-nombres-usados-en-redes).
-1. [Etiquetas numéricas en las redes](#2-numeros-en-internet).
+1. [Etiquetas numéricas](#2-etiquetas-numéricas).
 1. [Sub-redes](#3-sub-redes).
 
 
@@ -66,7 +66,7 @@ Algunos ejemplos de recursos son:
 [11_3]:ftp://ftp.rediris.es/sites/releases.ubuntu.com/23.04
 
 
-# 2. [Números en internet](#agenda)
+# 2. [Etiquetas numéricas](#agenda)
 Existen varias [etiquetas][2_1] numéricas que identifican recursos en una red, posiblemente una [interfaz][2_2] en un dispositivo o incluso un subsistema de red.
 
 
