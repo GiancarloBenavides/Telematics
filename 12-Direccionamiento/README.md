@@ -6,15 +6,15 @@
 La gestión de los servicios que ofrece un sistema de comunicaciones digital, pueden estar distribuidos en diferentes componentes de hardware y de software, los conocimientos para configurar estos componentes dependen del fabricante pero conociendo la base técnica es posible adaptar las soluciones a la perspectiva de las diferentes marcas. 
 
 ## Agenda
-1. [Nombres en internet](#1-nombres-en-internet).
-1. [Números en internet](#2-numeros-en-internet).
+1. [Nombres usados en redes](#1-nombres-usados-en-redes).
+1. [Etiquetas numéricas en las redes](#2-numeros-en-internet).
 1. [Sub-redes](#3-sub-redes).
 
 
 <br>
 
 ---
-# 1. [Nombres de internet](#agenda)
+# 1. [Nombres usados en redes](#agenda)
 Un [Dominio][1] es un nombre que identifica un area dentro de una red, en internet existen distintos tipos de dominios.
 
 [1]:https://es.wikipedia.org/wiki/Dominio_de_internet
@@ -66,7 +66,7 @@ Algunos ejemplos de recursos son:
 [11_3]:ftp://ftp.rediris.es/sites/releases.ubuntu.com/23.04
 
 
-# 2. [Números de internet](#agenda)
+# 2. [Números en internet](#agenda)
 Existen varias [etiquetas][2_1] numéricas que identifican recursos en una red, posiblemente una [interfaz][2_2] en un dispositivo o incluso un subsistema de red.
 
 
