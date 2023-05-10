@@ -85,26 +85,30 @@ Una dirección IP es una etiqueta numérica que identifica de manera lógica y j
 ### 2.1.1. Direcciones IPv4
 Las direcciones [IPV4][211] se expresan mediante un número binario de 32 bits (4 bytes) permitiendo un espacio de $2^{32}$ direcciones únicas posibles, aproximadamente 4.294 Millones.
 
+<code>Ejemplo:</code> representar [__192.168.254.172__](#)
+
 |Octeto| 1 byte | 2 byte  | 3 byte  | 4 byte |
 |--|:--:|:--:|:--:|:--:|
 |__Decimal__ | 192 | __168__ | 254 | __172__ |
 |__Binario__ | 11000000 | __10101000__ | 11111110 | __10101100__ |
 |__Bites__   | 8 | 16 | 24 | 32 |
 
-[211]:https://es.wikipedia.org/wiki/IPv4
+[211]:
 
 
 ### 2.1.2. Direcciones IPv6
 Las direcciones [IPV6][212] se expresan mediante un número binario de 128 bits (16 bytes) permitiendo un espacio de $2^{128}$ direcciones posibles, aproximadamente 340 sextillones.
 
-|Octeto| 4 byte | 8 byte  | 12 byte  | 16 byte |
+<code>Ejemplo:</code> representar [__2001:0DB8:AC10:FE01__](#)
+
+|Octeto| 2 byte | 4 byte  | 6 byte  | 8 byte |
 |--|:--:|:--:|:--:|:--:|
-|__Decimal__ | 192 | __168__ | 254 | __172__ |
-|__Binario__ | 11000000 | __10101000__ | 11111110 | __10101100__ |
+|__Hexadecimal__ | 2001 | __0DB8__ | AC10 | __FE01__ |
+|__Binario__ | 0010 0000 0000 0001 | __0000 1101 1011 1000__ | 1010 1100 0001 0000 | __1111 1110 0000 0001__ |
 |__Bites__   | 8 | 16 | 24 | 32 |
 
 
-[212]:https://es.wikipedia.org/wiki/IPv6
+[212]:https://es.wikipedia.org/wiki/Direcci%C3%B3n_IPv6
 
 
 # 3. [Sub-redes](#agenda)
@@ -127,6 +131,9 @@ De estas direcciones 16 Millones son privadas y 268 Millones de multidifusión
 ## Mas Recursos
 - [Registro Regional de Internet](https://es.wikipedia.org/wiki/Registro_Regional_de_Internet) (Wiki)
 - [Protocolo de internet](https://es.wikipedia.org/wiki/Protocolo_de_internet) (Wiki)
+- [Protocolo IPv4](https://es.wikipedia.org/wiki/IPv4) (Wiki)
+- [Protocolo IPv6](https://es.wikipedia.org/wiki/IPv6) (Wiki)
 - [Tarjeta de red](https://es.wikipedia.org/wiki/Tarjeta_de_red) (Wiki)
+- [Dirección MAC](https://es.wikipedia.org/wiki/Direcci%C3%B3n_MAC) (Wiki)
 - [Wiki Mikrotik](https://wiki.mikrotik.com/wiki/Main_Page) (Wiki)
 
