@@ -35,13 +35,10 @@ En internet existen subdominios de dentro de un dominio y dominios de nivel supe
     * https://help.mikrotik.com/docs/
     * https://wiki.mikrotik.com/wiki/
     * https://mum.mikrotik.com/
-* https://es.wikipedia.org/wiki/Localizador_de_recursos_uniforme
-* https://www.youtube.com/watch?v=4IuNKK2y49s
-* ftp://ftp.rediris.es/sites/releases.ubuntu.com/23.04
-* http://ftp.ufanet.ru/pub/firmware/
 
 [11_1]:https://es.wikipedia.org/wiki/Subdominio
 [11_2]:https://es.wikipedia.org/wiki/Dominio_de_nivel_superior
+
 
 ## 1.2. Identificador de recursos uniforme ✔
 Una [URI][12_1] o identificador de recursos uniforme es una cadena de caracteres que identifica los recursos físicos o virtuales de una red de forma unívoca.
@@ -49,6 +46,7 @@ Una [URI][12_1] o identificador de recursos uniforme es una cadena de caracteres
 ![Componentes uri](../img/uri_.svg)
 
 [12_1]:https://es.wikipedia.org/wiki/Identificador_de_recursos_uniforme
+
 
 ### 1.2.1. Componentes.
 Algunos elementos posibles son:
@@ -59,13 +57,24 @@ Algunos elementos posibles son:
 * __Fragmento:__ identificador de una parte del recurso.
 
 
-# 2. Números en internet
-El [Encaminamiento][1] o enrutamiento es la función de buscar el camino mas optimo entre dos posibles nodos en un red formada por sistema de nodos interconectados.
+### 1.2.2. Ejemplos
+Algunos ejemplos de recursos son:
+* https://es.wikipedia.org/wiki/Localizador_de_recursos_uniforme
+* https://www.youtube.com/watch?v=4IuNKK2y49s
+* [ftp://ftp.rediris.es/sites/releases.ubuntu.com/23.04][11_3]
+* http://ftp.ufanet.ru/pub/firmware/
 
-[1]:https://es.wikipedia.org/wiki/Encaminamiento
+[11_3]:ftp://ftp.rediris.es/sites/releases.ubuntu.com/23.04
 
-* ><i>"Muchos matemáticos derivan parte de su autoestima sintiéndose orgullosos herederos de una larga tradición de pensamiento racional, me temo que idealizan sus ancestros culturales."</i><br>
-<cite style="display:block; text-align: right">[Edsger Dijkstra](https://es.wikipedia.org/wiki/Edsger_Dijkstra)</cite>
+
+# 2. [Números de internet](#agenda)
+Existen varias [etiquetas][2_1] numéricas que identifican recursos en una red, posiblemente una [interfaz][2_2] en un dispositivo o incluso un subsistema de red.
+
+
+[2_1]:https://es.wikipedia.org/wiki/Encaminamiento
+
+* ><i>"El Internet reside en que cualquier persona puede acceder a él."</i><br>
+<cite style="display:block; text-align: right">[Vinton Cerf](https://es.wikipedia.org/wiki/Vinton_Cerf)</cite>
 
 
 
@@ -73,15 +82,4 @@ El [Encaminamiento][1] o enrutamiento es la función de buscar el camino mas opt
 
 ---
 ## Mas Recursos
-- [Teoría de grafos](https://es.wikipedia.org/wiki/Teor%C3%ADa_de_grafos) (Wikipedia)
-- [Algoritmo de Bellman-Ford](https://es.wikipedia.org/wiki/Algoritmo_de_Bellman-Ford) (Wikipedia)
-- [Algoritmo de Dijkstra](https://es.wikipedia.org/wiki/Algoritmo_de_Dijkstra) (Wikipedia)
-
-
-
 - [Wiki Mikrotik](https://wiki.mikrotik.com/wiki/Main_Page) (Wiki)
-- [Llamada a procedimiento remoto](https://es.wikipedia.org/wiki/Llamada_a_procedimiento_remotos) (Wikipedia)
-- [Distributed Component Object Model](https://es.wikipedia.org/wiki/Modelo_de_Objetos_de_Componentes_Distribuidos) (Wikipedia)
-- [Common Object Request Broker Architecture](https://es.wikipedia.org/wiki/CORBA) (Wikipedia)
-- [Remote Method Invocation](https://es.wikipedia.org/wiki/Java_Remote_Method_Invocation) (Wikipedia)
-- [Simple Object Access Protocol](https://es.wikipedia.org/wiki/Simple_Object_Access_Protocol) (Wikipedia)
