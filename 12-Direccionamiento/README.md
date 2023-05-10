@@ -6,11 +6,10 @@
 La gestión de los servicios que ofrece un sistema de comunicaciones digital, pueden estar distribuidos en diferentes componentes de hardware y de software, los conocimientos para configurar estos componentes dependen del fabricante pero conociendo la base técnica es posible adaptar las soluciones a la perspectiva de las diferentes marcas. 
 
 ## Agenda
-1. [Nombres en internet](#2-sistema-descentralizados).
-1. [Números en internet](#2-sistema-descentralizados).
-1. [Dirección IP](#1-sistemas-centralizados).
-1. [direccionamiento IPv4](#3-seguridad).
-1. [Redes](#3-redes).
+1. [Nombres en internet](#1-nombres-en-internet).
+1. [Números en internet](#2-numeros-en-internet).
+1. [Sub-redes](#3-sub-redes).
+
 
 <br>
 
@@ -84,7 +83,7 @@ Una dirección IP es una etiqueta numérica que identifica de manera lógica y j
 
 
 ### 2.1.1. Direcciones IPv4
-Las direcciones [IPV4][211] se expresan mediante un número binario de 32 bits (4 bytes) permitiendo un espacio de $2^{32}$ direcciones posibles, aproximadamente 4.294 Millones.
+Las direcciones [IPV4][211] se expresan mediante un número binario de 32 bits (4 bytes) permitiendo un espacio de $2^{32}$ direcciones únicas posibles, aproximadamente 4.294 Millones.
 
 |Octeto| 1 byte | 2 byte  | 3 byte  | 4 byte |
 |--|:--:|:--:|:--:|:--:|
@@ -94,8 +93,9 @@ Las direcciones [IPV4][211] se expresan mediante un número binario de 32 bits (
 
 [211]:https://es.wikipedia.org/wiki/IPv4
 
+
 ### 2.1.2. Direcciones IPv6
-Las direcciones [IPV6][212] se expresan mediante un número binario de 128 bits (16 bytes) permitiendo un espacio de $2^{128}$ direcciones posibles, aproximadamente 0.4 Billones.
+Las direcciones [IPV6][212] se expresan mediante un número binario de 128 bits (16 bytes) permitiendo un espacio de $2^{128}$ direcciones posibles, aproximadamente 340 sextillones.
 
 |Octeto| 4 byte | 8 byte  | 12 byte  | 16 byte |
 |--|:--:|:--:|:--:|:--:|
@@ -105,6 +105,23 @@ Las direcciones [IPV6][212] se expresan mediante un número binario de 128 bits 
 
 
 [212]:https://es.wikipedia.org/wiki/IPv6
+
+
+# 3. [Sub-redes](#agenda)
+Existen varias [etiquetas][2_1] numéricas que identifican recursos en una red, posiblemente una [interfaz][2_2] en un dispositivo o incluso un subsistema de red.
+
+
+[2_1]:https://es.wikipedia.org/wiki/Encaminamiento
+[2_2]:https://es.wikipedia.org/wiki/Tarjeta_de_red
+
+* ><i>"El Internet reside en que cualquier persona puede acceder a él."</i><br>
+<cite style="display:block; text-align: right">[Vinton Cerf](https://es.wikipedia.org/wiki/Vinton_Cerf)</cite>
+
+
+#### 2.1.1.1 Tipo de direcciones IPv4
+De las $2^{32}$ 
+De estas direcciones 16 Millones son privadas y 268 Millones de multidifusión
+
 
 ---
 ## Mas Recursos
