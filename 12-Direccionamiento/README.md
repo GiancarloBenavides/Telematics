@@ -72,14 +72,34 @@ Existen varias [etiquetas][2_1] numéricas que identifican recursos en una red, 
 
 
 [2_1]:https://es.wikipedia.org/wiki/Encaminamiento
+[2_2]:https://es.wikipedia.org/wiki/Tarjeta_de_red
 
 * ><i>"El Internet reside en que cualquier persona puede acceder a él."</i><br>
 <cite style="display:block; text-align: right">[Vinton Cerf](https://es.wikipedia.org/wiki/Vinton_Cerf)</cite>
 
+## 2.1. Dirección IP ✔
+Una dirección IP es una etiqueta numérica que identifica de manera lógica y jerárquica a una interfaz que utiliza el [protocolo de internet][21_1] para conectar un dispositivo a una red.
+
+[21_1]:https://es.wikipedia.org/wiki/Protocolo_de_internet
 
 
+### 2.1.1. Direcciones IPv4
+Las direcciones IPV4 se expresan mediante un número binario de 32 bits (4 bytes) permitiendo un espacio de $2^{32}$ direcciones posibles.
+
+|Octeto| 1 byte | 2 byte  | 3 byte  | 4 byte |
+|--|:--:|:--:|:--:|:--:|
+|__Decimal__ | 192 | __168__ | 254 | __172__ |
+|__Binario__ | 11000000 | __10101000__ | 11111110 | __10101100__ |
+|__Bites__   | 8 | 16 | 24 | 32 |
+
+
+### 2.1.2. Direcciones IPv6
+Las direcciones IPV4 se expresan mediante un número binario de 32 bits permitiendo un espacio de direcciones de hasta 4.294.967.296 (232) direcciones posibles.
 
 
 ---
 ## Mas Recursos
+- [Registro Regional de Internet](https://es.wikipedia.org/wiki/Registro_Regional_de_Internet) (Wiki)
+- [Tarjeta de red](https://es.wikipedia.org/wiki/Tarjeta_de_red) (Wiki)
 - [Wiki Mikrotik](https://wiki.mikrotik.com/wiki/Main_Page) (Wiki)
+
