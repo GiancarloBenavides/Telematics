@@ -84,7 +84,7 @@ Una dirección IP es una etiqueta numérica que identifica de manera lógica y j
 
 
 ### 2.1.1. Direcciones IPv4
-Las direcciones IPV4 se expresan mediante un número binario de 32 bits (4 bytes) permitiendo un espacio de $2^{32}$ direcciones posibles.
+Las direcciones [IPV4][211] se expresan mediante un número binario de 32 bits (4 bytes) permitiendo un espacio de $2^{32}$ direcciones posibles, aproximadamente 4.294 Millones.
 
 |Octeto| 1 byte | 2 byte  | 3 byte  | 4 byte |
 |--|:--:|:--:|:--:|:--:|
@@ -92,14 +92,24 @@ Las direcciones IPV4 se expresan mediante un número binario de 32 bits (4 bytes
 |__Binario__ | 11000000 | __10101000__ | 11111110 | __10101100__ |
 |__Bites__   | 8 | 16 | 24 | 32 |
 
+[211]:https://es.wikipedia.org/wiki/IPv4
 
 ### 2.1.2. Direcciones IPv6
-Las direcciones IPV4 se expresan mediante un número binario de 32 bits permitiendo un espacio de direcciones de hasta 4.294.967.296 (232) direcciones posibles.
+Las direcciones [IPV6][212] se expresan mediante un número binario de 128 bits (16 bytes) permitiendo un espacio de $2^{128}$ direcciones posibles, aproximadamente 0.4 Billones.
 
+|Octeto| 4 byte | 8 byte  | 12 byte  | 16 byte |
+|--|:--:|:--:|:--:|:--:|
+|__Decimal__ | 192 | __168__ | 254 | __172__ |
+|__Binario__ | 11000000 | __10101000__ | 11111110 | __10101100__ |
+|__Bites__   | 8 | 16 | 24 | 32 |
+
+
+[212]:https://es.wikipedia.org/wiki/IPv6
 
 ---
 ## Mas Recursos
 - [Registro Regional de Internet](https://es.wikipedia.org/wiki/Registro_Regional_de_Internet) (Wiki)
+- [Protocolo de internet](https://es.wikipedia.org/wiki/Protocolo_de_internet) (Wiki)
 - [Tarjeta de red](https://es.wikipedia.org/wiki/Tarjeta_de_red) (Wiki)
 - [Wiki Mikrotik](https://wiki.mikrotik.com/wiki/Main_Page) (Wiki)
 
