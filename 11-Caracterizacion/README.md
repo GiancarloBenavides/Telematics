@@ -3,23 +3,49 @@
 <p>Creado por <code>Giancarlo Ortiz</code> para explicar los fundamentos de los <code>Sistemas de comunicaciones</code> en los cursos de telemática y redes de computadores.</p>
 
 ## Fundamentos
-La gestión de los servicios que ofrece un sistema de comunicaciones digital, pueden estar distribuidos en diferentes componentes de hardware y de software, los conocimientos para configurar estos componentes dependen del fabricante pero conociendo la base técnica es posible adaptar las soluciones a la perspectiva de las diferentes marcas. 
+Una red de computadoras, red de ordenadores o red informática es un conjunto de equipos nodos y software conectados entre sí por medio de dispositivos físicos que envían y reciben impulsos eléctricos, ondas electromagnéticas o cualquier otro medio para el transporte de datos, con la finalidad de compartir información, recursos y ofrecer servicios.
 
 ## Agenda
 1. [Dispositivos](#1-dispositivos).
-1. [Redes](#2-redes).
-1. [Organismos](#3-organismos).
-
+1. [Organismos](#2-organismos).
+1. [Tipos de Redes](#3-tipos-de-redes).
 
 <br>
 
 ---
 # 1. [Dispositivos](#agenda)
+Un [dispositivo de red][1] es cualquier dispositivo físico (computadora, laptop, teléfono inteligente, impresora) que se conecta a una red para enviar y recibir datos.
+
+## 1.1. Tipos de dispositivos por funcionalidad ✔
+* Cliente.
+* Servidor.  
+* De interconexión.
+
+## 1.2. Dispositivos de interconexión ✔
+* Concentrador de red ([__HUB__][12_1]).
+* Puente de red ([__BRIDGE__][12_2]).
+* Enrutador ([__ROUTER__][12_3]).
+
+[12_1]:https://es.wikipedia.org/wiki/Concentrador
+[12_2]:https://es.wikipedia.org/wiki/Puente_de_red
+[12_3]:https://es.wikipedia.org/wiki/R%C3%BAter
+
+## 1.3. Tipos de Puentes de red ✔
+* Punto de acceso ([__AP__][13_1]).
+* Conmutador ([__SWITCH__][13_2]).
+
+[13_1]:https://es.wikipedia.org/wiki/Punto_de_acceso_inal%C3%A1mbrico
+[13_2]:https://es.wikipedia.org/wiki/Conmutador_(dispositivo_de_red)/
+
+## 3.1. Gestión de Dispositivos ✔
+La gestión de los servicios que ofrece un sistema de comunicaciones digital, pueden estar distribuidos en diferentes componentes de hardware y de software, los conocimientos para configurar estos componentes dependen del fabricante pero conociendo la base técnica es posible adaptar las soluciones a la perspectiva de las diferentes marcas. 
 
 # 1. [Redes](#agenda)
+Una [red informática][2] de ordenadores es un conjunto de equipos nodos y software conectados entre sí por medio de dispositivos físicos que envían y reciben impulsos eléctricos, ondas electromagnéticas o cualquier otro medio para el transporte de datos, con la finalidad de compartir información, recursos y ofrecer servicios.
+
 
 # 1. [Organismos](#agenda)
-
+un [organismo][3]
 
 
 El [Encaminamiento][1] o enrutamiento es la función de buscar el camino mas optimo entre dos posibles nodos en un red formada por sistema de nodos interconectados.
@@ -30,7 +56,18 @@ El [Encaminamiento][1] o enrutamiento es la función de buscar el camino mas opt
 <cite style="display:block; text-align: right">[Edsger Dijkstra](https://es.wikipedia.org/wiki/Edsger_Dijkstra)</cite>
 
 
+## 3.1. Tipos de sub-redes ✔
 
+### 3.1.1. Redes por capa 
+* Red conectada por concentradores - Dominio de colisión.
+* Red conectada por conmutadores - dominio de difusión.  
+* Red conectada por enrutadores - dominio de broadcast. 
+
+### 3.1.2. Redes por tecnología
+* Red Gpon - sobre Fibra óptica.
+* Red Ethernet - sobre UTP.  
+* Red HFC - Coaxial y fibra.  
+* Red ADSL - sobre par trenzado telefónico.
 
 
 ## 1.2. Registro Regional de Internet ✔
