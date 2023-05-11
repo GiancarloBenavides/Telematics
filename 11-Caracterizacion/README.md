@@ -67,15 +67,25 @@ Un protocolo podría incluir:
 [21_3]:https://es.wikipedia.org/wiki/Detecci%C3%B3n_y_correcci%C3%B3n_de_errores
 
 ## 2.2. Capas ✔
-|Capa| Nombre |
-|--|--|
+|Capa| Nombre | Dispositivo |
+|:--:|--|--|
 |7|Aplicación|
 |6|Presentación|
 |5|sesión|
-|4|Transporte|
-|3|red|
-|2|Enlace|
-|1|Física|
+|4|Transporte|[TCP][22_6] - [UDP][22_7] - [ICMP][22_8]|
+|3|red|[IP][22_5]|
+|2|Enlace|[ARP][22_3] - [Ethernet][22_4]|
+|1|Física|[1000BASE-T][22_1] - [802.11][22_2]|
+
+[22_1]:https://es.wikipedia.org/wiki/1000BASE-T
+[22_2]:https://es.wikipedia.org/wiki/IEEE_802.11
+[22_3]:https://es.wikipedia.org/wiki/Protocolo_de_resoluci%C3%B3n_de_direcciones
+[22_4]:https://es.wikipedia.org/wiki/Ethernet
+[22_5]:https://es.wikipedia.org/wiki/Protocolo_de_internet
+[22_6]:https://es.wikipedia.org/wiki/Protocolo_de_control_de_transmisi%C3%B3n
+[22_7]:https://es.wikipedia.org/wiki/Protocolo_de_datagramas_de_usuario
+[22_8]:https://es.wikipedia.org/wiki/Protocolo_de_control_de_mensajes_de_Internet
+
 
 
 # 1. [Organismos](#agenda)
