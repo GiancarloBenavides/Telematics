@@ -3,7 +3,7 @@
 <p>Creado por <code>Giancarlo Ortiz</code> para explicar los fundamentos de los <code>Sistemas de comunicaciones</code> en los cursos de telemática y redes de computadores.</p>
 
 ## Fundamentos
-Una red de computadoras, red de ordenadores o red informática es un conjunto de equipos nodos y software conectados entre sí por medio de dispositivos físicos que envían y reciben impulsos eléctricos, ondas electromagnéticas o cualquier otro medio para el transporte de datos, con la finalidad de compartir información, recursos y ofrecer servicios.
+Internet​ es un conjunto descentralizado y heterogéneo de redes de comunicaciones interconectadas, que utilizan la familia de protocolos TCP/IP y un conjunto de dispositivos físicos y virtuales para garantizar la transferencia de información y proporcionar servicios en una red lógica única de alcance mundial.
 
 ## Agenda
 1. [Dispositivos](#1-dispositivos).
@@ -165,7 +165,7 @@ Un Regional Internet Registry ([__RIR__][32]), es una organización que supervis
 
 
 # 4. [Redes](#agenda)
-Una [red informática][2] de ordenadores es un conjunto de equipos nodos y software conectados entre sí por medio de dispositivos físicos que envían y reciben impulsos eléctricos, ondas electromagnéticas o cualquier otro medio para el transporte de datos, con la finalidad de compartir información, recursos y ofrecer servicios.
+Una [red informática][2] es un conjunto de nodos conectados entre sí por medio de dispositivos físicos que envían y reciben impulsos eléctricos, ondas electromagnéticas o cualquier otro medio para el transporte de datos, con el propósito de permitir a muchos equipos informáticos compartir información, recursos y ofrecer servicios.
 
 
 ## 3.1. Tipos de redes ✔
