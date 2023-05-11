@@ -8,8 +8,8 @@ Una red de computadoras, red de ordenadores o red informática es un conjunto de
 ## Agenda
 1. [Dispositivos](#1-dispositivos).
 1. [Protocolos](#2-protocolos).
-1. [Organismos](#3-organismos).
-1. [Tipos de Redes](#4-tipos-de-redes).
+1. [Organizaciones](#3-organizaciones-de-internet).
+1. [Redes](#4-redes).
 
 <br>
 
@@ -19,14 +19,18 @@ Un [dispositivo de red][1] es cualquier dispositivo físico (computadora, laptop
 
 [1]:https://es.wikipedia.org/wiki/Red_de_computadoras#Dispositivos_de_red
 
-* ><i>"Las redes de computadoras, como la imprenta hace 500 años, permiten que el ciudadano común distribuya sus puntos de vista en diversos modos y a audiencias diferentes, lo cual antes no era posible. Este nuevo fondo de libertad ofrece consigo muchos temas sociales, políticos y morales sin resolver."</i><br>
+* > <i>"Las redes de computadoras, como la imprenta hace 500 años, permiten que el ciudadano común distribuya sus puntos de vista en diversos modos y a audiencias diferentes, lo cual antes no era posible. Este nuevo fondo de libertad ofrece consigo muchos temas sociales, políticos y morales sin resolver."</i><br>
 <cite style="display:block; text-align: right">[Andrew S. Tanenbaum](https://es.wikipedia.org/wiki/Andrew_S._Tanenbaum)</cite>
 
 
 ## 1.1. Tipos de dispositivos por funcionalidad ✔
-* Cliente.
-* Servidor.  
-* De interconexión.
+* Cliente ([__CLIENT__][11_1]).
+* Servidor ([__SERVER__][11_2]).  
+* De interconexión ([__ETCD__][11_2]). 
+
+[11_1]:https://es.wikipedia.org/wiki/Cliente_(inform%C3%A1tica)/
+[11_2]:https://es.wikipedia.org/wiki/Servidor
+[11_2]:https://es.wikipedia.org/wiki/ETCD
 
 ## 1.2. Dispositivos de interconexión ✔
 * Concentrador de red ([__HUB__][12_1]).
@@ -55,7 +59,8 @@ Un [protocolo de comunicaciones][2] es un conjunto de reglas que permite que los
 
 [2]:https://es.wikipedia.org/wiki/Protocolo_de_comunicaciones
 
-<br>
+* > <i>"Imagina un mundo en donde cada persona del planeta pueda tener acceso libre a la suma total de todo el conocimiento humano. Eso es lo que estamos haciendo."</i><br>
+<cite style="display:block; text-align: right">[Jimmy Wales](https://es.wikipedia.org/wiki/Jimmy_Wales)</cite>
 
 ## 2.1. Componentes ✔
 Un protocolo podría incluir:
@@ -118,28 +123,52 @@ Un protocolo podría incluir:
 
 <br>
 
-# 3. [Organismos](#agenda)
-En internet existen [organismo][3]
+# 3. [Organizaciones de Internet](#agenda)
+En internet existen [organismos][3] internacionales que se encargan de gestionar los identificadores de protocolo y otros elementos técnicos que permiten la comunicación entre las distintas redes que conforman Internet.
 
-IANA
-ICANN
-RIR
-IXP
-NSRC
-NAP
+[3]:https://es.wikipedia.org/wiki/Categor%C3%ADa:Organizaciones_de_Internet
 
-# 1. [Redes](#agenda)
+* > <i>"Internet no es una red única, sino una red de redes, y Web es un sistema distribuido que se ejecuta sobre Internet."</i><br>
+<cite style="display:block; text-align: right">[Andrew S. Tanenbaum](https://es.wikipedia.org/wiki/Andrew_S._Tanenbaum)</cite>
+
+
+## 3.1. ICANN ✔
+La [Corporación de Internet para la Asignación de Nombres y Números][31] es una organización internacional sin fines de lucro e incluye organizaciones de apoyo, comités y departamentos como:
+
+* Asignación de números - [IANA][31_1].
+* Dominios de nivel Superior o gTLDs - [GNSO][31_2].
+* Códigos de países o ccTLDs - [ccNSO][31_3].
+* Soporte a direcciones - [ASO][31_4].
+
+[31]:https://es.wikipedia.org/wiki/Corporaci%C3%B3n_de_Internet_para_la_Asignaci%C3%B3n_de_Nombres_y_N%C3%BAmeros
+[31_1]:https://es.wikipedia.org/wiki/Internet_Assigned_Numbers_Authority
+[31_2]:https://es.wikipedia.org/wiki/Dominio_de_nivel_superior_gen%C3%A9rico
+[31_3]:https://en.wikipedia.org/wiki/Country_Code_Names_Supporting_Organization
+[31_4]:https://es.wikipedia.org/wiki/Organismo_de_Soporte_a_Direcciones_(ASO)/
+
+
+## 3.2. Registro Regional de Internet ✔
+Un Regional Internet Registry ([__RIR__][32]), es una organización que supervisa la asignación y el registro de números de Internet en una región del mundo. Los recursos incluyen direcciones IP (tanto IPv4 como IPv6) y números de sistemas autónomos (para su uso en encaminamiento BGP).
+
+![](../img/rirs.svg)
+
+[32]:https://es.wikipedia.org/wiki/Registro_Regional_de_Internet
+
+## 3.3. Otras organizaciones relevantes para Internet ✔
+* Telecomunicaciones - [UIT][33_1].
+* Fomento I+D - [NSRC][33_2].
+* Puntos de intercambio - [IXP][33_3].
+
+[33_1]:https://es.wikipedia.org/wiki/Uni%C3%B3n_Internacional_de_Telecomunicaciones
+[33_2]:https://en.wikipedia.org/wiki/Network_Startup_Resource_Center
+[33_3]:https://es.wikipedia.org/wiki/Anexo:Puntos_de_intercambio_de_Internet
+
+
+# 4. [Redes](#agenda)
 Una [red informática][2] de ordenadores es un conjunto de equipos nodos y software conectados entre sí por medio de dispositivos físicos que envían y reciben impulsos eléctricos, ondas electromagnéticas o cualquier otro medio para el transporte de datos, con la finalidad de compartir información, recursos y ofrecer servicios.
 
 
-
-El [Encaminamiento][1] o enrutamiento es la función de buscar el camino mas optimo entre dos posibles nodos en un red formada por sistema de nodos interconectados.
-
-[1]:https://es.wikipedia.org/wiki/Encaminamiento
-
-
-
-## 3.1. Tipos de sub-redes ✔
+## 3.1. Tipos de redes ✔
 
 ### 3.1.1. Redes por capa 
 * Red conectada por concentradores - Dominio de colisión.
@@ -152,15 +181,7 @@ El [Encaminamiento][1] o enrutamiento es la función de buscar el camino mas opt
 * Red HFC - Coaxial y fibra.  
 * Red ADSL - sobre par trenzado telefónico.
 
-
-## 1.2. Registro Regional de Internet ✔
-Un Regional Internet Registry ([__RIR__][12]), es una organización que supervisa la asignación y el registro de números de Internet en una región del mundo. Los recursos incluyen direcciones IP (tanto IPv4 como IPv6) y números de sistemas autónomos (para su uso en encaminamiento BGP).
-
-![](../img/rirs.svg)
-
-[12]:https://es.wikipedia.org/wiki/Registro_Regional_de_Internet
-
-## 1.3. Niveles de red ✔
+### 3.1.3. Redes por nivel
 El [nivel de una red][13] o proveedor de internet indica como participa esta con acuerdos de interconexión o peering en internet asi:
 
 * __Red de nivel 1:__ ISP de mayor nivel cuya red que se empareja de forma gratuita con todas las redes de internet, sin comprar tránsito IP o pagar por interconexión.
@@ -170,7 +191,7 @@ El [nivel de una red][13] o proveedor de internet indica como participa esta con
 [13]:https://es.wikipedia.org/wiki/Red_tier_1
 
 
-
 ---
 ## Mas Recursos
+- [Punto neutro](https://es.wikipedia.org/wiki/Punto_neutro) (Wiki)
 - [Wiki Mikrotik](https://wiki.mikrotik.com/wiki/Main_Page) (Wiki)
