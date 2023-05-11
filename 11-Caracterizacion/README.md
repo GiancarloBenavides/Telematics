@@ -7,14 +7,19 @@ Una red de computadoras, red de ordenadores o red informática es un conjunto de
 
 ## Agenda
 1. [Dispositivos](#1-dispositivos).
-1. [Organismos](#2-organismos).
-1. [Tipos de Redes](#3-tipos-de-redes).
+1. [Protocolos](#2-protocolos).
+1. [Organismos](#3-organismos).
+1. [Tipos de Redes](#4-tipos-de-redes).
 
 <br>
 
 ---
 # 1. [Dispositivos](#agenda)
 Un [dispositivo de red][1] es cualquier dispositivo físico (computadora, laptop, teléfono inteligente, impresora) que se conecta a una red para enviar y recibir datos.
+
+[1]:https://es.wikipedia.org/wiki/Red_de_computadoras#Dispositivos_de_red
+
+
 
 ## 1.1. Tipos de dispositivos por funcionalidad ✔
 * Cliente.
@@ -37,16 +42,55 @@ Un [dispositivo de red][1] es cualquier dispositivo físico (computadora, laptop
 [13_1]:https://es.wikipedia.org/wiki/Punto_de_acceso_inal%C3%A1mbrico
 [13_2]:https://es.wikipedia.org/wiki/Conmutador_(dispositivo_de_red)/
 
-## 3.1. Gestión de Dispositivos ✔
-La gestión de los servicios que ofrece un sistema de comunicaciones digital, pueden estar distribuidos en diferentes componentes de hardware y de software, los conocimientos para configurar estos componentes dependen del fabricante pero conociendo la base técnica es posible adaptar las soluciones a la perspectiva de las diferentes marcas. 
+## 1.4. Gestión de Dispositivos ✔
+La gestión de los servicios que ofrece un sistema de comunicaciones digital, pueden estar distribuidos en diferentes componentes de hardware y de software, los conocimientos para configurar estos componentes dependen del fabricante pero conociendo la base técnica es posible adaptar las soluciones a la perspectiva de las diferentes marcas.
+
+# 2. [Protocolos](#agenda)
+Un [protocolo de comunicaciones][2] es un conjunto de reglas que permite que los dispositivos de red se comuniquen entre ellas para transmitir información por medio de cualquier tipo de variación de una magnitud física.
+
+[2]:https://es.wikipedia.org/wiki/Protocolo_de_comunicaciones
+
+
+
+## 2.1. Componentes ✔
+Un protocolo podría incluir:
+* Detección de portadora.
+* Saludo - [__HANDSHAKE__][21_1].
+* Autenticación - [__AUTH__][21_2].
+* Negociación de condiciones (Formato, cifrado, corrección de errores).
+* Inicio de Tx.
+* Comprobación de errores - [__EDAC__][21_1].
+* Finalización.
+
+[21_1]:https://es.wikipedia.org/wiki/Establecimiento_de_comunicaci%C3%B3n
+[21_2]:https://es.wikipedia.org/wiki/Detecci%C3%B3n_y_correcci%C3%B3n_de_errores
+[21_3]:https://es.wikipedia.org/wiki/Detecci%C3%B3n_y_correcci%C3%B3n_de_errores
+
+## 2.2. Capas ✔
+|Capa| Nombre |
+|--|--|
+|7|Aplicación|
+|6|Presentación|
+|5|sesión|
+|4|Transporte|
+|3|red|
+|2|Enlace|
+|1|Física|
+
+
+# 1. [Organismos](#agenda)
+En  [organismo][3]
+
 
 # 1. [Redes](#agenda)
 Una [red informática][2] de ordenadores es un conjunto de equipos nodos y software conectados entre sí por medio de dispositivos físicos que envían y reciben impulsos eléctricos, ondas electromagnéticas o cualquier otro medio para el transporte de datos, con la finalidad de compartir información, recursos y ofrecer servicios.
 
-
-# 1. [Organismos](#agenda)
-un [organismo][3]
-
+IANA
+ICANN
+RIR
+IXP
+NSRC
+NAP
 
 El [Encaminamiento][1] o enrutamiento es la función de buscar el camino mas optimo entre dos posibles nodos en un red formada por sistema de nodos interconectados.
 
