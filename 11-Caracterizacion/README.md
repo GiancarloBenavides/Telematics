@@ -147,7 +147,7 @@ La [Corporación de Internet para la Asignación de Nombres y Números][31] es u
 [31_4]:https://es.wikipedia.org/wiki/Organismo_de_Soporte_a_Direcciones_(ASO)/
 
 
-## 3.2. Registro Regional de Internet ✔
+## 3.2. Registros Regionales de Internet ✔
 Un Regional Internet Registry ([__RIR__][32]), es una organización que supervisa la asignación y el registro de números de Internet en una región del mundo. Los recursos incluyen direcciones IP (tanto IPv4 como IPv6) y números de sistemas autónomos (para su uso en encaminamiento BGP).
 
 ![](../img/rirs.svg)
