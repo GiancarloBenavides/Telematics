@@ -42,15 +42,19 @@ Un [dispositivo de red][1] es cualquier dispositivo físico (computadora, laptop
 [13_1]:https://es.wikipedia.org/wiki/Punto_de_acceso_inal%C3%A1mbrico
 [13_2]:https://es.wikipedia.org/wiki/Conmutador_(dispositivo_de_red)/
 
+<br>
+
 ## 1.4. Gestión de Dispositivos ✔
 La gestión de los servicios que ofrece un sistema de comunicaciones digital, pueden estar distribuidos en diferentes componentes de hardware y de software, los conocimientos para configurar estos componentes dependen del fabricante pero conociendo la base técnica es posible adaptar las soluciones a la perspectiva de las diferentes marcas.
+
+<br>
 
 # 2. [Protocolos](#agenda)
 Un [protocolo de comunicaciones][2] es un conjunto de reglas que permite que los dispositivos de red se comuniquen entre ellas para transmitir información por medio de cualquier tipo de variación de una magnitud física.
 
 [2]:https://es.wikipedia.org/wiki/Protocolo_de_comunicaciones
 
-
+<br>
 
 ## 2.1. Componentes ✔
 Un protocolo podría incluir:
@@ -66,27 +70,51 @@ Un protocolo podría incluir:
 [21_2]:https://es.wikipedia.org/wiki/Detecci%C3%B3n_y_correcci%C3%B3n_de_errores
 [21_3]:https://es.wikipedia.org/wiki/Detecci%C3%B3n_y_correcci%C3%B3n_de_errores
 
-## 2.2. Capas ✔
-|Capa| Nombre | Dispositivo |
-|:--:|--|--|
-|7|Aplicación|
-|6|Presentación|
-|5|sesión|
-|4|Transporte|[TCP][22_6] - [UDP][22_7] - [ICMP][22_8]|
-|3|red|[IP][22_5]|
-|2|Enlace|[ARP][22_3] - [Ethernet][22_4]|
-|1|Física|[1000BASE-T][22_1] - [802.11][22_2]|
+<br>
 
-[22_1]:https://es.wikipedia.org/wiki/1000BASE-T
-[22_2]:https://es.wikipedia.org/wiki/IEEE_802.11
-[22_3]:https://es.wikipedia.org/wiki/Protocolo_de_resoluci%C3%B3n_de_direcciones
-[22_4]:https://es.wikipedia.org/wiki/Ethernet
-[22_5]:https://es.wikipedia.org/wiki/Protocolo_de_internet
-[22_6]:https://es.wikipedia.org/wiki/Protocolo_de_control_de_transmisi%C3%B3n
-[22_7]:https://es.wikipedia.org/wiki/Protocolo_de_datagramas_de_usuario
-[22_8]:https://es.wikipedia.org/wiki/Protocolo_de_control_de_mensajes_de_Internet
+## 2.2. Capas (Modelo OSI) ✔
+|Capa|Nombre|Unidad de Datos|
+|:--:|:--|:--:|
+|7|[Aplicación][22_7]| Dato APDU |
+|6|[Presentación][22_6]| Dato PPDU |
+|5|[sesión][22_5]| Dato SPDU |
+|4|[Transporte][22_4]| Segmento |
+|3|[red][22_3]| Paquete |
+|2|[Enlace][22_2]| Trama |
+|1|[Física][22_1]| Bit |
 
+[22_1]:https://es.wikipedia.org/wiki/Capa_f%C3%ADsica
+[22_2]:https://es.wikipedia.org/wiki/Capa_de_enlace_de_datos
+[22_3]:https://es.wikipedia.org/wiki/Capa_de_red
+[22_4]:https://es.wikipedia.org/wiki/Capa_de_transporte
+[22_5]:https://es.wikipedia.org/wiki/Capa_de_sesi%C3%B3n
+[22_6]:https://es.wikipedia.org/wiki/Capa_de_presentaci%C3%B3n
+[22_7]:https://es.wikipedia.org/wiki/Capa_de_aplicaci%C3%B3n
 
+<br>
+
+## 2.3. Modelo TCP/IP ✔
+| Nombre | Capas | Dispositivo |
+|--|:--:|--:|
+|__Aplicación__|5-7|[HTTP][23_10] - [IMAP][23_11]- [SSH][23_12]|
+|Transporte|4|[TCP][23_7] - [UDP][23_8] - [ICMP][23_9]|
+|red|3|[IP][23_5] - [IPsec][23_6]|
+|__Enlace__<br>Física|1-2|[ARP][23_3] - [Ethernet][23_4]<br>[1000BASE-T][23_1] - [802.11][23_2]|
+
+[23_1]:https://es.wikipedia.org/wiki/1000BASE-T
+[23_2]:https://es.wikipedia.org/wiki/IEEE_802.11
+[23_3]:https://es.wikipedia.org/wiki/Protocolo_de_resoluci%C3%B3n_de_direcciones
+[23_4]:https://es.wikipedia.org/wiki/Ethernet
+[23_5]:https://es.wikipedia.org/wiki/Protocolo_de_internet
+[23_6]:https://es.wikipedia.org/wiki/IPsec
+[23_7]:https://es.wikipedia.org/wiki/Protocolo_de_control_de_transmisi%C3%B3n
+[23_8]:https://es.wikipedia.org/wiki/Protocolo_de_datagramas_de_usuario
+[23_9]:https://es.wikipedia.org/wiki/Protocolo_de_control_de_mensajes_de_Internet
+[23_10]:https://es.wikipedia.org/wiki/Protocolo_de_transferencia_de_hipertexto
+[23_11]:https://es.wikipedia.org/wiki/Protocolo_de_acceso_a_mensajes_de_Internet
+[23_12]:https://es.wikipedia.org/wiki/Secure_Shell
+
+<br>
 
 # 1. [Organismos](#agenda)
 En  [organismo][3]
