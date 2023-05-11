@@ -19,6 +19,8 @@ Un [dispositivo de red][1] es cualquier dispositivo físico (computadora, laptop
 
 [1]:https://es.wikipedia.org/wiki/Red_de_computadoras#Dispositivos_de_red
 
+* ><i>"Las redes de computadoras, como la imprenta hace 500 años, permiten que el ciudadano común distribuya sus puntos de vista en diversos modos y a audiencias diferentes, lo cual antes no era posible. Este nuevo fondo de libertad ofrece consigo muchos temas sociales, políticos y morales sin resolver."</i><br>
+<cite style="display:block; text-align: right">[Andrew S. Tanenbaum](https://es.wikipedia.org/wiki/Andrew_S._Tanenbaum)</cite>
 
 
 ## 1.1. Tipos de dispositivos por funcionalidad ✔
@@ -42,7 +44,6 @@ Un [dispositivo de red][1] es cualquier dispositivo físico (computadora, laptop
 [13_1]:https://es.wikipedia.org/wiki/Punto_de_acceso_inal%C3%A1mbrico
 [13_2]:https://es.wikipedia.org/wiki/Conmutador_(dispositivo_de_red)/
 
-<br>
 
 ## 1.4. Gestión de Dispositivos ✔
 La gestión de los servicios que ofrece un sistema de comunicaciones digital, pueden estar distribuidos en diferentes componentes de hardware y de software, los conocimientos para configurar estos componentes dependen del fabricante pero conociendo la base técnica es posible adaptar las soluciones a la perspectiva de las diferentes marcas.
@@ -79,7 +80,7 @@ Un protocolo podría incluir:
 |6|[Presentación][22_6]| Dato PPDU |
 |5|[sesión][22_5]| Dato SPDU |
 |4|[Transporte][22_4]| Segmento |
-|3|[red][22_3]| Paquete |
+|3|[Red][22_3]| Paquete |
 |2|[Enlace][22_2]| Trama |
 |1|[Física][22_1]| Bit |
 
@@ -96,32 +97,29 @@ Un protocolo podría incluir:
 ## 2.3. Modelo TCP/IP ✔
 | Nombre | Capas | Dispositivo |
 |--|:--:|--:|
-|__Aplicación__|5-7|[HTTP][23_10] - [IMAP][23_11]- [SSH][23_12]|
-|Transporte|4|[TCP][23_7] - [UDP][23_8] - [ICMP][23_9]|
-|red|3|[IP][23_5] - [IPsec][23_6]|
-|__Enlace__<br>Física|1-2|[ARP][23_3] - [Ethernet][23_4]<br>[1000BASE-T][23_1] - [802.11][23_2]|
+|__Aplicación__|5-7|[HTTP][23_11] - [IMAP][23_12]- [SSH][23_13]|
+|Transporte|4|[TCP][23_8] - [UDP][23_9] - [ICMP][23_10]|
+|Red|3|[IP][23_6] - [RIP][23_5] -  [IPsec][23_7]|
+|__Enlace__<br>Física|1-2|[Ethernet][23_4] - [ARP][23_3]<br>[1000BASE-T][23_1] - [802.11][23_2]|
 
 [23_1]:https://es.wikipedia.org/wiki/1000BASE-T
 [23_2]:https://es.wikipedia.org/wiki/IEEE_802.11
 [23_3]:https://es.wikipedia.org/wiki/Protocolo_de_resoluci%C3%B3n_de_direcciones
 [23_4]:https://es.wikipedia.org/wiki/Ethernet
-[23_5]:https://es.wikipedia.org/wiki/Protocolo_de_internet
-[23_6]:https://es.wikipedia.org/wiki/IPsec
-[23_7]:https://es.wikipedia.org/wiki/Protocolo_de_control_de_transmisi%C3%B3n
-[23_8]:https://es.wikipedia.org/wiki/Protocolo_de_datagramas_de_usuario
-[23_9]:https://es.wikipedia.org/wiki/Protocolo_de_control_de_mensajes_de_Internet
-[23_10]:https://es.wikipedia.org/wiki/Protocolo_de_transferencia_de_hipertexto
-[23_11]:https://es.wikipedia.org/wiki/Protocolo_de_acceso_a_mensajes_de_Internet
-[23_12]:https://es.wikipedia.org/wiki/Secure_Shell
+[23_5]:https://es.wikipedia.org/wiki/Routing_Information_Protocol
+[23_6]:https://es.wikipedia.org/wiki/Protocolo_de_internet
+[23_7]:https://es.wikipedia.org/wiki/IPsec
+[23_8]:https://es.wikipedia.org/wiki/Protocolo_de_control_de_transmisi%C3%B3n
+[23_9]:https://es.wikipedia.org/wiki/Protocolo_de_datagramas_de_usuario
+[23_10]:https://es.wikipedia.org/wiki/Protocolo_de_control_de_mensajes_de_Internet
+[23_11]:https://es.wikipedia.org/wiki/Protocolo_de_transferencia_de_hipertexto
+[23_12]:https://es.wikipedia.org/wiki/Protocolo_de_acceso_a_mensajes_de_Internet
+[23_13]:https://es.wikipedia.org/wiki/Secure_Shell
 
 <br>
 
-# 1. [Organismos](#agenda)
-En  [organismo][3]
-
-
-# 1. [Redes](#agenda)
-Una [red informática][2] de ordenadores es un conjunto de equipos nodos y software conectados entre sí por medio de dispositivos físicos que envían y reciben impulsos eléctricos, ondas electromagnéticas o cualquier otro medio para el transporte de datos, con la finalidad de compartir información, recursos y ofrecer servicios.
+# 3. [Organismos](#agenda)
+En internet existen [organismo][3]
 
 IANA
 ICANN
@@ -130,12 +128,15 @@ IXP
 NSRC
 NAP
 
+# 1. [Redes](#agenda)
+Una [red informática][2] de ordenadores es un conjunto de equipos nodos y software conectados entre sí por medio de dispositivos físicos que envían y reciben impulsos eléctricos, ondas electromagnéticas o cualquier otro medio para el transporte de datos, con la finalidad de compartir información, recursos y ofrecer servicios.
+
+
+
 El [Encaminamiento][1] o enrutamiento es la función de buscar el camino mas optimo entre dos posibles nodos en un red formada por sistema de nodos interconectados.
 
 [1]:https://es.wikipedia.org/wiki/Encaminamiento
 
-* ><i>"Muchos matemáticos derivan parte de su autoestima sintiéndose orgullosos herederos de una larga tradición de pensamiento racional, me temo que idealizan sus ancestros culturales."</i><br>
-<cite style="display:block; text-align: right">[Edsger Dijkstra](https://es.wikipedia.org/wiki/Edsger_Dijkstra)</cite>
 
 
 ## 3.1. Tipos de sub-redes ✔
