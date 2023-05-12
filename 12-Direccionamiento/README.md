@@ -76,14 +76,34 @@ Existen varias [etiquetas][2_1] numéricas que identifican recursos en una red, 
 * ><i>"El Internet reside en que cualquier persona puede acceder a él."</i><br>
 <cite style="display:block; text-align: right">[Vinton Cerf](https://es.wikipedia.org/wiki/Vinton_Cerf)</cite>
 
-## 2.1. Dirección IP ✔
-Una dirección IP es una etiqueta numérica que identifica de manera lógica y jerárquica a una interfaz que utiliza el [protocolo de internet][21_1] para conectar un dispositivo a una red.
+## 2.1. Historia ✔
+* __1981:__ El [Protocolo de Internet][21_1] fue presentado por Darpa.
+* __1983:__ El [RFC:791][21_2] o protocolo IPv4 se convierte en el estándar de internet.
+* __1985:__ El [RFC:950][21_3] agrega sub-redes al direccionamiento.
+* __1987:__ El [RFC:1009][21_4] agrega sub-redes de tamaño variable.
+* __1993:__ El [RFC:1519][21_5] agrega enrutamiento sin clases CIDR.
+* __1994:__ Los [RFC:1597][21_6] y [RFC:1631][21_7] agrega direcciones privadas y traducción de direcciones.
 
 [21_1]:https://es.wikipedia.org/wiki/Protocolo_de_internet
+[21_2]:https://datatracker.ietf.org/doc/html/rfc791
+[21_3]:https://datatracker.ietf.org/doc/html/rfc950
+[21_4]:https://datatracker.ietf.org/doc/html/rfc1009
+[21_5]:https://datatracker.ietf.org/doc/html/rfc1519
+[21_6]:https://datatracker.ietf.org/doc/html/rfc1597
+[21_7]:https://datatracker.ietf.org/doc/html/rfc1631
 
 
-### 2.1.1. Direcciones IPv4
-Las direcciones [IPV4][211] se expresan mediante un número binario de 32 bits (4 bytes) permitiendo un espacio de $2^{32}$ direcciones únicas posibles, aproximadamente 4.294 Millones.
+## 2.2. Dirección IP ✔
+* Una IP es etiqueta numérica para identificar de manera lógica y jerárquica a una interfaz.
+* Un dispositivo puede tener mas de una interfaz para conectarse a la red.
+* Una parte de este número identifica la red y otra el equipo dentro de esa red.
+* La cantidad de hosts de una red es el número de IP's posibles menos dos.
+* La primera dirección esta reservada para el nombre de la sub-red.
+* La segunda esta reservada para la dirección de broadcast.
+
+
+### 2.2.1. Direcciones IPv4
+Las direcciones [IPV4][221] se expresan mediante un número binario de 32 bits (4 bytes) permitiendo un espacio de $2^{32}$ direcciones únicas posibles, aproximadamente 4.294 Millones.
 
 <code>Ejemplo:</code> representar la ip [__192.168.254.172__](#) en formato binario.
 
@@ -93,11 +113,11 @@ Las direcciones [IPV4][211] se expresan mediante un número binario de 32 bits (
 |__Binario__ | 11000000 | __10101000__ | 11111110 | __10101100__ |
 |__Bites__   | 8 | 16 | 24 | 32 |
 
-[211]:https://es.wikipedia.org/wiki/Direcci%C3%B3n_IP
+[221]:https://es.wikipedia.org/wiki/Direcci%C3%B3n_IP
 
 
 ### 2.1.2. Direcciones IPv6
-Las direcciones [IPV6][212] se expresan mediante un número binario de 128 bits (16 bytes) permitiendo un espacio de $2^{128}$ direcciones posibles, aproximadamente 340 sextillones.
+Las direcciones [IPV6][222] se expresan mediante un número binario de 128 bits (16 bytes) permitiendo un espacio de $2^{128}$ direcciones posibles, aproximadamente 340 sextillones.
 
 <code>Ejemplo:</code> representar los primeros 64 bits de la ip [__2001:0DB8:AC10:FE01:1319:8A2E:0370:7334__](#) en formato binario.
 
@@ -108,7 +128,7 @@ Las direcciones [IPV6][212] se expresan mediante un número binario de 128 bits 
 |__Bites__   | 16 | 32 | 48 | 64 |
 
 
-[212]:https://es.wikipedia.org/wiki/Direcci%C3%B3n_IPv6
+[222]:https://es.wikipedia.org/wiki/Direcci%C3%B3n_IPv6
 
 
 # 3. [Sub-redes](#agenda)
@@ -119,21 +139,43 @@ En sistemas de comunicación digital, una [sub-red][3] es un subsistema que tien
 * ><i>"No puedes mirar en la bola de cristal y ver el futuro. Lo que Internet será en el futuro es lo que la sociedad haga de él.."</i><br>
 <cite style="display:block; text-align: right">[Robert Kahn](https://es.wikipedia.org/wiki/Robert_Kahn)</cite>
 
-## 3.1. Tipos de sub-redes ✔
-
-### 3.1.1. Redes por capa 
-* Red conectada por concentradores - Dominio de colisión.
-* Red conectada por conmutadores - dominio de difusión.  
-* Red conectada por enrutadores - dominio de broadcast. 
-
-### 3.1.2. Redes por tecnología
-* Red Gpon - sobre Fibra óptica.
-* Red Ethernet - sobre UTP.  
-* Red HFC - Coaxial y fibra.  
-* Red ADSL - sobre par trenzado telefónico.
-
 ## 3.1. Mascara de Red ✔
-Una técnica para dividir redes locales es tomando una porción 
+Una técnica para dividir redes locales es tomando una porción de la dirección ip para crear sub-redes y otra parte para el numero de host en esa sub-red.
+
+* La cantidad de hosts de una sub-red es el número de IP's posibles menos dos.
+* La primera dirección esta reservada para el nombre de la sub-red.
+* La segunda esta reservada para la dirección de broadcast.
+
+## 3.1.1. Mascaras Classful - [1985][311] ✔
+|Mascara de red|Clase|Inicio|Fin|Red|Broadcast|
+|--|:--:|--|--|--:|--:|
+|255.0.0.0|__A__|0000 $\overline{0}$|0111 $\overline{1}$|0.0.0.0|127.255.255.255|
+|255.255.0.0|__B__|1000 $\overline{0}$|1011 $\overline{1}$|128.0.0.0|191.255.255.255|
+|255.255.255.0|__C__|1100 $\overline{0}$|1101 $\overline{1}$|192.0.0.0|223.255.255.255|
+|255.255.255.255|__D__|1110 $\overline{0}$|1110 $\overline{1}$|224.0.0.0|239.255.255.255|
+|255.255.255.255|__E__|1111 $\overline{0}$|1111 $\overline{1}$|240.0.0.0|255.255.255.255|
+
+[311]:https://es.wikipedia.org/wiki/Subred
+
+</br>
+
+## 3.1.2. Mascaras de tamaño variable - [1987][312] ✔
+
+|Mascara de red|Clase|Inicio|Fin|Red|Broadcast|
+|--|:--:|--|--|--:|--:|
+|255.0.0.0|__A__|0000 $\overline{0}$|0111 $\overline{1}$|0.0.0.0|127.255.255.255|
+|255.255.0.0|__B__|1000 $\overline{0}$|1011 $\overline{1}$|128.0.0.0|191.255.255.255|
+|255.255.255.0|__C__|1100 $\overline{0}$|1101 $\overline{1}$|192.0.0.0|223.255.255.255|
+|255.255.255.255|__D__|1110 $\overline{0}$|1110 $\overline{1}$|224.0.0.0|239.255.255.255|
+|255.255.255.255|__E__|1111 $\overline{0}$|1111 $\overline{1}$|240.0.0.0|255.255.255.255|
+
+</br>
+
+## 3.1.3. Mascaras para enrutamiento entre dominios sin clases - [1993][312] ✔
+
+
+<p>0&#773;</p>
+0&#x305;
 
 
 #### 2.1.1.1 Tipo de direcciones IPv4
@@ -155,3 +197,9 @@ Existen varias [etiquetas][2_1] numéricas que identifican recursos en una red, 
 - [Dirección MAC](https://es.wikipedia.org/wiki/Direcci%C3%B3n_MAC) (Wiki)
 - [Wiki Mikrotik](https://wiki.mikrotik.com/wiki/Main_Page) (Wiki)
 
+
+|Clase|Superiores|Red|host|
+|:--:|:--:|:--:|:--:|
+|A|0xx|5|24|
+|B|10x|13|16|
+|C|110|21|8|
