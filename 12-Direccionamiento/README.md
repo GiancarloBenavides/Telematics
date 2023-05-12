@@ -66,6 +66,9 @@ Algunos ejemplos de recursos son:
 [11_3]:ftp://ftp.rediris.es/sites/releases.ubuntu.com/23.04
 
 
+</br>
+
+
 # 2. [Etiquetas numéricas](#agenda)
 Existen varias [etiquetas][2_1] numéricas que identifican recursos en una red, posiblemente una [interfaz][2_2] en un dispositivo o incluso un subsistema de red.
 
@@ -83,6 +86,10 @@ Existen varias [etiquetas][2_1] numéricas que identifican recursos en una red, 
 * __1987:__ El [RFC:1009][21_4] agrega sub-redes de tamaño variable.
 * __1993:__ El [RFC:1519][21_5] agrega enrutamiento sin clases CIDR.
 * __1994:__ Los [RFC:1597][21_6] y [RFC:1631][21_7] agrega direcciones privadas y traducción de direcciones.
+* __1995:__ El [RFC:1771][21_8] agrega enrutamiento en sistemas autónomos por BGP.
+* __1998:__ El [RFC:2460][21_9] inicia el desarrollo formal de IPv6.
+* __2017:__ El [RFC:8200][21_10] o protocolo IPv6 se convierte en el estándar de internet.
+
 
 [21_1]:https://es.wikipedia.org/wiki/Protocolo_de_internet
 [21_2]:https://datatracker.ietf.org/doc/html/rfc791
@@ -91,6 +98,9 @@ Existen varias [etiquetas][2_1] numéricas que identifican recursos en una red, 
 [21_5]:https://datatracker.ietf.org/doc/html/rfc1519
 [21_6]:https://datatracker.ietf.org/doc/html/rfc1597
 [21_7]:https://datatracker.ietf.org/doc/html/rfc1631
+[21_8]:https://datatracker.ietf.org/doc/html/rfc1771
+[21_9]:https://datatracker.ietf.org/doc/html/rfc2460
+[21_10]:https://datatracker.ietf.org/doc/html/rfc8200
 
 
 ## 2.2. Dirección IP ✔
@@ -116,7 +126,7 @@ Las direcciones [IPV4][221] se expresan mediante un número binario de 32 bits (
 [221]:https://es.wikipedia.org/wiki/Direcci%C3%B3n_IP
 
 
-### 2.1.2. Direcciones IPv6
+### 2.2.2. Direcciones IPv6
 Las direcciones [IPV6][222] se expresan mediante un número binario de 128 bits (16 bytes) permitiendo un espacio de $2^{128}$ direcciones posibles, aproximadamente 340 sextillones.
 
 <code>Ejemplo:</code> representar los primeros 64 bits de la ip [__2001:0DB8:AC10:FE01:1319:8A2E:0370:7334__](#) en formato binario.
@@ -130,6 +140,16 @@ Las direcciones [IPV6][222] se expresan mediante un número binario de 128 bits 
 
 [222]:https://es.wikipedia.org/wiki/Direcci%C3%B3n_IPv6
 
+## 2.3. Número de Sistema Autónomo (ASN) ✔
+* Los números ASN están definidos por un número entero de 32 bits.
+* Permitiendo un espacio de $2^{32}$ números o 4.294 Millones de ASN únicos posibles.
+* Unos cuantos están reservados y no se pueden usar por los operadores.
+* Los intervalos 64512–65534 y 4200000000–4294967294 son para uso privado.
+* Los números ASN son asignados en bloques por la IANA a las RIR.
+* Los RIR asignan los ASN públicos a los operadores.
+* En 2021 existen Mas de 100.000 redes autónomas publicas en internet.
+
+</br>
 
 # 3. [Sub-redes](#agenda)
 En sistemas de comunicación digital, una [sub-red][3] es un subsistema que tiene algún grado de independencia pero que pertenece a otro grupa mas grande y dentro de ese conjunto opera con otros subsistemas. Todos los dispositivos conectados a internet pertenecen a diferentes tipos de redes según su tamaño, alcance o tecnología.
@@ -140,11 +160,14 @@ En sistemas de comunicación digital, una [sub-red][3] es un subsistema que tien
 <cite style="display:block; text-align: right">[Robert Kahn](https://es.wikipedia.org/wiki/Robert_Kahn)</cite>
 
 ## 3.1. Mascara de Red ✔
-Una técnica para dividir redes locales es tomando una porción de la dirección ip para crear sub-redes y otra parte para el numero de host en esa sub-red.
-
+* La mascara de red es una técnica para optimizar el uso de las direcciones IP.
+* Indica que porción de la dirección ip etiqueta la red y cual etiqueta el host dentro de esa red.
+* El numero de bits que etiquetan los host están en la parte baja de la dirección IP.
+* Esta técnica permite dividir una red en sub-redes jerarquicamente.
 * La cantidad de hosts de una sub-red es el número de IP's posibles menos dos.
 * La primera dirección esta reservada para el nombre de la sub-red.
 * La segunda esta reservada para la dirección de broadcast.
+
 
 ## 3.1.1. Mascaras Classful - [1985][311] ✔
 |Mascara de red|Clase|Inicio|Fin|Red|Broadcast|
