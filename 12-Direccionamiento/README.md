@@ -147,7 +147,7 @@ Las direcciones [IPV6][222] se expresan mediante un número binario de 128 bits 
 * Los intervalos 64512–65534 y 4200000000–4294967294 son para uso privado.
 * Los números ASN son asignados en bloques por la IANA a las RIR.
 * Los RIR asignan los ASN públicos a los operadores.
-* En 2021 existen Mas de 100.000 redes autónomas publicas en internet.
+* En 2021 existen Mas de 100.000 redes autónomas públicas en internet.
 
 </br>
 
@@ -168,6 +168,7 @@ En sistemas de comunicación digital, una [sub-red][3] es un subsistema que tien
 * La primera dirección esta reservada para el nombre de la sub-red.
 * La segunda esta reservada para la dirección de broadcast.
 
+</br>
 
 ## 3.1.1. Mascaras Classful - [1985][311] ✔
 |Mascara de red|Clase|Inicio|Fin|Red|Broadcast|
@@ -178,12 +179,13 @@ En sistemas de comunicación digital, una [sub-red][3] es un subsistema que tien
 |255.255.255.255|__D__|1110 $\overline{0}$|1110 $\overline{1}$|224.0.0.0|239.255.255.255|
 |255.255.255.255|__E__|1111 $\overline{0}$|1111 $\overline{1}$|240.0.0.0|255.255.255.255|
 
+NOTA: [Las mascaras se definen por defecto según la clase y todas las sub-redes van a tener el mismo tamaño][311].
+
 [311]:https://es.wikipedia.org/wiki/Subred
 
 </br>
 
 ## 3.1.2. Mascaras de tamaño variable - [1987][312] ✔
-
 |Mascara de red|Clase|Inicio|Fin|Red|Broadcast|
 |--|:--:|--|--|--:|--:|
 |255.0.0.0|__A__|0000 $\overline{0}$|0111 $\overline{1}$|0.0.0.0|127.255.255.255|
@@ -192,9 +194,41 @@ En sistemas de comunicación digital, una [sub-red][3] es un subsistema que tien
 |255.255.255.255|__D__|1110 $\overline{0}$|1110 $\overline{1}$|224.0.0.0|239.255.255.255|
 |255.255.255.255|__E__|1111 $\overline{0}$|1111 $\overline{1}$|240.0.0.0|255.255.255.255|
 
+>__NOTA:__ [Las mascaras se definen según las necesidades y permiten dividir las redes en sub-redes mas pequeñas según la clase][312].
+
+[312]:https://es.wikipedia.org/wiki/M%C3%A1scaras_de_subred_de_tama%C3%B1o_variable
+
 </br>
 
 ## 3.1.3. Mascaras para enrutamiento entre dominios sin clases - [1993][312] ✔
+
+
+
+</br>
+
+## 3.1.3. Redes privadas - [1994][313] ✔
+|Redes|Clase|Host/red|Inicio|Fin|CIDR|Reservado|
+|--:|:--:|--:|--:|--:|:--:|:--:|
+|1|A|16.777.214|10.0.0.0|10.255.255.255|/8|No|
+|1|A|4.194.302|100.64.0.0|100.127.255.255|/10|[1][313_1]|
+|1|A|16.777.214|127.0.0.0|127.255.255.255|/8|[2][313_2]|
+|1|B|65.534|169.254.0.0|169.254.255.255|/16|[3][313_3]|
+|16|B|65.534|172.16.0.0|172.31.255.255|/12|No|
+|256|C|254|192.168.0.0|192.168.255.255|/16|No|
+|256|D|254|224.0.0.0|239.255.255.255|/4|[4][313_4]|
+
+Notas: 1: [Reservado para despliegues Carrier Grade NAT][313_1].
+2: [Reservado para las direcciones de loopback][313_2].
+3: [Reservado para asignación Automática sin DHCP][313_3].
+4: [Reservado para multidifusión IP][313_4].
+
+[313]:https://es.wikipedia.org/wiki/Red_privada
+[313_1]:https://es.wikipedia.org/wiki/Carrier_Grade_NAT
+[313_2]:https://es.wikipedia.org/wiki/Loopback
+[313_3]:https://es.wikipedia.org/wiki/Direcci%C3%B3n_de_Enlace-Local
+[313_4]:https://es.wikipedia.org/wiki/Multidifusi%C3%B3n_IP
+
+</br>
 
 
 <p>0&#773;</p>
