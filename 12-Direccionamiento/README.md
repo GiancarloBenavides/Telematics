@@ -179,7 +179,7 @@ En sistemas de comunicación digital, una [sub-red][3] es un subsistema que tien
 |255.255.255.255|__D__|1110 $\overline{0}$|1110 $\overline{1}$|224.0.0.0|239.255.255.255|
 |255.255.255.255|__E__|1111 $\overline{0}$|1111 $\overline{1}$|240.0.0.0|255.255.255.255|
 
-NOTA: [Las mascaras se definen por defecto según la clase y todas las sub-redes van a tener el mismo tamaño][311].
+Nota: 1: [Las mascaras se definen por defecto según la clase (los primeros 4 bits de la dirección) y todas las sub-redes van a tener el mismo tamaño][311].
 
 [311]:https://es.wikipedia.org/wiki/Subred
 
@@ -194,7 +194,7 @@ NOTA: [Las mascaras se definen por defecto según la clase y todas las sub-redes
 |255.255.255.255|__D__|1110 $\overline{0}$|1110 $\overline{1}$|224.0.0.0|239.255.255.255|
 |255.255.255.255|__E__|1111 $\overline{0}$|1111 $\overline{1}$|240.0.0.0|255.255.255.255|
 
->__NOTA:__ [Las mascaras se definen según las necesidades y permiten dividir las redes en sub-redes mas pequeñas según la clase][312].
+Nota: 1: [Las mascaras se definen según las necesidades y permiten dividir las redes en sub-redes mas pequeñas según la clase][312].
 
 [312]:https://es.wikipedia.org/wiki/M%C3%A1scaras_de_subred_de_tama%C3%B1o_variable
 
