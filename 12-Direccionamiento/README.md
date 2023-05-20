@@ -151,6 +151,15 @@ Las direcciones [IPV6][222] se expresan mediante un número binario de 128 bits 
 
 </br>
 
+## 2.4. Tipo de direcciones y agotamiento IPv4 ✔
+* $2^{32}$ o 4.294 Millones es el total de direcciones.
+* $2^{24}$ o 16 Millones son privadas.
+* $2^{28}$ o 268 Millones de multidifusión.
+* $2^{24}$ o 16 Millones son de loopback (Virtuales).
+* $2^{16}$ o 65 Mil son de enlace local.
+
+</br>
+
 # 3. [Sub-redes](#agenda)
 En sistemas de comunicación digital, una [sub-red][3] es un subsistema que tiene algún grado de independencia pero que pertenece a otro grupa mas grande y dentro de ese conjunto opera con otros subsistemas. Todos los dispositivos conectados a internet pertenecen a diferentes tipos de redes según su tamaño, alcance o tecnología.
 
@@ -160,7 +169,7 @@ En sistemas de comunicación digital, una [sub-red][3] es un subsistema que tien
 <cite style="display:block; text-align: right">[Robert Kahn](https://es.wikipedia.org/wiki/Robert_Kahn)</cite>
 
 ## 3.1. Motivaciones ✔
-Algunas de las motivaciones para dividir una red en sub-redes pueden ser:
+Algunas motivaciones para dividir una red en sub-redes conectadas por enrutadores pueden ser:
 * Evitar el desperdicio de direcciones IP.
 * Reducir el tamaño de los dominios de broadcast.
 * Hacer la red más manejable, administrativamente. 
@@ -177,7 +186,7 @@ Algunas de las motivaciones para dividir una red en sub-redes pueden ser:
 
 </br>
 
-## 3.1.1. Mascaras Classful - [1985][311] ✔
+### 3.2.1. Mascaras Classful - [1985][321]
 |Mascara de red|Clase|Inicio|Fin|Red|Broadcast|
 |--|:--:|--|--|--:|--:|
 |255.0.0.0|__A__|0000 $\overline{0}$|0111 $\overline{1}$|0.0.0.0|127.255.255.255|
@@ -186,13 +195,13 @@ Algunas de las motivaciones para dividir una red en sub-redes pueden ser:
 |255.255.255.255|__D__|1110 $\overline{0}$|1110 $\overline{1}$|224.0.0.0|239.255.255.255|
 |255.255.255.255|__E__|1111 $\overline{0}$|1111 $\overline{1}$|240.0.0.0|255.255.255.255|
 
-Nota: 1: [Las mascaras se definen por defecto según la clase (los primeros 4 bits de la dirección) y todas las sub-redes van a tener el mismo tamaño][311].
+Nota: 1: [Las mascaras se definen por defecto según la clase (los primeros 4 bits de la dirección) y todas las sub-redes van a tener el mismo tamaño][321].
 
-[311]:https://es.wikipedia.org/wiki/Subred
+[321]:https://es.wikipedia.org/wiki/Subred
 
 </br>
 
-## 3.1.2. Sub-redes - Mascaras de tamaño variable - [1987][312_1] ✔
+### 3.2.2. Sub-redes - Mascaras de tamaño variable - [1987][322_1]
 |Mascara de red|Clase|Bits|Sub-redes|Host|Broadcast 1|
 |--|:--:|--:|:--|--:|--:|
 |255.255.128.0|__C__|1|2|32.766|X.X.127.255|
@@ -202,23 +211,31 @@ Nota: 1: [Las mascaras se definen por defecto según la clase (los primeros 4 bi
 |255.255.248.0|__C__|5|32|2.046|X.X.7.255|
 |255.255.252.0|__C__|6|64|1.022|X.X.3.255|
 |255.255.254.0|__C__|7|128 |510|X.X.1.255|
-|255.255.255.0|__C__|8|255 [<sup>(3)</sup>][312_2]|[<sup>(4)</sup>][312_2] 253 |X.X.0.255|
+|255.255.255.0|__C__|8|255 [<sup>(3)</sup>][322_2]|[<sup>(4)</sup>][322_2] 253 |X.X.0.255|
 
-Nota: 1: [En la tabla se representan las sub-redes de la clase C cuyo desarrollo se puede extender a las otras clases][312_1] 2: [Las mascaras se definen según las necesidades y permiten dividir las redes en sub-redes mas pequeñas según la clase][312_1] 3: [Se excluye la red 256][312_2] 4: [Se excluye la dirección de host 254][312_2].
+Nota: 1: [En la tabla se representan las sub-redes de la clase C cuyo desarrollo se puede extender a las otras clases][322_1] 2: [Las mascaras se definen según las necesidades y permiten dividir las redes en sub-redes mas pequeñas según la clase][322_1] 3: [Se excluye la red 256][322_2] 4: [Se excluye la dirección de host 254][322_2].
 
-[312_1]:https://es.wikipedia.org/wiki/M%C3%A1scaras_de_subred_de_tama%C3%B1o_variable
-[312_2]:https://datatracker.ietf.org/doc/html/rfc950
-
-</br>
-
-## 3.1.3. Mascaras para enrutamiento entre dominios sin clases - [1993][312] ✔
-* El software moderno podrá utilizar todas las redes definibles.
-* No se excluye redes y host [all zeroes](#) y [all ones](#)
-
+[322_1]:https://es.wikipedia.org/wiki/M%C3%A1scaras_de_subred_de_tama%C3%B1o_variable
+[322_2]:https://datatracker.ietf.org/doc/html/rfc950
 
 </br>
 
-## 3.1.3. Redes privadas - [1994][313] ✔
+### 3.2.3. Mascaras para enrutamiento entre dominios sin clases - [1993][323_1]
+* Uso [más eficiente][323_1] de las direcciones IPv4.
+* Asignación de prefijos [CIDR][323_2] de longitud arbitraria.
+* El software moderno podrá utilizar [VLSM][323_3] todas las redes definibles.
+* No se excluye redes y host [all zeroes][323_4] y [all ones][323_4].
+* Agregación de múltiples prefijos contiguos en [super-redes][323_5].
+
+[323_1]:https://es.wikipedia.org/wiki/Agotamiento_de_las_direcciones_IPv4
+[323_2]:https://es.wikipedia.org/wiki/Classless_Inter-Domain_Routing
+[323_3]:https://es.wikipedia.org/wiki/M%C3%A1scaras_de_subred_de_tama%C3%B1o_variable
+[323_4]:https://es.wikipedia.org/wiki/M%C3%A1scara_de_red
+[323_5]:https://es.wikipedia.org/wiki/Superred
+
+</br>
+
+### 3.1.3. Redes privadas - [1994][313]
 |Redes|Clase|Host/red|Inicio|Fin|CIDR|Reservado|
 |--:|:--:|--:|--:|--:|:--:|:--:|
 |1|A|16.777.214|10.0.0.0|10.255.255.255|/8|No|
@@ -242,29 +259,9 @@ Notas: 1: [Reservado para despliegues Carrier Grade NAT][313_1].
 
 </br>
 
-
-#### 2.1.1.1 Tipo de direcciones IPv4
-De las $2^{32}$ 
-De estas direcciones 16 Millones son privadas y 268 Millones de multidifusión
-
-
- un rango de direcciones lógicas
-Cuando una red se vuelve muy grande, conviene dividirla en sub-redes, esta técnica de direccionamiento ayuda a optimizar las  
-Existen varias [etiquetas][2_1] numéricas que identifican recursos en una red, posiblemente una [interfaz][2_2] en un dispositivo o incluso un subsistema de red.
-
 ---
 ## Mas Recursos
-- [Registro Regional de Internet](https://es.wikipedia.org/wiki/Registro_Regional_de_Internet) (Wiki)
-- [Protocolo de internet](https://es.wikipedia.org/wiki/Protocolo_de_internet) (Wiki)
 - [Protocolo IPv4](https://es.wikipedia.org/wiki/IPv4) (Wiki)
 - [Protocolo IPv6](https://es.wikipedia.org/wiki/IPv6) (Wiki)
 - [Tarjeta de red](https://es.wikipedia.org/wiki/Tarjeta_de_red) (Wiki)
 - [Dirección MAC](https://es.wikipedia.org/wiki/Direcci%C3%B3n_MAC) (Wiki)
-- [Wiki Mikrotik](https://wiki.mikrotik.com/wiki/Main_Page) (Wiki)
-
-
-|Clase|Superiores|Red|host|
-|:--:|:--:|:--:|:--:|
-|A|0xx|5|24|
-|B|10x|13|16|
-|C|110|21|8|
