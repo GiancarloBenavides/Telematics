@@ -2,7 +2,7 @@
 <p><code>Fundamentos de Telemática</code></p>
 <p>Creado por <code>Giancarlo Ortiz</code> para explicar los fundamentos de los <code>Sistemas de comunicaciones</code> en los cursos de telemática y redes de computadores.</p>
 
-# Practica de laboratorio 01
+# Practica de laboratorio 02
 
 ## Objetivos 
 
@@ -10,7 +10,7 @@
 Proporcionar el conocimiento y generar las habilidades necesarias en la configuración y gestión de dispositivos de redes.
 
 ### Objetivos Específicos:
-- Conocer los números necesarios para configurar y caracterizar los diferentes dispositivos de red. :+1: 
+- Conocer los números necesarios para configurar el direccionamiento de una red de area local. :+1: 
 
 ---
 ## 1. [Configurar el entorno de trabajo](#) ✔
@@ -137,11 +137,10 @@ $ git config --global user.email johndoe@example.com
 - Incluya los saltos conocidos incluyendo el equipo de borde de su ISP.
 
 ## 10. [Preguntas de conocimiento](#) ✔
-1. ¿Cuál es el retardo esperado para tu red según la tecnología contratada?
-1. ¿Coincide el retardo medido con el esperado para tu red según la tecnología contratada? ¿Por qué?
-1. ¿Por qué varia la capacidad del canal en las distintas pruebas realizadas?
-1. ¿Cuál de los servicios DNS es mejor para configurar mi LAN?
-1. ¿Como podría medir la disponibilidad de ni conexión a internet?
+1. Cual es la dirección de red y de broadcast de un host que tiene una ip 192.168.10.10/30.
+1. Cuantos equipos o.
+1. Incluya los saltos conocidos incluyendo el equipo de borde de su ISP.
+
 
 
 [1]:https://www.speedtest.net/es
