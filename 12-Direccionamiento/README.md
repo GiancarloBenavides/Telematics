@@ -159,7 +159,14 @@ En sistemas de comunicación digital, una [sub-red][3] es un subsistema que tien
 * ><i>"No puedes mirar en la bola de cristal y ver el futuro. Lo que Internet será en el futuro es lo que la sociedad haga de él.."</i><br>
 <cite style="display:block; text-align: right">[Robert Kahn](https://es.wikipedia.org/wiki/Robert_Kahn)</cite>
 
-## 3.1. Mascara de Red ✔
+## 3.1. Motivaciones ✔
+Algunas de las motivaciones para dividir una red en sub-redes pueden ser:
+* Evitar el desperdicio de direcciones IP.
+* Reducir el tamaño de los dominios de broadcast.
+* Hacer la red más manejable, administrativamente. 
+* Controlar el tráfico entre diferentes sub-redes mediante ACL.
+
+## 3.2. Mascara de Red ✔
 * La mascara de red es una técnica para optimizar el uso de las direcciones IP.
 * Indica que porción de la dirección ip etiqueta la red y cual etiqueta el host dentro de esa red.
 * El numero de bits que etiquetan los host están en la parte baja de la dirección IP.
@@ -185,23 +192,28 @@ Nota: 1: [Las mascaras se definen por defecto según la clase (los primeros 4 bi
 
 </br>
 
-## 3.1.2. Mascaras de tamaño variable - [1987][312] ✔
-|Mascara de red|Clase|Inicio|Fin|Red|Broadcast|
-|--|:--:|--|--|--:|--:|
-|255.0.0.0|__A__|0000 $\overline{0}$|0111 $\overline{1}$|0.0.0.0|127.255.255.255|
-|255.255.0.0|__B__|1000 $\overline{0}$|1011 $\overline{1}$|128.0.0.0|191.255.255.255|
-|255.255.255.0|__C__|1100 $\overline{0}$|1101 $\overline{1}$|192.0.0.0|223.255.255.255|
-|255.255.255.255|__D__|1110 $\overline{0}$|1110 $\overline{1}$|224.0.0.0|239.255.255.255|
-|255.255.255.255|__E__|1111 $\overline{0}$|1111 $\overline{1}$|240.0.0.0|255.255.255.255|
+## 3.1.2. Sub-redes - Mascaras de tamaño variable - [1987][312_1] ✔
+|Mascara de red|Clase|Bits|Sub-redes|Host|Broadcast 1|
+|--|:--:|--:|:--|--:|--:|
+|255.255.128.0|__C__|1|2|32.766|X.X.127.255|
+|255.255.192.0|__C__|2|4|16.382|X.X.63.255|
+|255.255.224.0|__C__|3|8| 8.190|X.X.31.255|
+|255.255.240.0|__C__|4|16|4.094|X.X.15.255|
+|255.255.248.0|__C__|5|32|2.046|X.X.7.255|
+|255.255.252.0|__C__|6|64|1.022|X.X.3.255|
+|255.255.254.0|__C__|7|128 |510|X.X.1.255|
+|255.255.255.0|__C__|8|255 [<sup>(3)</sup>][312_2]|[<sup>(4)</sup>][312_2] 253 |X.X.0.255|
 
-Nota: 1: [Las mascaras se definen según las necesidades y permiten dividir las redes en sub-redes mas pequeñas según la clase][312].
+Nota: 1: [En la tabla se representan las sub-redes de la clase C cuyo desarrollo se puede extender a las otras clases][312_1] 2: [Las mascaras se definen según las necesidades y permiten dividir las redes en sub-redes mas pequeñas según la clase][312_1] 3: [Se excluye la red 256][312_2] 4: [Se excluye la dirección de host 254][312_2].
 
-[312]:https://es.wikipedia.org/wiki/M%C3%A1scaras_de_subred_de_tama%C3%B1o_variable
+[312_1]:https://es.wikipedia.org/wiki/M%C3%A1scaras_de_subred_de_tama%C3%B1o_variable
+[312_2]:https://datatracker.ietf.org/doc/html/rfc950
 
 </br>
 
 ## 3.1.3. Mascaras para enrutamiento entre dominios sin clases - [1993][312] ✔
-
+* El software moderno podrá utilizar todas las redes definibles.
+* No se excluye redes y host [all zeroes](#) y [all ones](#)
 
 
 </br>
@@ -229,10 +241,6 @@ Notas: 1: [Reservado para despliegues Carrier Grade NAT][313_1].
 [313_4]:https://es.wikipedia.org/wiki/Multidifusi%C3%B3n_IP
 
 </br>
-
-
-<p>0&#773;</p>
-0&#x305;
 
 
 #### 2.1.1.1 Tipo de direcciones IPv4
