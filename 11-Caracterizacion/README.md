@@ -123,6 +123,42 @@ Un protocolo podría incluir:
 
 <br>
 
+## 2.4. Modelo IEEE ✔
+* Los estándares de comunicación [IEEE 802][24_1] son desarrollados por LMSC.
+* El comité de redes locales y metropolitanas [LMSC][24_2] es un grupo de IEEE.
+* [IEEE][24_3] es una asociación de ingenieros dedicada a la estandarización.
+* En 2023 trabajan en 7 grupos incluido [802.3][24_4] o Ethernet Working Group.
+* Algunos grupos como [802.16][24_5] se encuentran suspendidos.
+* 802.16 (WIMAX) compitió con [3GPP][24_6] (LTE).
+* Algunos grupos como [802.20][24_7] se encuentran disueltos.
+
+[24_1]:https://es.wikipedia.org/wiki/IEEE_802
+[24_2]:https://www.ieee802.org/es-ecsg/
+[24_3]:https://es.wikipedia.org/wiki/Institute_of_Electrical_and_Electronics_Engineers
+[24_4]:https://es.wikipedia.org/wiki/Ethernet
+[24_5]:https://es.wikipedia.org/wiki/IEEE_802.16
+[24_6]:https://es.wikipedia.org/wiki/3GPP
+[24_7]:https://es.wikipedia.org/wiki/IEEE_802.20
+
+<br>
+
+### 2.4.1. Comités de estudio en IEEE 802
+|Grupo de trabajo|Estudio|
+|--:|--|
+|802.1&nbsp;&nbsp;|Protocolos LAN de capa superior|
+|802.3&nbsp;&nbsp;|Grupo de trabajo de [Ethernet][241_2]|
+|802.11|LAN inalámbrica - [WIFI][241_3]|
+|802.15|Red de área personal inalámbrica - [Bluetooth][241_4]|
+|802.18|TAG reglamentario de radio|
+|802.19|Grupo de trabajo de coexistencia inalámbrica|
+|802.24|TAG de aplicaciones verticales|
+
+[241_2]:https://es.wikipedia.org/wiki/Ethernet
+[241_3]:https://es.wikipedia.org/wiki/IEEE_802.11
+[241_4]:https://es.wikipedia.org/wiki/IEEE_802.15
+
+<br>
+
 # 3. [Organizaciones de Internet](#agenda)
 En internet existen [organismos][3] internacionales que se encargan de gestionar los identificadores de protocolo y otros elementos técnicos que permiten la comunicación entre las distintas redes que conforman Internet.
 
