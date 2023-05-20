@@ -208,12 +208,14 @@ Una [red informática][2] es un conjunto de nodos conectados entre sí por medio
 
 ### 3.1.1. Redes por capa 
 * Red conectada por concentradores - [Dominio de colisión][311_1].
-* Red conectada por conmutadores - [Dominio de difusión][311_2].  
-* Red conectada por enrutadores - [Dominio de encaminamiento][311_3]. 
+* Red conectada por conmutadores - [Dominio de difusión][311_2].
+* Red conectada por enrutadores - [Dominio de encaminamiento][311_3].
+* Red conectada por pasarelas - [Dominio inter-protocolo][311_4].
 
 [311_1]:https://es.wikipedia.org/wiki/Dominio_de_colisi%C3%B3n
 [311_2]:https://es.wikipedia.org/wiki/Dominio_de_difusi%C3%B3n
 [311_3]:https://es.wikipedia.org/wiki/Encaminamiento
+[311_4]:https://es.wikipedia.org/wiki/Puerta_de_enlace
 
 ### 3.1.2. Redes por tecnología
 * Red Gpon - sobre [Fibra óptica][312_1].
