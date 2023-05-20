@@ -83,7 +83,7 @@ Un protocolo podría incluir:
 |:--:|:--|:--:|
 |7|[Aplicación][22_7]| Dato APDU |
 |6|[Presentación][22_6]| Dato PPDU |
-|5|[sesión][22_5]| Dato SPDU |
+|5|[Sesión][22_5]| Dato SPDU |
 |4|[Transporte][22_4]| Segmento |
 |3|[Red][22_3]| Paquete |
 |2|[Enlace][22_2]| Trama |
@@ -207,15 +207,24 @@ Una [red informática][2] es un conjunto de nodos conectados entre sí por medio
 ## 3.1. Tipos de redes ✔
 
 ### 3.1.1. Redes por capa 
-* Red conectada por concentradores - Dominio de colisión.
-* Red conectada por conmutadores - dominio de difusión.  
-* Red conectada por enrutadores - dominio de broadcast. 
+* Red conectada por concentradores - [Dominio de colisión][311_1].
+* Red conectada por conmutadores - [Dominio de difusión][311_2].  
+* Red conectada por enrutadores - [Dominio de encaminamiento][311_3]. 
+
+[311_1]:https://es.wikipedia.org/wiki/Dominio_de_colisi%C3%B3n
+[311_2]:https://es.wikipedia.org/wiki/Dominio_de_difusi%C3%B3n
+[311_3]:https://es.wikipedia.org/wiki/Encaminamiento
 
 ### 3.1.2. Redes por tecnología
-* Red Gpon - sobre Fibra óptica.
-* Red Ethernet - sobre UTP.  
-* Red HFC - Coaxial y fibra.  
-* Red ADSL - sobre par trenzado telefónico.
+* Red Gpon - sobre [Fibra óptica][312_1].
+* Red Ethernet - sobre [Par trenzado][312_2].  
+* Red HFC - sobre [Coaxial][312_3] y fibra.  
+* Red ADSL - sobre [Red telefónica conmutada][312_4].
+
+[312_1]:https://es.wikipedia.org/wiki/Fibra_%C3%B3ptica
+[312_2]:https://es.wikipedia.org/wiki/Cable_de_par_trenzado
+[312_3]:https://es.wikipedia.org/wiki/Cable_coaxial
+[312_4]:https://es.wikipedia.org/wiki/Red_telef%C3%B3nica_conmutada
 
 ### 3.1.3. Redes por nivel
 El [nivel de una red][13] o proveedor de internet indica como participa esta con acuerdos de interconexión o peering en internet asi:
