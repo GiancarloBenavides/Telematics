@@ -229,14 +229,14 @@ Una [red informática][2] es un conjunto de nodos conectados entre sí por medio
 [312_4]:https://es.wikipedia.org/wiki/Red_telef%C3%B3nica_conmutada
 
 ### 3.1.3. Redes por nivel
-El [nivel de una red][13] o proveedor de internet indica como participa esta con acuerdos de interconexión o peering en internet asi:
+El [nivel de una red][313_1] o proveedor de internet indica como participa esta con acuerdos de interconexión o peering en internet asi:
 
-* __Red de nivel 1:__ ISP de mayor nivel cuya red que se empareja de forma gratuita con todas las redes de internet, sin comprar tránsito IP o pagar por interconexión.
-* __Red de nivel 2:__ una red que se empareja de forma gratuita con algunas redes, pero compra tránsito IP o paga por emparejamiento para alcanzar al menos una parte de Internet.
-* __Red de nivel 3:__ Una red que únicamente compra tránsito/peering de otras redes para participar en Internet.
+* [__Red de nivel 1:__][313_1] ISP de mayor nivel cuya red que se empareja de forma gratuita con todas las redes de internet, sin comprar tránsito IP o pagar por interconexión.
+* [Red de nivel 2:][313_2] una red que se empareja de forma gratuita con algunas redes, pero compra tránsito IP o paga por emparejamiento para alcanzar al menos una parte de Internet.
+* [Red de nivel 3:][313_1] Una red que únicamente compra tránsito/peering de otras redes para participar en Internet.
 
-[13]:https://es.wikipedia.org/wiki/Red_tier_1
-
+[313_1]:https://es.wikipedia.org/wiki/Red_tier_1
+[313_2]:https://en.wikipedia.org/wiki/Tier_2_network
 
 ---
 ## Mas Recursos
