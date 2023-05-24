@@ -60,7 +60,7 @@ Proporcionar el conocimiento y generar las habilidades necesarias en la configur
 1. Realizar pruebas [TRACEROUTE][4_4] a DNS Google desde un dispositivo conectado por WIFI.
 1. Realizar un backup de la configuración del equipo.
 
->Router: [TP-LINK][4_5] -> reiniciar: [Con el Router encendido dejamos presionado el botón reset durante 10 segundos hasta  LED SYS/PWR parpadee rápidamente][4_1] acceder: [conectar con la admin:admin@tplinkwifi.net][4_2]
+>Router: [TP-LINK][4_5] -> reiniciar: [Con el Router encendido dejamos presionado el botón reset durante 10 segundos hasta  LED SYS/PWR parpadee rápidamente][4_1] acceder: [conectar con la cadena admin:admin@tplinkwifi.net][4_2]
 
 [4_1]:https://www.tp-link.com/ar/support/faq/497/
 [4_2]:https://static.tp-link.com/res/down/doc/TL-WR840N(ES)_V2_QIG.pdf
@@ -96,7 +96,7 @@ Proporcionar el conocimiento y generar las habilidades necesarias en la configur
 1. Verificar que se puede acceder al servicio (pagina web) desde los dos clientes (móvil y PC).
 1. Realizar un backup de la configuración del equipo.
 
->ONT: [HUAWEI][6_5] -> reiniciar:[Con el Router encendido dejamos presionado el botón reset durante 2 segundos hasta  hasta que los LEDs se apaguen][4_1]
+>ONT: [HUAWEI][6_5] -> reiniciar:[Con el Router encendido dejamos presionado el botón reset durante 2 segundos hasta  hasta que los LEDs se apaguen][6_1] acceder: [conectar con la cadena user:twtvu@192.168.1.1][6_2]
 
 [6_1]:https://consumer.huawei.com/co/support/content/es-us15855743/
 [6_2]:https://forum.huawei.com/enterprise/es/%C2%BFc%C3%B3mo-iniciar-sesi%C3%B3n-en-ont-de-huawei/thread/636939-100243
