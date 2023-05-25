@@ -15,9 +15,9 @@ Proporcionar el conocimiento y generar las habilidades necesarias en la configur
 ---
 
 ## Parámetros:
-para todos los efectos:
-la letra G  de "Grupo" se reemplaza por el número de grupo de laboratorio.
-la letra G  de "Grupo" se reemplaza por el número de grupo de laboratorio.
+Para todos los efectos:
+* la letra G  de se reemplaza por el número de grupo de laboratorio.
+* la letra C  de se reemplaza por el ultimo número de cédula del estudiante.
 
 
 ## 1. [Configurar el entorno de trabajo](#) ✔
@@ -59,8 +59,8 @@ la letra G  de "Grupo" se reemplaza por el número de grupo de laboratorio.
 1. Cambiar el nombre del dispositivo para identificarlo.
 1. Configurar la direccionamiento WAN para lograr conectividad con la red externa.
 1. Configurar la direccionamiento LAN con una IP privada, clase C para lograr conectividad con la red interna.
-1. Configurar el [DHCP][dhcp] para que asigne 20 direcciones IP entre [G](#1-configurar-el-entorno-de-trabajo).200-[G](#1-configurar-el-entorno-de-trabajo-✔).220.
-1. Configurar la [WLAN][wlan] "REDES_4[G](#1-configurar-el-entorno-de-trabajo-✔)" para lograr conectividad inalámbrica.
+1. Configurar el [DHCP][dhcp] para que asigne 20 direcciones IP entre [G](#parámetros).200-[G](#parámetros).220.
+1. Configurar la [WLAN][wlan] de nombre y [PSK](psk) "REDES_4[G](#parámetros)" para lograr conectividad inalámbrica.
 1. Realizar pruebas [PING][4_3] a DNS Cloudflare desde el dispositivo.
 1. Realizar pruebas [PING][4_3] a DNS Cloudflare desde el computador conectado por UTP.
 1. Realizar pruebas [TRACEROUTE][4_4] a DNS Google desde el router.
@@ -88,9 +88,9 @@ la letra G  de "Grupo" se reemplaza por el número de grupo de laboratorio.
 1. Conecte los equipo mediante un patchcord (latiguillo) al equipo y a internet.
 1. [Acceder][6_2] al dispositivo via protocolo http desde el navegador web.
 1. Configurar la direccionamiento LAN con una IP privada, clase B para lograr conectividad con la red interna.
-1. Configurar el [DHCP][dhcp] para que asigne 50 direcciones IP entre GG.150-GG.200.
+1. Configurar el [DHCP][dhcp] para que asigne 50 direcciones IP entre [GG](#parámetros).150-[GG](#parámetros).200.
 1. Reservar una IP fija en la red interna para la MAC del un computador (Servidor).
-1. Configurar la seguridad [WLAN][wlan] para lograr conectividad inalámbrica.
+1. Configurar la [WLAN][wlan] de nombre y [PSK](psk) "REDES_4[G](#parámetros)" para lograr conectividad inalámbrica.
 1. Realizar pruebas [PING][4_3] a la puerta de enlace desde el computador conectado por UTP (Servidor).
 1. Realizar pruebas [PING][4_3] a la puerta de enlace desde el computador conectado por WIFI (Cliente).
 1. Realizar pruebas [PING][6_3] a la puerta de enlace desde un teléfono Movil conectado por WIFI.
@@ -123,9 +123,9 @@ la letra G  de "Grupo" se reemplaza por el número de grupo de laboratorio.
 1. Configurar las [interfaces][8_3] y el [bridge][8_4] (conmutador) para dos redes (Interna y externa).
 1. Agregar la [dirección][8_5] de la interfaz externa en el segmento necesario para acceder a internet.
 1. Agregar la [dirección][8_5] del bridge (interna) con una IP privada, clase A.
-1. Agregar un [Pool][8_6] en el segmento de la LAN que asigne direcciones entre GG.100-GG.200.
+1. Agregar un [Pool][8_6] en el segmento de la LAN que asigne direcciones entre [GG](#parámetros).100-[GG](#parámetros).200.
 1. Configurar el [DHCP][dhcp] y las rutas estáticas necesarias para lograr conectividad de la red interna con internet.
-1. Configurar la seguridad [WLAN][wlan] para lograr conectividad inalámbrica.
+1. Configurar la [WLAN][wlan] de nombre y [PSK](psk) "REDES_4[G](#parámetros)" para lograr conectividad inalámbrica.
 1. Realizar pruebas de diagnostico [PING][8_7] y [TRACEROUTE][4_4] desde el router.
 1. Realizar pruebas de diagnostico [PING][4_3] y [TRACEROUTE][4_4] desde un computador conectado via UTP.
 1. Realizar pruebas de diagnostico [PING][4_3] y [TRACEROUTE][4_4] desde un computador conectado via WIFI.
@@ -145,6 +145,7 @@ la letra G  de "Grupo" se reemplaza por el número de grupo de laboratorio.
 1. ¿Cuál de los servicios DNS es mejor para configurar mi LAN?
 1. ¿Como podría medir la disponibilidad de ni conexión a internet?
 
+[psk]:https://es.wikipedia.org/wiki/Pre-shared_key
 [dhcp]:https://es.wikipedia.org/wiki/Protocolo_de_configuraci%C3%B3n_din%C3%A1mica_de_host
 [wlan]:https://es.wikipedia.org/wiki/Red_de_%C3%A1rea_local_inal%C3%A1mbrica
 [4_1]:https://www.tp-link.com/ar/support/faq/497/
@@ -163,6 +164,7 @@ la letra G  de "Grupo" se reemplaza por el número de grupo de laboratorio.
 [8_5]:https://wiki.mikrotik.com/wiki/Manual:IP/Address
 [8_6]:https://wiki.mikrotik.com/wiki/Manual:IP/Pools
 [8_7]:https://wiki.mikrotik.com/wiki/Manual:Tools/Ping
+[8_8]:https://wiki.mikrotik.com/wiki/Manual:Troubleshooting_tools
 
 ---
 ## Mas Recursos
