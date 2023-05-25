@@ -160,6 +160,7 @@ Para todos los efectos:
 [6_5]:https://support.huawei.com/enterprise/es/access-network/echolife-hg8546m-pid-21465065
 [8_1]:https://wiki.mikrotik.com/wiki/Manual:Reset
 [8_2]:https://wiki.mikrotik.com/wiki/Manual:Winbox
+[8_3]:https://wiki.mikrotik.com/wiki/Manual:Interface/Ethernet
 [8_4]:https://wiki.mikrotik.com/wiki/Manual:Interface/Bridge
 [8_5]:https://wiki.mikrotik.com/wiki/Manual:IP/Address
 [8_6]:https://wiki.mikrotik.com/wiki/Manual:IP/Pools
@@ -168,7 +169,7 @@ Para todos los efectos:
 
 ---
 ## Mas Recursos
-- [Protocolo Ipv4](https://es.wikipedia.org/wiki/IPv4) (Wikipedia)
+- [Wiki Mikrotik](https://wiki.mikrotik.com/wiki/Main_Page) (Wiki)
 - [Direccionamiento IP](https://es.wikipedia.org/wiki/Direcci%C3%B3n_IP) (Wikipedia)
 - [Calculadora IP](https://www.calculator.net/ip-subnet-calculator.html) (Wikipedia)
 
