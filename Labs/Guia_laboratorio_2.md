@@ -52,7 +52,7 @@ Proporcionar el conocimiento y generar las habilidades necesarias en la configur
 1. Cambiar el nombre del dispositivo para identificarlo.
 1. Configurar la direccionamiento WAN para lograr conectividad con la red externa.
 1. Configurar la direccionamiento LAN con una IP privada, clase C para lograr conectividad con la red interna.
-1. Configurar el [DHCP][dhcp] para que asigne 20 direcciones IP entre [G](#1-configurar-el-entorno-de-trabajo-✔).200-[G](#1-configurar-el-entorno-de-trabajo-✔).220.
+1. Configurar el [DHCP][dhcp] para que asigne 20 direcciones IP entre [G](#1-configurar-el-entorno-de-trabajo).200-[G](#1-configurar-el-entorno-de-trabajo-✔).220.
 1. Configurar la [WLAN][wlan] "REDES_4[G](#1-configurar-el-entorno-de-trabajo-✔)" para lograr conectividad inalámbrica.
 1. Realizar pruebas [PING][4_3] a DNS Cloudflare desde el dispositivo.
 1. Realizar pruebas [PING][4_3] a DNS Cloudflare desde el computador conectado por UTP.
