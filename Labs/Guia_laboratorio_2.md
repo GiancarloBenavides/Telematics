@@ -139,11 +139,10 @@ Para todos los efectos:
 - Incluya los saltos conocidos incluyendo el equipo de borde de su ISP.
 
 ## 10. [Preguntas de conocimiento](#) ✔
-1. ¿Cuál es el retardo esperado para tu red según la tecnología contratada?
-1. ¿Coincide el retardo medido con el esperado para tu red según la tecnología contratada? ¿Por qué?
-1. ¿Por qué varia la capacidad del canal en las distintas pruebas realizadas?
-1. ¿Cuál de los servicios DNS es mejor para configurar mi LAN?
-1. ¿Como podría medir la disponibilidad de ni conexión a internet?
+1. ¿Que diferencias hay entre cada una de las implementaciones? (Ventajas y Desventajas)
+1. ¿Que diferencias existe en el retardo via WIFI vs el retardo via UTP? (Justifique)
+1. ¿Cual es la puerta de enlace a internet? ¿Cual es la ruta por defecto? En el punto (8)
+1. ¿Existe diferencia en las trazas hacia los DNS en internet, para cada medio de transmisión y dispositivo? (Justifique)
 
 [psk]:https://es.wikipedia.org/wiki/Pre-shared_key
 [dhcp]:https://es.wikipedia.org/wiki/Protocolo_de_configuraci%C3%B3n_din%C3%A1mica_de_host
@@ -170,6 +169,7 @@ Para todos los efectos:
 ---
 ## Mas Recursos
 - [Wiki Mikrotik](https://wiki.mikrotik.com/wiki/Main_Page) (Wiki)
+- [Video Curso Mikrotik](https://www.youtube.com/watch?v=SLAPzl-LSc0&list=PLf0g2cV4iCkH19_UhaVt0vDn1f9ObumjF) (Wiki)
 - [Direccionamiento IP](https://es.wikipedia.org/wiki/Direcci%C3%B3n_IP) (Wikipedia)
 - [Calculadora IP](https://www.calculator.net/ip-subnet-calculator.html) (Wikipedia)
 
