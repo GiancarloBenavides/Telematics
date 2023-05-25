@@ -17,8 +17,9 @@ Proporcionar el conocimiento y generar las habilidades necesarias en la configur
 1. Cree si no existe el repositorio [__"REDES-2"__][1_2] en su cuenta de github.
 1. Agregue un archivo llamado [__"laboratorio_2.md"__][1_2] a este repositorio.
 1. Invite a los compañeros de grupo como colaboradores en este repositorio.
-1. Documente cada uno de los items a continuación.
+1. Documente cada uno de los items a continuación con capturas de pantalla y código .
 
+>Nota: la letra G para todos los efectos se reemplaza por el número de grupo.
 
 [1_2]:https://github.com/GiancarloBenavides
 
@@ -50,23 +51,18 @@ Proporcionar el conocimiento y generar las habilidades necesarias en la configur
 1. [Acceder][4_2] al dispositivo via protocolo http desde el navegador web.
 1. Cambiar el nombre del dispositivo para identificarlo.
 1. Configurar la direccionamiento WAN para lograr conectividad con la red externa.
-1. Configurar la direccionamiento LAN y DHCP para lograr conectividad con la red interna.
-1. Configurar la seguridad WLAN para lograr conectividad inalámbrica.
-1. Habilitar la gestión remota del dispositivo desde cualquier IP.
+1. Configurar la direccionamiento LAN con una IP privada, clase C para lograr conectividad con la red interna.
+1. Configurar el [DHCP][dhcp] para que asigne 20 direcciones IP entre [G](#1-configurar-el-entorno-de-trabajo-✔).200-[G](#1-configurar-el-entorno-de-trabajo-✔).220.
+1. Configurar la [WLAN][wlan] "REDES_4[G](#1-configurar-el-entorno-de-trabajo-✔)" para lograr conectividad inalámbrica.
 1. Realizar pruebas [PING][4_3] a DNS Cloudflare desde el dispositivo.
 1. Realizar pruebas [PING][4_3] a DNS Cloudflare desde el computador conectado por UTP.
 1. Realizar pruebas [TRACEROUTE][4_4] a DNS Google desde el router.
 1. Realizar pruebas [TRACEROUTE][4_4] a DNS Google desde el Computador conectado por UTP.
 1. Realizar pruebas [TRACEROUTE][4_4] a DNS Google desde un dispositivo conectado por WIFI.
+1. Habilitar la gestión remota del dispositivo desde cualquier IP.
 1. Realizar un backup de la configuración del equipo.
 
 >Router: [TP-LINK][4_5] -> reiniciar: [Con el Router encendido dejamos presionado el botón reset durante 10 segundos hasta  LED SYS/PWR parpadee rápidamente][4_1] acceder: [conectar con la cadena admin:admin@tplinkwifi.net][4_2]
-
-[4_1]:https://www.tp-link.com/ar/support/faq/497/
-[4_2]:https://static.tp-link.com/res/down/doc/TL-WR840N(ES)_V2_QIG.pdf
-[4_3]:https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/ping
-[4_4]:https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/tracert
-[4_5]:https://www.tp-link.com/co/home-networking/wifi-router/tl-wr840n/
 
 ## 5. [Caracterizar la ONT HUAWEI](#) ✔
 |Parámetro||Valor|
@@ -84,25 +80,20 @@ Proporcionar el conocimiento y generar las habilidades necesarias en la configur
 1. [Reinicie][6_1] los dispositivos a la configuración de fabrica.
 1. Conecte los equipo mediante un patchcord (latiguillo) al equipo y a internet.
 1. [Acceder][6_2] al dispositivo via protocolo http desde el navegador web.
-1. Configurar la direccionamiento LAN y DHCP para lograr conectividad con la red interna.
-1. Reservar una IP Fija en la red interna para la MAC del un computador (Servidor).
-1. Configurar la seguridad WLAN para lograr conectividad inalámbrica.
-1. Habilitar la gestión remota del dispositivo desde cualquier IP.
+1. Configurar la direccionamiento LAN con una IP privada, clase B para lograr conectividad con la red interna.
+1. Configurar el [DHCP][dhcp] para que asigne 50 direcciones IP entre GG.150-GG.200.
+1. Reservar una IP fija en la red interna para la MAC del un computador (Servidor).
+1. Configurar la seguridad [WLAN][wlan] para lograr conectividad inalámbrica.
 1. Realizar pruebas [PING][4_3] a la puerta de enlace desde el computador conectado por UTP (Servidor).
 1. Realizar pruebas [PING][4_3] a la puerta de enlace desde el computador conectado por WIFI (Cliente).
 1. Realizar pruebas [PING][6_3] a la puerta de enlace desde un teléfono Movil conectado por WIFI.
 1. Listar los dispositivos por tipo que aparecen en "DHCP Information".
 1. Mapear el puerto 80 del router para que redirija a un servicio [Python][6_4] en un computador.
 1. Verificar que se puede acceder al servicio (pagina web) desde los dos clientes (móvil y PC).
+1. Habilitar la gestión remota del dispositivo desde cualquier IP.
 1. Realizar un backup de la configuración del equipo.
 
 >ONT: [HUAWEI][6_5] -> reiniciar:[Con el Router encendido dejamos presionado el botón reset durante 2 segundos hasta  hasta que los LEDs se apaguen][6_1] acceder: [conectar con la cadena user:twtvu@192.168.1.1][6_2]
-
-[6_1]:https://consumer.huawei.com/co/support/content/es-us15855743/
-[6_2]:https://forum.huawei.com/enterprise/es/%C2%BFc%C3%B3mo-iniciar-sesi%C3%B3n-en-ont-de-huawei/thread/636939-100243
-[6_3]:https://play.google.com/store/apps/details?id=com.lipinic.ping&hl=es_419&gl=US
-[6_4]:https://docs.python.org/3.10/library/http.server.html
-[6_5]:https://support.huawei.com/enterprise/es/access-network/echolife-hg8546m-pid-21465065
 
 ## 7. [Caracterizar el router MikroTik](#) ✔
 |Parámetro||Valor|
@@ -119,18 +110,21 @@ Proporcionar el conocimiento y generar las habilidades necesarias en la configur
 1. Conecte los equipos a la red eléctrica.
 1. [Reinicie][8_1] los dispositivos a la configuración de fabrica.
 1. Conecte los equipo mediante un patchcord (latiguillo) al equipo y a internet.
+1. [Acceder][8_2] al dispositivo por el puerto 8291 via Winbox.
 1. Cambiar el nombre del dispositivo para identificarlo.
-1. Cambiar la contraseña de acceso como administrador. 
-1. Configurar la direccionamiento WAN para lograr conectividad con la red externa.
-1. Configurar la direccionamiento LAN y DHCP para lograr conectividad con la red interna.
-1. Configurar la seguridad WLAN para lograr conectividad inalámbrica.
-1. Habilitar la gestión remota del dispositivo desde cualquier IP.
-1. Realizar pruebas de diagnostico PING y traceroute desde el equipo.
+1. Cambiar la contraseña del usuario "admin" a "Redes_2".
+1. Configurar las [interfaces][8_3] y el [bridge][8_4] (conmutador) para dos redes (Interna y externa).
+1. Agregar la [dirección][8_5] de la interfaz externa en el segmento necesario para acceder a internet.
+1. Agregar la [dirección][8_5] del bridge (interna) con una IP privada, clase A.
+1. Agregar un [Pool][8_6] en el segmento de la LAN que asigne direcciones entre GG.100-GG.200.
+1. Configurar el [DHCP][dhcp] y las rutas estáticas necesarias para lograr conectividad de la red interna con internet.
+1. Configurar la seguridad [WLAN][wlan] para lograr conectividad inalámbrica.
+1. Realizar pruebas de diagnostico [PING][8_7] y [TRACEROUTE][4_4] desde el router.
+1. Realizar pruebas de diagnostico [PING][4_3] y [TRACEROUTE][4_4] desde un computador conectado via UTP.
+1. Realizar pruebas de diagnostico [PING][4_3] y [TRACEROUTE][4_4] desde un computador conectado via WIFI.
 1. Realizar un backup de la configuración del equipo.
 
->__Reset Mikrotik:__ [Con el botón de reset presionado encendemos el equipo. Dejamos presionado el botón reset durante 2-3 segundos hasta que veamos parpadear alguno de los LEDs de servicio][1_1]
-
-[8_1]:https://wiki.mikrotik.com/wiki/Manual:Reset
+>ROUTER: [MikroTik][8_5] -> reiniciar:[Con el botón de reset presionado encendemos el equipo. Dejamos presionado el botón reset durante 2-3 segundos hasta que veamos parpadear alguno de los LEDs de servicio][8_1] Acceder:[instale winbox y acceda por la pestaña "Neighbors" Login:admin y Password:admin][8_2]
 
 ## 9. [Diagrama de Red](#) ✔
 - Realice un diagrama topológico de cada uno de los casos de estudio.
@@ -144,6 +138,24 @@ Proporcionar el conocimiento y generar las habilidades necesarias en la configur
 1. ¿Cuál de los servicios DNS es mejor para configurar mi LAN?
 1. ¿Como podría medir la disponibilidad de ni conexión a internet?
 
+[dhcp]:https://es.wikipedia.org/wiki/Protocolo_de_configuraci%C3%B3n_din%C3%A1mica_de_host
+[wlan]:https://es.wikipedia.org/wiki/Red_de_%C3%A1rea_local_inal%C3%A1mbrica
+[4_1]:https://www.tp-link.com/ar/support/faq/497/
+[4_2]:https://static.tp-link.com/res/down/doc/TL-WR840N(ES)_V2_QIG.pdf
+[4_3]:https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/ping
+[4_4]:https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/tracert
+[4_5]:https://www.tp-link.com/co/home-networking/wifi-router/tl-wr840n/
+[6_1]:https://consumer.huawei.com/co/support/content/es-us15855743/
+[6_2]:https://forum.huawei.com/enterprise/es/%C2%BFc%C3%B3mo-iniciar-sesi%C3%B3n-en-ont-de-huawei/thread/636939-100243
+[6_3]:https://play.google.com/store/apps/details?id=com.lipinic.ping&hl=es_419&gl=US
+[6_4]:https://docs.python.org/3.10/library/http.server.html
+[6_5]:https://support.huawei.com/enterprise/es/access-network/echolife-hg8546m-pid-21465065
+[8_1]:https://wiki.mikrotik.com/wiki/Manual:Reset
+[8_2]:https://wiki.mikrotik.com/wiki/Manual:Winbox
+[8_4]:https://wiki.mikrotik.com/wiki/Manual:Interface/Bridge
+[8_5]:https://wiki.mikrotik.com/wiki/Manual:IP/Address
+[8_6]:https://wiki.mikrotik.com/wiki/Manual:IP/Pools
+[8_7]:https://wiki.mikrotik.com/wiki/Manual:Tools/Ping
 
 ---
 ## Mas Recursos
