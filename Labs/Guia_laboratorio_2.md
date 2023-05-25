@@ -13,13 +13,20 @@ Proporcionar el conocimiento y generar las habilidades necesarias en la configur
 - Conocer los números necesarios para configurar el direccionamiento de una red de area local. :+1: 
 
 ---
+
+## Parámetros:
+para todos los efectos:
+la letra G  de "Grupo" se reemplaza por el número de grupo de laboratorio.
+la letra G  de "Grupo" se reemplaza por el número de grupo de laboratorio.
+
+
 ## 1. [Configurar el entorno de trabajo](#) ✔
 1. Cree si no existe el repositorio [__"REDES-2"__][1_2] en su cuenta de github.
 1. Agregue un archivo llamado [__"laboratorio_2.md"__][1_2] a este repositorio.
 1. Invite a los compañeros de grupo como colaboradores en este repositorio.
 1. Documente cada uno de los items a continuación con capturas de pantalla y código .
 
->Nota: la letra G para todos los efectos se reemplaza por el número de grupo.
+>Nota: recuerde que los [parámetros](#parámetros) son validos en todo el laboratorio.
 
 [1_2]:https://github.com/GiancarloBenavides
 
