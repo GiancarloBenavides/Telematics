@@ -71,15 +71,20 @@ graph TD;
 ```
 
 ### 1.3.1 Algoritmo de Bellman-Ford
+* El algoritmo de [Bellman-Ford][131] fue desarrollado por Richard Bellman, Samuel End y Lester Ford.
 * Genera el camino mas corto en un grafo dirigido ponderado.
 * El peso o ponderación de las aristas puede ser negativo.
 * Se usa en protocolos de encaminamiento basados en [vector de distancias][121]:
 
+[131]:https://es.wikipedia.org/wiki/Algoritmo_de_Bellman-Ford
+
 ### 1.3.2 Algoritmo de Dijkstra
+* El algoritmo de [Dijkstra][132] fue desarrollado por Edsger Dijkstra.
 * Converge mas rápidamente que el algoritmo de de Bellman-Ford.
 * El peso o ponderación de las aristas no puede ser negativo.
 * Se usa en protocolos de encaminamiento basados en el [estado del enlace][122]:
 
+[132]:https://es.wikipedia.org/wiki/Algoritmo_de_Dijkstra
 
 # 2. [Sistemas Autónomos](#agenda)
 Un [Sistema autónomo][2] se define como un grupo de redes IP bajo control de una misma entidad con un numero único que la identifica y que posee una política de encaminamiento propia e independiente.
@@ -100,19 +105,18 @@ Al interior de un único sistema autónomo las redes informan sus rutas optimas 
 
 | Protocolo | Nombre | Tipo de Algoritmo |
 |---:|:---|---:|
-|[__RIP__][131_1] | Routing Information Protocol | Estado del enlace|
-|[__IGRP__][131_2] | Interior Gateway Routing Protocol (CISCO) | Estado del enlace|
-|[__EIGRP__][131_3] | Enhanced Interior Gateway Routing Protocol (CISCO) | Estado del enlace|
-|[__IS-IS__][132_1] | Intermediate System to Intermediate System | Vector de distancias|
-|[__OSPF__][132_2] | Open Shortest Path First | Vector de distancias|
+|[__RIP__][211_1] | Routing Information Protocol | Estado del enlace|
+|[__IGRP__][211_2] | Interior Gateway Routing Protocol (CISCO) | Estado del enlace|
+|[__EIGRP__][211_3] | Enhanced Interior Gateway Routing Protocol (CISCO) | Estado del enlace|
+|[__IS-IS__][211_4] | Intermediate System to Intermediate System | Vector de distancias|
+|[__OSPF__][211_5] | Open Shortest Path First | Vector de distancias|
 
 
-[131_1]:https://es.wikipedia.org/wiki/Routing_Information_Protocol
-[131_2]:https://es.wikipedia.org/wiki/Interior_Gateway_Routing_Protocol
-[131_3]:https://es.wikipedia.org/wiki/Enhanced_Interior_Gateway_Routing_Protocol
-
-[132_1]:https://es.wikipedia.org/wiki/IS-IS
-[132_2]:https://es.wikipedia.org/wiki/Open_Shortest_Path_First
+[211_1]:https://es.wikipedia.org/wiki/Routing_Information_Protocol
+[211_2]:https://es.wikipedia.org/wiki/Interior_Gateway_Routing_Protocol
+[211_3]:https://es.wikipedia.org/wiki/Enhanced_Interior_Gateway_Routing_Protocol
+[211_4]:https://es.wikipedia.org/wiki/IS-IS
+[211_5]:https://es.wikipedia.org/wiki/Open_Shortest_Path_First
 
 
 
