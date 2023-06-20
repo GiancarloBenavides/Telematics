@@ -17,7 +17,7 @@ Proporcionar el conocimiento y generar las habilidades necesarias en la configur
 ## Parámetros:
 Para todos los efectos:
 * la letra G  de se reemplaza por el número de grupo de laboratorio.
-* la letra C  de se reemplaza por el ultimo número de cédula del estudiante.
+* la letra C  de se reemplaza por el ultimo número de cédula del estudiante..
 
 
 ## 1. [Configurar el entorno de trabajo](#) ✔
