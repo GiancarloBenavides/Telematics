@@ -95,10 +95,10 @@ $ git config --global user.email johndoe@example.com
 |--|--|--|
 |DNS Google|8.8.8.8||
 |DNS Cloudflare|1.1.1.1||
-|OpenDNS|||
-|Alternate DNS|||
-|DNS Quad9|||
-|AdGuard DNS|||
+|OpenDNS|208.67.222.222||
+|Alternate DNS|76.76.19.19||
+|DNS Quad9|9.9.9.9||
+|AdGuard DNS|94.140.14.14||
 
 >Nota: Para calcular el retardo de la red, usaremos el protocolo ICMP/[ping][12] con al menos 10 paquetes.
 
