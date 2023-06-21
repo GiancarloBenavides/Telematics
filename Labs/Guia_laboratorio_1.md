@@ -21,6 +21,7 @@ Proporcionar el conocimiento y generar las habilidades necesarias en la configur
 5. Instalar la [extension de github][1_5] para VScode
 6. Agregar <code>Usuario</code> y <code>Correo</code> globalmente para Git.
 7. Cerrar carpeta y clonar el repositorio remoto desde VScode.
+8. Crear una carpeta en el repositorio Redes-dos llamada <code>Laboratorio-uno</code>.
 
 
 ```bash
