@@ -137,6 +137,8 @@ $ git config --global user.email johndoe@example.com
 - Incluya todos los detalles de la red de area local a la que se encuentra conectado.
 - Incluya los saltos conocidos incluyendo el equipo de borde de su ISP.
 
+>Nota: Para conocer el tamaño y la topología de la red, usaremos la información previa y la pagina [ASRank][9_1].
+
 ## 10. [Preguntas de conocimiento](#) ✔
 1. ¿Cuál es el retardo esperado para tu red según la tecnología contratada?
 1. ¿Coincide el retardo medido con el esperado para tu red según la tecnología contratada? ¿Por qué?
@@ -150,6 +152,8 @@ $ git config --global user.email johndoe@example.com
 [3]:http://speedtest.claro.net.co/
 [4]:https://www.nperf.com/es/
 [5]:https://www.cual-es-mi-ip.net/
+
+[9_1]:https://asrank.caida.org/
 
 [8]:https://man7.org/linux/man-pages/man8/ifconfig.8.html
 [9]:https://learn.microsoft.com/es-es/windows-server/administration/windows-commands/getmac
