@@ -34,7 +34,7 @@ $ git config --global user.email johndoe@example.com
 [1_2]:https://git-scm.com/download/win
 [1_3]:https://github.com/
 [1_4]:https://github.com/new
-[1_4]:https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github
+[1_5]:https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github
 
 
 ## 2. [Preguntas reflexivas de ambientación](#) ✔
