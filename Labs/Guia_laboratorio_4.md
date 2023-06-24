@@ -2,7 +2,7 @@
 <p><code>Fundamentos de Telemática</code></p>
 <p>Creado por <code>Giancarlo Ortiz</code> para explicar los fundamentos de los <code>Sistemas de comunicaciones</code> en los cursos de telemática y redes de computadores.</p>
 
-# Practica de laboratorio 03
+# Practica de laboratorio 4
 
 ## Objetivos 
 
@@ -10,7 +10,7 @@
 Proporcionar el conocimiento y generar las habilidades necesarias en la configuración y gestión de dispositivos de redes.
 
 ### Objetivos Específicos:
-- Conocer configuraciones básicas de enrutamiento estático con MikroTik. :+1:
+- Conocer configuraciones básicas de enrutamiento dinámico con MikroTik. :+1:
 
 ---
 
@@ -22,9 +22,9 @@ Para todos los efectos:
 
 ## 1. [Configurar el entorno de trabajo](#) ✔
 1. Cree si no existe el repositorio llamado <code>Redes-dos</code>.
-1. Crear una carpeta en este repositorio llamado <code>Laboratorio-tres</code>.
+1. Crear una carpeta en este repositorio llamado <code>Laboratorio-cuatro</code>.
 1. Invite a los compañeros de grupo como colaboradores en este repositorio.
-1. Documente cada uno de los items a continuación con capturas de pantalla y código .
+1. Documente cada uno de los items a continuación con capturas de pantalla y código.
 
 >Nota: recuerde que los [parámetros](#parámetros) son validos en todo el laboratorio.
 
@@ -54,7 +54,7 @@ Para todos los efectos:
 1. Configurar la [WLAN][wlan] de nombre "REDES_41" para proveer conectividad inalámbrica.
 
 ## 4. [Configurar enrutamiento MikroTik-01](#) ✔
-1. Agregar las rutas estáticas necesarias para lograr conexión a internet.
+1. Agregar las rutas dinámicas necesarias para lograr conexión a internet.
 1. Agregar las rutas estáticas necesarias para que los tres router conozcan la ruta a los otros dos.
 1. Realizar pruebas de diagnostico [PING][8_7] y [TRACEROUTE][4_4] desde el router a los otros router.
 1. Realizar pruebas de diagnostico [PING][4_3] y [TRACEROUTE][4_4] desde un computador conectado via UTP a los otros router.
@@ -75,7 +75,7 @@ Para todos los efectos:
 1. Configurar la [WLAN][wlan] de nombre "REDES_42" para proveer conectividad inalámbrica.
 
 ## 6. [Configurar enrutamiento MikroTik-02](#) ✔
-1. Agregar las rutas estáticas necesarias para lograr conexión a internet.
+1. Agregar las rutas dinámicas necesarias para lograr conexión a internet.
 1. Agregar las rutas estáticas necesarias para que los tres router conozcan la ruta a los otros dos.
 1. Realizar pruebas de diagnostico [PING][8_7] y [TRACEROUTE][4_4] desde el router a los otros router.
 1. Realizar pruebas de diagnostico [PING][4_3] y [TRACEROUTE][4_4] desde un computador conectado via UTP a los otros router.
@@ -96,7 +96,7 @@ Para todos los efectos:
 1. Configurar la [WLAN][wlan] de nombre "REDES_43" para proveer conectividad inalámbrica.
 
 ## 8. [Configurar enrutamiento MikroTik-03](#) ✔
-1. Agregar las rutas estáticas necesarias para lograr conexión a internet.
+1. Agregar las rutas dinámicas necesarias para lograr conexión a internet.
 1. Agregar las rutas estáticas necesarias para que los tres router conozcan la ruta a los otros dos.
 1. Realizar pruebas de diagnostico [PING][8_7] y [TRACEROUTE][4_4] desde el router a los otros router.
 1. Realizar pruebas de diagnostico [PING][4_3] y [TRACEROUTE][4_4] desde un computador conectado via UTP a los otros router.

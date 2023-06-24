@@ -33,7 +33,7 @@ Para todos los efectos:
 ## 2. [Preguntas reflexivas de ambientación](#) ✔
 
 <ol type="a">
-<li>¿Como se llama la interfaz donde se conecta los cables UTP.?</li>
+<li>¿Como se llama la interfaz donde se conecta los cables UTP?.</li>
 <li>¿Que significa POE IN y POE OUT en una interfaz?.</li>
 <li>¿Que utilidad tiene la interfaz USB en los Enrutadores?.</li>
 <li>¿Que utilidad tiene la interfaz SFP en los Enrutadores?.</li>
