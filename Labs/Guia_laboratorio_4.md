@@ -47,8 +47,8 @@ Para todos los efectos:
 1. [Acceder][8_2] al dispositivo por el puerto 8291 via Winbox.
 1. Cambiar el nombre del dispositivo para identificarlo como <code>R1</code>.
 1. Configurar dos [interfaces][8_3] WAN y un [bridge][8_4] para la red LAN.
-1. Agregar la dos [dirección][8_5] de la interfaces externas en las redes IPs 10.11.0.0 y 10.22.0.0.
-1. Agregar la [dirección][8_5] del bridge (interna) con una IP 192.168.11.1 privada, clase C.
+1. Agregar la dos [dirección][8_5] de la interfaces externas en las redes IPs 10.11.1.0 y 10.22.1.0.
+1. Agregar la [dirección][8_5] del bridge (interna) con una IP 192.168.1.1 privada, clase C.
 1. Agregar un [Pool][8_6] en el segmento de la LAN que asigne direcciones entre 192.168.1.100-200.
 1. Configurar el [DHCP][dhcp] y las rutas estáticas necesarias para lograr conectividad de la red interna con internet.
 1. Configurar la [WLAN][wlan] de nombre "REDES_41" para proveer conectividad inalámbrica.
@@ -68,8 +68,8 @@ Para todos los efectos:
 1. [Acceder][8_2] al dispositivo por el puerto 8291 via Winbox.
 1. Cambiar el nombre del dispositivo para identificarlo como <code>R2</code>.
 1. Configurar dos [interfaces][8_3] WAN y un [bridge][8_4] para la red LAN.
-1. Agregar la dos [dirección][8_5] de la interfaces externas en las redes IPs 10.22.0.0 y 10.33.0.0.
-1. Agregar la [dirección][8_5] del bridge (interna) con una IP 192.168.22.1 privada, clase C.
+1. Agregar la dos [dirección][8_5] de la interfaces externas en las redes IPs 10.22.1.0 y 10.33.1.0.
+1. Agregar la [dirección][8_5] del bridge (interna) con una IP 192.168.1.1 privada, clase C.
 1. Agregar un [Pool][8_6] en el segmento de la LAN que asigne direcciones entre 192.168.1.100-200.
 1. Configurar el [DHCP][dhcp] y las rutas estáticas necesarias para lograr conectividad de la red interna con internet.
 1. Configurar la [WLAN][wlan] de nombre "REDES_42" para proveer conectividad inalámbrica.
@@ -89,8 +89,8 @@ Para todos los efectos:
 1. [Acceder][8_2] al dispositivo por el puerto 8291 via Winbox.
 1. Cambiar el nombre del dispositivo para identificarlo como <code>R3</code>.
 1. Configurar dos [interfaces][8_3] WAN y un [bridge][8_4] para la red LAN.
-1. Agregar la dos [dirección][8_5] de la interfaces externas en las redes IPs 10.33.0.0 y 10.44.0.0.
-1. Agregar la [dirección][8_5] del bridge (interna) con una IP 192.168.33.1 privada, clase C.
+1. Agregar la dos [dirección][8_5] de la interfaces externas en las redes IPs 10.33.1.0 y 10.44.1.0.
+1. Agregar la [dirección][8_5] del bridge (interna) con una IP 192.168.1.1 privada, clase C.
 1. Agregar un [Pool][8_6] en el segmento de la LAN que asigne direcciones entre 192.168.1.100-200.
 1. Configurar el [DHCP][dhcp] y las rutas estáticas necesarias para lograr conectividad de la red interna con internet.
 1. Configurar la [WLAN][wlan] de nombre "REDES_43" para proveer conectividad inalámbrica.
