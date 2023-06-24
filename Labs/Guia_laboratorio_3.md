@@ -47,7 +47,7 @@ Para todos los efectos:
 1. [Acceder][8_2] al dispositivo por el puerto 8291 via Winbox.
 1. Cambiar el nombre del dispositivo para identificarlo como <code>R1</code>.
 1. Configurar dos [interfaces][8_3] WAN y un [bridge][8_4] para la red LAN.
-1. Agregar la dos [dirección][8_5] de la interfaces externas en las redes IPs 10.11.0.0 y 10.22.0.0.
+1. Agregar la dos [dirección][8_5] de la interfaces externas en las redes IPs 10.10.0.0 y 10.11.0.0.
 1. Agregar la [dirección][8_5] del bridge (interna) con una IP 192.168.11.1 privada, clase C.
 1. Agregar un [Pool][8_6] en el segmento de la LAN que asigne direcciones entre 192.168.1.100-200.
 1. Configurar el [DHCP][dhcp] y las rutas estáticas necesarias para lograr conectividad de la red interna con internet.
@@ -68,7 +68,7 @@ Para todos los efectos:
 1. [Acceder][8_2] al dispositivo por el puerto 8291 via Winbox.
 1. Cambiar el nombre del dispositivo para identificarlo como <code>R2</code>.
 1. Configurar dos [interfaces][8_3] WAN y un [bridge][8_4] para la red LAN.
-1. Agregar la dos [dirección][8_5] de la interfaces externas en las redes IPs 10.22.0.0 y 10.33.0.0.
+1. Agregar la dos [dirección][8_5] de la interfaces externas en las redes IPs 10.11.0.0 y 10.22.0.0.
 1. Agregar la [dirección][8_5] del bridge (interna) con una IP 192.168.22.1 privada, clase C.
 1. Agregar un [Pool][8_6] en el segmento de la LAN que asigne direcciones entre 192.168.1.100-200.
 1. Configurar el [DHCP][dhcp] y las rutas estáticas necesarias para lograr conectividad de la red interna con internet.
@@ -89,7 +89,7 @@ Para todos los efectos:
 1. [Acceder][8_2] al dispositivo por el puerto 8291 via Winbox.
 1. Cambiar el nombre del dispositivo para identificarlo como <code>R3</code>.
 1. Configurar dos [interfaces][8_3] WAN y un [bridge][8_4] para la red LAN.
-1. Agregar la dos [dirección][8_5] de la interfaces externas en las redes IPs 10.33.0.0 y 10.44.0.0.
+1. Agregar la dos [dirección][8_5] de la interfaces externas en las redes IPs 10.1.0.0 y 10.33.0.0.
 1. Agregar la [dirección][8_5] del bridge (interna) con una IP 192.168.33.1 privada, clase C.
 1. Agregar un [Pool][8_6] en el segmento de la LAN que asigne direcciones entre 192.168.1.100-200.
 1. Configurar el [DHCP][dhcp] y las rutas estáticas necesarias para lograr conectividad de la red interna con internet.
@@ -109,10 +109,10 @@ Para todos los efectos:
 - Incluya los saltos conocidos incluyendo el equipo de borde de su ISP.
 
 ## 10. [Preguntas de conocimiento](#) ✔
-1. ¿Que diferencias hay entre cada una de las implementaciones? (Ventajas y Desventajas)
-1. ¿Que diferencias existe en el retardo via WIFI vs el retardo via UTP? (Justifique)
-1. ¿Cual es la puerta de enlace a internet? ¿Cual es la ruta por defecto? En el punto (8)
-1. ¿Existe diferencia en las trazas hacia los DNS en internet, para cada medio de transmisión y dispositivo? (Justifique)
+1. ¿Por qué desde los router no se puede ingresar a las redes LAN de otros router?
+1. ¿Cual es el procedimiento para lograr esta conexión si es posible?
+1. ¿Cual es la puerta de enlace a internet?
+1. ¿Cuantos saltos internos hace un computador conectado en LAN1 a internet? (Justifique)
 
 [psk]:https://es.wikipedia.org/wiki/Pre-shared_key
 [dhcp]:https://es.wikipedia.org/wiki/Protocolo_de_configuraci%C3%B3n_din%C3%A1mica_de_host
@@ -140,7 +140,7 @@ Para todos los efectos:
 ## Mas Recursos
 - [Wiki Mikrotik](https://wiki.mikrotik.com/wiki/Main_Page) (Wiki)
 - [Video-Curso Mikrotik](https://www.youtube.com/watch?v=SLAPzl-LSc0&list=PLf0g2cV4iCkH19_UhaVt0vDn1f9ObumjF) (Wiki)
-- [Direccionamiento IP](https://es.wikipedia.org/wiki/Direcci%C3%B3n_IP) (Wikipedia)
+- [Encaminamiento](https://es.wikipedia.org/wiki/Encaminamiento) (Wikipedia)
 - [Calculadora IP](https://www.calculator.net/ip-subnet-calculator.html) (Wikipedia)
 
 ---

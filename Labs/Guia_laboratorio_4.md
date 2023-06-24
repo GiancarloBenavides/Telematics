@@ -141,6 +141,8 @@ Para todos los efectos:
 - [Wiki Mikrotik](https://wiki.mikrotik.com/wiki/Main_Page) (Wiki)
 - [Video-Curso Mikrotik](https://www.youtube.com/watch?v=SLAPzl-LSc0&list=PLf0g2cV4iCkH19_UhaVt0vDn1f9ObumjF) (Wiki)
 - [Direccionamiento IP](https://es.wikipedia.org/wiki/Direcci%C3%B3n_IP) (Wikipedia)
+- [Encaminamiento](https://es.wikipedia.org/wiki/Encaminamiento) (Wikipedia)
+- [RIP](https://es.wikipedia.org/wiki/Routing_Information_Protocol) (Wikipedia)
 - [Calculadora IP](https://www.calculator.net/ip-subnet-calculator.html) (Wikipedia)
 
 ---
