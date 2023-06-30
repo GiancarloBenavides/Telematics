@@ -123,7 +123,7 @@ Para todos los efectos:
 [3_1]:https://wiki.mikrotik.com/wiki/Manual:Reset
 [3_2]:https://wiki.mikrotik.com/wiki/Manual:Winbox
 [3_3]:https://wiki.mikrotik.com/wiki/Manual:System/identity
-[3_4]:https://wiki.mikrotik.com/wiki/Manual:Interface/Ethernet
+[3_4]:https://wiki.mikrotik.com/wiki/Manual:Interface
 [3_5]:https://wiki.mikrotik.com/wiki/Manual:Interface/Ethernet
 [3_6]:https://wiki.mikrotik.com/wiki/Manual:Interface/Bridge
 
