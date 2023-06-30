@@ -43,14 +43,19 @@ Para todos los efectos:
 ## 3. [Configurar básica MikroTik-01](#) ✔
 1. Conecte los equipos a la red eléctrica.
 1. [Reinicie][8_1] los dispositivos a la configuración de fabrica.
-1. Conecte los equipo mediante un latiguillo a los equipos vecinos.
+1. Conecte la ultima interfaz [Ethernet RJ45][8_2] al PC de configuración.
 1. [Acceder][8_2] al dispositivo por el puerto 8291 via Winbox.
 1. Cambiar el nombre del dispositivo para identificarlo como <code>R1</code>.
-1. Configurar dos [interfaces][8_3] WAN y un [bridge][8_4] para la red LAN.
-1. Agregar la dos [dirección][8_5] de la interfaces externas en las redes IPs 10.10.0.0 y 10.11.0.0.
-1. Agregar la [dirección][8_5] del bridge (interna) con una IP 192.168.11.1 privada, clase C.
-1. Agregar un [Pool][8_6] en el segmento de la LAN que asigne direcciones entre 192.168.1.100-200.
-1. Configurar el [DHCP][dhcp] y las rutas estáticas necesarias para lograr conectividad de la red interna con internet.
+1. Etiquetar las [interfaces][8_3] a utilizar (2 WAN y una LAN).
+1. Conecte los equipos mediante a las interfaces RJ45 de los equipos vecinos.
+1. Agregar un [bridge][8_4] y sus interfaces para la red LAN.
+1. Agregar el direccionamiento para las dos redes externas WAN y la red interna LAN.
+    1. Agregar la [dirección][8_5] de la interfaz externa que conecta con R2 en el segmento IPs 10.11.0/24.
+    1. Agregar la [dirección][8_5] de la interfaz externa que conectara redes futuras en el segmento IPs 10.10.1.0/24.
+    1. Agregar la [dirección][8_5] del bridge (interna) con una IP 192.168.1.1 privada, clase C.
+1. Agregar un [Pool][8_6] en el segmento de la LAN que asigne direcciones entre 192.168.1.100-192.168.1.200.
+1. Agregar un servidor [DHCP][dhcp] y la información de puerta de enlace y DNS que enviara a los PC conectados a la LAN. 
+1. Agregar la rutas estáticas necesarias para lograr conectividad de la red interna con internet.
 1. Configurar la [WLAN][wlan] de nombre "REDES_41" para proveer conectividad inalámbrica.
 
 ## 4. [Configurar enrutamiento MikroTik-01](#) ✔
@@ -109,24 +114,17 @@ Para todos los efectos:
 - Incluya los saltos conocidos incluyendo el equipo de borde de su ISP.
 
 ## 10. [Preguntas de conocimiento](#) ✔
-1. ¿Por qué desde los router no se puede ingresar a las redes LAN de otros router?
-1. ¿Cual es el procedimiento para lograr esta conexión si es posible?
-1. ¿Cual es la puerta de enlace a internet?
-1. ¿Cuantos saltos internos hace un computador conectado en LAN1 a internet? (Justifique)
+1. ¿Por qué desde un router no se puede ingresar a las redes LAN de los otros router?
+1. ¿Es posible lograr que los PC conectados a R1 encuentren la ruta a los PC conectados en R2? (procedimiento)
+1. ¿Cual es la puerta de enlace a internet para R3?
+1. ¿Cuantos saltos internos hace un computador conectado en cada una de las redes LAN a internet? (Justifique)
 
-[psk]:https://es.wikipedia.org/wiki/Pre-shared_key
 [dhcp]:https://es.wikipedia.org/wiki/Protocolo_de_configuraci%C3%B3n_din%C3%A1mica_de_host
 [wlan]:https://es.wikipedia.org/wiki/Red_de_%C3%A1rea_local_inal%C3%A1mbrica
-[4_1]:https://www.tp-link.com/ar/support/faq/497/
-[4_2]:https://static.tp-link.com/res/down/doc/TL-WR840N(ES)_V2_QIG.pdf
+
 [4_3]:https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/ping
 [4_4]:https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/tracert
-[4_5]:https://www.tp-link.com/co/home-networking/wifi-router/tl-wr840n/
-[6_1]:https://consumer.huawei.com/co/support/content/es-us15855743/
-[6_2]:https://forum.huawei.com/enterprise/es/%C2%BFc%C3%B3mo-iniciar-sesi%C3%B3n-en-ont-de-huawei/thread/636939-100243
-[6_3]:https://play.google.com/store/apps/details?id=com.lipinic.ping&hl=es_419&gl=US
-[6_4]:https://docs.python.org/3.10/library/http.server.html
-[6_5]:https://support.huawei.com/enterprise/es/access-network/echolife-hg8546m-pid-21465065
+
 [8_1]:https://wiki.mikrotik.com/wiki/Manual:Reset
 [8_2]:https://wiki.mikrotik.com/wiki/Manual:Winbox
 [8_3]:https://wiki.mikrotik.com/wiki/Manual:Interface/Ethernet
