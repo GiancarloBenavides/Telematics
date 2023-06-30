@@ -43,7 +43,7 @@ Para todos los efectos:
 ## 3. [Configurar básica MikroTik-01](#) ✔
 1. Conecte los equipos a la red eléctrica.
 1. [Reinicie][8_1] los dispositivos a la configuración de fabrica.
-1. Conecte la ultima interfaz [Ethernet RJ45][8_2] al PC de configuración.
+1. Conecte la ultima interfaz [Ethernet RJ45][8_2] del router al PC de configuración.
 1. [Acceder][8_2] al dispositivo por el puerto 8291 via Winbox.
 1. Cambiar el nombre del dispositivo para identificarlo como <code>R1</code>.
 1. Etiquetar las [interfaces][8_3] a utilizar (2 WAN y una LAN).
@@ -126,13 +126,14 @@ Para todos los efectos:
 [4_4]:https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/tracert
 
 [8_1]:https://wiki.mikrotik.com/wiki/Manual:Reset
-[8_2]:https://wiki.mikrotik.com/wiki/Manual:Winbox
-[8_3]:https://wiki.mikrotik.com/wiki/Manual:Interface/Ethernet
-[8_4]:https://wiki.mikrotik.com/wiki/Manual:Interface/Bridge
-[8_5]:https://wiki.mikrotik.com/wiki/Manual:IP/Address
-[8_6]:https://wiki.mikrotik.com/wiki/Manual:IP/Pools
-[8_7]:https://wiki.mikrotik.com/wiki/Manual:Tools/Ping
-[8_8]:https://wiki.mikrotik.com/wiki/Manual:Troubleshooting_tools
+[8_2]:https://wiki.mikrotik.com/wiki/Manual:Interface/Ethernet
+[8_3]:https://wiki.mikrotik.com/wiki/Manual:Winbox
+[8_4]:https://wiki.mikrotik.com/wiki/Manual:Interface/Ethernet
+[8_5]:https://wiki.mikrotik.com/wiki/Manual:Interface/Bridge
+[8_6]:https://wiki.mikrotik.com/wiki/Manual:IP/Address
+[8_7]:https://wiki.mikrotik.com/wiki/Manual:IP/Pools
+[8_8]:https://wiki.mikrotik.com/wiki/Manual:Tools/Ping
+[8_9]:https://wiki.mikrotik.com/wiki/Manual:Troubleshooting_tools
 
 ---
 ## Mas Recursos
