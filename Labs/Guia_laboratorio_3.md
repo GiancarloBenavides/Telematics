@@ -56,11 +56,9 @@ Para todos los efectos:
 1. Agregar la ruta por defecto 0.0.0.0/0.
 
 ## 4. [Configurar enrutamiento MikroTik-01](#) ✔
-1. Agregar las rutas estáticas necesarias para lograr conexión a internet.
 1. Agregar las rutas estáticas necesarias para que los tres router conozcan la ruta a los otros dos.
 1. Realizar pruebas de diagnostico [PING][8_3] y [TRACEROUTE][8_4] desde el router a los otros router.
 1. Realizar pruebas de diagnostico [PING][ping] y [TRACEROUTE][tracert] desde un computador conectado via UTP a los otros router.
-1. Realizar pruebas de diagnostico [PING][ping] y [TRACEROUTE][tracert] desde un computador conectado via WIFI a los otros router.
 1. Realizar un backup de la configuración del equipo.
 
 ## 5. [Configurar básica MikroTik-02](#) ✔
