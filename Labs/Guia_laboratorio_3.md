@@ -52,12 +52,12 @@ Para todos los efectos:
     1. Agregar la [dirección][5_1] de la interfaz externa que conectara redes futuras en el segmento IPs 10.10.1.0/24.
     1. Agregar la [dirección][5_1] del bridge (interna) con una IP 192.168.1.1 privada, clase C.
 1. Agregar un [Pool][5_2] en el segmento de la LAN que asigne direcciones entre 192.168.1.100-192.168.1.200.
-1. Agregar un servidor [DHCP][dhcp] y la información de puerta de enlace y DNS que enviara a los PC conectados a la LAN. 
-1. Agregar la ruta por defecto 0.0.0.0/0.
+1. Agregar un servidor [DHCP][5_3] y la información de puerta de enlace y DNS que enviara a los PC conectados a la LAN. 
+1. Agregar la [ruta][5_4] por defecto 0.0.0.0/0.
 
 ## 4. [Configurar enrutamiento MikroTik-01](#) ✔
 1. Agregar las rutas estáticas necesarias para que los tres router conozcan la ruta a los otros dos.
-1. Realizar pruebas de diagnostico [PING][8_3] y [TRACEROUTE][8_4] desde el router a los otros router.
+1. Realizar pruebas de diagnostico [PING][8_1] y [TRACEROUTE][8_2] desde el router a los otros router.
 1. Realizar pruebas de diagnostico [PING][ping] y [TRACEROUTE][tracert] desde un computador conectado via UTP a los otros router.
 1. Realizar un backup de la configuración del equipo.
 
@@ -116,7 +116,6 @@ Para todos los efectos:
 
 [rj45]:https://es.wikipedia.org/wiki/RJ-45
 [wlan]:https://es.wikipedia.org/wiki/Red_de_%C3%A1rea_local_inal%C3%A1mbrica
-[dhcp]:https://es.wikipedia.org/wiki/Protocolo_de_configuraci%C3%B3n_din%C3%A1mica_de_host
 [ping]:https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/ping
 [tracert]:https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/tracert
 
@@ -129,14 +128,17 @@ Para todos los efectos:
 
 [5_1]:https://wiki.mikrotik.com/wiki/Manual:IP/Address
 [5_2]:https://wiki.mikrotik.com/wiki/Manual:IP/Pools
-[5_3]:https://wiki.mikrotik.com/wiki/Manual:Tools/Ping
-[5_4]:https://wiki.mikrotik.com/wiki/Manual:Troubleshooting_tools
+[5_3]:https://wiki.mikrotik.com/wiki/Manual:IP/DHCP_Server
+[5_4]:https://wiki.mikrotik.com/wiki/Manual:IP/Route
 
+[8_1]:https://wiki.mikrotik.com/wiki/Manual:Tools/Ping
+[8_2]:https://wiki.mikrotik.com/wiki/Manual:Troubleshooting_tools
 ---
 ## Mas Recursos
 - [Wiki Mikrotik](https://wiki.mikrotik.com/wiki/Main_Page) (Wiki)
 - [Video-Curso Mikrotik](https://www.youtube.com/watch?v=SLAPzl-LSc0&list=PLf0g2cV4iCkH19_UhaVt0vDn1f9ObumjF) (Wiki)
 - [Encaminamiento](https://es.wikipedia.org/wiki/Encaminamiento) (Wikipedia)
+- [DHCP](https://es.wikipedia.org/wiki/Protocolo_de_configuraci%C3%B3n_din%C3%A1mica_de_host) (Wikipedia)
 - [Calculadora IP](https://www.calculator.net/ip-subnet-calculator.html) (Wikipedia)
 
 ---
