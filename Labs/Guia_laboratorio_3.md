@@ -53,11 +53,11 @@ Para todos los efectos:
     1. Agregar la [dirección][5_1] del bridge (interna) con una IP 192.168.1.1 privada, clase C.
 1. Agregar un [Pool][5_2] en el segmento de la LAN que asigne direcciones entre 192.168.1.100-192.168.1.200.
 1. Agregar un servidor [DHCP][5_3] y la información de puerta de enlace y DNS que enviara a los PC conectados a la LAN. 
-1. Agregar la [ruta][5_4] por defecto 0.0.0.0/0.
+1. Agregar la [ruta por defecto][5_4] 0.0.0.0/0.
 
 ## 4. [Configurar enrutamiento MikroTik-01](#) ✔
-1. Agregar las rutas estáticas necesarias para que los tres router conozcan la ruta a los otros dos.
-1. Realizar pruebas de diagnostico [PING][8_1] y [TRACEROUTE][8_2] desde el router a los otros router.
+1. Agregar las [rutas estáticas][8_1] necesarias para que los tres router conozcan la ruta a los otros dos.
+1. Realizar pruebas de diagnostico [PING][8_2] y [TRACEROUTE][8_3] desde el router a los otros router.
 1. Realizar pruebas de diagnostico [PING][ping] y [TRACEROUTE][tracert] desde un computador conectado via UTP a los otros router.
 1. Realizar un backup de la configuración del equipo.
 
@@ -129,10 +129,12 @@ Para todos los efectos:
 [5_1]:https://wiki.mikrotik.com/wiki/Manual:IP/Address
 [5_2]:https://wiki.mikrotik.com/wiki/Manual:IP/Pools
 [5_3]:https://wiki.mikrotik.com/wiki/Manual:IP/DHCP_Server
-[5_4]:https://wiki.mikrotik.com/wiki/Manual:IP/Route
+[5_4]:https://wiki.mikrotik.com/wiki/Manual:IP/Route#Default_route
 
-[8_1]:https://wiki.mikrotik.com/wiki/Manual:Tools/Ping
-[8_2]:https://wiki.mikrotik.com/wiki/Manual:Troubleshooting_tools
+[8_1]:https://wiki.mikrotik.com/wiki/Manual:IP/Route
+[8_2]:https://wiki.mikrotik.com/wiki/Manual:Tools/Ping
+[8_3]:https://wiki.mikrotik.com/wiki/Manual:Troubleshooting_tools
+
 ---
 ## Mas Recursos
 - [Wiki Mikrotik](https://wiki.mikrotik.com/wiki/Main_Page) (Wiki)
