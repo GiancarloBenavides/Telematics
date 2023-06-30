@@ -71,20 +71,26 @@ graph TD;
 ```
 
 ### 1.3.1 Algoritmo de Bellman-Ford
-* El algoritmo de [Bellman-Ford][131] fue desarrollado por Richard Bellman, Samuel End y Lester Ford.
+* El algoritmo de [Bellman-Ford][131_1] fue desarrollado por Richard Bellman, Samuel End y Lester Ford.
 * Genera el camino mas corto en un grafo dirigido ponderado.
 * El peso o ponderación de las aristas puede ser negativo.
 * Se usa en protocolos de encaminamiento basados en [vector de distancias][121]:
+* Un ejemplo de uso es el protocolo [RIP][131_2] cuya métrica son los saltos.
 
-[131]:https://es.wikipedia.org/wiki/Algoritmo_de_Bellman-Ford
+[131_1]:https://es.wikipedia.org/wiki/Algoritmo_de_Bellman-Ford
+[131_2]:https://es.wikipedia.org/wiki/Routing_Information_Protocol
+
 
 ### 1.3.2 Algoritmo de Dijkstra
-* El algoritmo de [Dijkstra][132] fue desarrollado por Edsger Dijkstra.
+* El algoritmo de [Dijkstra][132_1] fue desarrollado por Edsger Dijkstra.
 * Converge mas rápidamente que el algoritmo de de Bellman-Ford.
 * El peso o ponderación de las aristas no puede ser negativo.
 * Se usa en protocolos de encaminamiento basados en el [estado del enlace][122]:
+* Un ejemplo de uso es el protocolo [OSPF][132_2] cuya métrica es el costo.
 
-[132]:https://es.wikipedia.org/wiki/Algoritmo_de_Dijkstra
+[132_1]:https://es.wikipedia.org/wiki/Algoritmo_de_Dijkstra
+[132_2]:https://es.wikipedia.org/wiki/Open_Shortest_Path_First
+
 
 # 2. [Sistemas Autónomos](#agenda)
 Un [Sistema autónomo][2] se define como un grupo de redes IP bajo control de una misma entidad con un numero único que la identifica y que posee una política de encaminamiento propia e independiente.
