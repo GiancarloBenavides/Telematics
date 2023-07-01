@@ -112,6 +112,8 @@ Para todos los efectos:
 - Incluya todos los detalles de la red de area local a la que se encuentra conectado.
 - Incluya los saltos conocidos incluyendo el equipo de borde de su ISP.
 
+![Arquitectura](../img/lab-03.svg "Arquitectura laboratorio 03")
+
 ## 10. [Preguntas de conocimiento](#) ✔
 1. ¿Por qué desde un router no se puede ingresar a las redes LAN de los otros router?
 1. ¿Es posible lograr que los PC conectados a R1 encuentren la ruta a los PC conectados en R3? (procedimiento)
