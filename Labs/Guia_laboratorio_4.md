@@ -2,7 +2,7 @@
 <p><code>Fundamentos de Telemática</code></p>
 <p>Creado por <code>Giancarlo Ortiz</code> para explicar los fundamentos de los <code>Sistemas de comunicaciones</code> en los cursos de telemática y redes de computadores.</p>
 
-# Practica de laboratorio 4 - Enrutamiento Dinámico
+# Practica de laboratorio 4 - Enrutamiento Dinámico RIP
 
 ## Objetivos 
 
@@ -40,7 +40,7 @@ Para todos los efectos:
 <li>¿Que es una ip dinámica?.</li>
 </ol>
 
-## 3. [Configurar básica MikroTik-01](#) ✔
+## 3. [Configuración básica MikroTik-01](#) ✔
 1. Conecte los equipos a la red eléctrica.
 1. [Reinicie][3_1] los dispositivos a la configuración de fabrica.
 1. Conecte la ultima interfaz [RJ45][rj45] del router al PC de configuración.
@@ -62,12 +62,12 @@ Para todos los efectos:
 
 ## 4. [Configurar enrutamiento MikroTik-01](#) ✔
 1. Agregar [Rip][8_1] a las interfaces conectadas a los router vecinos.
-1. Publicar las [redes][8_1] que las interfaces rip deben compartir para que los tres router conozcan la ruta a los otros dos y a sus redes LAN.
-1. Realizar pruebas de diagnostico [PING][8_2] y [TRACEROUTE][8_3] desde el router a los otros router.
+1. Publicar las [redes][8_2] que las interfaces rip deben compartir para que los tres router conozcan la ruta a los otros dos y a sus redes LAN.
+1. Realizar pruebas de diagnostico [PING][8_3] y [TRACEROUTE][8_4] desde el router a los otros router.
 1. Realizar pruebas de diagnostico [PING][ping] y [TRACERTE][tracert] desde un computador conectado via UTP a los otros router.
-1. Realizar un [backup][8_4] de la configuración del equipo.
+1. Realizar un [backup][8_5] de la configuración del equipo.
 
-## 5. [Configurar básica MikroTik-02](#) ✔
+## 5. [Configuración básica MikroTik-02](#) ✔
 1. Conecte los equipos a la red eléctrica.
 1. [Reinicie][3_1] los dispositivos a la configuración de fabrica.
 1. Conecte la ultima interfaz [RJ45][rj45] del router al PC de configuración.
@@ -89,12 +89,12 @@ Para todos los efectos:
 
 ## 6. [Configurar enrutamiento MikroTik-02](#) ✔
 1. Agregar [Rip][8_1] a las interfaces conectadas a los router vecinos.
-1. Publicar las [redes][8_1] que las interfaces rip deben compartir para que los tres router conozcan la ruta a los otros dos y a sus redes LAN.
-1. Realizar pruebas de diagnostico [PING][8_2] y [TRACEROUTE][8_3] desde el router a los otros router.
+1. Publicar las [redes][8_2] que las interfaces rip deben compartir para que los tres router conozcan la ruta a los otros dos y a sus redes LAN.
+1. Realizar pruebas de diagnostico [PING][8_3] y [TRACEROUTE][8_4] desde el router a los otros router.
 1. Realizar pruebas de diagnostico [PING][ping] y [TRACERTE][tracert] desde un computador conectado via UTP a los otros router.
-1. Realizar un [backup][8_4] de la configuración del equipo.
+1. Realizar un [backup][8_5] de la configuración del equipo.
 
-## 7. [Configurar básica MikroTik-03](#) ✔
+## 7. [Configuración básica MikroTik-03](#) ✔
 1. Conecte los equipos a la red eléctrica.
 1. [Reinicie][3_1] los dispositivos a la configuración de fabrica.
 1. Conecte la ultima interfaz [RJ45][rj45] del router al PC de configuración.
@@ -117,10 +117,10 @@ Para todos los efectos:
 
 ## 8. [Configurar enrutamiento MikroTik-03](#) ✔
 1. Agregar [Rip][8_1] a las interfaces conectadas a los router vecinos.
-1. Publicar las [redes][8_1] que las interfaces rip deben compartir para que los tres router conozcan la ruta a los otros dos y a sus redes LAN.
-1. Realizar pruebas de diagnostico [PING][8_2] y [TRACEROUTE][8_3] desde el router a los otros router.
+1. Publicar las [redes][8_2] que las interfaces rip deben compartir para que los tres router conozcan la ruta a los otros dos y a sus redes LAN.
+1. Realizar pruebas de diagnostico [PING][8_3] y [TRACEROUTE][8_4] desde el router a los otros router.
 1. Realizar pruebas de diagnostico [PING][ping] y [TRACERTE][tracert] desde un computador conectado via UTP a los otros router.
-1. Realizar un [backup][8_4] de la configuración del equipo.
+1. Realizar un [backup][8_5] de la configuración del equipo.
 
 ## 9. [Diagrama de Red](#) ✔
 - Realice un diagrama topológico de cada uno de los casos de estudio.
@@ -128,10 +128,10 @@ Para todos los efectos:
 - Incluya los saltos conocidos incluyendo el equipo de borde de su ISP.
 
 ## 10. [Preguntas de conocimiento](#) ✔
-1. ¿Que diferencias hay entre cada una de las implementaciones? (Ventajas y Desventajas)
-1. ¿Que diferencias existe en el retardo via WIFI vs el retardo via UTP? (Justifique)
-1. ¿Cual es la puerta de enlace a internet? ¿Cual es la ruta por defecto? En el punto (8)
-1. ¿Existe diferencia en las trazas hacia los DNS en internet, para cada medio de transmisión y dispositivo? (Justifique)
+1. ¿Que diferencias hay entre las versiones 1 y 2 de RIP? (Ventajas y Desventajas)
+1. ¿Cual es el algoritmo y la métrica que implementa RIP?
+1. ¿Cual es la diferencia de RIP con OSPF?
+1. ¿RIP permite compartir rutas entre diferentes Sistemas Autónomos? (Justifique)
 
 [psk]:https://es.wikipedia.org/wiki/Pre-shared_key
 [dhcp]:https://es.wikipedia.org/wiki/Protocolo_de_configuraci%C3%B3n_din%C3%A1mica_de_host
@@ -155,10 +155,11 @@ Para todos los efectos:
 [5_5]:https://wiki.mikrotik.com/wiki/Manual:IP/Firewall/NAT#Source_NAT
 [5_6]:https://wiki.mikrotik.com/wiki/Manual:IP/Route#Default_route
 
-[8_1]:https://wiki.mikrotik.com/wiki/Manual:IP/Route
-[8_2]:https://wiki.mikrotik.com/wiki/Manual:Tools/Ping
-[8_3]:https://wiki.mikrotik.com/wiki/Manual:Troubleshooting_tools
-[8_4]:https://wiki.mikrotik.com/wiki/Manual:System/Backup
+[8_1]:https://wiki.mikrotik.com/wiki/Manual:Routing/RIP#Interface
+[8_2]:https://wiki.mikrotik.com/wiki/Manual:Routing/RIP#Network
+[8_3]:https://wiki.mikrotik.com/wiki/Manual:Tools/Ping
+[8_4]:https://wiki.mikrotik.com/wiki/Manual:Troubleshooting_tools
+[8_5]:https://wiki.mikrotik.com/wiki/Manual:System/Backup
 
 ---
 ## Mas Recursos

@@ -38,7 +38,7 @@ Para todos los efectos:
 <li>¿Que es una ruta dinámica?.</li>
 </ol>
 
-## 3. [Configurar básica MikroTik-01](#) ✔
+## 3. [Configuración básica MikroTik-01](#) ✔
 1. Conecte los equipos a la red eléctrica.
 1. [Reinicie][3_1] los dispositivos a la configuración de fabrica.
 1. Conecte la ultima interfaz [RJ45][rj45] del router al PC de configuración.
@@ -61,7 +61,7 @@ Para todos los efectos:
 1. Realizar pruebas de diagnostico [PING][ping] y [TRACERTE][tracert] desde un computador conectado via UTP a los otros router.
 1. Realizar un [backup][8_4] de la configuración del equipo.
 
-## 5. [Configurar básica MikroTik-02](#) ✔
+## 5. [Configuración básica MikroTik-02](#) ✔
 1. Conecte los equipos a la red eléctrica.
 1. [Reinicie][3_1] los dispositivos a la configuración de fabrica.
 1. Conecte la ultima interfaz [RJ45][rj45] del router al PC de configuración.
@@ -84,7 +84,7 @@ Para todos los efectos:
 1. Realizar pruebas de diagnostico [PING][ping] y [TRACERTE][tracert] desde un computador conectado via UTP a los otros router.
 1. Realizar un [backup][8_4] de la configuración del equipo.
 
-## 7. [Configurar básica MikroTik-03](#) ✔
+## 7. [Configuración básica MikroTik-03](#) ✔
 1. Conecte los equipos a la red eléctrica.
 1. [Reinicie][3_1] los dispositivos a la configuración de fabrica.
 1. Conecte la ultima interfaz [RJ45][rj45] del router al PC de configuración.
