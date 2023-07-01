@@ -48,8 +48,8 @@ Para todos los efectos:
 1. Conecte las interfaces [Ethernet][3_5] etiquetadas a los equipos vecinos.
 1. Agregar un [bridge][3_6] y sus interfaces para la red LAN.
 1. Agregar el direccionamiento para las dos redes externas WAN y la red interna LAN.
-    1. Agregar la [dirección][5_1] de la interfaz externa que conecta con R2 en el segmento IPs 10.11.0/24.
-    1. Agregar la [dirección][5_1] de la interfaz externa que conectara redes futuras en el segmento IPs 10.10.1.0/24.
+    1. Agregar la [dirección][5_1] de la interfaz externa que conecta con R2 en el segmento IP 10.11.1.0/24.
+    1. Agregar la [dirección][5_1] de la interfaz externa que conectara redes futuras en el segmento IP 10.10.1.0/24.
     1. Agregar la [dirección][5_1] del bridge (interna) con una IP 192.168.1.1 privada, clase C.
 1. Agregar un [Pool][5_2] en el segmento de la LAN que asigne direcciones entre 192.168.1.100-192.168.1.200.
 1. Agregar un servidor [DHCP][5_3] y la información de puerta de enlace y DNS que enviara a los PC conectados a la LAN. 
@@ -58,50 +58,54 @@ Para todos los efectos:
 ## 4. [Configurar enrutamiento MikroTik-01](#) ✔
 1. Agregar las [rutas estáticas][8_1] necesarias para que los tres router conozcan la ruta a los otros dos.
 1. Realizar pruebas de diagnostico [PING][8_2] y [TRACEROUTE][8_3] desde el router a los otros router.
-1. Realizar pruebas de diagnostico [PING][ping] y [TRACEROUTE][tracert] desde un computador conectado via UTP a los otros router.
-1. Realizar un backup de la configuración del equipo.
+1. Realizar pruebas de diagnostico [PING][ping] y [TRACERTE][tracert] desde un computador conectado via UTP a los otros router.
+1. Realizar un [backup][8_4] de la configuración del equipo.
 
 ## 5. [Configurar básica MikroTik-02](#) ✔
 1. Conecte los equipos a la red eléctrica.
-1. [Reinicie][8_1] los dispositivos a la configuración de fabrica.
-1. Conecte los equipo mediante un latiguillo a los equipos vecinos.
-1. [Acceder][8_2] al dispositivo por el puerto 8291 via Winbox.
-1. Cambiar el nombre del dispositivo para [identificarlo][8_3] como <code>R2</code>.
-1. Configurar dos [interfaces][8_3] WAN y un [bridge][8_4] para la red LAN.
-1. Agregar la dos [dirección][8_5] de la interfaces externas en las redes IPs 10.11.0.0 y 10.22.0.0.
-1. Agregar la [dirección][8_5] del bridge (interna) con una IP 192.168.22.1 privada, clase C.
-1. Agregar un [Pool][8_6] en el segmento de la LAN que asigne direcciones entre 192.168.1.100-200.
-1. Configurar el [DHCP][dhcp] y las rutas estáticas necesarias para lograr conectividad de la red interna con internet.
-1. Configurar la [WLAN][wlan] de nombre "REDES_42" para proveer conectividad inalámbrica.
+1. [Reinicie][3_1] los dispositivos a la configuración de fabrica.
+1. Conecte la ultima interfaz [RJ45][rj45] del router al PC de configuración.
+1. [Acceder][3_2] al dispositivo por el puerto 8291 via Winbox.
+1. Cambiar el nombre del dispositivo para [identificarlo][3_3] como <code>R2</code>.
+1. Etiquetar las [interfaces][3_4] a utilizar (2 WAN y una LAN).
+1. Conecte las interfaces [Ethernet][3_5] etiquetadas a los equipos vecinos.
+1. Agregar un [bridge][3_6] y sus interfaces para la red LAN.
+1. Agregar el direccionamiento para las dos redes externas WAN y la red interna LAN.
+    1. Agregar la [dirección][5_1] de la interfaz externa que conecta con R1 en el segmento IP 10.11.1.0/24.
+    1. Agregar la [dirección][5_1] de la interfaz externa que conecta con R3 en el segmento IP 10.22.1.0/24.
+    1. Agregar la [dirección][5_1] del bridge (interna) con una IP 192.168.1.1 privada, clase C.
+1. Agregar un [Pool][5_2] en el segmento de la LAN que asigne direcciones entre 192.168.1.100-192.168.1.200.
+1. Agregar un servidor [DHCP][5_3] y la información de puerta de enlace y DNS que enviara a los PC conectados a la LAN. 
+1. Agregar la [ruta por defecto][5_4] 0.0.0.0/0.
 
 ## 6. [Configurar enrutamiento MikroTik-02](#) ✔
-1. Agregar las rutas estáticas necesarias para lograr conexión a internet.
-1. Agregar las rutas estáticas necesarias para que los tres router conozcan la ruta a los otros dos.
-1. Realizar pruebas de diagnostico [PING][8_7] y [TRACEROUTE][4_4] desde el router a los otros router.
-1. Realizar pruebas de diagnostico [PING][4_3] y [TRACEROUTE][4_4] desde un computador conectado via UTP a los otros router.
-1. Realizar pruebas de diagnostico [PING][4_3] y [TRACEROUTE][4_4] desde un computador conectado via WIFI a los otros router.
-1. Realizar un backup de la configuración del equipo.
+1. Agregar las [rutas estáticas][8_1] necesarias para que los tres router conozcan la ruta a los otros dos.
+1. Realizar pruebas de diagnostico [PING][8_2] y [TRACEROUTE][8_3] desde el router a los otros router.
+1. Realizar pruebas de diagnostico [PING][ping] y [TRACERTE][tracert] desde un computador conectado via UTP a los otros router.
+1. Realizar un [backup][8_4] de la configuración del equipo.
 
 ## 7. [Configurar básica MikroTik-03](#) ✔
 1. Conecte los equipos a la red eléctrica.
-1. [Reinicie][8_1] los dispositivos a la configuración de fabrica.
-1. Conecte los equipo mediante un latiguillo a los equipos vecinos.
-1. [Acceder][8_2] al dispositivo por el puerto 8291 via Winbox.
-1. Cambiar el nombre del dispositivo para identificarlo como <code>R3</code>.
-1. Configurar dos [interfaces][8_3] WAN y un [bridge][8_4] para la red LAN.
-1. Agregar la dos [dirección][8_5] de la interfaces externas en las redes IPs 10.1.0.0 y 10.33.0.0.
-1. Agregar la [dirección][8_5] del bridge (interna) con una IP 192.168.33.1 privada, clase C.
-1. Agregar un [Pool][8_6] en el segmento de la LAN que asigne direcciones entre 192.168.1.100-200.
-1. Configurar el [DHCP][dhcp] y las rutas estáticas necesarias para lograr conectividad de la red interna con internet.
-1. Configurar la [WLAN][wlan] de nombre "REDES_43" para proveer conectividad inalámbrica.
+1. [Reinicie][3_1] los dispositivos a la configuración de fabrica.
+1. Conecte la ultima interfaz [RJ45][rj45] del router al PC de configuración.
+1. [Acceder][3_2] al dispositivo por el puerto 8291 via Winbox.
+1. Cambiar el nombre del dispositivo para [identificarlo][3_3] como <code>R3</code>.
+1. Etiquetar las [interfaces][3_4] a utilizar (2 WAN y una LAN).
+1. Conecte las interfaces [Ethernet][3_5] etiquetadas a los equipos vecinos.
+1. Agregar un [bridge][3_6] y sus interfaces para la red LAN.
+1. Agregar el direccionamiento para las dos redes externas WAN y la red interna LAN.
+    1. Agregar la [dirección][5_1] de la interfaz externa que conecta con RM en el segmento IP 10.1.1.0/24.
+    1. Agregar la [dirección][5_1] de la interfaz externa que conectara redes futuras en el segmento IP 10.33.1.0/24.
+    1. Agregar la [dirección][5_1] del bridge (interna) con una IP 192.168.1.1 privada, clase C.
+1. Agregar un [Pool][5_2] en el segmento de la LAN que asigne direcciones entre 192.168.1.100-192.168.1.200.
+1. Agregar un servidor [DHCP][5_3] y la información de puerta de enlace y DNS que enviara a los PC conectados a la LAN. 
+1. Agregar la [ruta por defecto][5_4] 0.0.0.0/0.
 
 ## 8. [Configurar enrutamiento MikroTik-03](#) ✔
-1. Agregar las rutas estáticas necesarias para lograr conexión a internet.
-1. Agregar las rutas estáticas necesarias para que los tres router conozcan la ruta a los otros dos.
-1. Realizar pruebas de diagnostico [PING][8_7] y [TRACEROUTE][tracert] desde el router a los otros router.
-1. Realizar pruebas de diagnostico [PING][4_3] y [TRACEROUTE][tracert] desde un computador conectado via UTP a los otros router.
-1. Realizar pruebas de diagnostico [PING][4_3] y [TRACEROUTE][tracert] desde un computador conectado via WIFI a los otros router.
-1. Realizar un backup de la configuración del equipo.
+1. Agregar las [rutas estáticas][8_1] necesarias para que los tres router conozcan la ruta a los otros dos.
+1. Realizar pruebas de diagnostico [PING][8_2] y [TRACEROUTE][8_3] desde el router a los otros router.
+1. Realizar pruebas de diagnostico [PING][ping] y [TRACERTE][tracert] desde un computador conectado via UTP a los otros router.
+1. Realizar un [backup][8_4] de la configuración del equipo.
 
 ## 9. [Diagrama de Red](#) ✔
 - Realice un diagrama topológico de cada uno de los casos de estudio.
@@ -110,12 +114,11 @@ Para todos los efectos:
 
 ## 10. [Preguntas de conocimiento](#) ✔
 1. ¿Por qué desde un router no se puede ingresar a las redes LAN de los otros router?
-1. ¿Es posible lograr que los PC conectados a R1 encuentren la ruta a los PC conectados en R2? (procedimiento)
-1. ¿Cual es la puerta de enlace a internet para R3?
+1. ¿Es posible lograr que los PC conectados a R1 encuentren la ruta a los PC conectados en R3? (procedimiento)
+1. ¿Cual es la puerta de enlace a internet para R1?
 1. ¿Cuantos saltos internos hace un computador conectado en cada una de las redes LAN a internet? (Justifique)
 
 [rj45]:https://es.wikipedia.org/wiki/RJ-45
-[wlan]:https://es.wikipedia.org/wiki/Red_de_%C3%A1rea_local_inal%C3%A1mbrica
 [ping]:https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/ping
 [tracert]:https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/tracert
 
@@ -134,6 +137,7 @@ Para todos los efectos:
 [8_1]:https://wiki.mikrotik.com/wiki/Manual:IP/Route
 [8_2]:https://wiki.mikrotik.com/wiki/Manual:Tools/Ping
 [8_3]:https://wiki.mikrotik.com/wiki/Manual:Troubleshooting_tools
+[8_4]:https://wiki.mikrotik.com/wiki/Manual:System/Backup
 
 ---
 ## Mas Recursos
