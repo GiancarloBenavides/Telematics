@@ -2,7 +2,7 @@
 <p><code>Fundamentos de Telemática</code></p>
 <p>Creado por <code>Giancarlo Ortiz</code> para explicar los fundamentos de los <code>Sistemas de comunicaciones</code> en los cursos de telemática y redes de computadores.</p>
 
-# Practica de laboratorio 03
+# Practica de laboratorio 03 - Enrutamiento estático
 
 ## Objetivos 
 
@@ -143,7 +143,7 @@ Para todos los efectos:
 ## Mas Recursos
 - [Wiki Mikrotik](https://wiki.mikrotik.com/wiki/Main_Page) (Wiki)
 - [Video-Curso Mikrotik](https://www.youtube.com/watch?v=SLAPzl-LSc0&list=PLf0g2cV4iCkH19_UhaVt0vDn1f9ObumjF) (Wiki)
-- [Encaminamiento](https://es.wikipedia.org/wiki/Encaminamiento) (Wikipedia)
+- [Direccionamiento IP](https://es.wikipedia.org/wiki/Direcci%C3%B3n_IP) (Wikipedia)
 - [DHCP](https://es.wikipedia.org/wiki/Protocolo_de_configuraci%C3%B3n_din%C3%A1mica_de_host) (Wikipedia)
 - [Calculadora IP](https://www.calculator.net/ip-subnet-calculator.html) (Wikipedia)
 

@@ -2,7 +2,7 @@
 <p><code>Fundamentos de Telemática</code></p>
 <p>Creado por <code>Giancarlo Ortiz</code> para explicar los fundamentos de los <code>Sistemas de comunicaciones</code> en los cursos de telemática y redes de computadores.</p>
 
-# Practica de laboratorio 4
+# Practica de laboratorio 4 - Enrutamiento Dinámico
 
 ## Objetivos 
 
@@ -33,75 +33,94 @@ Para todos los efectos:
 ## 2. [Preguntas reflexivas de ambientación](#) ✔
 
 <ol type="a">
-<li>¿Que es y como se configura la ruta por defecto?</li>
-<li>¿Que es la distancia administrativa?.</li>
-<li>¿Que es una red directamente conectada y cual es su distancia administrativa?.</li>
-<li>¿Que es una ruta estática?.</li>
-<li>¿Que es una ruta dinámica?.</li>
+<li>¿Como funciona un servidor DHCP?</li>
+<li>¿Como funciona el servicio DNS?.</li>
+<li>¿Que desventajas tienen las rutas estáticas frente a las dinámicas?.</li>
+<li>¿Que es una ip estática?.</li>
+<li>¿Que es una ip dinámica?.</li>
 </ol>
 
 ## 3. [Configurar básica MikroTik-01](#) ✔
 1. Conecte los equipos a la red eléctrica.
-1. [Reinicie][8_1] los dispositivos a la configuración de fabrica.
-1. Conecte los equipo mediante un latiguillo a los equipos vecinos.
-1. [Acceder][8_2] al dispositivo por el puerto 8291 via Winbox.
-1. Cambiar el nombre del dispositivo para identificarlo como <code>R1</code>.
-1. Configurar dos [interfaces][8_3] WAN y un [bridge][8_4] para la red LAN.
-1. Agregar la dos [dirección][8_5] de la interfaces externas en las redes IPs 10.11.1.0 y 10.22.1.0.
-1. Agregar la [dirección][8_5] del bridge (interna) con una IP 192.168.1.1 privada, clase C.
-1. Agregar un [Pool][8_6] en el segmento de la LAN que asigne direcciones entre 192.168.1.100-200.
-1. Configurar el [DHCP][dhcp] y las rutas estáticas necesarias para lograr conectividad de la red interna con internet.
-1. Configurar la [WLAN][wlan] de nombre "REDES_41" para proveer conectividad inalámbrica.
+1. [Reinicie][3_1] los dispositivos a la configuración de fabrica.
+1. Conecte la ultima interfaz [RJ45][rj45] del router al PC de configuración.
+1. [Acceder][3_2] al dispositivo por el puerto 8291 via Winbox.
+1. Cambiar el nombre del dispositivo para [identificarlo][3_3] como <code>R1</code>.
+1. Etiquetar las [interfaces][3_4] a utilizar (2 WAN y una LAN).
+1. Conecte las interfaces [Ethernet][3_5] etiquetadas a los equipos vecinos.
+1. Agregar un [bridge][3_6] y sus interfaces para la red LAN.
+1. Agregar el direccionamiento para las dos redes externas WAN y la red interna LAN.
+    1. Agregar la [dirección][5_1] de la interfaz externa que conecta con R2 en el segmento IP 10.11.1.0/24.
+    1. Agregar la [dirección][5_1] de la interfaz externa que conectara redes futuras en el segmento IP 10.10.1.0/24.
+    1. Agregar la [dirección][5_1] del bridge (interna) con una IP 192.168.11.1 privada, clase C.
+1. Agregar un [Pool][5_2] en el segmento de la LAN que asigne direcciones entre 192.168.11.100-192.168.11.200.
+1. Agregar un servidor [DHCP][5_3] y la información de puerta de enlace y DNS que enviara a los PC conectados a la LAN. 
+1. Convertir a [estático][5_4] el arrendamiento DHCP para la MAC del PC de configuración.
+1. Cambiar la ip estática del pc de configuración a 192.168.11.10.
+1. Crear una regla [source NAT][5_5] en el cortafuegos para enmascarar la ip de origen.
+1. Agregar la [ruta por defecto][5_6] 0.0.0.0/0.
 
 ## 4. [Configurar enrutamiento MikroTik-01](#) ✔
-1. Agregar las rutas dinámicas necesarias para lograr conexión a internet.
-1. Agregar las rutas estáticas necesarias para que los tres router conozcan la ruta a los otros dos.
-1. Realizar pruebas de diagnostico [PING][8_7] y [TRACEROUTE][4_4] desde el router a los otros router.
-1. Realizar pruebas de diagnostico [PING][4_3] y [TRACEROUTE][4_4] desde un computador conectado via UTP a los otros router.
-1. Realizar pruebas de diagnostico [PING][4_3] y [TRACEROUTE][4_4] desde un computador conectado via WIFI a los otros router.
-1. Realizar un backup de la configuración del equipo.
+1. Agregar [Rip][8_1] a las interfaces conectadas a los router vecinos.
+1. Publicar las [redes][8_1] que las interfaces rip deben compartir para que los tres router conozcan la ruta a los otros dos y a sus redes LAN.
+1. Realizar pruebas de diagnostico [PING][8_2] y [TRACEROUTE][8_3] desde el router a los otros router.
+1. Realizar pruebas de diagnostico [PING][ping] y [TRACERTE][tracert] desde un computador conectado via UTP a los otros router.
+1. Realizar un [backup][8_4] de la configuración del equipo.
 
 ## 5. [Configurar básica MikroTik-02](#) ✔
 1. Conecte los equipos a la red eléctrica.
-1. [Reinicie][8_1] los dispositivos a la configuración de fabrica.
-1. Conecte los equipo mediante un latiguillo a los equipos vecinos.
-1. [Acceder][8_2] al dispositivo por el puerto 8291 via Winbox.
-1. Cambiar el nombre del dispositivo para identificarlo como <code>R2</code>.
-1. Configurar dos [interfaces][8_3] WAN y un [bridge][8_4] para la red LAN.
-1. Agregar la dos [dirección][8_5] de la interfaces externas en las redes IPs 10.22.1.0 y 10.33.1.0.
-1. Agregar la [dirección][8_5] del bridge (interna) con una IP 192.168.1.1 privada, clase C.
-1. Agregar un [Pool][8_6] en el segmento de la LAN que asigne direcciones entre 192.168.1.100-200.
-1. Configurar el [DHCP][dhcp] y las rutas estáticas necesarias para lograr conectividad de la red interna con internet.
-1. Configurar la [WLAN][wlan] de nombre "REDES_42" para proveer conectividad inalámbrica.
+1. [Reinicie][3_1] los dispositivos a la configuración de fabrica.
+1. Conecte la ultima interfaz [RJ45][rj45] del router al PC de configuración.
+1. [Acceder][3_2] al dispositivo por el puerto 8291 via Winbox.
+1. Cambiar el nombre del dispositivo para [identificarlo][3_3] como <code>R2</code>.
+1. Etiquetar las [interfaces][3_4] a utilizar (2 WAN y una LAN).
+1. Conecte las interfaces [Ethernet][3_5] etiquetadas a los equipos vecinos.
+1. Agregar un [bridge][3_6] y sus interfaces para la red LAN.
+1. Agregar el direccionamiento para las dos redes externas WAN y la red interna LAN.
+    1. Agregar la [dirección][5_1] de la interfaz externa que conecta con R1 en el segmento IP 10.11.1.0/24.
+    1. Agregar la [dirección][5_1] de la interfaz externa que conecta con R3 en el segmento IP 10.22.1.0/24.
+    1. Agregar la [dirección][5_1] del bridge (interna) con una IP 192.168.22.1 privada, clase C.
+1. Agregar un [Pool][5_2] en el segmento de la LAN que asigne direcciones entre 192.168.22.100-192.168.22.200.
+1. Agregar un servidor [DHCP][5_3] y la información de puerta de enlace y DNS que enviara a los PC conectados a la LAN.
+1. Convertir a [estático][5_4] el arrendamiento DHCP para la MAC del PC de configuración. 
+1. Cambiar la ip estática del pc de configuración a 192.168.22.10.
+1. Crear una regla [source NAT][5_5] en el cortafuegos para enmascarar la ip de origen.
+1. Agregar la [ruta por defecto][5_6] 0.0.0.0/0.
 
 ## 6. [Configurar enrutamiento MikroTik-02](#) ✔
-1. Agregar las rutas dinámicas necesarias para lograr conexión a internet.
-1. Agregar las rutas estáticas necesarias para que los tres router conozcan la ruta a los otros dos.
-1. Realizar pruebas de diagnostico [PING][8_7] y [TRACEROUTE][4_4] desde el router a los otros router.
-1. Realizar pruebas de diagnostico [PING][4_3] y [TRACEROUTE][4_4] desde un computador conectado via UTP a los otros router.
-1. Realizar pruebas de diagnostico [PING][4_3] y [TRACEROUTE][4_4] desde un computador conectado via WIFI a los otros router.
-1. Realizar un backup de la configuración del equipo.
+1. Agregar [Rip][8_1] a las interfaces conectadas a los router vecinos.
+1. Publicar las [redes][8_1] que las interfaces rip deben compartir para que los tres router conozcan la ruta a los otros dos y a sus redes LAN.
+1. Realizar pruebas de diagnostico [PING][8_2] y [TRACEROUTE][8_3] desde el router a los otros router.
+1. Realizar pruebas de diagnostico [PING][ping] y [TRACERTE][tracert] desde un computador conectado via UTP a los otros router.
+1. Realizar un [backup][8_4] de la configuración del equipo.
 
 ## 7. [Configurar básica MikroTik-03](#) ✔
 1. Conecte los equipos a la red eléctrica.
-1. [Reinicie][8_1] los dispositivos a la configuración de fabrica.
-1. Conecte los equipo mediante un latiguillo a los equipos vecinos.
-1. [Acceder][8_2] al dispositivo por el puerto 8291 via Winbox.
-1. Cambiar el nombre del dispositivo para identificarlo como <code>R3</code>.
-1. Configurar dos [interfaces][8_3] WAN y un [bridge][8_4] para la red LAN.
-1. Agregar la dos [dirección][8_5] de la interfaces externas en las redes IPs 10.33.1.0 y 10.44.1.0.
-1. Agregar la [dirección][8_5] del bridge (interna) con una IP 192.168.1.1 privada, clase C.
-1. Agregar un [Pool][8_6] en el segmento de la LAN que asigne direcciones entre 192.168.1.100-200.
-1. Configurar el [DHCP][dhcp] y las rutas estáticas necesarias para lograr conectividad de la red interna con internet.
-1. Configurar la [WLAN][wlan] de nombre "REDES_43" para proveer conectividad inalámbrica.
+1. [Reinicie][3_1] los dispositivos a la configuración de fabrica.
+1. Conecte la ultima interfaz [RJ45][rj45] del router al PC de configuración.
+1. [Acceder][3_2] al dispositivo por el puerto 8291 via Winbox.
+1. Cambiar el nombre del dispositivo para [identificarlo][3_3] como <code>R3</code>.
+1. Etiquetar las [interfaces][3_4] a utilizar (2 WAN y una LAN).
+1. Conecte las interfaces [Ethernet][3_5] etiquetadas a los equipos vecinos.
+1. Agregar un [bridge][3_6] y sus interfaces para la red LAN.
+1. Agregar el direccionamiento para las dos redes externas WAN y la red interna LAN.
+    1. Agregar la [dirección][5_1] de la interfaz externa que conecta con RM en el segmento IP 10.1.1.0/24.
+    1. Agregar la [dirección][5_1] de la interfaz externa que conectara redes futuras en el segmento IP 10.33.1.0/24.
+    1. Agregar la [dirección][5_1] del bridge (interna) con una IP 192.168.33.1 privada, clase C.
+1. Agregar un [Pool][5_2] en el segmento de la LAN que asigne direcciones entre 192.168.33.100-192.168.33.200.
+1. Agregar un servidor [DHCP][5_3] y la información de puerta de enlace y DNS que enviara a los PC conectados a la LAN. 
+1. Convertir a [estático][5_4] el arrendamiento DHCP para la MAC del PC de configuración.
+1. Cambiar la ip estática del pc de configuración a 192.168.33.10.
+1. Configurar la [WLAN][wlan] de nombre "REDES_42" para proveer conectividad inalámbrica.
+1. Crear una regla [source NAT][5_5] en el cortafuegos para enmascarar la ip de origen.
+1. Agregar la [ruta por defecto][5_6] 0.0.0.0/0.
 
 ## 8. [Configurar enrutamiento MikroTik-03](#) ✔
-1. Agregar las rutas dinámicas necesarias para lograr conexión a internet.
-1. Agregar las rutas estáticas necesarias para que los tres router conozcan la ruta a los otros dos.
-1. Realizar pruebas de diagnostico [PING][8_7] y [TRACEROUTE][4_4] desde el router a los otros router.
-1. Realizar pruebas de diagnostico [PING][4_3] y [TRACEROUTE][4_4] desde un computador conectado via UTP a los otros router.
-1. Realizar pruebas de diagnostico [PING][4_3] y [TRACEROUTE][4_4] desde un computador conectado via WIFI a los otros router.
-1. Realizar un backup de la configuración del equipo.
+1. Agregar [Rip][8_1] a las interfaces conectadas a los router vecinos.
+1. Publicar las [redes][8_1] que las interfaces rip deben compartir para que los tres router conozcan la ruta a los otros dos y a sus redes LAN.
+1. Realizar pruebas de diagnostico [PING][8_2] y [TRACEROUTE][8_3] desde el router a los otros router.
+1. Realizar pruebas de diagnostico [PING][ping] y [TRACERTE][tracert] desde un computador conectado via UTP a los otros router.
+1. Realizar un [backup][8_4] de la configuración del equipo.
 
 ## 9. [Diagrama de Red](#) ✔
 - Realice un diagrama topológico de cada uno de los casos de estudio.
@@ -117,30 +136,34 @@ Para todos los efectos:
 [psk]:https://es.wikipedia.org/wiki/Pre-shared_key
 [dhcp]:https://es.wikipedia.org/wiki/Protocolo_de_configuraci%C3%B3n_din%C3%A1mica_de_host
 [wlan]:https://es.wikipedia.org/wiki/Red_de_%C3%A1rea_local_inal%C3%A1mbrica
-[4_1]:https://www.tp-link.com/ar/support/faq/497/
-[4_2]:https://static.tp-link.com/res/down/doc/TL-WR840N(ES)_V2_QIG.pdf
-[4_3]:https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/ping
-[4_4]:https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/tracert
-[4_5]:https://www.tp-link.com/co/home-networking/wifi-router/tl-wr840n/
-[6_1]:https://consumer.huawei.com/co/support/content/es-us15855743/
-[6_2]:https://forum.huawei.com/enterprise/es/%C2%BFc%C3%B3mo-iniciar-sesi%C3%B3n-en-ont-de-huawei/thread/636939-100243
-[6_3]:https://play.google.com/store/apps/details?id=com.lipinic.ping&hl=es_419&gl=US
-[6_4]:https://docs.python.org/3.10/library/http.server.html
-[6_5]:https://support.huawei.com/enterprise/es/access-network/echolife-hg8546m-pid-21465065
-[8_1]:https://wiki.mikrotik.com/wiki/Manual:Reset
-[8_2]:https://wiki.mikrotik.com/wiki/Manual:Winbox
-[8_3]:https://wiki.mikrotik.com/wiki/Manual:Interface/Ethernet
-[8_4]:https://wiki.mikrotik.com/wiki/Manual:Interface/Bridge
-[8_5]:https://wiki.mikrotik.com/wiki/Manual:IP/Address
-[8_6]:https://wiki.mikrotik.com/wiki/Manual:IP/Pools
-[8_7]:https://wiki.mikrotik.com/wiki/Manual:Tools/Ping
-[8_8]:https://wiki.mikrotik.com/wiki/Manual:Troubleshooting_tools
+
+[rj45]:https://es.wikipedia.org/wiki/RJ-45
+[ping]:https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/ping
+[tracert]:https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/tracert
+
+[3_1]:https://wiki.mikrotik.com/wiki/Manual:Reset
+[3_2]:https://wiki.mikrotik.com/wiki/Manual:Winbox
+[3_3]:https://wiki.mikrotik.com/wiki/Manual:System/identity
+[3_4]:https://wiki.mikrotik.com/wiki/Manual:Interface
+[3_5]:https://wiki.mikrotik.com/wiki/Manual:Interface/Ethernet
+[3_6]:https://wiki.mikrotik.com/wiki/Manual:Interface/Bridge
+
+[5_1]:https://wiki.mikrotik.com/wiki/Manual:IP/Address
+[5_2]:https://wiki.mikrotik.com/wiki/Manual:IP/Pools
+[5_3]:https://wiki.mikrotik.com/wiki/Manual:IP/DHCP_Server
+[5_4]:https://wiki.mikrotik.com/wiki/Manual:IP/DHCP_Server#Menu_specific_commands_2
+[5_5]:https://wiki.mikrotik.com/wiki/Manual:IP/Firewall/NAT#Source_NAT
+[5_6]:https://wiki.mikrotik.com/wiki/Manual:IP/Route#Default_route
+
+[8_1]:https://wiki.mikrotik.com/wiki/Manual:IP/Route
+[8_2]:https://wiki.mikrotik.com/wiki/Manual:Tools/Ping
+[8_3]:https://wiki.mikrotik.com/wiki/Manual:Troubleshooting_tools
+[8_4]:https://wiki.mikrotik.com/wiki/Manual:System/Backup
 
 ---
 ## Mas Recursos
 - [Wiki Mikrotik](https://wiki.mikrotik.com/wiki/Main_Page) (Wiki)
 - [Video-Curso Mikrotik](https://www.youtube.com/watch?v=SLAPzl-LSc0&list=PLf0g2cV4iCkH19_UhaVt0vDn1f9ObumjF) (Wiki)
-- [Direccionamiento IP](https://es.wikipedia.org/wiki/Direcci%C3%B3n_IP) (Wikipedia)
 - [Encaminamiento](https://es.wikipedia.org/wiki/Encaminamiento) (Wikipedia)
 - [RIP](https://es.wikipedia.org/wiki/Routing_Information_Protocol) (Wikipedia)
 - [Calculadora IP](https://www.calculator.net/ip-subnet-calculator.html) (Wikipedia)
