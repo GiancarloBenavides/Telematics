@@ -33,11 +33,12 @@ Para todos los efectos:
 ## 2. [Preguntas reflexivas de ambientación](#) ✔
 
 <ol type="a">
-<li>¿Como funciona un servidor DHCP?</li>
-<li>¿Como funciona el servicio DNS?.</li>
+<li>¿Como funcionan los servidores DHCP y DNS?</li>
 <li>¿Que desventajas tienen las rutas estáticas frente a las dinámicas?.</li>
-<li>¿Que es una ip estática?.</li>
-<li>¿Que es una ip dinámica?.</li>
+<li>¿Cual es el algoritmo y la métrica que implementa RIP y OSPF?.</li>
+<li>¿Que diferencias hay entre las versiones 1 y 2 de RIP?. (Ventajas y Desventajas)</li>
+<li>¿Que diferencias hay entre una ip estática, una dinámica ?.</li>
+
 </ol>
 
 ## 3. [Configuración básica MikroTik-01](#) ✔
@@ -127,11 +128,13 @@ Para todos los efectos:
 - Incluya todos los detalles de la red de area local a la que se encuentra conectado.
 - Incluya los saltos conocidos incluyendo el equipo de borde de su ISP.
 
+![Arquitectura](../img/lab-04.svg "Arquitectura laboratorio 04")
+
 ## 10. [Preguntas de conocimiento](#) ✔
-1. ¿Que diferencias hay entre las versiones 1 y 2 de RIP? (Ventajas y Desventajas)
-1. ¿Cual es el algoritmo y la métrica que implementa RIP?
+1. ¿Por qué no se puede llegar a 10.10.1.100 desde R3 y 10.33.1.1 desde R1? 
+1. ¿Que se necesitaría para lograr llegar a 10.10.1.100 y 10.33.1.1 desde todos los routers?
 1. ¿Cual es la diferencia de RIP con OSPF?
-1. ¿RIP permite compartir rutas entre diferentes Sistemas Autónomos? (Justifique)
+1. ¿Permite el protocolo RIP compartir rutas entre diferentes Sistemas Autónomos? (Justifique)
 
 [psk]:https://es.wikipedia.org/wiki/Pre-shared_key
 [dhcp]:https://es.wikipedia.org/wiki/Protocolo_de_configuraci%C3%B3n_din%C3%A1mica_de_host
