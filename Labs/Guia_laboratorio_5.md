@@ -58,11 +58,20 @@ Para todos los efectos:
 1. Agregar un servidor [DHCP][5_3] y la información de puerta de enlace y DNS que enviara a los PC conectados a la LAN. 
 1. Convertir a [estático][5_4] el arrendamiento DHCP para la MAC del PC de configuración.
 1. Cambiar la ip estática del pc de configuración a 192.168.11.10.
-1. Crear una regla [source NAT][5_5] en el cortafuegos para enmascarar la ip de origen.
-1. Crear una regla [destination NAT][5_6] en el cortafuegos para reemplazar la ip y puerto de destino.
+1. Agregar una regla en el cortafuegos para garantizar el enrutamiento en sistemas de IP publica como internet.
+    1. Crear una regla [source NAT][5_5] en el cortafuegos para los paquetes IP que salen hacia la WAN.
+    1. Agregar una acción para que la regla anterior permita enmascarar la ip de origen.
+1. Agregar una regla en el cortafuegos para mapear ([Port Forwarding][fwd]) un servicio web de la red LAN. 
+    1. Crear una regla [destination NAT][5_6] para el protocolo TCP para los paquetes que llegan desde la WAN por el puerto HTTP 80 .
+    1. Agregar una acción para que la regla anterior permita redirigir la solicitud a 192.168.22.10:8080.
+    1. levantar un [servicio Web][web] en el pc 192.168.22.10 en el puerto 8080
 1. Agregar la [ruta por defecto][5_7] 0.0.0.0/0.
 
->Nota: Para garantizar el enrutamiento en sistemas de IP publica como internet es necesaria la regla de source NAT y para exponer un servicio privado en internet es necesario mapear una dirección privada con la regla destination NAT.
+```bash
+# El servidor HTTP DEV puede servir para ejecutar un servicio de prueba
+# En Win32 para servir el contenido de la carpeta public en el puerto 8080
+.\devd.exe -aol --port=8080 .\public
+```
 
 ## 4. [Configurar enrutamiento MikroTik-01](#) ✔
 1. Agregar [Rip][8_1] a las interfaces conectadas a los router vecinos.
@@ -91,7 +100,7 @@ Para todos los efectos:
 1. Agregar una regla en el cortafuegos para garantizar el enrutamiento en sistemas de IP publica como internet.
     1. Crear una regla [source NAT][5_5] en el cortafuegos.
     1. Agregar una acción para enmascarar la ip de origen.
-1. Agregar una regla en el cortafuegos para mapear (Port Forwarding) un servicio web de la red LAN. 
+1. Agregar una regla en el cortafuegos para mapear ([Port Forwarding][fwd]) un servicio web de la red LAN. 
     1. Crear una regla [destination NAT][5_6] para el protocolo TCP por el puerto HTTP 80.
     1. Agregar una acción para la regla anterior para redirigir la solicitud a 192.168.22.10:8080.
     1. levantar un [servicio Web][web] en el pc 192.168.22.10 en el puerto 8080
@@ -162,6 +171,7 @@ Para todos los efectos:
 [ping]:https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/ping
 [tracert]:https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/tracert
 [web]:https://www.downloadcrew.com/download/35276/devd
+[fwd]:https://es.wikipedia.org/wiki/Redirecci%C3%B3n_de_puertos
 
 [3_1]:https://wiki.mikrotik.com/wiki/Manual:Reset
 [3_2]:https://wiki.mikrotik.com/wiki/Manual:Winbox

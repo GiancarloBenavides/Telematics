@@ -2,88 +2,52 @@
 <p><code>Fundamentos de Telemática</code></p>
 <p>Creado por <code>Giancarlo Ortiz</code> para explicar los fundamentos de los <code>Sistemas de comunicaciones</code> en los cursos de telemática y redes de computadores.</p>
 
-## Fundamentos
-La gestión de los servicios que ofrece un sistema de comunicaciones digital, pueden estar distribuidos en diferentes componentes de hardware y de software, los conocimientos para configurar estos componentes dependen del fabricante pero conociendo la base técnica es posible adaptar las soluciones a la perspectiva de las diferentes marcas. 
+## Traducción
+La traducción de direcciones de red es un estándar de Internet que permite a los hosts en redes de área local utilizar un conjunto de direcciones IP para comunicaciones internas y otro conjunto de direcciones IP para comunicaciones externas. 
 
 ## Agenda
-1. [Encaminamiento](#2-sistema-descentralizados).
-1. [Sistemas Autónomos](#1-sistemas-centralizados).
-1. [Seguridad](#3-seguridad).
-1. [Redes](#3-redes).
+1. [Traducción de origen](#1-traducción-de-origen).
+1. [Traducción de destino](#2-traducción-de-destino).
 
 <br>
 
 ---
-# 1. Encaminamiento
-El [Encaminamiento][1] o enrutamiento es la función de buscar el camino mas optimo entre dos posibles nodos en un red formada por sistema de nodos interconectados.
+# 1. [Traducción de origen](#agenda)
+El [srcnat][1] se realiza en paquetes que se originan en una red local de direccionamiento privado y están dirigidos a una red publica; En este caso una regla de NAT reemplaza la dirección de origen privada de un paquete IP que sale a la red publica con una nueva dirección IP pública a medida que este viaja a través del router.
 
-[1]:https://es.wikipedia.org/wiki/Encaminamiento
+[1]:https://es.wikipedia.org/wiki/Traducci%C3%B3n_de_direcciones_de_red
 
-* ><i>"Muchos matemáticos derivan parte de su autoestima sintiéndose orgullosos herederos de una larga tradición de pensamiento racional, me temo que idealizan sus ancestros culturales."</i><br>
-<cite style="display:block; text-align: right">[Edsger Dijkstra](https://es.wikipedia.org/wiki/Edsger_Dijkstra)</cite>
+* ><i>"No dejes que el ruido de la opinion de los demás calle tu voz interior."</i><br>
+<cite style="display:block; text-align: right">[Steve Jobs](https://es.wikipedia.org/wiki/Steve_Jobs)</cite>
 
-### 1.1. Métricas ✔
-Las métricas que se puede tener en cuenta para encontrar el camino mas optimo de comunicación entre dos nodos del sistema pueden ser:
-* Numero de saltos (menor)
-* Costo o distancia (menor)
-* Tiempo de retardo (menor)
+## 1.1. Enmascaramiento ✔
+Si desea ocultar la LAN privada detrás de una dirección publica proporcionada por el proveedor de internet o ISP, debe usar la función de traducción (enmascaramiento) de dirección de red de origen del router. El enmascaramiento cambiará la dirección IP de origen y el puerto de los paquetes originados en la red privada a la dirección pública actual del router cuando el paquete se encamina a través de él; si el  ISP cambia la ip la tabla de traducción NAT se borra y se inicia una nueva.
 
-## 1.2. Métodos de encaminamiento ✔
-Los métodos de encaminamiento puedes ser:
-* __Estáticos o deterministas:__ la cuantificación de todas las métricas se hace fuera de linea y se mantiene inalterada ante un cambio de estado del sistema.
-* __Dinámicos o adaptativos:__ la valoración de las métricas se modifica continuamente según los cambios de estado del sistema, cuantificando en cada iteración una solución del problema buscando que en un número de iteraciones converja a la solución optima.
-
-### 1.2.1 Basados en vector de distancias ✔
-El [vector de distancias][121] es un método que resuelve el problema de la ruta mas corta, calculando el costo entre cada nodo origen y los demás nodos del sistema consignando estos valores en una tabla que luego comparte con sus vecinos. Este método se usa para sistemas con un numero reducido de nodos porque no escala bien en sistemas demasiado grandes.
-
-[121]:https://es.wikipedia.org/wiki/Vector_de_distancias
-
-## 1.2.2 Basados en el estado del enlace ✔
-El [estado del enlace][122] es un método que resuelve el problema de la ruta mas corta, calculando el costo entre el y sus vecinos y lo comunica a todos los nodos de la red. Este método converge rápidamente y escala bien en sistemas de muchos nodos.
-
-[122]:https://es.wikipedia.org/wiki/Estado_de_enlace
-
-## 1.3. Algoritmos de encaminamiento ✔
-Son secuencias de instrucciones iterativas que convergen a encontrar el camino optimo entre cada nodo de una red.
-
-```mermaid
-graph TD;
-    C --> |4| A;
-    C --> |1| B;  
-    B --> |1| A;
-    B --> |2| C;
-    D --> |8| B;
-    D --> |4| E;
-    E --> |2| C;
-    E --> |4| D;
+```bash
+# En MikroTik...
+# WAN es la interface que conecta a la red publica
+/ip firewall nat add chain=srcnat action=masquerade out-interface=WAN
 ```
 
-### 1.3.1 Algoritmo de Bellman-Ford ✔
-Se usa en protocolos de encaminamiento basados en vector de distancias:
+# 2. [Traducción de destino](#agenda)
+El [dstnat][2] se realiza en paquetes cuyo destino es una red local de direccionamiento privado y fueron originados en una red publica; En este caso una regla de NAT reemplaza la dirección de destino publica de un paquete IP que entra a la red privada con una nueva dirección IP privada a medida que este viaja a través del router.
 
-* [__RIP:___][131_1] Routing Information Protocol
-* [__IGRP:___][131_2] Interior Gateway Routing Protocol (CISCO)
-* [__IGRP:___][131_3] Interior Gateway Routing Protocol (CISCO)
+[1]:https://es.wikipedia.org/wiki/Redirecci%C3%B3n_de_puertos
 
-[131_1]:https://es.wikipedia.org/wiki/Routing_Information_Protocol
-[131_2]:https://es.wikipedia.org/wiki/Interior_Gateway_Routing_Protocol
-[131_3]:https://es.wikipedia.org/wiki/Enhanced_Interior_Gateway_Routing_Protocol
+* ><i>"Las cosas no se hacen siguiendo caminos distintos para que no sean iguales, sino para que sean mejores."</i><br>
+<cite style="display:block; text-align: right">[Elon Musk](https://es.wikipedia.org/wiki/Elon_Musk)</cite>
 
-### 1.3.2 Algoritmo de Dijkstra ✔
-Se usa en protocolos de encaminamiento basados en el estado del enlace
+## 2.1. Mapeo de puertos ✔
+Si desea dirigir las solicitudes de un determinado puerto a una máquina interna (a veces denominada apertura de un puerto, asignación de puertos), puede hacerlo agregando una regla NAT al cortafuegos.
 
+```bash
+# En MikroTik...
+# WAN es la interface que conecta a la red publica
+/ip firewall nat add chain=dstnat dst-port=80 action=dst-nat protocol=tcp to-address=192.168.1.10 to-port=8080 
+```
 
 ---
 ## Mas Recursos
-- [Teoría de grafos](https://es.wikipedia.org/wiki/Teor%C3%ADa_de_grafos) (Wikipedia)
-- [Algoritmo de Bellman-Ford](https://es.wikipedia.org/wiki/Algoritmo_de_Bellman-Ford) (Wikipedia)
-- [Algoritmo de Dijkstra](https://es.wikipedia.org/wiki/Algoritmo_de_Dijkstra) (Wikipedia)
-
-
-
-- [Wiki Mikrotik](https://wiki.mikrotik.com/wiki/Main_Page) (Wiki)
-- [Llamada a procedimiento remoto](https://es.wikipedia.org/wiki/Llamada_a_procedimiento_remotos) (Wikipedia)
-- [Distributed Component Object Model](https://es.wikipedia.org/wiki/Modelo_de_Objetos_de_Componentes_Distribuidos) (Wikipedia)
-- [Common Object Request Broker Architecture](https://es.wikipedia.org/wiki/CORBA) (Wikipedia)
-- [Remote Method Invocation](https://es.wikipedia.org/wiki/Java_Remote_Method_Invocation) (Wikipedia)
-- [Simple Object Access Protocol](https://es.wikipedia.org/wiki/Simple_Object_Access_Protocol) (Wikipedia)
+- [Wiki MikroTik](https://wiki.mikrotik.com/wiki/Main_Page) (Wiki)
+- [Traducción de direcciones de red](https://es.wikipedia.org/wiki/Traducci%C3%B3n_de_direcciones_de_red) (Wiki)
+- [Reenvío de puertos](https://es.wikipedia.org/wiki/Redirecci%C3%B3n_de_puertos) (Wiki)
