@@ -33,11 +33,11 @@ Para todos los efectos:
 ## 2. [Preguntas reflexivas de ambientación](#) ✔
 
 <ol type="a">
-<li>¿Como funcionan los servidores DHCP y DNS?</li>
-<li>¿Que desventajas tienen las rutas estáticas frente a las dinámicas?.</li>
-<li>¿Cual es el algoritmo y la métrica que implementa RIP y OSPF?.</li>
-<li>¿Que diferencias hay entre las versiones 1 y 2 de RIP?. (Ventajas y Desventajas)</li>
-<li>¿Que diferencias hay entre una ip estática, una dinámica ?.</li>
+<li>¿Como funcionan los servidores HTTP?</li>
+<li>¿Que ventajas tienen las rutas estáticas frente a las dinámicas?.</li>
+<li>¿Cual es el algoritmo y la métrica que implementa OSPF?.</li>
+<li>¿Que diferencias hay entre RIP y OSPF?. (Ventajas y Desventajas)</li>
+<li>¿Que diferencias hay entre un area OSPF y un sistema autónomo?.</li>
 
 </ol>
 
@@ -45,21 +45,24 @@ Para todos los efectos:
 1. Conecte los equipos a la red eléctrica.
 1. [Reinicie][3_1] los dispositivos a la configuración de fabrica.
 1. Conecte la ultima interfaz [RJ45][rj45] del router al PC de configuración.
-1. [Acceder][3_2] al dispositivo por el puerto 8291 via Winbox.
+1. [Acceder][3_2] al dispositivo por el puerto 8291 via WinBox.
 1. Cambiar el nombre del dispositivo para [identificarlo][3_3] como <code>R1</code>.
 1. Etiquetar las [interfaces][3_4] a utilizar (2 WAN y una LAN).
 1. Conecte las interfaces [Ethernet][3_5] etiquetadas a los equipos vecinos.
 1. Agregar un [bridge][3_6] y sus interfaces para la red LAN.
 1. Agregar el direccionamiento para las dos redes externas WAN y la red interna LAN.
     1. Agregar la [dirección][5_1] de la interfaz externa que conecta con R2 en el segmento IP 10.11.1.0/24.
-    1. Agregar la [dirección][5_1] de la interfaz externa que conectara redes futuras en el segmento IP 10.10.1.0/24.
+    1. Agregar la [dirección][5_1] de la interfaz externa que conecta con R3 en el segmento IP 10.33.1.0/24.
     1. Agregar la [dirección][5_1] del bridge (interna) con una IP 192.168.11.1 privada, clase C.
-1. Agregar un [Pool][5_2] en el segmento de la LAN que asigne direcciones entre 192.168.11.100-192.168.11.200.
+1. Agregar un [Pool][5_2] en el segmento de la LAN que asigne direcciones entre 192.168.11.100-192.168.11.150.
 1. Agregar un servidor [DHCP][5_3] y la información de puerta de enlace y DNS que enviara a los PC conectados a la LAN. 
 1. Convertir a [estático][5_4] el arrendamiento DHCP para la MAC del PC de configuración.
 1. Cambiar la ip estática del pc de configuración a 192.168.11.10.
 1. Crear una regla [source NAT][5_5] en el cortafuegos para enmascarar la ip de origen.
-1. Agregar la [ruta por defecto][5_6] 0.0.0.0/0.
+1. Crear una regla [destination NAT][5_6] en el cortafuegos para reemplazar la ip y puerto de destino.
+1. Agregar la [ruta por defecto][5_7] 0.0.0.0/0.
+
+>Nota: Para garantizar el enrutamiento en sistemas de IP publica como internet es necesaria la regla de source NAT y para exponer un servicio privado en internet es necesario mapear una dirección privada con la regla destination NAT.
 
 ## 4. [Configurar enrutamiento MikroTik-01](#) ✔
 1. Agregar [Rip][8_1] a las interfaces conectadas a los router vecinos.
@@ -81,12 +84,24 @@ Para todos los efectos:
     1. Agregar la [dirección][5_1] de la interfaz externa que conecta con R1 en el segmento IP 10.11.1.0/24.
     1. Agregar la [dirección][5_1] de la interfaz externa que conecta con R3 en el segmento IP 10.22.1.0/24.
     1. Agregar la [dirección][5_1] del bridge (interna) con una IP 192.168.22.1 privada, clase C.
-1. Agregar un [Pool][5_2] en el segmento de la LAN que asigne direcciones entre 192.168.22.100-192.168.22.200.
+1. Agregar un [Pool][5_2] en el segmento de la LAN que asigne direcciones entre 192.168.22.200-192.168.22.250.
 1. Agregar un servidor [DHCP][5_3] y la información de puerta de enlace y DNS que enviara a los PC conectados a la LAN.
 1. Convertir a [estático][5_4] el arrendamiento DHCP para la MAC del PC de configuración. 
 1. Cambiar la ip estática del pc de configuración a 192.168.22.10.
-1. Crear una regla [source NAT][5_5] en el cortafuegos para enmascarar la ip de origen.
-1. Agregar la [ruta por defecto][5_6] 0.0.0.0/0.
+1. Agregar una regla en el cortafuegos para garantizar el enrutamiento en sistemas de IP publica como internet.
+    1. Crear una regla [source NAT][5_5] en el cortafuegos.
+    1. Agregar una acción para enmascarar la ip de origen.
+1. Agregar una regla en el cortafuegos para mapear (Port Forwarding) un servicio web de la red LAN. 
+    1. Crear una regla [destination NAT][5_6] para el protocolo TCP por el puerto HTTP 80.
+    1. Agregar una acción para la regla anterior para redirigir la solicitud a 192.168.22.10:8080.
+    1. levantar un [servicio Web][web] en el pc 192.168.22.10 en el puerto 8080
+1. Agregar la [ruta por defecto][5_7] 0.0.0.0/0.
+
+```bash
+# El servidor HTTP DEV puede servir para ejecutar un servicio de prueba
+# En Win32 para servir el contenido de la carpeta public en el puerto 8080
+.\devd.exe -aol --port=8080 .\public
+```
 
 ## 6. [Configurar enrutamiento MikroTik-02](#) ✔
 1. Agregar [Rip][8_1] a las interfaces conectadas a los router vecinos.
@@ -106,15 +121,18 @@ Para todos los efectos:
 1. Agregar un [bridge][3_6] y sus interfaces para la red LAN.
 1. Agregar el direccionamiento para las dos redes externas WAN y la red interna LAN.
     1. Agregar la [dirección][5_1] de la interfaz externa que conecta con RM en el segmento IP 10.1.1.0/24.
-    1. Agregar la [dirección][5_1] de la interfaz externa que conectara redes futuras en el segmento IP 10.33.1.0/24.
+    1. Agregar la [dirección][5_1] de la interfaz externa que conecta con R1 en el segmento IP 10.33.1.0/24.
     1. Agregar la [dirección][5_1] del bridge (interna) con una IP 192.168.33.1 privada, clase C.
-1. Agregar un [Pool][5_2] en el segmento de la LAN que asigne direcciones entre 192.168.33.100-192.168.33.200.
+1. Agregar un [Pool][5_2] en el segmento de la LAN que asigne direcciones entre 192.168.33.150-192.168.33.200.
 1. Agregar un servidor [DHCP][5_3] y la información de puerta de enlace y DNS que enviara a los PC conectados a la LAN. 
 1. Convertir a [estático][5_4] el arrendamiento DHCP para la MAC del PC de configuración.
 1. Cambiar la ip estática del pc de configuración a 192.168.33.10.
 1. Configurar la [WLAN][wlan] de nombre "REDES_42" para proveer conectividad inalámbrica.
 1. Crear una regla [source NAT][5_5] en el cortafuegos para enmascarar la ip de origen.
-1. Agregar la [ruta por defecto][5_6] 0.0.0.0/0.
+1. Crear una regla [destination NAT][5_6] en el cortafuegos para reemplazar la ip y puerto de destino.
+1. Agregar la [ruta por defecto][5_7] 0.0.0.0/0.
+
+>Nota: Para garantizar el enrutamiento en sistemas de IP publica como internet es necesaria la regla de source NAT y para exponer un servicio privado en internet es necesario mapear una dirección privada con la regla destination NAT.
 
 ## 8. [Configurar enrutamiento MikroTik-03](#) ✔
 1. Agregar [Rip][8_1] a las interfaces conectadas a los router vecinos.
@@ -143,6 +161,7 @@ Para todos los efectos:
 [rj45]:https://es.wikipedia.org/wiki/RJ-45
 [ping]:https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/ping
 [tracert]:https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/tracert
+[web]:https://www.downloadcrew.com/download/35276/devd
 
 [3_1]:https://wiki.mikrotik.com/wiki/Manual:Reset
 [3_2]:https://wiki.mikrotik.com/wiki/Manual:Winbox
@@ -156,7 +175,8 @@ Para todos los efectos:
 [5_3]:https://wiki.mikrotik.com/wiki/Manual:IP/DHCP_Server
 [5_4]:https://wiki.mikrotik.com/wiki/Manual:IP/DHCP_Server#Menu_specific_commands_2
 [5_5]:https://wiki.mikrotik.com/wiki/Manual:IP/Firewall/NAT#Source_NAT
-[5_6]:https://wiki.mikrotik.com/wiki/Manual:IP/Route#Default_route
+[5_6]:https://wiki.mikrotik.com/wiki/Manual:IP/Firewall/NAT#Destination_NAT
+[5_7]:https://wiki.mikrotik.com/wiki/Manual:IP/Route#Default_route
 
 [8_1]:https://wiki.mikrotik.com/wiki/Manual:Routing/RIP#Interface
 [8_2]:https://wiki.mikrotik.com/wiki/Manual:Routing/RIP#Network

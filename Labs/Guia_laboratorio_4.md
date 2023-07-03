@@ -35,9 +35,9 @@ Para todos los efectos:
 <ol type="a">
 <li>¿Como funcionan los servidores DHCP y DNS?</li>
 <li>¿Que desventajas tienen las rutas estáticas frente a las dinámicas?.</li>
-<li>¿Cual es el algoritmo y la métrica que implementa RIP y OSPF?.</li>
+<li>¿Cual es el algoritmo y la métrica que implementa RIP?.</li>
 <li>¿Que diferencias hay entre las versiones 1 y 2 de RIP?. (Ventajas y Desventajas)</li>
-<li>¿Que diferencias hay entre una ip estática, una dinámica ?.</li>
+<li>¿Que diferencias hay entre una IP estática, una IP dinámica y una IP reservada?.</li>
 
 </ol>
 
@@ -132,8 +132,8 @@ Para todos los efectos:
 
 ## 10. [Preguntas de conocimiento](#) ✔
 1. ¿Por qué no se puede llegar a 10.10.1.100 desde R3 y 10.33.1.1 desde R1? 
-1. ¿Que se necesitaría para lograr llegar a 10.10.1.100 y 10.33.1.1 desde todos los routers?
-1. ¿Cual es la diferencia de RIP con OSPF?
+1. ¿Que se necesitaría para lograr llegar a 10.10.1.100 desde R2?
+1. ¿Que se necesitaría para lograr llegar a 10.33.1.1 desde todos los routers?
 1. ¿Permite el protocolo RIP compartir rutas entre diferentes Sistemas Autónomos? (Justifique)
 
 [psk]:https://es.wikipedia.org/wiki/Pre-shared_key
