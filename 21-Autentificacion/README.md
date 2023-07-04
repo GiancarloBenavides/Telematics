@@ -52,15 +52,25 @@ El [punto caliente][1] o hotspot es un lugar que ofrece acceso a Internet a trav
 ## 1.3 Cortafuegos ✔
 * Es [firewall][13_1] un subsistema del sistema o red informática.
 * El subsistema esta diseñado para bloquear el [acceso no autorizado][13_2].
-* La implementación puede ser por software como en las computadores.
-* La implementación puede ser por hardware como en las [UTM][13_4].
-* Puede incluir herramientas de inteligencia artificial.
+* La implementación puede ser por software como en [ufw][13_3] [ipfw][13_4] en las computadores.
+* La implementación puede ser por hardware como en las [UTM][13_5].
+* Las ultimas generaciones pueden incluir herramientas de [inteligencia artificial][13_6] para detectar amenazas.
 
 [13_1]:https://es.wikipedia.org/wiki/Cortafuegos_(inform%C3%A1tica)/
 [13_2]:https://es.wikipedia.org/wiki/Acceso
-[13_3]:
-[13_4]:https://es.wikipedia.org/wiki/Unified_Threat_Management
-[13_5]:
+[13_3]:https://es.wikipedia.org/wiki/Uncomplicated_Firewall
+[13_4]:https://es.wikipedia.org/wiki/Ipfw
+[13_5]:https://es.wikipedia.org/wiki/Unified_Threat_Management
+[13_6]:https://es.wikipedia.org/wiki/Inteligencia_artificial
+
+### 1.3.1. Generaciones de cortafuegos 
+* [Primera generación:][131_1] filtrado de paquetes. 
+* [Segunda generación:][131_2] cortafuegos de estado de paquetes.
+* [Tercera generación:][131_3] cortafuegos de aplicación.
+
+[131_1]:https://es.wikipedia.org/wiki/Cortafuegos_(inform%C3%A1tica)#Primera_generaci.C3.B3n_.E2.80.93_cortafuegos_de_red:_filtrado_de_paquetes
+[131_2]:https://es.wikipedia.org/wiki/Cortafuegos_(inform%C3%A1tica)#Segunda_generaci.C3.B3n_.E2.80.93_cortafuegos_de_estado
+[131_3]:https://es.wikipedia.org/wiki/Cortafuegos_(inform%C3%A1tica)#Tercera_generaci.C3.B3n_.E2.80.94_cortafuegos_de_aplicaci.C3.B3n
 
 
 # 2. [Servidor radius](#agenda)
