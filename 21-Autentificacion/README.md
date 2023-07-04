@@ -6,71 +6,87 @@
 La gestión de los servicios que ofrece un sistema de comunicaciones digital, pueden estar distribuidos en diferentes componentes de hardware y de software, los conocimientos para configurar estos componentes dependen del fabricante pero conociendo la base técnica es posible adaptar las soluciones a la perspectiva de las diferentes marcas. 
 
 ## Agenda
-1. [Encaminamiento](#2-sistema-descentralizados).
-1. [Sistemas Autónomos](#1-sistemas-centralizados).
-1. [Seguridad](#3-seguridad).
-1. [Redes](#3-redes).
+1. [Hotspot](#1-hotspot).
+1. [Servidor radius](#2-servidor-radius).
+1. [Cookies](#3-cookies).
 
 <br>
 
 ---
-# 1. Encaminamiento
-El [Encaminamiento][1] o enrutamiento es la función de buscar el camino mas optimo entre dos posibles nodos en un red formada por sistema de nodos interconectados.
+# 1. [Hotspot](#agenda)
+El [punto caliente][1] o hotspot es un lugar que ofrece acceso a Internet a través de un punto de acceso inalámbrico y un router conectado a un proveedor de servicios de Internet.
 
-[1]:https://es.wikipedia.org/wiki/Encaminamiento
+[1]:https://es.wikipedia.org/wiki/Hotspot_(telecomunicaciones)/
 
-* ><i>"Muchos matemáticos derivan parte de su autoestima sintiéndose orgullosos herederos de una larga tradición de pensamiento racional, me temo que idealizan sus ancestros culturales."</i><br>
-<cite style="display:block; text-align: right">[Edsger Dijkstra](https://es.wikipedia.org/wiki/Edsger_Dijkstra)</cite>
+* ><i>"Los clientes insatisfechos son la mejor fuente de aprendizaje."</i><br>
+<cite style="display:block; text-align: right">[Bill Gates](https://es.wikipedia.org/wiki/Bill_Gates)</cite>
 
-### 1.1. Métricas ✔
-Las métricas que se puede tener en cuenta para encontrar el camino mas optimo de comunicación entre dos nodos del sistema pueden ser:
-* Numero de saltos (menor)
-* Costo o distancia (menor)
-* Tiempo de retardo (menor)
+## 1.1. Punto de acceso inalámbrico ✔
+* Un wireless access point, [WAP][11_1] es un puente de red heterogéneo.
+* Conecta una red inalámbrica con una red cableaba ([Par trenzado][11_2], [Coaxial][11_3], [Fibra óptica][11_4], ...)
+* Permite que clientes se conecten a el y formen parte de la [red inalámbrica][11_5].
+* Dependiendo de la tecnología inalámbrica los clientes tienen diferentes [grados de movilidad][11_6].
 
-## 1.2. Métodos de encaminamiento ✔
-Los métodos de encaminamiento puedes ser:
-* __Estáticos o deterministas:__ la cuantificación de todas las métricas se hace fuera de linea y se mantiene inalterada ante un cambio de estado del sistema.
-* __Dinámicos o adaptativos:__ la valoración de las métricas se modifica continuamente según los cambios de estado del sistema, cuantificando en cada iteración una solución del problema buscando que en un número de iteraciones converja a la solución optima.
+[11_1]:https://es.wikipedia.org/wiki/Punto_de_acceso_inal%C3%A1mbrico
+[11_2]:https://es.wikipedia.org/wiki/Cable_de_par_trenzado
+[11_3]:https://es.wikipedia.org/wiki/Cable_coaxial
+[11_4]:https://es.wikipedia.org/wiki/Fibra_%C3%B3ptica
+[11_5]:https://es.wikipedia.org/wiki/Red_inal%C3%A1mbrica
+[11_6]:https://es.m.wikipedia.org/wiki/Telefon%C3%ADa_m%C3%B3vil
 
-### 1.2.1 Basados en vector de distancias ✔
-El [vector de distancias][121] es un método que resuelve el problema de la ruta mas corta, calculando el costo entre cada nodo origen y los demás nodos del sistema consignando estos valores en una tabla que luego comparte con sus vecinos. Este método se usa para sistemas con un numero reducido de nodos porque no escala bien en sistemas demasiado grandes.
+## 1.2 Portal cautivo ✔
+* Un [portal cautivo][12_1] es un software que restringe el acceso a internet.
+* El trafico se limita agregando reglas al [cortafuegos][12_2] del router.
+* El objetivo es [autenticarse][12_3] para obtener acceso a los servicios.
+* Las credenciales se ingresan en una [pagina de login][12_4].
+* Es posible limitar el [tiempo de la session][12_5].
+* Es posible limitar los parámetros de [calidad del servicio][12_6] (Ancho de banda, re-uso, ...). 
 
-[121]:https://es.wikipedia.org/wiki/Vector_de_distancias
+[12_1]:https://es.wikipedia.org/wiki/Portal_cautivo
+[12_2]:https://es.wikipedia.org/wiki/Cortafuegos_(inform%C3%A1tica)/
+[12_3]:https://es.wikipedia.org/wiki/Autenticaci%C3%B3n
+[12_4]:https://es.wikipedia.org/wiki/Login
+[12_5]:https://es.wikipedia.org/wiki/Sesi%C3%B3n_(inform%C3%A1tica)/
+[12_6]:https://es.wikipedia.org/wiki/Calidad_de_servicio
 
-## 1.2.2 Basados en el estado del enlace ✔
-El [estado del enlace][122] es un método que resuelve el problema de la ruta mas corta, calculando el costo entre el y sus vecinos y lo comunica a todos los nodos de la red. Este método converge rápidamente y escala bien en sistemas de muchos nodos.
+## 1.3 Cortafuegos ✔
+* Es [firewall][13_1] un subsistema del sistema o red informática.
+* El subsistema esta diseñado para bloquear el [acceso no autorizado][13_2].
+* La implementación puede ser por software como en las computadores.
+* La implementación puede ser por hardware como en las [UTM][13_4].
+* Puede incluir herramientas de inteligencia artificial.
 
-[122]:https://es.wikipedia.org/wiki/Estado_de_enlace
+[13_1]:https://es.wikipedia.org/wiki/Cortafuegos_(inform%C3%A1tica)/
+[13_2]:https://es.wikipedia.org/wiki/Acceso
+[13_3]:
+[13_4]:https://es.wikipedia.org/wiki/Unified_Threat_Management
+[13_5]:
 
-## 1.3. Algoritmos de encaminamiento ✔
-Son secuencias de instrucciones iterativas que convergen a encontrar el camino optimo entre cada nodo de una red.
 
-```mermaid
-graph TD;
-    C --> |4| A;
-    C --> |1| B;  
-    B --> |1| A;
-    B --> |2| C;
-    D --> |8| B;
-    D --> |4| E;
-    E --> |2| C;
-    E --> |4| D;
-```
+# 2. [Servidor radius](#agenda)
+El servicio [Radius][2] es proporcionado por un protocolo de autenticación y autorización que utiliza el puerto UDP/1812 para enviar credenciales de autentificación a aplicaciones en redes de acceso IP.
 
-### 1.3.1 Algoritmo de Bellman-Ford ✔
-Se usa en protocolos de encaminamiento basados en vector de distancias:
+[2]:https://es.wikipedia.org/wiki/RADIUS
 
-* [__RIP:___][131_1] Routing Information Protocol
-* [__IGRP:___][131_2] Interior Gateway Routing Protocol (CISCO)
-* [__IGRP:___][131_3] Interior Gateway Routing Protocol (CISCO)
+* ><i>"La tecnología es importante, pero lo único que realmente importa es qué hacemos con ella."</i><br>
+<cite style="display:block; text-align: right">[Muhammad Yunus](https://es.wikipedia.org/wiki/Muhammad_Yunus)</cite>
 
-[131_1]:https://es.wikipedia.org/wiki/Routing_Information_Protocol
-[131_2]:https://es.wikipedia.org/wiki/Interior_Gateway_Routing_Protocol
-[131_3]:https://es.wikipedia.org/wiki/Enhanced_Interior_Gateway_Routing_Protocol
 
-### 1.3.2 Algoritmo de Dijkstra ✔
-Se usa en protocolos de encaminamiento basados en el estado del enlace
+# 3. [Cookies](#agenda)
+Una [galleta informática][3] o cookie hace referencia a una pequeña información enviada por un sitio web y almacenada en el navegador del usuario.
+
+[3]:https://es.wikipedia.org/wiki/Cookie_(inform%C3%A1tica)/
+
+* ><i>"Argumentar que no te importa el derecho a la privacidad porque no tienes nada que ocultar no es diferente a decir que no te importa la libertad de expresión porque no tienes nada que decir."</i><br>
+<cite style="display:block; text-align: right">[Edward Snowden](https://es.wikipedia.org/wiki/Edward_Snowden)</cite>
+
+
+
+
+
+
+
+
 
 
 ---
