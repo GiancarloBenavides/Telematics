@@ -63,16 +63,6 @@ El [punto caliente][1] o hotspot es un lugar que ofrece acceso a Internet a trav
 [13_5]:https://es.wikipedia.org/wiki/Unified_Threat_Management
 [13_6]:https://es.wikipedia.org/wiki/Inteligencia_artificial
 
-### 1.3.1. Generaciones de cortafuegos 
-* [Primera generación:][131_1] filtrado de paquetes. 
-* [Segunda generación:][131_2] cortafuegos de estado de paquetes.
-* [Tercera generación:][131_3] cortafuegos de aplicación.
-
-[131_1]:https://es.wikipedia.org/wiki/Cortafuegos_(inform%C3%A1tica)#Primera_generaci.C3.B3n_.E2.80.93_cortafuegos_de_red:_filtrado_de_paquetes
-[131_2]:https://es.wikipedia.org/wiki/Cortafuegos_stateful
-[131_3]:https://es.wikipedia.org/wiki/Cortafuegos_(inform%C3%A1tica)#Tercera_generaci.C3.B3n_.E2.80.94_cortafuegos_de_aplicaci.C3.B3n
-
-
 # 2. [Servidor radius](#agenda)
 El servicio [Radius][2] es proporcionado por un protocolo de autenticación y autorización que utiliza el puerto UDP/1812 para enviar credenciales de autentificación a aplicaciones en redes de acceso IP.
 
@@ -80,6 +70,28 @@ El servicio [Radius][2] es proporcionado por un protocolo de autenticación y au
 
 * ><i>"La tecnología es importante, pero lo único que realmente importa es qué hacemos con ella."</i><br>
 <cite style="display:block; text-align: right">[Muhammad Yunus](https://es.wikipedia.org/wiki/Muhammad_Yunus)</cite>
+
+## 2.1. Características ✔
+* Existen implementaciones comerciales y de código abierto del [protocolo radius][21_1].
+* Existen diferentes dialectos implementados (Extensible).
+* Capacidad para gestionar los usuarios desde ([archivos de texto][21_3], [LDAP][21_4], [DB][21_5], ...)
+* Capacidad para gestionar [sesiones][] informando tiempos y consumo.
+* Capacidad de monitorear el servicio via [SNMP][21_7].
+
+[21_1]:https://datatracker.ietf.org/doc/html/rfc2138
+[21_2]:
+[21_3]:https://es.wikipedia.org/wiki/Archivo_de_texto
+[21_4]:https://es.wikipedia.org/wiki/Protocolo_ligero_de_acceso_a_directorios
+[21_5]:https://es.wikipedia.org/wiki/Base_de_datos
+[21_6]:https://es.wikipedia.org/wiki/Sesi%C3%B3n_(inform%C3%A1tica)/
+[21_7]:https://es.wikipedia.org/wiki/Protocolo_simple_de_administraci%C3%B3n_de_red
+
+## 2.2. Login ✔
+* Soporta protocolos no cifrados como [PAP][21_1] (inseguro)
+* Soporta protocolos cifrados como [CHAP][21_2]
+
+[22_1]:https://es.wikipedia.org/wiki/Password_Authentication_Protocol
+[22_2]:https://es.wikipedia.org/wiki/CHAP
 
 
 # 3. [Cookies](#agenda)
@@ -90,6 +102,9 @@ Una [galleta informática][3] o cookie hace referencia a una pequeña informaci�
 * ><i>"Argumentar que no te importa el derecho a la privacidad porque no tienes nada que ocultar no es diferente a decir que no te importa la libertad de expresión porque no tienes nada que decir."</i><br>
 <cite style="display:block; text-align: right">[Edward Snowden](https://es.wikipedia.org/wiki/Edward_Snowden)</cite>
 
+## 3.1 Características ✔
+* Soporta protocolos PAP
+* Soporta protocolos CHAP
 
 ---
 ## Mas Recursos
