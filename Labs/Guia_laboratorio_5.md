@@ -34,7 +34,7 @@ Para todos los efectos:
 
 <ol type="a">
 <li>¿Como funcionan los servidores HTTP?</li>
-<li>¿Que ventajas tienen las rutas estáticas frente a las dinámicas?.</li>
+<li>¿Que son las interfaces virtuales y de loopback?.</li>
 <li>¿Cual es el algoritmo y la métrica que implementa OSPF?.</li>
 <li>¿Que diferencias hay entre RIP y OSPF?. (Ventajas y Desventajas)</li>
 <li>¿Que diferencias hay entre un area OSPF y un sistema autónomo?.</li>
@@ -176,13 +176,13 @@ Para todos los efectos:
 - Incluya todos los detalles de la red de area local a la que se encuentra conectado.
 - Incluya los saltos conocidos incluyendo el equipo de borde de su ISP.
 
-![Arquitectura](../img/lab-05.svg "Arquitectura laboratorio 04")
+![Arquitectura](../img/lab-05.svg "Arquitectura laboratorio 05")
 
 ## 10. [Preguntas de conocimiento](#) ✔
-1. ¿Por qué no se puede llegar a 10.10.1.100 desde R3 y 10.33.1.1 desde R1? 
-1. ¿Que se necesitaría para lograr llegar a 10.10.1.100 y 10.33.1.1 desde todos los routers?
-1. ¿Cual es la diferencia de RIP con OSPF?
-1. ¿Permite el protocolo RIP compartir rutas entre diferentes Sistemas Autónomos? (Justifique)
+1. ¿Cuantas rutas OSPF deberían aparecer en cada uno de los routers? 
+1. ¿Cuantos vecinos OSPF aparecen en cada uno de los routers?
+1. ¿Cuantos router internos RI, de borde ABR y de sistema autónomo ASBR hay en el esquema? (identifique)
+1. ¿Cuantas areas multi-acceso (broadcast) y punto a punto (PtP) hay en el esquema? (identifique)
 
 [psk]:https://es.wikipedia.org/wiki/Pre-shared_key
 [dhcp]:https://es.wikipedia.org/wiki/Protocolo_de_configuraci%C3%B3n_din%C3%A1mica_de_host
