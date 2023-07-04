@@ -69,7 +69,7 @@ El [punto caliente][1] o hotspot es un lugar que ofrece acceso a Internet a trav
 * [Tercera generación:][131_3] cortafuegos de aplicación.
 
 [131_1]:https://es.wikipedia.org/wiki/Cortafuegos_(inform%C3%A1tica)#Primera_generaci.C3.B3n_.E2.80.93_cortafuegos_de_red:_filtrado_de_paquetes
-[131_2]:https://es.wikipedia.org/wiki/Cortafuegos_(inform%C3%A1tica)#Segunda_generaci.C3.B3n_.E2.80.93_cortafuegos_de_estado
+[131_2]:https://es.wikipedia.org/wiki/Cortafuegos_stateful
 [131_3]:https://es.wikipedia.org/wiki/Cortafuegos_(inform%C3%A1tica)#Tercera_generaci.C3.B3n_.E2.80.94_cortafuegos_de_aplicaci.C3.B3n
 
 
@@ -91,25 +91,6 @@ Una [galleta informática][3] o cookie hace referencia a una pequeña informaci�
 <cite style="display:block; text-align: right">[Edward Snowden](https://es.wikipedia.org/wiki/Edward_Snowden)</cite>
 
 
-
-
-
-
-
-
-
-
 ---
 ## Mas Recursos
-- [Teoría de grafos](https://es.wikipedia.org/wiki/Teor%C3%ADa_de_grafos) (Wikipedia)
-- [Algoritmo de Bellman-Ford](https://es.wikipedia.org/wiki/Algoritmo_de_Bellman-Ford) (Wikipedia)
-- [Algoritmo de Dijkstra](https://es.wikipedia.org/wiki/Algoritmo_de_Dijkstra) (Wikipedia)
-
-
-
-- [Wiki Mikrotik](https://wiki.mikrotik.com/wiki/Main_Page) (Wiki)
-- [Llamada a procedimiento remoto](https://es.wikipedia.org/wiki/Llamada_a_procedimiento_remotos) (Wikipedia)
-- [Distributed Component Object Model](https://es.wikipedia.org/wiki/Modelo_de_Objetos_de_Componentes_Distribuidos) (Wikipedia)
-- [Common Object Request Broker Architecture](https://es.wikipedia.org/wiki/CORBA) (Wikipedia)
-- [Remote Method Invocation](https://es.wikipedia.org/wiki/Java_Remote_Method_Invocation) (Wikipedia)
-- [Simple Object Access Protocol](https://es.wikipedia.org/wiki/Simple_Object_Access_Protocol) (Wikipedia)
+- [Wiki MikroTik](https://wiki.mikrotik.com/wiki/Main_Page) (Wiki)
