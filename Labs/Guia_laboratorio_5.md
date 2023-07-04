@@ -51,20 +51,20 @@ Para todos los efectos:
 1. Conecte las interfaces [Ethernet][3_5] etiquetadas a los equipos vecinos.
 1. Agregar un [bridge][3_6] y sus interfaces para la red LAN.
 1. Agregar el direccionamiento para las dos redes externas WAN y la red interna LAN.
-    1. Agregar la [dirección][5_1] de la interfaz externa que conecta con R2 en el segmento IP 10.11.1.0/24.
-    1. Agregar la [dirección][5_1] de la interfaz externa que conecta con R3 en el segmento IP 10.33.1.0/24.
-    1. Agregar la [dirección][5_1] del bridge (interna) con una IP 192.168.11.1 privada, clase C.
-1. Agregar un [Pool][5_2] en el segmento de la LAN que asigne direcciones entre 192.168.11.100-192.168.11.150.
+    1. Agregar la [dirección][5_1] de la interfaz externa que conecta con R2 en el segmento IP 10.1.1.0/24.
+    1. Agregar la [dirección][5_1] de la interfaz externa que conecta con R3 en el segmento IP 10.3.1.0/24.
+    1. Agregar la [dirección][5_1] del bridge (interna) con una IP 192.168.1.1 privada, clase C.
+1. Agregar un [Pool][5_2] en el segmento de la LAN que asigne direcciones entre 192.168.1.100-192.168.1.150.
 1. Agregar un servidor [DHCP][5_3] y la información de puerta de enlace y DNS que enviara a los PC conectados a la LAN. 
 1. Convertir a [estático][5_4] el arrendamiento DHCP para la MAC del PC de configuración.
-1. Cambiar la ip estática del pc de configuración a 192.168.11.10.
-1. Agregar una regla en el cortafuegos para garantizar el enrutamiento en sistemas de IP publica como internet.
+1. Cambiar la ip estática del pc de configuración a 192.168.1.10.
+1. Agregar una regla NAT en el cortafuegos para garantizar el enrutamiento en sistemas de IP publica como internet.
     1. Crear una regla [source NAT][5_5] en el cortafuegos para los paquetes IP que salen hacia la WAN.
     1. Agregar una acción para que la regla anterior permita enmascarar la ip de origen.
-1. Agregar una regla en el cortafuegos para mapear ([Port Forwarding][fwd]) un servicio web de la red LAN. 
+1. Agregar una regla NAT en el cortafuegos para mapear ([Port Forwarding][fwd]) un servicio web de la red LAN. 
     1. Crear una regla [destination NAT][5_6] para el protocolo TCP para los paquetes que llegan desde la WAN por el puerto HTTP 80 .
-    1. Agregar una acción para que la regla anterior permita redirigir la solicitud a 192.168.22.10:8080.
-    1. levantar un [servicio Web][web] en el pc 192.168.22.10 en el puerto 8080
+    1. Agregar una acción para que la regla anterior permita redirigir la solicitud a 192.168.1.10:8080.
+    1. levantar un [servicio Web][web] en el pc 192.168.1.10 en el puerto 8080
 1. Agregar la [ruta por defecto][5_7] 0.0.0.0/0.
 
 ```bash
@@ -74,11 +74,15 @@ Para todos los efectos:
 ```
 
 ## 4. [Configurar enrutamiento MikroTik-01](#) ✔
-1. Agregar [Rip][8_1] a las interfaces conectadas a los router vecinos.
-1. Publicar las [redes][8_2] que las interfaces rip deben compartir para que los tres router conozcan la ruta a los otros dos y a sus redes LAN.
-1. Realizar pruebas de diagnostico [PING][8_3] y [TRACEROUTE][8_4] desde el router a los otros router.
+1. Agregar una [dirección de bucle invertido][8_1] (Virtual) que esta siempre activa para identificar el router en la red OSPF.
+    1. Crear un puente de red llamado "loopback"
+    1. Agregar una dirección 10.255.255.1/32 a ese puente
+1. Habilitar una instancia [OSPF][8_2] identificada con la IP de "loopback"
+1. Agregar las [interfaces][8_3] que compartirán rutas OSPF y configurar las métricas.
+1. Publicar las [redes][8_4] que las interfaces OSPF deben compartir en el area "Backbone" para que los tres router conozcan la ruta a los otros dos y a sus redes LAN.
+1. Realizar pruebas de diagnostico [PING][8_5] y [TRACEROUTE][8_6] desde el router a los otros router.
 1. Realizar pruebas de diagnostico [PING][ping] y [TRACERTE][tracert] desde un computador conectado via UTP a los otros router.
-1. Realizar un [backup][8_5] de la configuración del equipo.
+1. Realizar un [backup][8_7] de la configuración del equipo.
 
 ## 5. [Configuración básica MikroTik-02](#) ✔
 1. Conecte los equipos a la red eléctrica.
@@ -90,20 +94,20 @@ Para todos los efectos:
 1. Conecte las interfaces [Ethernet][3_5] etiquetadas a los equipos vecinos.
 1. Agregar un [bridge][3_6] y sus interfaces para la red LAN.
 1. Agregar el direccionamiento para las dos redes externas WAN y la red interna LAN.
-    1. Agregar la [dirección][5_1] de la interfaz externa que conecta con R1 en el segmento IP 10.11.1.0/24.
-    1. Agregar la [dirección][5_1] de la interfaz externa que conecta con R3 en el segmento IP 10.22.1.0/24.
-    1. Agregar la [dirección][5_1] del bridge (interna) con una IP 192.168.22.1 privada, clase C.
-1. Agregar un [Pool][5_2] en el segmento de la LAN que asigne direcciones entre 192.168.22.200-192.168.22.250.
+    1. Agregar la [dirección][5_1] de la interfaz externa que conecta con R1 en el segmento IP 10.1.1.0/24.
+    1. Agregar la [dirección][5_1] de la interfaz externa que conecta con R3 en el segmento IP 10.2.1.0/24.
+    1. Agregar la [dirección][5_1] del bridge (interna) con una IP 192.168.2.1 privada, clase C.
+1. Agregar un [Pool][5_2] en el segmento de la LAN que asigne direcciones entre 192.168.2.200-192.168.2.250.
 1. Agregar un servidor [DHCP][5_3] y la información de puerta de enlace y DNS que enviara a los PC conectados a la LAN.
 1. Convertir a [estático][5_4] el arrendamiento DHCP para la MAC del PC de configuración. 
-1. Cambiar la ip estática del pc de configuración a 192.168.22.10.
-1. Agregar una regla en el cortafuegos para garantizar el enrutamiento en sistemas de IP publica como internet.
+1. Cambiar la ip estática del pc de configuración a 192.168.2.10.
+1. Agregar una regla NAT en el cortafuegos para garantizar el enrutamiento en sistemas de IP publica como internet.
     1. Crear una regla [source NAT][5_5] en el cortafuegos.
     1. Agregar una acción para enmascarar la ip de origen.
-1. Agregar una regla en el cortafuegos para mapear ([Port Forwarding][fwd]) un servicio web de la red LAN. 
+1. Agregar una regla NAT en el cortafuegos para mapear ([Port Forwarding][fwd]) un servicio web de la red LAN. 
     1. Crear una regla [destination NAT][5_6] para el protocolo TCP por el puerto HTTP 80.
-    1. Agregar una acción para la regla anterior para redirigir la solicitud a 192.168.22.10:8080.
-    1. levantar un [servicio Web][web] en el pc 192.168.22.10 en el puerto 8080
+    1. Agregar una acción para la regla anterior para redirigir la solicitud a 192.168.2.10:8080.
+    1. levantar un [servicio Web][web] en el pc 192.168.2.10 en el puerto 8080
 1. Agregar la [ruta por defecto][5_7] 0.0.0.0/0.
 
 ```bash
@@ -113,11 +117,15 @@ Para todos los efectos:
 ```
 
 ## 6. [Configurar enrutamiento MikroTik-02](#) ✔
-1. Agregar [Rip][8_1] a las interfaces conectadas a los router vecinos.
-1. Publicar las [redes][8_2] que las interfaces rip deben compartir para que los tres router conozcan la ruta a los otros dos y a sus redes LAN.
-1. Realizar pruebas de diagnostico [PING][8_3] y [TRACEROUTE][8_4] desde el router a los otros router.
+1. Agregar una [dirección de bucle invertido][8_1] (Virtual) que esta siempre activa para identificar el router en la red OSPF.
+    1. Crear un puente de red llamado "loopback"
+    1. Agregar una dirección 10.255.255.2/32 a ese puente
+1. Habilitar una instancia [OSPF][8_2] identificada con la IP de "loopback"
+1. Agregar las [interfaces][8_3] que compartirán rutas OSPF y configurar las métricas.
+1. Publicar las [redes][8_4] que las interfaces OSPF deben compartir en el area "Backbone" para que los tres router conozcan la ruta a los otros dos y a sus redes LAN.
+1. Realizar pruebas de diagnostico [PING][8_5] y [TRACEROUTE][8_6] desde el router a los otros router.
 1. Realizar pruebas de diagnostico [PING][ping] y [TRACERTE][tracert] desde un computador conectado via UTP a los otros router.
-1. Realizar un [backup][8_5] de la configuración del equipo.
+1. Realizar un [backup][8_7] de la configuración del equipo.
 
 ## 7. [Configuración básica MikroTik-03](#) ✔
 1. Conecte los equipos a la red eléctrica.
@@ -130,32 +138,45 @@ Para todos los efectos:
 1. Agregar un [bridge][3_6] y sus interfaces para la red LAN.
 1. Agregar el direccionamiento para las dos redes externas WAN y la red interna LAN.
     1. Agregar la [dirección][5_1] de la interfaz externa que conecta con RM en el segmento IP 10.1.1.0/24.
-    1. Agregar la [dirección][5_1] de la interfaz externa que conecta con R1 en el segmento IP 10.33.1.0/24.
-    1. Agregar la [dirección][5_1] del bridge (interna) con una IP 192.168.33.1 privada, clase C.
-1. Agregar un [Pool][5_2] en el segmento de la LAN que asigne direcciones entre 192.168.33.150-192.168.33.200.
+    1. Agregar la [dirección][5_1] de la interfaz externa que conecta con R1 en el segmento IP 10.3.1.0/24.
+    1. Agregar la [dirección][5_1] del bridge (interna) con una IP 192.168.3.1 privada, clase C.
+1. Agregar un [Pool][5_2] en el segmento de la LAN que asigne direcciones entre 192.168.3.150-192.168.3.200.
 1. Agregar un servidor [DHCP][5_3] y la información de puerta de enlace y DNS que enviara a los PC conectados a la LAN. 
 1. Convertir a [estático][5_4] el arrendamiento DHCP para la MAC del PC de configuración.
-1. Cambiar la ip estática del pc de configuración a 192.168.33.10.
+1. Cambiar la ip estática del pc de configuración a 192.168.3.10.
 1. Configurar la [WLAN][wlan] de nombre "REDES_42" para proveer conectividad inalámbrica.
-1. Crear una regla [source NAT][5_5] en el cortafuegos para enmascarar la ip de origen.
-1. Crear una regla [destination NAT][5_6] en el cortafuegos para reemplazar la ip y puerto de destino.
+1. Agregar una regla NAT en el cortafuegos para garantizar el enrutamiento en sistemas de IP publica como internet.
+    1. Crear una regla [source NAT][5_5] en el cortafuegos para los paquetes IP que salen hacia la WAN.
+    1. Agregar una acción para que la regla anterior permita enmascarar la ip de origen.
+1. Agregar una regla NAT en el cortafuegos para mapear ([Port Forwarding][fwd]) un servicio web de la red LAN. 
+    1. Crear una regla [destination NAT][5_6] para el protocolo TCP para los paquetes que llegan desde la WAN por el puerto HTTP 80 .
+    1. Agregar una acción para que la regla anterior permita redirigir la solicitud a 192.168.3.10:8080.
+    1. levantar un [servicio Web][web] en el pc 192.168.3.10 en el puerto 8080
 1. Agregar la [ruta por defecto][5_7] 0.0.0.0/0.
 
->Nota: Para garantizar el enrutamiento en sistemas de IP publica como internet es necesaria la regla de source NAT y para exponer un servicio privado en internet es necesario mapear una dirección privada con la regla destination NAT.
+```bash
+# El servidor HTTP DEV puede servir para ejecutar un servicio de prueba
+# En Win32 para servir el contenido de la carpeta public en el puerto 8080
+.\devd.exe -aol --port=8080 .\public
+```
 
 ## 8. [Configurar enrutamiento MikroTik-03](#) ✔
-1. Agregar [Rip][8_1] a las interfaces conectadas a los router vecinos.
-1. Publicar las [redes][8_2] que las interfaces rip deben compartir para que los tres router conozcan la ruta a los otros dos y a sus redes LAN.
-1. Realizar pruebas de diagnostico [PING][8_3] y [TRACEROUTE][8_4] desde el router a los otros router.
+1. Agregar una [dirección de bucle invertido][8_1] (Virtual) que esta siempre activa para identificar el router en la red OSPF.
+    1. Crear un puente de red llamado "loopback"
+    1. Agregar una dirección 10.255.255.3/32 a ese puente
+1. Habilitar una instancia [OSPF][8_2] identificada con la IP de "loopback"
+1. Agregar las [interfaces][8_3] que compartirán rutas OSPF y configurar las métricas.
+1. Publicar las [redes][8_4] que las interfaces OSPF deben compartir en el area "Backbone" para que los tres router conozcan la ruta a los otros dos y a sus redes LAN.
+1. Realizar pruebas de diagnostico [PING][8_5] y [TRACEROUTE][8_6] desde el router a los otros router.
 1. Realizar pruebas de diagnostico [PING][ping] y [TRACERTE][tracert] desde un computador conectado via UTP a los otros router.
-1. Realizar un [backup][8_5] de la configuración del equipo.
+1. Realizar un [backup][8_7] de la configuración del equipo.
 
 ## 9. [Diagrama de Red](#) ✔
 - Realice un diagrama topológico de cada uno de los casos de estudio.
 - Incluya todos los detalles de la red de area local a la que se encuentra conectado.
 - Incluya los saltos conocidos incluyendo el equipo de borde de su ISP.
 
-![Arquitectura](../img/lab-04.svg "Arquitectura laboratorio 04")
+![Arquitectura](../img/lab-05.svg "Arquitectura laboratorio 04")
 
 ## 10. [Preguntas de conocimiento](#) ✔
 1. ¿Por qué no se puede llegar a 10.10.1.100 desde R3 y 10.33.1.1 desde R1? 
@@ -188,11 +209,13 @@ Para todos los efectos:
 [5_6]:https://wiki.mikrotik.com/wiki/Manual:IP/Firewall/NAT#Destination_NAT
 [5_7]:https://wiki.mikrotik.com/wiki/Manual:IP/Route#Default_route
 
-[8_1]:https://wiki.mikrotik.com/wiki/Manual:Routing/RIP#Interface
-[8_2]:https://wiki.mikrotik.com/wiki/Manual:Routing/RIP#Network
-[8_3]:https://wiki.mikrotik.com/wiki/Manual:Tools/Ping
-[8_4]:https://wiki.mikrotik.com/wiki/Manual:Troubleshooting_tools
-[8_5]:https://wiki.mikrotik.com/wiki/Manual:System/Backup
+[8_1]:https://es.wikipedia.org/wiki/Loopback
+[8_2]:https://wiki.mikrotik.com/wiki/Manual:Routing/OSPF#Instance
+[8_3]:https://wiki.mikrotik.com/wiki/Manual:Routing/OSPF#Interface
+[8_4]:https://wiki.mikrotik.com/wiki/Manual:Routing/OSPF#Network
+[8_5]:https://wiki.mikrotik.com/wiki/Manual:Tools/Ping
+[8_6]:https://wiki.mikrotik.com/wiki/Manual:Troubleshooting_tools
+[8_7]:https://wiki.mikrotik.com/wiki/Manual:System/Backup
 
 ---
 ## Mas Recursos
