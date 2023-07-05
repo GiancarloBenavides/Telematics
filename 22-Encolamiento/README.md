@@ -8,6 +8,7 @@ En el contexto de gestionar la calidad de servicio QoS de redes de computadoras 
 
 ## Agenda
 1. [Colas](#1-colas).
+1. [Colas](#2-colas).
 
 <br>
 

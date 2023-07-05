@@ -48,8 +48,20 @@ Un [dispositivo de red][1] es cualquier dispositivo físico (computadora, laptop
 [13_1]:https://es.wikipedia.org/wiki/Punto_de_acceso_inal%C3%A1mbrico
 [13_2]:https://es.wikipedia.org/wiki/Conmutador_(dispositivo_de_red)/
 
+## 1.4. Marcas ✔
+* [Cisco][14_1] - switching.
+* [MikroTik][14_2] - routing.
+* [Ubiquiti][14_3] - wireless access point.
+* [Fortinet][14_4] - unified thread management.
+* [Sophos][14_5] - firewall.
 
-## 1.4. Gestión de Dispositivos ✔
+[14_1]:https://www.cisco.com/c/es_co/products/switches/index.html
+[14_2]:https://mikrotik.com/products/group/ethernet-routers
+[14_3]:https://www.ui.com/wi-fi
+[14_4]:https://www.fortinet.com/products/utm.html
+[14_5]:https://www.sophos.com/en-us/products/next-gen-firewall/all-in-one-protection
+
+## 1.5. Gestión de Dispositivos ✔
 La gestión de los servicios que ofrece un sistema de comunicaciones digital, pueden estar distribuidos en diferentes componentes de hardware y de software, los conocimientos para configurar estos componentes dependen del fabricante pero conociendo la base técnica es posible adaptar las soluciones a la perspectiva de las diferentes marcas.
 
 <br>
