@@ -63,6 +63,10 @@ El [punto caliente][1] o hotspot es un lugar que ofrece acceso a Internet a trav
 [13_5]:https://es.wikipedia.org/wiki/Unified_Threat_Management
 [13_6]:https://es.wikipedia.org/wiki/Inteligencia_artificial
 
+## 1.4 Arquitectura ✔
+
+![Arquitectura](../img/hotspot.svg "Arquitectura hotspot")
+
 # 2. [Servidor radius](#agenda)
 El servicio [Radius][2] es proporcionado por un protocolo de autenticación y autorización que utiliza el puerto UDP/1812 para enviar credenciales de autentificación a aplicaciones en redes de acceso IP.
 
