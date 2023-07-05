@@ -221,8 +221,8 @@ Para todos los efectos:
 ## Mas Recursos
 - [Wiki MikroTik](https://wiki.mikrotik.com/wiki/Main_Page) (MikroTik - Wiki)
 - [Hotspot en MikroTik](https://wiki.mikrotik.com/wiki/Manual:IP/Hotspot) (MikroTik - Wiki)
-- [Balanceador de carga en MikroTik](https://wiki.mikrotik.com/wiki/Manual:PCC) (MikroTik - Wiki)
-- [Hotspot + Balanceador de carga en MikroTik](https://wiki.mikrotik.com/wiki/Manual:Hotspot_with_PCC) (MikroTik - Wiki)
+- [Balanceador de carga PCC en MikroTik](https://wiki.mikrotik.com/wiki/Manual:PCC) (MikroTik - Wiki)
+- [Hotspot + Balanceador de carga PCC en MikroTik](https://wiki.mikrotik.com/wiki/Manual:Hotspot_with_PCC) (MikroTik - Wiki)
 - [Calculadora IP](https://www.calculator.net/ip-subnet-calculator.html) (Wikipedia)
 
 ---
