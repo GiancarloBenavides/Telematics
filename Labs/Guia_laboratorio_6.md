@@ -2,7 +2,7 @@
 <p><code>Fundamentos de Telemática</code></p>
 <p>Creado por <code>Giancarlo Ortiz</code> para explicar los fundamentos de los <code>Sistemas de comunicaciones</code> en los cursos de telemática y redes de computadores.</p>
 
-# Practica de laboratorio 05 - Enrutamiento Dinámico OSPF
+# Practica de laboratorio 06 - Hotspot
 
 ## Objetivos 
 
@@ -10,7 +10,7 @@
 Proporcionar el conocimiento y generar las habilidades necesarias en la configuración y gestión de dispositivos de redes.
 
 ### Objetivos Específicos:
-- Conocer configuraciones básicas de enrutamiento dinámico con MikroTik. :+1:
+- Conocer configuraciones básicas de un Hotspot con MikroTik. :+1:
 
 ---
 
@@ -219,10 +219,10 @@ Para todos los efectos:
 
 ---
 ## Mas Recursos
-- [Wiki Mikrotik](https://wiki.mikrotik.com/wiki/Main_Page) (MikroTik - Wiki)
-- [Video-Curso Mikrotik](https://www.youtube.com/watch?v=SLAPzl-LSc0&list=PLf0g2cV4iCkH19_UhaVt0vDn1f9ObumjF) (Wiki)
-- [Encaminamiento](https://es.wikipedia.org/wiki/Encaminamiento) (Wikipedia)
-- [OSPF](https://es.wikipedia.org/wiki/Open_Shortest_Path_Firstl) (Wikipedia)
+- [Wiki MikroTik](https://wiki.mikrotik.com/wiki/Main_Page) (MikroTik - Wiki)
+- [Hotspot en MikroTik](https://wiki.mikrotik.com/wiki/Manual:IP/Hotspot) (MikroTik - Wiki)
+- [Balanceador de carga en MikroTik](https://wiki.mikrotik.com/wiki/Manual:PCC) (MikroTik - Wiki)
+- [Hotspot + Balanceador de carga en MikroTik](https://wiki.mikrotik.com/wiki/Manual:Hotspot_with_PCC) (MikroTik - Wiki)
 - [Calculadora IP](https://www.calculator.net/ip-subnet-calculator.html) (Wikipedia)
 
 ---
