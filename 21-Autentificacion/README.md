@@ -2,8 +2,8 @@
 <p><code>Fundamentos de Telemática</code></p>
 <p>Creado por <code>Giancarlo Ortiz</code> para explicar los fundamentos de los <code>Sistemas de comunicaciones</code> en los cursos de telemática y redes de computadores.</p>
 
-## Fundamentos
-La gestión de los servicios que ofrece un sistema de comunicaciones digital, pueden estar distribuidos en diferentes componentes de hardware y de software, los conocimientos para configurar estos componentes dependen del fabricante pero conociendo la base técnica es posible adaptar las soluciones a la perspectiva de las diferentes marcas. 
+## Autentificación
+En términos de seguridad de redes de datos la autenticación es el proceso de verificar la identidad digital del remitente de una comunicación como una petición para conectarse.
 
 ## Agenda
 1. [Hotspot](#1-hotspot).
