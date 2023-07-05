@@ -3,7 +3,7 @@
 <p>Creado por <code>Giancarlo Ortiz</code> para explicar los fundamentos de los <code>Sistemas de comunicaciones</code> en los cursos de telemática y redes de computadores.</p>
 
 ## Autentificación
-En términos de seguridad de redes de datos la autenticación es el proceso de verificar la identidad digital del remitente de una comunicación como una petición para conectarse.
+En el contexto de seguridad de redes de datos, la autenticación es el proceso de verificar la identidad digital del remitente de una comunicación como una petición para conectarse.
 
 ## Agenda
 1. [Hotspot](#1-hotspot).
@@ -130,4 +130,6 @@ Una [galleta informática][3] o cookie hace referencia a una pequeña informaci�
 - [Wiki MikroTik](https://wiki.mikrotik.com/wiki/Main_Page) (MikroTik - Wiki)
 - [Instalar FreeRadius](https://wiki.freeradius.org/building/Home) (FreeRadius - Docs)
 - [Instalar IAS](https://learn.microsoft.com/es-es/security-updates/security/guadegeneracinimplementacindelainfraestructuraderadius#efaa) (MS - Docs)
-- [Hotspot Example](https://wiki.mikrotik.com/wiki/Manual:Hotspot_HTTPS_example) (MikroTik - Wiki)
+- [Hotspot - Https](https://wiki.mikrotik.com/wiki/Manual:Hotspot_HTTPS_example) (MikroTik - Wiki)
+- [Hotspot - Modificar la pagina de Login](https://wiki.mikrotik.com/wiki/Manual:Customizing_Hotspot) (MikroTik - Wiki)
+- [Hotspot - Usuarios Prueba](https://wiki.mikrotik.com/wiki/Manual:Trial_user_limits) (MikroTik - Wiki)
