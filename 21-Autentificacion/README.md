@@ -34,7 +34,7 @@ El [punto caliente][1] o hotspot es un lugar que ofrece acceso a Internet a trav
 [11_5]:https://es.wikipedia.org/wiki/Red_inal%C3%A1mbrica
 [11_6]:https://es.m.wikipedia.org/wiki/Telefon%C3%ADa_m%C3%B3vil
 
-## 1.2 Portal cautivo ✔
+## 1.2. Portal cautivo ✔
 * Un [portal cautivo][12_1] es un software que restringe el acceso a internet.
 * El trafico se limita agregando reglas al [cortafuegos][12_2] del router.
 * El objetivo es [autenticarse][12_3] para obtener acceso a los servicios.
@@ -49,7 +49,7 @@ El [punto caliente][1] o hotspot es un lugar que ofrece acceso a Internet a trav
 [12_5]:https://es.wikipedia.org/wiki/Sesi%C3%B3n_(inform%C3%A1tica)/
 [12_6]:https://es.wikipedia.org/wiki/Calidad_de_servicio
 
-## 1.3 Cortafuegos ✔
+## 1.3. Cortafuegos ✔
 * Es [firewall][13_1] un subsistema del sistema o red informática.
 * El subsistema esta diseñado para bloquear el [acceso no autorizado][13_2].
 * La implementación puede ser por software como en [ufw][13_3] [ipfw][13_4] en las computadores.
@@ -63,7 +63,7 @@ El [punto caliente][1] o hotspot es un lugar que ofrece acceso a Internet a trav
 [13_5]:https://es.wikipedia.org/wiki/Unified_Threat_Management
 [13_6]:https://es.wikipedia.org/wiki/Inteligencia_artificial
 
-## 1.4 Arquitectura ✔
+## 1.4. Arquitectura ✔
 
 ![Arquitectura](../img/hotspot.svg "Arquitectura hotspot")
 
@@ -119,7 +119,7 @@ Una [galleta informática][3] o cookie hace referencia a una pequeña informaci�
 * ><i>"Argumentar que no te importa el derecho a la privacidad porque no tienes nada que ocultar no es diferente a decir que no te importa la libertad de expresión porque no tienes nada que decir."</i><br>
 <cite style="display:block; text-align: right">[Edward Snowden](https://es.wikipedia.org/wiki/Edward_Snowden)</cite>
 
-## 3.1 Características ✔
+## 3.1. Características ✔
 * Almacenar autentificación.
 * Almacenar hábitos de navegación.
 * Almacenar elecciones del cliente.
