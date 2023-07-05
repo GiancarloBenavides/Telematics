@@ -73,13 +73,13 @@ El servicio [Radius][2] es proporcionado por un protocolo de autenticación y au
 
 ## 2.1. Características ✔
 * Existen implementaciones comerciales y de código abierto del [protocolo radius][21_1].
-* Existen diferentes dialectos implementados (Extensible).
+* Existen diferentes dialectos implementados ([Extensible][21_2]).
 * Capacidad para gestionar los usuarios desde ([archivos de texto][21_3], [LDAP][21_4], [DB][21_5], ...)
-* Capacidad para gestionar [sesiones][] informando tiempos y consumo.
+* Capacidad para gestionar [sesiones][21_6] informando tiempos y consumo.
 * Capacidad de monitorear el servicio via [SNMP][21_7].
 
 [21_1]:https://datatracker.ietf.org/doc/html/rfc2138
-[21_2]:
+[21_2]:https://en.wikipedia.org/wiki/Extensibility
 [21_3]:https://es.wikipedia.org/wiki/Archivo_de_texto
 [21_4]:https://es.wikipedia.org/wiki/Protocolo_ligero_de_acceso_a_directorios
 [21_5]:https://es.wikipedia.org/wiki/Base_de_datos
@@ -87,11 +87,24 @@ El servicio [Radius][2] es proporcionado por un protocolo de autenticación y au
 [21_7]:https://es.wikipedia.org/wiki/Protocolo_simple_de_administraci%C3%B3n_de_red
 
 ## 2.2. Login ✔
-* Soporta protocolos no cifrados como [PAP][21_1] (inseguro)
-* Soporta protocolos cifrados como [CHAP][21_2]
+* Soporta protocolos de contraseña no cifrados como [PAP][22_1] (inseguro)
+* Soporta protocolos de contraseña cifrados como [CHAP][22_2]
+* Soporta protocolos con certificado TLS como [EAP][22_3]
+* Soporta protocolos con certificado SSL como [HTTPS][22_4]
 
 [22_1]:https://es.wikipedia.org/wiki/Password_Authentication_Protocol
-[22_2]:https://es.wikipedia.org/wiki/CHAP
+[22_2]:https://es.wikipedia.org/wiki/CHAP7
+[22_3]:https://es.wikipedia.org/wiki/Extensible_Authentication_Protocol
+[22_4]:https://es.wikipedia.org/wiki/Protocolo_seguro_de_transferencia_de_hipertexto
+
+## 2.3. Implementaciones ✔
+* [FREERadius][23_1] de código abierto
+* [UM][23_2] o User-manager de MikroTik
+* [IAS][23_3] o Internet Authentication Service de Microsoft
+
+[23_1]:https://en.wikipedia.org/wiki/FreeRADIUS
+[23_2]:https://wiki.mikrotik.com/wiki/Manual:User_Manager
+[23_3]:https://es.wikipedia.org/wiki/Internet_Authentication_Service
 
 
 # 3. [Cookies](#agenda)
@@ -103,9 +116,14 @@ Una [galleta informática][3] o cookie hace referencia a una pequeña informaci�
 <cite style="display:block; text-align: right">[Edward Snowden](https://es.wikipedia.org/wiki/Edward_Snowden)</cite>
 
 ## 3.1 Características ✔
-* Soporta protocolos PAP
-* Soporta protocolos CHAP
+* Almacenar autentificación.
+* Almacenar hábitos de navegación.
+* Almacenar elecciones del cliente.
+
 
 ---
 ## Mas Recursos
-- [Wiki MikroTik](https://wiki.mikrotik.com/wiki/Main_Page) (Wiki)
+- [Wiki MikroTik](https://wiki.mikrotik.com/wiki/Main_Page) (MikroTik - Wiki)
+- [Instalar FreeRadius](https://wiki.freeradius.org/building/Home) (FreeRadius - Docs)
+- [Instalar IAS](https://learn.microsoft.com/es-es/security-updates/security/guadegeneracinimplementacindelainfraestructuraderadius#efaa) (MS - Docs)
+- [Hotspot Example](https://wiki.mikrotik.com/wiki/Manual:Hotspot_HTTPS_example) (MikroTik - Wiki)
