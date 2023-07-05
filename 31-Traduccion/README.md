@@ -48,6 +48,7 @@ Si desea dirigir las solicitudes de un determinado puerto a una máquina interna
 
 ---
 ## Mas Recursos
-- [Wiki MikroTik](https://wiki.mikrotik.com/wiki/Main_Page) (Wiki)
+- [Wiki MikroTik](https://wiki.mikrotik.com/wiki/Main_Page) (MikroTik - Wiki)
+- [NAT MikroTik](https://wiki.mikrotik.com/wiki/Manual:IP/Firewall/NAT) (MikroTik - Wiki)
 - [Traducción de direcciones de red](https://es.wikipedia.org/wiki/Traducci%C3%B3n_de_direcciones_de_red) (Wiki)
 - [Reenvío de puertos](https://es.wikipedia.org/wiki/Redirecci%C3%B3n_de_puertos) (Wiki)
