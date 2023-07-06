@@ -50,37 +50,59 @@ Un [canal de comunicaciones][2] es un medio de transmisión por el que pasan las
 * ><i>"La fusión de las computadoras y las comunicaciones ha tenido una influencia profunda en la manera en que están organizados los sistemas computacionales."</i><br>
 <cite style="display:block; text-align: right">[Andrew S. Tanenbaum](https://es.wikipedia.org/wiki/Andrew_S._Tanenbaum)</cite>
 
-## 2.1. Ancho de Banda de un canal de comunicaciones ✔
+## 2.1. Ancho de Banda (B) ✔
 * El [ancho de banda][21_1] es una rango de frecuencias.
 * Mide las [frecuencias][21_2] que un medio puede transmitir a una distancia dada.
 * Este rango concentra la mayor [potencia de la señal][21_3].
-* Los limites se establecen a 3 [dB][21_4] menos que la amplitud maxima.
-* Se calcula empleando el [análisis de Fourier][21_5].
-* Se mide en [Hercios][21_6] (Hz)
+* Puede caracterizar [filtros][21_4], canales y señales.
+* Los limites se establecen a 3 [dB][21_5] menos que la amplitud maxima.
+* Se calcula empleando el [análisis de Fourier][21_6].
+* Se mide en [Hercios][21_7] (Hz).
 
 [21_1]:https://es.wikipedia.org/wiki/Ancho_de_banda
 [21_2]:https://es.wikipedia.org/wiki/Dominio_de_la_frecuencia
 [21_3]:https://es.wikipedia.org/wiki/Densidad_espectral
-[21_4]:https://es.wikipedia.org/wiki/Decibelio
-[21_5]:https://es.wikipedia.org/wiki/Transformada_de_Fourier
-[21_6]:https://es.wikipedia.org/wiki/Hercio
+[21_4]:https://es.wikipedia.org/wiki/Filtro_paso_banda
+[21_5]:https://es.wikipedia.org/wiki/Decibelio
+[21_6]:https://es.wikipedia.org/wiki/Transformada_de_Fourier
+[21_7]:https://es.wikipedia.org/wiki/Hercio
 
 ### 2.1.1. Representación
 
 ![Representación](../img/wb.svg "Ancho de Banda")
 
-## 2.2. Capacidad del canal de comunicaciones ✔
-* Maxima información que un [canal][22_1] puede transmitir de forma fiable.
+## 2.2. Capacidad (C) ✔
+* Maxima [información][22_1] que un canal puede transmitir de forma fiable.
 * Fiable significa que la [probabilidad de error][22_2] es despreciable. 
-* Está limitada por su [ancho de banda][22_3] (B)
-* Está limitada por su [relación señal a ruido][22_4] (SNR)
+* Está limitada por su [relación señal a ruido][22_4] (SNR) y el ancho de banda.
+* Se calcula empleando el [teorema de Shannon-Hartley][22_5].
+* Se mide en [bits por segundo][22_6] (b/s). 
 
-[22_1]:https://es.wikipedia.org/wiki/Canal_de_comunicaci%C3%B3n
+[22_1]:https://es.wikipedia.org/wiki/Informaci%C3%B3n
 [22_2]:https://es.wikipedia.org/wiki/Teorema_de_Shannon-Hartley
 [22_3]:https://es.wikipedia.org/wiki/Ancho_de_banda_(inform%C3%A1tica)/
 [22_4]:https://es.wikipedia.org/wiki/Relaci%C3%B3n_se%C3%B1al/ruido
+[22_5]:https://es.wikipedia.org/wiki/Teorema_de_Shannon-Hartley
+[22_6]:https://es.wikipedia.org/wiki/Bits_por_segundo
 
-### 2.2.1. Ecuaciones
+## 2.3. Tasa de transferencia de Símbolos (Rs) ✔
+* El [bitrate][23_1] es el número de bits que se transmiten por unidad de tiempo.
+* Depende de la [codificación de la fuente][23_2] y el ancho de banda.
+* Debe ser menor a la capacidad del canal.
+* Se mide en [Baudio][22_6] (b/s).
+
+https://es.wikipedia.org/wiki/Baudio
+
+## 2.3. Tasa de transferencia binaria (Rb) ✔
+* El [bitrate][23_1] es el número de bits que se transmiten por unidad de tiempo.
+* Depende de la [codificación del canal][23_2] y el ancho de banda.
+* Debe ser menor a la capacidad del canal.
+* Se mide en [bits por segundo][22_6] (b/s). 
+
+[23_1]:https://es.wikipedia.org/wiki/Tasa_de_bits
+[23_2]:https://es.wikipedia.org/wiki/C%C3%B3digo_de_canal
+
+### 2.2.1. Ecuaciones de Shannon - Hartley
 
 $$
 \begin{aligned}
@@ -93,14 +115,14 @@ $$
 
 ![Representación](../img/channel_capacity.svg "Ca")
 
-### 2.1.2. Ejemplos UTP
-|Categoría|Ancho de banda|Velocidad|Distancia|
+
+
+## 2.3. Ejemplos UTP ✔
+|Categoría|Ancho de banda|Distancia|Velocidad|
 |:--|--:|--:|--:|
-|UTP - Cat 5e|100 MHz|100 Mbps|100 mts|
-|UTP - Cat 6|250 MHz|1 Gbps|55 mts|
-|UTP - Cat 6A|500 MHz|10 Gbps|100 mts|
-
-
+|UTP - Cat 5e|100 MHz|100 mts|100 Mbps|
+|UTP - Cat 6|250 MHz|55 mts|1 Gbps|
+|UTP - Cat 6A|500 MHz|100 mts|10 Gbps|
 
 
 # 3. [Calidad de servicio](#agenda)
