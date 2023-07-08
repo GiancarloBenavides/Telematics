@@ -39,7 +39,7 @@ Una fila o [Cola][1] es un tipo de dato abstracto, caracterizada por ser una sec
 
 ## 1.3. Representación ✔
 
-![Representación](../img/cola.svg "Cola")
+![Representación](../img/queue.svg "Cola")
 
 
 # 2. [Canal de comunicaciones](#agenda)
@@ -54,7 +54,7 @@ Un [canal de comunicaciones][2] es un medio de transmisión por el que pasan las
 * El [ancho de banda][21_1] es una rango de frecuencias.
 * Mide las [frecuencias][21_2] que un medio puede transmitir a una distancia dada.
 * Este rango concentra la mayor [potencia de la señal][21_3].
-* Puede caracterizar medios, [filtros][21_4], canales y señales.
+* Puede caracterizar señales, medios, [filtros][21_4] y canales.
 * Los limites se establecen a 3 [dB][21_5] menos que la amplitud maxima.
 * Se calcula empleando el [análisis de Fourier][21_6].
 * Se mide en [Hercios][21_7] (Hz).
@@ -67,13 +67,35 @@ Un [canal de comunicaciones][2] es un medio de transmisión por el que pasan las
 [21_6]:https://es.wikipedia.org/wiki/Transformada_de_Fourier
 [21_7]:https://es.wikipedia.org/wiki/Hercio
 
-### 2.1.1 Ejemplos medios de Tx - UTP
-|Categoría|Ancho de banda|Distancia|
-|:--|--:|--:|
-|UTP - Cat 3|16 MHz|100 mts|
-|UTP - Cat 5e|100 MHz|100 mts|
-|UTP - Cat 6|250 MHz|55 mts|
-|UTP - Cat 6A|500 MHz|100 mts|
+### 2.1.1 Ejemplo de señales
+|Señal [<sup>(1)</sup>][211] |F. minima|F. maxima|Ancho de banda|
+|:--|--:|:--|--:|
+| [__Voz__][211_1]   | 300 Hz | 3.4 KHz | 3.1 Khz|
+| [__Audio__][211_2] | 20 Hz  | 20 KHz | 20 KHz |
+| [__Luz__][211_3]   | 399 THz | 788 THz | 389 THz |
+
+>Nota: 1:[Las señales de la tabla son características a la fisiología humana][211].
+
+[211]:https://es.wikipedia.org/wiki/Sentido_(percepción)#
+[211_1]:https://es.wikipedia.org/wiki/Frecuencia_de_voz
+[211_2]:https://es.wikipedia.org/wiki/Audici%C3%B3n
+[211_3]:https://es.wikipedia.org/wiki/Espectro_visible
+
+### 2.1.2 Ejemplo medios de Tx - UTP
+|Medio - Categoría [<sup>(1)</sup>][211] |Ancho de banda|Distancia|
+|:--|:--:|--:|
+|[UTP - Cat 3][212_1]|16 MHz|100 mts|
+|[UTP - Cat 5e][212_2]|100 MHz|100 mts|
+|[UTP - Cat 6][212_3]|250 MHz|55 mts|
+|[UTP - Cat 6A][212_4]|500 MHz|100 mts|
+
+[212]:https://es.wikipedia.org/wiki/Red_de_%C3%A1rea_local
+[212_1]:https://en.wikipedia.org/wiki/Category_3_cable
+[212_2]:https://en.wikipedia.org/wiki/Category_5e_cable
+[212_3]:https://en.wikipedia.org/wiki/Category_6_cable
+[212_4]:https://en.wikipedia.org/wiki/Category_6a_cable
+
+>Nota: 1:[Los medios de la tabla son característicos de las redes de area local][212].
 
 ### 2.1.2. Representación
 
