@@ -54,7 +54,7 @@ Un [canal de comunicaciones][2] es un medio de transmisión por el que pasan las
 * El [ancho de banda][21_1] es una rango de frecuencias.
 * Mide las [frecuencias][21_2] que un medio puede transmitir a una distancia dada.
 * Este rango concentra la mayor [potencia de la señal][21_3].
-* Puede caracterizar [filtros][21_4], canales y señales.
+* Puede caracterizar medios, [filtros][21_4], canales y señales.
 * Los limites se establecen a 3 [dB][21_5] menos que la amplitud maxima.
 * Se calcula empleando el [análisis de Fourier][21_6].
 * Se mide en [Hercios][21_7] (Hz).
@@ -67,7 +67,7 @@ Un [canal de comunicaciones][2] es un medio de transmisión por el que pasan las
 [21_6]:https://es.wikipedia.org/wiki/Transformada_de_Fourier
 [21_7]:https://es.wikipedia.org/wiki/Hercio
 
-### 2.1.1 Ejemplos UTP
+### 2.1.1 Ejemplos medios de Tx - UTP
 |Categoría|Ancho de banda|Distancia|
 |:--|--:|--:|
 |UTP - Cat 3|16 MHz|100 mts|
