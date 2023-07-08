@@ -67,9 +67,46 @@ Un [canal de comunicaciones][2] es un medio de transmisión por el que pasan las
 [21_6]:https://es.wikipedia.org/wiki/Transformada_de_Fourier
 [21_7]:https://es.wikipedia.org/wiki/Hercio
 
-### 2.1.1. Representación
+### 2.1.1 Ejemplos UTP
+|Categoría|Ancho de banda|Distancia|
+|:--|--:|--:|
+|UTP - Cat 3|16 MHz|100 mts|
+|UTP - Cat 5e|100 MHz|100 mts|
+|UTP - Cat 6|250 MHz|55 mts|
+|UTP - Cat 6A|500 MHz|100 mts|
+
+### 2.1.2. Representación
 
 ![Representación](../img/wb.svg "Ancho de Banda")
+
+## 2.2. Tasa de transferencia de Símbolos (Rs) ✔
+* También llamado [baudrate][22_1].
+* Define el [número de símbolos][22_2] que se transmiten por unidad de tiempo.
+* El cambio de estado en [señal digital][22_3] es un símbolo.
+* Dependiendo de la [modulación][22_4] un símbolo puede representar muchos bits.
+* Esta limitado por el [ancho de banda][22_5].
+* Se mide en [Baudio][22_6] (b/s).
+
+[22_1]:https://es.wikipedia.org/wiki/Tasa_de_baudios
+[22_2]:https://es.wikipedia.org/wiki/C%C3%B3digos_en_l%C3%ADnea
+[22_3]:https://es.wikipedia.org/wiki/Se%C3%B1al_digital
+[22_4]:https://es.wikipedia.org/wiki/Modulaci%C3%B3n_(telecomunicaci%C3%B3n)/
+[22_5]:https://es.wikipedia.org/wiki/Ancho_de_banda_(inform%C3%A1tica)/
+[22_6]:https://es.wikipedia.org/wiki/Baudio
+
+
+## 2.3. Tasa de transferencia binaria (Rb) ✔
+* Tambien llamado [bitrate][23_1].
+* Define el número de bits que se transmiten por unidad de tiempo.
+* Depende de la [codificación del canal][23_2] y el ancho de banda.
+* Debe ser menor a la capacidad del canal.
+* Se mide en [bits por segundo][22_6] (b/s). 
+
+..
+* Debe ser menor a la capacidad del canal.
+
+[23_1]:https://es.wikipedia.org/wiki/Tasa_de_bits
+[23_2]:https://es.wikipedia.org/wiki/C%C3%B3digo_de_canal
 
 ## 2.2. Capacidad (C) ✔
 * Maxima [información][22_1] que un canal puede transmitir de forma fiable.
@@ -80,27 +117,10 @@ Un [canal de comunicaciones][2] es un medio de transmisión por el que pasan las
 
 [22_1]:https://es.wikipedia.org/wiki/Informaci%C3%B3n
 [22_2]:https://es.wikipedia.org/wiki/Teorema_de_Shannon-Hartley
-[22_3]:https://es.wikipedia.org/wiki/Ancho_de_banda_(inform%C3%A1tica)/
+
 [22_4]:https://es.wikipedia.org/wiki/Relaci%C3%B3n_se%C3%B1al/ruido
 [22_5]:https://es.wikipedia.org/wiki/Teorema_de_Shannon-Hartley
 [22_6]:https://es.wikipedia.org/wiki/Bits_por_segundo
-
-## 2.3. Tasa de transferencia de Símbolos (Rs) ✔
-* El [bitrate][23_1] es el número de bits que se transmiten por unidad de tiempo.
-* Depende de la [codificación de la fuente][23_2] y el ancho de banda.
-* Debe ser menor a la capacidad del canal.
-* Se mide en [Baudio][22_6] (b/s).
-
-https://es.wikipedia.org/wiki/Baudio
-
-## 2.3. Tasa de transferencia binaria (Rb) ✔
-* El [bitrate][23_1] es el número de bits que se transmiten por unidad de tiempo.
-* Depende de la [codificación del canal][23_2] y el ancho de banda.
-* Debe ser menor a la capacidad del canal.
-* Se mide en [bits por segundo][22_6] (b/s). 
-
-[23_1]:https://es.wikipedia.org/wiki/Tasa_de_bits
-[23_2]:https://es.wikipedia.org/wiki/C%C3%B3digo_de_canal
 
 ### 2.2.1. Ecuaciones de Shannon - Hartley
 
@@ -117,12 +137,7 @@ $$
 
 
 
-## 2.3. Ejemplos UTP ✔
-|Categoría|Ancho de banda|Distancia|Velocidad|
-|:--|--:|--:|--:|
-|UTP - Cat 5e|100 MHz|100 mts|100 Mbps|
-|UTP - Cat 6|250 MHz|55 mts|1 Gbps|
-|UTP - Cat 6A|500 MHz|100 mts|10 Gbps|
+
 
 
 # 3. [Calidad de servicio](#agenda)
