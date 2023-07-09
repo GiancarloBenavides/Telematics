@@ -50,6 +50,8 @@ Un [canal de comunicaciones][2] es un medio de transmisión por el que pasan las
 * ><i>"La fusión de las computadoras y las comunicaciones ha tenido una influencia profunda en la manera en que están organizados los sistemas computacionales."</i><br>
 <cite style="display:block; text-align: right">[Andrew S. Tanenbaum](https://es.wikipedia.org/wiki/Andrew_S._Tanenbaum)</cite>
 
+
+
 ## 2.1. Ancho de Banda (B) ✔
 * El [ancho de banda][21_1] es una rango de frecuencias.
 * Mide las [frecuencias][21_2] que un medio puede transmitir a una distancia dada.
