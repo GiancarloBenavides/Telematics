@@ -56,17 +56,18 @@ Un [canal de comunicaciones][2] es un medio de transmisión por el que pasan las
 * Este rango concentra la mayor [potencia de la señal][21_3].
 * Puede caracterizar señales, [filtros][21_4], canales y medios.
 * En señales y filtro los limites se establecen a 3 [dB][21_5] menos que la amplitud maxima.
-* En canales y medios depende que relación señal a ruido ([SNR][22_4]) > 3 dB
-* Se calcula empleando el [análisis de Fourier][21_6].
-* Se mide en [Hercios][21_7] (Hz).
+* En canales y medios depende que relación señal a ruido ([SNR][21_6]) > 3 dB
+* Se calcula empleando el [análisis de Fourier][21_7].
+* Se mide en [Hercios][21_8] (Hz).
 
 [21_1]:https://es.wikipedia.org/wiki/Ancho_de_banda
 [21_2]:https://es.wikipedia.org/wiki/Dominio_de_la_frecuencia
 [21_3]:https://es.wikipedia.org/wiki/Densidad_espectral
 [21_4]:https://es.wikipedia.org/wiki/Filtro_paso_banda
 [21_5]:https://es.wikipedia.org/wiki/Decibelio
-[21_6]:https://es.wikipedia.org/wiki/Transformada_de_Fourier
-[21_7]:https://es.wikipedia.org/wiki/Hercio
+[21_6]:https://es.wikipedia.org/wiki/Relaci%C3%B3n_se%C3%B1al/ruido
+[21_7]:https://es.wikipedia.org/wiki/Transformada_de_Fourier
+[21_8]:https://es.wikipedia.org/wiki/Hercio
 
 ### 2.1.1 Ejemplo de señales
 |Señal [<sup>(1)</sup>][211] |F. minima|F. maxima|Ancho de banda|
@@ -110,8 +111,6 @@ Un [canal de comunicaciones][2] es un medio de transmisión por el que pasan las
 * Esta limitado por el [ancho de banda][22_5].
 * Se mide en [Baudio][22_6] (b/s).
 
-![Representación](../img/wb_.svg "Ancho de Banda")
-
 [22_1]:https://es.wikipedia.org/wiki/Tasa_de_baudios
 [22_2]:https://es.wikipedia.org/wiki/C%C3%B3digos_en_l%C3%ADnea
 [22_3]:https://es.wikipedia.org/wiki/Se%C3%B1al_digital
@@ -121,7 +120,7 @@ Un [canal de comunicaciones][2] es un medio de transmisión por el que pasan las
 
 
 ## 2.3. Tasa de transferencia binaria (Rb) ✔
-* Tambien llamado [bitrate][23_1].
+* También llamado [bitrate][23_1].
 * Define el número de bits que se transmiten por unidad de tiempo.
 * Depende de la [codificación del canal][23_2] y el ancho de banda.
 * Debe ser menor a la capacidad del canal.
