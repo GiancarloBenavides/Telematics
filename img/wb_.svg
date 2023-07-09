@@ -37,7 +37,7 @@ viewBox="0 0 3300 1600"
    <glyph unicode="n" horiz-adv-x="583" d="M519.031 0l-113.169 0 0 281.684c0,93.5188 -33.158,140.184 -99.1735,140.184 -34.4919,0 -63.0097,-12.8311 -85.497,-38.8315 -22.5061,-25.8501 -33.6841,-58.5197 -33.6841,-97.8397l0 -285.197 -113.827 0 0 500.038 113.827 0 0 -82.9984 2.01015 0c37.3286,63.16 91.5087,94.6648 162.014,94.6648 54.4994,0 95.9986,-17.6592 124.498,-52.9965 28.6681,-35.1682 43.0021,-86.3424 43.0021,-153.015l0 -305.693z"/>
    <glyph unicode="o" horiz-adv-x="597" d="M295.36 -11.6664c-77.0055,0 -138.681,23.3327 -184.689,69.9982 -46.1582,46.6843 -69.1716,108.679 -69.1716,185.854 0,84.0129 24.009,149.502 72.0084,196.844 47.9993,47.1727 112.681,70.6745 194.176,70.6745 78.1703,0 139.02,-22.8255 182.529,-68.8335 43.6596,-45.8389 65.4895,-109.506 65.4895,-190.851 0,-79.8423 -23.5018,-143.679 -70.5054,-191.678 -47.1727,-47.9993 -110.333,-72.0084 -189.837,-72.0084zm5.50442 433.027c-44.336,0 -79.3538,-15.3297 -105.016,-46.3273 -25.6623,-31.0164 -38.6625,-73.5113 -38.6625,-128.011 0,-52.339 13.1693,-93.6691 39.1697,-123.671 26.0004,-30.171 60.8304,-45.1813 104.509,-45.1813 44.4862,0 78.8278,14.8413 102.668,44.336 24.009,29.6638 35.9948,71.8393 35.9948,126.508 0,55.0066 -11.9857,97.5203 -35.9948,127.522 -23.84,30.0019 -58.1815,44.8244 -102.668,44.8244z"/>
   </font>
-  <font id="FontID1" horiz-adv-x="620" font-variant="normal" style="fill-rule:nonzero" font-style="normal,italic" font-weight="400">
+  <font id="FontID1" horiz-adv-x="620" font-variant="normal" style="fill-rule:nonzero" font-style="italic" font-weight="400">
 	<font-face 
 		font-family="Monotype Corsiva">
 		<font-face-src>
@@ -78,18 +78,20 @@ viewBox="0 0 3300 1600"
   <style type="text/css">
    <![CDATA[
     @font-face { font-family:"Segoe UI Semibold";font-variant:normal;font-style:normal;font-weight:600;src:url("#FontID6") format(svg)}
-    @font-face { font-family:"Monotype Corsiva";font-variant:normal;font-style:normal,italic;font-weight:normal;src:url("#FontID1") format(svg)}
+    @font-face { font-family:"Monotype Corsiva";font-variant:normal;font-style:italic;font-weight:normal;src:url("#FontID1") format(svg)}
     @font-face { font-family:"Cambria";font-variant:normal;font-style:normal,italic;font-weight:normal;src:url("#FontID0") format(svg)}
-    .str4 {stroke:gray;stroke-width:4;stroke-miterlimit:22.9256}
-    .str3 {stroke:red;stroke-width:8;stroke-miterlimit:22.9256}
-    .str0 {stroke:gray;stroke-width:2;stroke-miterlimit:22.9256}
-    .str1 {stroke:#4D4D4D;stroke-width:2;stroke-miterlimit:22.9256;stroke-dasharray:4.000000 6.000000}
-    .str2 {stroke:#4D4D4D;stroke-width:2;stroke-miterlimit:22.9256;stroke-dasharray:4.000000 10.000000}
+    .str1 {stroke:red;stroke-width:8;stroke-miterlimit:22.9256;stroke-opacity:0.101961}
+    .str2 {stroke:gray;stroke-width:4;stroke-miterlimit:22.9256}
+    .str0 {stroke:red;stroke-width:8;stroke-miterlimit:22.9256}
+    .str3 {stroke:gray;stroke-width:2;stroke-miterlimit:22.9256}
+    .str5 {stroke:#4D4D4D;stroke-width:2;stroke-miterlimit:22.9256;stroke-dasharray:4.000000 6.000000}
+    .str4 {stroke:#4D4D4D;stroke-width:2;stroke-miterlimit:22.9256;stroke-dasharray:4.000000 10.000000}
     .fil0 {fill:none}
-    .fil4 {fill:lime}
+    .fil2 {fill:black}
+    .fil5 {fill:lime}
     .fil1 {fill:gray}
-    .fil3 {fill:lime;fill-rule:nonzero}
-    .fil2 {fill:red;fill-opacity:0.101961}
+    .fil4 {fill:lime;fill-rule:nonzero}
+    .fil3 {fill:red;fill-opacity:0.101961}
     .fnt7 {font-weight:600;font-size:46.27px;font-family:'Segoe UI Semibold'}
     .fnt9 {font-weight:600;font-size:62.87px;font-family:'Segoe UI Semibold'}
     .fnt1 {font-style:italic;font-weight:normal;font-size:46.27px;font-family:'Cambria'}
@@ -102,104 +104,94 @@ viewBox="0 0 3300 1600"
     .fnt6 {font-style:italic;font-weight:normal;font-size:55.52px;font-family:'Monotype Corsiva'}
    ]]>
   </style>
+   <clipPath id="id0">
+    <path d="M1117.89 1332.02l1232.11 0 0 -1232.12 -1232.11 0 0 1232.12z"/>
+   </clipPath>
  </defs>
  <g id="Capa_x0020_1">
   <metadata id="CorelCorpID_0Corel-Layer"/>
   <rect class="fil0" width="3300" height="1600"/>
-  <g id="_2539422524864">
-   <g>
-    <line id="marca9" class="fil0 str0" x1="1118.16" y1="1142.46" x2="1139.4" y2= "1142.46" />
-    <line id="marca8" class="fil0 str0" x1="1118.16" y1="1047.68" x2="1128.78" y2= "1047.68" />
-    <line id="marca7" class="fil0 str0" x1="1118.16" y1="952.9" x2="1139.4" y2= "952.9" />
-    <line id="marca6" class="fil0 str0" x1="1118.16" y1="858.13" x2="1128.78" y2= "858.13" />
-    <line id="marca5" class="fil0 str0" x1="1118.16" y1="763.35" x2="1139.4" y2= "763.35" />
-    <line id="marca4" class="fil0 str0" x1="1118.16" y1="668.57" x2="1128.78" y2= "668.57" />
-    <line id="marca3" class="fil0 str0" x1="1118.16" y1="573.79" x2="1139.4" y2= "573.79" />
-    <line id="marca4_0" class="fil0 str0" x1="1118.16" y1="479.01" x2="1128.78" y2= "479.01" />
-    <line id="marca3_1" class="fil0 str0" x1="1118.16" y1="384.24" x2="1139.4" y2= "384.24" />
-    <line id="marca4_2" class="fil0 str0" x1="1118.16" y1="289.46" x2="1128.78" y2= "289.46" />
-    <line id="marca3_3" class="fil0 str0" x1="1118.16" y1="194.68" x2="1139.4" y2= "194.68" />
-    <line id="marca8_4" class="fil0 str0" x1="1118.16" y1="1237.24" x2="1128.78" y2= "1237.24" />
+  <text x="1027.36" y="589.19"  class="fil1 fnt0">0.8</text>
+  <text x="1027.36" y="968.3"  class="fil1 fnt0">0.4</text>
+  <text x="1027.36" y="778.75"  class="fil1 fnt0">0.6</text>
+  <text x="1027.36" y="1157.86"  class="fil1 fnt0">0.2</text>
+  <text x="1027.36" y="399.64"  class="fil1 fnt0">1.0</text>
+  <text x="1027.36" y="210.08"  class="fil1 fnt0">1.2</text>
+  <text x="1874.4" y="1428.3"  class="fil1 fnt1">H</text>
+  <text x="1853.65" y="1403.57"  class="fil1 fnt2">f</text>
+  <text x="1587.22" y="1428.3"  class="fil1 fnt3">M</text>
+  <text x="1566.46" y="1403.57"  class="fil1 fnt4">f</text>
+  <text x="1310.59" y="1422.74"  class="fil1 fnt5">L</text>
+  <text x="1289.84" y="1398.02"  class="fil1 fnt6">f</text>
+  <polygon class="fil2" points="1117.89,1332.02 2350,1332.02 2350,99.9 1117.89,99.9 "/>
+  <g style="clip-path:url(#id0)">
+   <g id="_2538938575072">
+    <path id="_1" class="fil0 str0" d="M1117.88 1332.02c172.14,-33.97 130.7,-131.89 189.56,-666.19 18.62,-169.03 87.34,-281.59 283.18,-281.59 195.85,0 264.09,112.56 284.18,281.59 63.04,530.5 2.24,666.19 234.01,666.19l241.19 0"/>
+    <path id="Curva2_0" class="fil3 str1" d="M1117.88 1332.02c172.14,-33.97 130.7,-131.89 189.56,-666.19 18.62,-169.03 87.34,-281.59 283.18,-281.59 195.85,0 264.09,112.56 284.18,281.59 63.04,530.5 2.24,666.19 234.01,666.19l241.19 0 -1232.12 0z"/>
    </g>
-   <g>
-    <line id="marca9_5" class="fil0 str0" x1="2255.22" y1="1332.02" x2="2255.22" y2= "1310.78" />
-    <line id="marca8_6" class="fil0 str0" x1="2160.44" y1="1332.02" x2="2160.44" y2= "1321.4" />
-    <line id="marca7_7" class="fil0 str0" x1="2065.67" y1="1332.02" x2="2065.67" y2= "1310.78" />
-    <line id="marca6_8" class="fil0 str0" x1="1970.89" y1="1332.02" x2="1970.89" y2= "1321.4" />
-    <line id="marca5_9" class="fil0 str0" x1="1876.11" y1="1332.02" x2="1876.11" y2= "1310.78" />
-    <line id="marca4_10" class="fil0 str0" x1="1781.33" y1="1332.02" x2="1781.33" y2= "1321.4" />
-    <line id="marca3_11" class="fil0 str0" x1="1686.55" y1="1332.02" x2="1686.55" y2= "1310.78" />
-    <line id="marca4_12" class="fil0 str0" x1="1591.78" y1="1332.02" x2="1591.78" y2= "1321.4" />
-    <line id="marca3_13" class="fil0 str0" x1="1497" y1="1332.02" x2="1497" y2= "1310.78" />
-    <line id="marca4_14" class="fil0 str0" x1="1402.22" y1="1332.02" x2="1402.22" y2= "1321.4" />
-    <line id="marca3_15" class="fil0 str0" x1="1307.44" y1="1332.02" x2="1307.44" y2= "1310.78" />
-    <line id="marca4_16" class="fil0 str0" x1="1212.66" y1="1332.02" x2="1212.66" y2= "1321.4" />
-   </g>
-   <g>
-    <line id="marca9_17" class="fil0 str0" x1="2255.22" y1="99.9" x2="2255.22" y2= "121.14" />
-    <line id="marca8_18" class="fil0 str0" x1="2160.44" y1="99.9" x2="2160.44" y2= "110.52" />
-    <line id="marca7_19" class="fil0 str0" x1="2065.67" y1="99.9" x2="2065.67" y2= "121.14" />
-    <line id="marca6_20" class="fil0 str0" x1="1970.89" y1="99.9" x2="1970.89" y2= "110.52" />
-    <line id="marca5_21" class="fil0 str0" x1="1876.11" y1="99.9" x2="1876.11" y2= "121.14" />
-    <line id="marca4_22" class="fil0 str0" x1="1781.33" y1="99.9" x2="1781.33" y2= "110.52" />
-    <line id="marca3_23" class="fil0 str0" x1="1686.55" y1="99.9" x2="1686.55" y2= "121.14" />
-    <line id="marca4_24" class="fil0 str0" x1="1591.78" y1="99.9" x2="1591.78" y2= "110.52" />
-    <line id="marca3_25" class="fil0 str0" x1="1497" y1="99.9" x2="1497" y2= "121.14" />
-    <line id="marca4_26" class="fil0 str0" x1="1402.22" y1="99.9" x2="1402.22" y2= "110.52" />
-    <line id="marca3_27" class="fil0 str0" x1="1307.44" y1="99.9" x2="1307.44" y2= "121.14" />
-    <line id="marca4_28" class="fil0 str0" x1="1212.66" y1="99.9" x2="1212.66" y2= "110.52" />
-   </g>
-   <g>
-    <line id="marca9_29" class="fil0 str0" x1="2350" y1="1142.46" x2="2328.76" y2= "1142.46" />
-    <line id="marca8_30" class="fil0 str0" x1="2350" y1="1047.68" x2="2339.38" y2= "1047.68" />
-    <line id="marca7_31" class="fil0 str0" x1="2350" y1="952.9" x2="2328.76" y2= "952.9" />
-    <line id="marca6_32" class="fil0 str0" x1="2350" y1="858.13" x2="2339.38" y2= "858.13" />
-    <line id="marca5_33" class="fil0 str0" x1="2350" y1="763.35" x2="2328.76" y2= "763.35" />
-    <line id="marca4_34" class="fil0 str0" x1="2350" y1="668.57" x2="2339.38" y2= "668.57" />
-    <line id="marca3_35" class="fil0 str0" x1="2350" y1="573.79" x2="2328.76" y2= "573.79" />
-    <line id="marca4_36" class="fil0 str0" x1="2350" y1="479.01" x2="2339.38" y2= "479.01" />
-    <line id="marca3_37" class="fil0 str0" x1="2350" y1="384.24" x2="2328.76" y2= "384.24" />
-    <line id="marca4_38" class="fil0 str0" x1="2350" y1="289.46" x2="2339.38" y2= "289.46" />
-    <line id="marca3_39" class="fil0 str0" x1="2350" y1="194.68" x2="2328.76" y2= "194.68" />
-    <line id="marca8_40" class="fil0 str0" x1="2350" y1="1237.24" x2="2339.38" y2= "1237.24" />
-   </g>
-   <g>
-    <text x="1027.36" y="589.19"  class="fil1 fnt0">0.8</text>
-    <text x="1027.36" y="968.3"  class="fil1 fnt0">0.4</text>
-    <text x="1027.36" y="778.75"  class="fil1 fnt0">0.6</text>
-    <text x="1027.36" y="1157.86"  class="fil1 fnt0">0.2</text>
-    <text x="1027.36" y="399.64"  class="fil1 fnt0">1.0</text>
-    <text x="1027.36" y="210.08"  class="fil1 fnt0">1.2</text>
-   </g>
-   <g>
-    <text x="1874.4" y="1428.3"  class="fil1 fnt1">H</text>
-    <text x="1853.65" y="1403.57"  class="fil1 fnt2">f</text>
-   </g>
-   <g>
-    <text x="1587.22" y="1428.3"  class="fil1 fnt3">M</text>
-    <text x="1566.46" y="1403.57"  class="fil1 fnt4">f</text>
-   </g>
-   <g>
-    <text x="1310.59" y="1422.74"  class="fil1 fnt5">L</text>
-    <text x="1289.84" y="1398.02"  class="fil1 fnt6">f</text>
-   </g>
-   <g transform="matrix(2.64845E-14 -1 1 2.64845E-14 182.941 2597.78)">
-    <text x="1650" y="800"  class="fil1 fnt7">MAGNITUD RELATIVA</text>
-   </g>
-   <text x="1597.17" y="1499.56"  class="fil1 fnt7">FRECUENCIA</text>
-   <path id="Curva2" class="fil2" d="M1117.89 1326.73c172.14,-31.66 189.55,-176.01 189.55,-621.4 0,-207.96 88.49,-283.3 284.34,-283.3 195.84,0 284.33,75.34 284.33,283.3 0,498.18 1.69,605.98 237.01,623.68l0 2.53 -995.23 -4.81z"/>
-   <line id="Curva8" class="fil0 str1" x1="1117.89" y1="422.03" x2="1962.51" y2= "422.03" />
-   <line id="Curva7" class="fil0 str1" x1="1117.89" y1="645.83" x2="1962.51" y2= "645.83" />
-   <line id="Curva5" class="fil0 str2" x1="1876.11" y1="1300.49" x2="1876.11" y2= "211.4" />
-   <line id="Curva4" class="fil0 str2" x1="1307.44" y1="1300.49" x2="1307.44" y2= "211.4" />
-   <path id="Curva2_41" class="fil0 str3" d="M1117.89 1326.73c172.14,-31.66 189.55,-176.01 189.55,-621.4 0,-207.96 88.49,-283.3 284.34,-283.3 195.84,0 284.33,75.34 284.33,283.3 0,498.18 1.69,605.98 237.01,623.68"/>
-   <g>
-    <path id="Curva1" class="fil3" d="M1309.05 313.16l0 -4.2 19.74 -12.79 2.72 4.19 -19.74 12.8 0 -4.2 -2.72 4.2zm0 0l-3.23 -2.1 3.23 -2.1 0 4.2zm21.09 10.7l-1.36 2.1 -19.73 -12.8 2.72 -4.2 19.74 12.8 -1.37 2.1zm539.12 -10.3l-554.97 0 0 -5 554.97 0 0 5zm5.24 -0.4l-2.72 -4.2 0 4.2 -19.73 -12.8 2.72 -4.19 19.73 12.79 0 4.2zm0 0l0 -4.2 3.23 2.1 -3.23 2.1zm-21.09 10.7l-1.37 -2.1 19.74 -12.8 2.72 4.2 -19.73 12.8 -1.36 -2.1z"/>
-   </g>
-   <text x="1989.02" y="435.58"  class="fil1 fnt8">0 dB (100,0%)</text>
-   <text x="1989.59" y="664.99"  class="fil1 fnt8">-3 dB (70,76%)</text>
-   <text x="1360.63" y="261.06"  class="fil4 fnt9">Ancho de banda</text>
-   <rect class="fil0 str4" x="1117.88" y="99.9" width="1232.11" height="1232.12"/>
   </g>
+  <polygon class="fil0 str2" points="1117.89,1332.02 2350,1332.02 2350,99.9 1117.89,99.9 "/>
+  <line id="marca9" class="fil0 str3" x1="1118.16" y1="1142.46" x2="1139.4" y2= "1142.46" />
+  <line id="marca8" class="fil0 str3" x1="1118.16" y1="1047.68" x2="1128.78" y2= "1047.68" />
+  <line id="marca7" class="fil0 str3" x1="1118.16" y1="952.9" x2="1139.4" y2= "952.9" />
+  <line id="marca6" class="fil0 str3" x1="1118.16" y1="858.13" x2="1128.78" y2= "858.13" />
+  <line id="marca5" class="fil0 str3" x1="1118.16" y1="763.35" x2="1139.4" y2= "763.35" />
+  <line id="marca4" class="fil0 str3" x1="1118.16" y1="668.57" x2="1128.78" y2= "668.57" />
+  <line id="marca3" class="fil0 str3" x1="1118.16" y1="573.79" x2="1139.4" y2= "573.79" />
+  <line id="marca4_1" class="fil0 str3" x1="1118.16" y1="479.01" x2="1128.78" y2= "479.01" />
+  <line id="marca3_2" class="fil0 str3" x1="1118.16" y1="384.24" x2="1139.4" y2= "384.24" />
+  <line id="marca4_3" class="fil0 str3" x1="1118.16" y1="289.46" x2="1128.78" y2= "289.46" />
+  <line id="marca3_4" class="fil0 str3" x1="1118.16" y1="194.68" x2="1139.4" y2= "194.68" />
+  <line id="marca8_5" class="fil0 str3" x1="1118.16" y1="1237.24" x2="1128.78" y2= "1237.24" />
+  <line id="marca9_6" class="fil0 str3" x1="2255.22" y1="1332.02" x2="2255.22" y2= "1310.78" />
+  <line id="marca8_7" class="fil0 str3" x1="2160.44" y1="1332.02" x2="2160.44" y2= "1321.4" />
+  <line id="marca7_8" class="fil0 str3" x1="2065.67" y1="1332.02" x2="2065.67" y2= "1310.78" />
+  <line id="marca6_9" class="fil0 str3" x1="1970.89" y1="1332.02" x2="1970.89" y2= "1321.4" />
+  <line id="marca5_10" class="fil0 str3" x1="1876.11" y1="1332.02" x2="1876.11" y2= "1310.78" />
+  <line id="marca4_11" class="fil0 str3" x1="1781.33" y1="1332.02" x2="1781.33" y2= "1321.4" />
+  <line id="marca3_12" class="fil0 str3" x1="1686.55" y1="1332.02" x2="1686.55" y2= "1310.78" />
+  <line id="marca4_13" class="fil0 str3" x1="1591.78" y1="1332.02" x2="1591.78" y2= "1321.4" />
+  <line id="marca3_14" class="fil0 str3" x1="1497" y1="1332.02" x2="1497" y2= "1310.78" />
+  <line id="marca4_15" class="fil0 str3" x1="1402.22" y1="1332.02" x2="1402.22" y2= "1321.4" />
+  <line id="marca3_16" class="fil0 str3" x1="1307.44" y1="1332.02" x2="1307.44" y2= "1310.78" />
+  <line id="marca4_17" class="fil0 str3" x1="1212.66" y1="1332.02" x2="1212.66" y2= "1321.4" />
+  <line id="marca9_18" class="fil0 str3" x1="2255.22" y1="99.9" x2="2255.22" y2= "121.14" />
+  <line id="marca8_19" class="fil0 str3" x1="2160.44" y1="99.9" x2="2160.44" y2= "110.52" />
+  <line id="marca7_20" class="fil0 str3" x1="2065.67" y1="99.9" x2="2065.67" y2= "121.14" />
+  <line id="marca6_21" class="fil0 str3" x1="1970.89" y1="99.9" x2="1970.89" y2= "110.52" />
+  <line id="marca5_22" class="fil0 str3" x1="1876.11" y1="99.9" x2="1876.11" y2= "121.14" />
+  <line id="marca4_23" class="fil0 str3" x1="1781.33" y1="99.9" x2="1781.33" y2= "110.52" />
+  <line id="marca3_24" class="fil0 str3" x1="1686.55" y1="99.9" x2="1686.55" y2= "121.14" />
+  <line id="marca4_25" class="fil0 str3" x1="1591.78" y1="99.9" x2="1591.78" y2= "110.52" />
+  <line id="marca3_26" class="fil0 str3" x1="1497" y1="99.9" x2="1497" y2= "121.14" />
+  <line id="marca4_27" class="fil0 str3" x1="1402.22" y1="99.9" x2="1402.22" y2= "110.52" />
+  <line id="marca3_28" class="fil0 str3" x1="1307.44" y1="99.9" x2="1307.44" y2= "121.14" />
+  <line id="marca4_29" class="fil0 str3" x1="1212.66" y1="99.9" x2="1212.66" y2= "110.52" />
+  <line id="marca9_30" class="fil0 str3" x1="2350" y1="1142.46" x2="2328.76" y2= "1142.46" />
+  <line id="marca8_31" class="fil0 str3" x1="2350" y1="1047.68" x2="2339.38" y2= "1047.68" />
+  <line id="marca7_32" class="fil0 str3" x1="2350" y1="952.9" x2="2328.76" y2= "952.9" />
+  <line id="marca6_33" class="fil0 str3" x1="2350" y1="858.13" x2="2339.38" y2= "858.13" />
+  <line id="marca5_34" class="fil0 str3" x1="2350" y1="763.35" x2="2328.76" y2= "763.35" />
+  <line id="marca4_35" class="fil0 str3" x1="2350" y1="668.57" x2="2339.38" y2= "668.57" />
+  <line id="marca3_36" class="fil0 str3" x1="2350" y1="573.79" x2="2328.76" y2= "573.79" />
+  <line id="marca4_37" class="fil0 str3" x1="2350" y1="479.01" x2="2339.38" y2= "479.01" />
+  <line id="marca3_38" class="fil0 str3" x1="2350" y1="384.24" x2="2328.76" y2= "384.24" />
+  <line id="marca4_39" class="fil0 str3" x1="2350" y1="289.46" x2="2339.38" y2= "289.46" />
+  <line id="marca3_40" class="fil0 str3" x1="2350" y1="194.68" x2="2328.76" y2= "194.68" />
+  <line id="marca8_41" class="fil0 str3" x1="2350" y1="1237.24" x2="2339.38" y2= "1237.24" />
+  <g transform="matrix(2.64845E-14 -1 1 2.64845E-14 182.941 2597.78)">
+   <text x="1650" y="800"  class="fil1 fnt7">MAGNITUD RELATIVA</text>
+  </g>
+  <text x="1597.17" y="1499.56"  class="fil1 fnt7">FRECUENCIA</text>
+  <line id="Curva5" class="fil0 str4" x1="1876.11" y1="1300.49" x2="1876.11" y2= "238.16" />
+  <line id="Curva4" class="fil0 str4" x1="1307.44" y1="1300.49" x2="1307.44" y2= "238.16" />
+  <g>
+   <path id="Curva1" class="fil4" d="M1309.05 313.16l0 -4.2 19.74 -12.79 2.72 4.19 -19.74 12.8 0 -4.2 -2.72 4.2zm0 0l-3.23 -2.1 3.23 -2.1 0 4.2zm21.09 10.7l-1.36 2.1 -19.73 -12.8 2.72 -4.2 19.74 12.8 -1.37 2.1zm539.12 -10.3l-554.97 0 0 -5 554.97 0 0 5zm5.24 -0.4l-2.72 -4.2 0 4.2 -19.73 -12.8 2.72 -4.19 19.73 12.79 0 4.2zm0 0l0 -4.2 3.23 2.1 -3.23 2.1zm-21.09 10.7l-1.37 -2.1 19.74 -12.8 2.72 4.2 -19.73 12.8 -1.36 -2.1z"/>
+  </g>
+  <text x="1989.02" y="395.53"  class="fil1 fnt8">0 dB (100,0%)</text>
+  <text x="1989.59" y="677.12"  class="fil1 fnt8">-3 dB (70,76%)</text>
+  <text x="1360.63" y="261.06"  class="fil5 fnt9">Ancho de banda</text>
+  <line id="Curva8" class="fil0 str5" x1="1145.71" y1="384.24" x2="1962.51" y2= "384.24" />
+  <line id="Curva7" class="fil0 str5" x1="1145.71" y1="665.83" x2="1962.51" y2= "665.83" />
  </g>
 </svg>
