@@ -54,8 +54,9 @@ Un [canal de comunicaciones][2] es un medio de transmisión por el que pasan las
 * El [ancho de banda][21_1] es una rango de frecuencias.
 * Mide las [frecuencias][21_2] que un medio puede transmitir a una distancia dada.
 * Este rango concentra la mayor [potencia de la señal][21_3].
-* Puede caracterizar señales, medios, [filtros][21_4] y canales.
-* Los limites se establecen a 3 [dB][21_5] menos que la amplitud maxima.
+* Puede caracterizar señales, [filtros][21_4], canales y medios.
+* En señales y filtro los limites se establecen a 3 [dB][21_5] menos que la amplitud maxima.
+* En canales y medios depende que relación señal a ruido ([SNR][22_4]) > 3 dB
 * Se calcula empleando el [análisis de Fourier][21_6].
 * Se mide en [Hercios][21_7] (Hz).
 
@@ -108,6 +109,8 @@ Un [canal de comunicaciones][2] es un medio de transmisión por el que pasan las
 * Dependiendo de la [modulación][22_4] un símbolo puede representar muchos bits.
 * Esta limitado por el [ancho de banda][22_5].
 * Se mide en [Baudio][22_6] (b/s).
+
+![Representación](../img/wb_.svg "Ancho de Banda")
 
 [22_1]:https://es.wikipedia.org/wiki/Tasa_de_baudios
 [22_2]:https://es.wikipedia.org/wiki/C%C3%B3digos_en_l%C3%ADnea
