@@ -16,24 +16,31 @@
 
 ---
 ## Agenda
-1. [Gestión de dispositivos de Red][11]
-    1. [Caracterización][11]
-    1. [Direccionamiento][12]
-    1. [Enrutamiento][13]
-1. [Gestión de usuarios][21]
-    1. [Autentificación][21]
-    1. [Control de colas][22]
-1. [Gestión de Seguridad][31]
-    1. [Traducción][31]
-    1. [Filtrado][32]
-    1. [Tunelado][33]
+1. [Gestión de las comunicaciones][11]
+    1. [Señales][11]
+    1. [transmisión][11]
+    1. [Modulación][11]
+1. [Gestión de dispositivos de Red][21]
+    1. [Caracterización][21]
+    1. [Direccionamiento][22]
+    1. [Enrutamiento][23]
+1. [Gestión de usuarios][31]
+    1. [Autentificación][31]
+    1. [Control de colas][32]
+1. [Gestión de Seguridad][41]
+    1. [Traducción][41]
+    1. [Filtrado][42]
+    1. [Tunelado][43]
 
+[11]:https://github.com/GiancarloBenavides/Telematics/tree/master/11-Comunicaciones
 
-[11]:https://github.com/GiancarloBenavides/Telematics/tree/master/11-Caracterizacion
-[12]:https://github.com/GiancarloBenavides/Telematics/tree/master/12-Direccionamiento
-[13]:https://github.com/GiancarloBenavides/Telematics/tree/master/13-Enrutamiento
-[21]:https://github.com/GiancarloBenavides/Telematics/tree/master/21-Autentificacion
-[22]:https://github.com/GiancarloBenavides/Telematics/tree/master/22-Encolamiento
-[31]:https://github.com/GiancarloBenavides/Telematics/tree/master/31-Traduccion
-[32]:https://github.com/GiancarloBenavides/Telematics/tree/master/32-Filtrado
-[33]:https://github.com/GiancarloBenavides/Telematics/tree/master/33-Tunelado
+[21]:https://github.com/GiancarloBenavides/Telematics/tree/master/21-Caracterizacion
+[22]:https://github.com/GiancarloBenavides/Telematics/tree/master/22-Direccionamiento
+[23]:https://github.com/GiancarloBenavides/Telematics/tree/master/23-Enrutamiento
+
+[31]:https://github.com/GiancarloBenavides/Telematics/tree/master/31-Autentificacion
+[32]:https://github.com/GiancarloBenavides/Telematics/tree/master/32-Encolamiento
+
+[41]:https://github.com/GiancarloBenavides/Telematics/tree/master/41-Traduccion
+[42]:https://github.com/GiancarloBenavides/Telematics/tree/master/42-Filtrado
+[43]:https://github.com/GiancarloBenavides/Telematics/tree/master/43-Tunelado
