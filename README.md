@@ -18,7 +18,7 @@
 ## Agenda
 1. [Gestión de las comunicaciones][11]
     1. [Señales][11]
-    1. [transmisión][11]
+    1. [Transmisión][11]
     1. [Modulación][11]
 1. [Gestión de dispositivos de Red][21]
     1. [Caracterización][21]
