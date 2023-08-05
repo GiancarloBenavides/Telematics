@@ -43,10 +43,10 @@ El [punto caliente][1] o hotspot es un lugar que ofrece acceso a Internet a trav
 * Es posible limitar los parámetros de [calidad del servicio][12_6] (Ancho de banda, re-uso, ...). 
 
 [12_1]:https://es.wikipedia.org/wiki/Portal_cautivo
-[12_2]:https://es.wikipedia.org/wiki/Cortafuegos_(inform%C3%A1tica)/
+[12_2]:https://es.wikipedia.org/wiki/Cortafuegos_(inform%C3%A1tica)#
 [12_3]:https://es.wikipedia.org/wiki/Autenticaci%C3%B3n
 [12_4]:https://es.wikipedia.org/wiki/Login
-[12_5]:https://es.wikipedia.org/wiki/Sesi%C3%B3n_(inform%C3%A1tica)/
+[12_5]:https://es.wikipedia.org/wiki/Sesi%C3%B3n_(inform%C3%A1tica)#
 [12_6]:https://es.wikipedia.org/wiki/Calidad_de_servicio
 
 ## 1.3. Cortafuegos ✔
@@ -56,7 +56,7 @@ El [punto caliente][1] o hotspot es un lugar que ofrece acceso a Internet a trav
 * La implementación puede ser por hardware como en las [UTM][13_5].
 * Las ultimas generaciones pueden incluir herramientas de [inteligencia artificial][13_6] para detectar amenazas.
 
-[13_1]:https://es.wikipedia.org/wiki/Cortafuegos_(inform%C3%A1tica)/
+[13_1]:https://es.wikipedia.org/wiki/Cortafuegos_(inform%C3%A1tica)#
 [13_2]:https://es.wikipedia.org/wiki/Acceso
 [13_3]:https://es.wikipedia.org/wiki/Uncomplicated_Firewall
 [13_4]:https://es.wikipedia.org/wiki/Ipfw
@@ -87,7 +87,7 @@ El servicio [Radius][2] es proporcionado por un protocolo de autenticación y au
 [21_3]:https://es.wikipedia.org/wiki/Archivo_de_texto
 [21_4]:https://es.wikipedia.org/wiki/Protocolo_ligero_de_acceso_a_directorios
 [21_5]:https://es.wikipedia.org/wiki/Base_de_datos
-[21_6]:https://es.wikipedia.org/wiki/Sesi%C3%B3n_(inform%C3%A1tica)/
+[21_6]:https://es.wikipedia.org/wiki/Sesi%C3%B3n_(inform%C3%A1tica)#
 [21_7]:https://es.wikipedia.org/wiki/Protocolo_simple_de_administraci%C3%B3n_de_red
 
 ## 2.2. Login ✔
@@ -114,7 +114,7 @@ El servicio [Radius][2] es proporcionado por un protocolo de autenticación y au
 # 3. [Cookies](#agenda)
 Una [galleta informática][3] o cookie hace referencia a una pequeña información enviada por un sitio web y almacenada en el navegador del usuario.
 
-[3]:https://es.wikipedia.org/wiki/Cookie_(inform%C3%A1tica)/
+[3]:https://es.wikipedia.org/wiki/Cookie_(inform%C3%A1tica)#
 
 * ><i>"Argumentar que no te importa el derecho a la privacidad porque no tienes nada que ocultar no es diferente a decir que no te importa la libertad de expresión porque no tienes nada que decir."</i><br>
 <cite style="display:block; text-align: right">[Edward Snowden](https://es.wikipedia.org/wiki/Edward_Snowden)</cite>
