@@ -105,48 +105,18 @@ Un [canal de comunicaciones][2] es un medio de transmisión por el que pasan las
 
 ![Representación](../img/wb.svg "Ancho de Banda")
 
-## 2.2. Tasa de transferencia de Símbolos (Rs) ✔
-* También llamado [baudrate][22_1].
-* Define el [número de símbolos][22_2] que se transmiten por unidad de tiempo.
-* El cambio de estado en [señal digital][22_3] es un símbolo.
-* Dependiendo de la [modulación][22_4] un símbolo puede representar muchos bits.
-* Esta limitado por el [ancho de banda][22_5].
-* Se mide en [Baudio][22_6] (b/s).
+## 2.3. Capacidad (C) ✔
+* Maxima [información][23_1] que un canal puede transmitir de forma fiable.
+* Fiable significa que la [probabilidad de error][23_2] es despreciable. 
+* Está limitada por su [relación señal a ruido][23_3] (SNR) y el ancho de banda.
+* Se calcula empleando el [teorema de Shannon-Hartley][23_4].
+* Se mide en [bits por segundo][23_5] (b/s). 
 
-[22_1]:https://es.wikipedia.org/wiki/Tasa_de_baudios
-[22_2]:https://es.wikipedia.org/wiki/C%C3%B3digos_en_l%C3%ADnea
-[22_3]:https://es.wikipedia.org/wiki/Se%C3%B1al_digital
-[22_4]:https://es.wikipedia.org/wiki/Modulaci%C3%B3n_(telecomunicaci%C3%B3n)/
-[22_5]:https://es.wikipedia.org/wiki/Ancho_de_banda_(inform%C3%A1tica)/
-[22_6]:https://es.wikipedia.org/wiki/Baudio
-
-
-## 2.3. Tasa de transferencia binaria (Rb) ✔
-* También llamado [bitrate][23_1].
-* Define el número de bits que se transmiten por unidad de tiempo.
-* Depende de la [codificación del canal][23_2] y el ancho de banda.
-* Debe ser menor a la capacidad del canal.
-* Se mide en [bits por segundo][22_6] (b/s). 
-
-..
-* Debe ser menor a la capacidad del canal.
-
-[23_1]:https://es.wikipedia.org/wiki/Tasa_de_bits
-[23_2]:https://es.wikipedia.org/wiki/C%C3%B3digo_de_canal
-
-## 2.2. Capacidad (C) ✔
-* Maxima [información][22_1] que un canal puede transmitir de forma fiable.
-* Fiable significa que la [probabilidad de error][22_2] es despreciable. 
-* Está limitada por su [relación señal a ruido][22_4] (SNR) y el ancho de banda.
-* Se calcula empleando el [teorema de Shannon-Hartley][22_5].
-* Se mide en [bits por segundo][22_6] (b/s). 
-
-[22_1]:https://es.wikipedia.org/wiki/Informaci%C3%B3n
-[22_2]:https://es.wikipedia.org/wiki/Teorema_de_Shannon-Hartley
-
-[22_4]:https://es.wikipedia.org/wiki/Relaci%C3%B3n_se%C3%B1al/ruido
-[22_5]:https://es.wikipedia.org/wiki/Teorema_de_Shannon-Hartley
-[22_6]:https://es.wikipedia.org/wiki/Bits_por_segundo
+[23_1]:https://es.wikipedia.org/wiki/Informaci%C3%B3n
+[23_2]:https://es.wikipedia.org/wiki/Teorema_de_Shannon-Hartley
+[23_3]:https://es.wikipedia.org/wiki/Relaci%C3%B3n_se%C3%B1al/ruido
+[23_4]:https://es.wikipedia.org/wiki/Teorema_de_Shannon-Hartley
+[23_5]:https://es.wikipedia.org/wiki/Bits_por_segundo
 
 ### 2.2.1. Ecuaciones de Shannon - Hartley
 
@@ -162,12 +132,8 @@ $$
 ![Representación](../img/channel_capacity.svg "Ca")
 
 
-
-
-
-
 # 3. [Calidad de servicio](#agenda)
-la calidad de servicio o [QoS][3] mide la calidad de los servicios que son considerados por el cliente en un servicio de red, tales como tasas de errores, ancho de banda, rendimiento, retraso en la transmisión, disponibilidad, fluctuación del retardo o jitter.
+La calidad de servicio o [QoS][3] mide la calidad de las prestaciones que provee un sistema de red, considerando parámetros de servicio, tales como tasas de errores, ancho de banda, rendimiento, retraso en la transmisión, disponibilidad, fluctuación del retardo o jitter.
 
 [3]:https://es.wikipedia.org/wiki/Calidad_de_servicio
 
@@ -187,15 +153,36 @@ la calidad de servicio o [QoS][3] mide la calidad de los servicios que son consi
 [31_4]:https://en.wikipedia.org/wiki/Bandwidth_management
 [31_5]:https://en.wikipedia.org/wiki/Rate_limiting
 
+## 3.2. Arquitecturas ✔
+* [IntServ][32_1] - Servicios integrados
+* [DiffServ][32_2] - Servicios diferenciados
 
-## 3.2. Algoritmos de conformado de trafico ✔
-* [Token bucket][32_1] - 
-* [Leaky bucket][32_2] - 
+[32_1]:https://es.wikipedia.org/wiki/Servicios_integrados
+[32_2]:https://es.wikipedia.org/wiki/Servicios_Diferenciados
+
+
+## 3.3. Algoritmos de conformado de trafico ✔
+* [Token bucket][32_1] - Cubo de Fichas.
+* [Leaky bucket][32_2] - Cubeta con goteo.
 
 [32_1]:https://en.wikipedia.org/wiki/Token_bucket
 [32_2]:https://en.wikipedia.org/wiki/Leaky_bucket
 
+## 3.4. Protocolos
+* [RSVP][34_1] - Protocolo de reserva de recursos
+* [MPLS][34_2] - Protocolo de conmutación de etiquetas
+* [VPLS][34_3] - Servicio de LAN privada virtual
+* [SD-WAN][34_4] - red de área amplia definida por software
+* [SASE][34_5] - Borde de servicio de acceso seguro
+
+[34_1]:https://es.wikipedia.org/wiki/Protocolo_de_reserva_de_recursos
+[34_2]:https://es.wikipedia.org/wiki/Multiprotocol_Label_Switching
+[34_3]:https://es.wikipedia.org/wiki/Virtual_Private_LAN_Service
+[34_4]:https://en.wikipedia.org/wiki/SD-WAN
+[34_5]:https://en.wikipedia.org/wiki/Secure_access_service_edge
 
 ---
 ## Mas Recursos
 - [Wiki Mikrotik](https://wiki.mikrotik.com/wiki/Main_Page) (MikroTik - Wiki)
+- [Fluid queue](https://en.wikipedia.org/wiki/Fluid_queuee) (Wikipedia - En)
+- [Bulk queue](https://en.wikipedia.org/wiki/Bulk_queue) (Wikipedia - En)
