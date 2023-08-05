@@ -95,3 +95,4 @@ Un [Cortafuegos][1] es un componente de hardware de un sistema informático dise
 - [Wiki Mikrotik](https://wiki.mikrotik.com/wiki/Main_Page) (Wiki)
 - [LDAP](https://es.wikipedia.org/wiki/Protocolo_ligero_de_acceso_a_directorios) (Wikipedia)
 - [NFS](https://es.wikipedia.org/wiki/Network_File_System) (Wikipedia)
+- [ufw](https://es.wikipedia.org/wiki/Uncomplicated_Firewall) (Wikipedia)
