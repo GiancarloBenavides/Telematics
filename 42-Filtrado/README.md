@@ -73,13 +73,19 @@ Un [Cortafuegos][1] es un componente de hardware de un sistema informático dise
 * ><i>"Los clientes insatisfechos son la mejor fuente de aprendizaje."</i><br>
 <cite style="display:block; text-align: right">[Bill Gates](https://es.wikipedia.org/wiki/Bill_Gates)</cite>
 
-## 3.1. Ventajas ✔
+## 3.2. Servicios ✔
+* Cortafuegos - Filtro de contenidos, NAT.
+* Antivirus - antispam, antiphishing, antispyware.
+* Tuneles - VPN.
+* Detección/Prevención de Intrusos (IDS/IPS).
+
+## 3.2. Ventajas ✔
 * Flexibilidad
 * Bajo costo
 * Reduce la complejidad
 * Integración Completa
 
-## 3.2. Desventajas ✔
+## 3.3. Desventajas ✔
 * Único punto de falla
 * Puede tener problemas de rendimiento al tener todas las herramientas activas.
 * Para algunos servicios requiere suscripción.
