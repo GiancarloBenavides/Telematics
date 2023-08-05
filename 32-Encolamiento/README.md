@@ -141,56 +141,56 @@ La calidad de servicio o [QoS][3] mide la calidad de las prestaciones que provee
 <cite style="display:block; text-align: right">[Richard Branson](https://es.wikipedia.org/wiki/Richard_Branson)</cite>
 
 ## 3.1. SLA ✔
-* [ANS][_1] - Acuerdo de nivel de servicio.
-* [KPI][_2] - Indicador clave de rendimiento.
-* [Velocidad][_3] - [Latencia][_4] - [Disponibilidad][_5]
+* [ANS][31_1] - Acuerdo de nivel de servicio.
+* [KPI]31[_2] - Indicador clave de rendimiento.
+* [Velocidad][31_3] - [Latencia][31_4] - [Disponibilidad][31_5]
 
-[_1]:https://es.wikipedia.org/wiki/Acuerdo_de_nivel_de_servicio
-[_2]:https://es.wikipedia.org/wiki/Indicador_clave_de_rendimiento
-[_3]:https://es.wikipedia.org/wiki/Velocidad_de_conexi%C3%B3n
-[_4]:https://es.wikipedia.org/wiki/Latencia
-[_5]:https://es.wikipedia.org/wiki/Alta_disponibilidad
+[31_1]:https://es.wikipedia.org/wiki/Acuerdo_de_nivel_de_servicio
+[31_2]:https://es.wikipedia.org/wiki/Indicador_clave_de_rendimiento
+[31_3]:https://es.wikipedia.org/wiki/Velocidad_de_conexi%C3%B3n
+[31_4]:https://es.wikipedia.org/wiki/Latencia
+[31_5]:https://es.wikipedia.org/wiki/Alta_disponibilidad
 
-## 3.1. Soluciones ✔
-* [improve Network throughput][31_1] - mejorar el rendimiento en la transmisión de datos.
-* [Traffic shaping][31_2] - conformado de trafico.
-* [Network congestion avoidance][31_3] - evitar la congestión.
-* [Bandwidth management][31_4] - gestionar el ancho de banda disponible.
-* [Channel capacity limitation][31_5] - Limitación de la capacidad del canal
+## 3.2. Otras soluciones ✔
+* [improve Network throughput][32_1] - mejorar el rendimiento en la transmisión de datos.
+* [Traffic shaping][32_2] - conformado de trafico.
+* [Network congestion avoidance][32_3] - evitar la congestión.
+* [Bandwidth management][32_4] - gestionar el ancho de banda disponible.
+* [Channel capacity limitation][32_5] - Limitación de la capacidad del canal
 
-[31_1]:https://en.wikipedia.org/wiki/Network_throughput
-[31_2]:https://en.wikipedia.org/wiki/Traffic_shaping
-[31_3]:https://en.wikipedia.org/wiki/Network_congestion#Mitigation
-[31_4]:https://en.wikipedia.org/wiki/Bandwidth_management
-[31_5]:https://en.wikipedia.org/wiki/Rate_limiting
+[32_1]:https://en.wikipedia.org/wiki/Network_throughput
+[32_2]:https://en.wikipedia.org/wiki/Traffic_shaping
+[32_3]:https://en.wikipedia.org/wiki/Network_congestion#Mitigation
+[32_4]:https://en.wikipedia.org/wiki/Bandwidth_management
+[32_5]:https://en.wikipedia.org/wiki/Rate_limiting
 
-## 3.2. Arquitecturas ✔
-* [IntServ][32_1] - Servicios integrados
-* [DiffServ][32_2] - Servicios diferenciados
+## 3.3. Arquitecturas ✔
+* [IntServ][33_1] - Servicios integrados
+* [DiffServ][33_2] - Servicios diferenciados
 
-[32_1]:https://es.wikipedia.org/wiki/Servicios_integrados
-[32_2]:https://es.wikipedia.org/wiki/Servicios_Diferenciados
+[33_1]:https://es.wikipedia.org/wiki/Servicios_integrados
+[33_2]:https://es.wikipedia.org/wiki/Servicios_Diferenciados
 
 
-## 3.3. Algoritmos de conformado de trafico ✔
-* [Token bucket][32_1] - Cubo de Fichas.
-* [Leaky bucket][32_2] - Cubeta con goteo.
+## 3.4. Algoritmos de conformado de trafico ✔
+* [Token bucket][34_1] - Cubo de Fichas.
+* [Leaky bucket][34_2] - Cubeta con goteo.
 
-[32_1]:https://en.wikipedia.org/wiki/Token_bucket
-[32_2]:https://en.wikipedia.org/wiki/Leaky_bucket
+[34_1]:https://en.wikipedia.org/wiki/Token_bucket
+[34_2]:https://en.wikipedia.org/wiki/Leaky_bucket
 
-## 3.4. Protocolos
-* [RSVP][34_1] - Protocolo de reserva de recursos
-* [MPLS][34_2] - Protocolo de conmutación de etiquetas
-* [VPLS][34_3] - Servicio de LAN privada virtual
-* [SD-WAN][34_4] - red de área amplia definida por software
-* [SASE][34_5] - Borde de servicio de acceso seguro
+## 3.5. Protocolos
+* [RSVP][35_1] - Protocolo de reserva de recursos
+* [MPLS][35_2] - Protocolo de conmutación de etiquetas
+* [VPLS][35_3] - Servicio de LAN privada virtual
+* [SD-WAN][35_4] - red de área amplia definida por software
+* [SASE][35_5] - Borde de servicio de acceso seguro
 
-[34_1]:https://es.wikipedia.org/wiki/Protocolo_de_reserva_de_recursos
-[34_2]:https://es.wikipedia.org/wiki/Multiprotocol_Label_Switching
-[34_3]:https://es.wikipedia.org/wiki/Virtual_Private_LAN_Service
-[34_4]:https://en.wikipedia.org/wiki/SD-WAN
-[34_5]:https://en.wikipedia.org/wiki/Secure_access_service_edge
+[35_1]:https://es.wikipedia.org/wiki/Protocolo_de_reserva_de_recursos
+[35_2]:https://es.wikipedia.org/wiki/Multiprotocol_Label_Switching
+[35_3]:https://es.wikipedia.org/wiki/Virtual_Private_LAN_Service
+[35_4]:https://en.wikipedia.org/wiki/SD-WAN
+[35_5]:https://en.wikipedia.org/wiki/Secure_access_service_edge
 
 ---
 ## Mas Recursos
