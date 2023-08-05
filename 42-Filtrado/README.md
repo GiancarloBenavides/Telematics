@@ -6,8 +6,8 @@
 En un sistema informático o una red informática debe diseñarse con la capacidad de bloquear el acceso no autorizado a servicios o recursos de red privilegiados, permitiendo al mismo tiempo comunicaciones autorizadas y a servicios públicos. 
 
 ## Agenda
-1. [Cortafuegos](#1-cortafuegoss).
-1. [Seguridad](#3-seguridad).
+1. [Cortafuegos](#1-cortafuegos).
+1. [Seguridad](#2-seguridad).
 
 <br>
 
