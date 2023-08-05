@@ -140,6 +140,17 @@ La calidad de servicio o [QoS][3] mide la calidad de las prestaciones que provee
 * ><i>"Si usted proporciona la tecnología adecuada para mantenerse en contacto y para mantener una comunicación regular, así como conseguir el equilibrio adecuado entre el trabajo a distancia y la oficina, la gente se sentirá motivada a trabajar de manera responsable, de forma rápida y con gran calidad."</i><br>
 <cite style="display:block; text-align: right">[Richard Branson](https://es.wikipedia.org/wiki/Richard_Branson)</cite>
 
+## 3.1. SLA ✔
+* [ANS][_1] - Acuerdo de nivel de servicio.
+* [KPI][_2] - Indicador clave de rendimiento.
+* [Velocidad][_3] - [Latencia][_4] - [Disponibilidad][_5]
+
+[_1]:https://es.wikipedia.org/wiki/Acuerdo_de_nivel_de_servicio
+[_2]:https://es.wikipedia.org/wiki/Indicador_clave_de_rendimiento
+[_3]:https://es.wikipedia.org/wiki/Velocidad_de_conexi%C3%B3n
+[_4]:https://es.wikipedia.org/wiki/Latencia
+[_5]:https://es.wikipedia.org/wiki/Alta_disponibilidad
+
 ## 3.1. Soluciones ✔
 * [improve Network throughput][31_1] - mejorar el rendimiento en la transmisión de datos.
 * [Traffic shaping][31_2] - conformado de trafico.
