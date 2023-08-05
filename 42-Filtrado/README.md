@@ -13,9 +13,9 @@ En un sistema informático o una red informática debe diseñarse con la capacid
 
 ---
 # 1. [Cortafuegos](#agenda)
-Un [Cortafuegos][1] o hotspot es un lugar que ofrece acceso a Internet a través de un punto de acceso inalámbrico y un router conectado a un proveedor de servicios de Internet.
+Un [Cortafuegos][1] es un componente de software o hardware de un sistema informático diseñado para filtrar el acceso a los recursos de comunicaciones; evitando el acceso no autorizado y permitiendo al mismo tiempo comunicaciones autorizadas.
 
-[1]:https://es.wikipedia.org/wiki/Hotspot_(telecomunicaciones)/
+[1]:https://es.wikipedia.org/wiki/Cortafuegos_(inform%C3%A1tica)#
 
 * ><i>"Los clientes insatisfechos son la mejor fuente de aprendizaje."</i><br>
 <cite style="display:block; text-align: right">[Bill Gates](https://es.wikipedia.org/wiki/Bill_Gates)</cite>
