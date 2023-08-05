@@ -46,21 +46,26 @@ Un [Cortafuegos][1] es un componente de software o hardware de un sistema inform
 
 
 # 2. [ACLs](#agenda)
-Un [Cortafuegos][1] es un componente de software o hardware de un sistema informático diseñado para filtrar el acceso a los recursos de comunicaciones; evitando el acceso no autorizado y permitiendo al mismo tiempo comunicaciones autorizadas.
+Las [Listas de control de acceso][1] es un mecanismo para determinar los permisos de acceso apropiados a un determinado objeto, dependiendo de ciertos aspectos del proceso que hace el pedido.
 
 [2]:https://es.wikipedia.org/wiki/Lista_de_control_de_acceso
 
 * ><i>"Los clientes insatisfechos son la mejor fuente de aprendizaje."</i><br>
 <cite style="display:block; text-align: right">[Bill Gates](https://es.wikipedia.org/wiki/Bill_Gates)</cite>
 
+## 2.1 Características ✔
+* 
 
 # 3. [UTM](#agenda)
-Un [Cortafuegos][1] es un componente de software o hardware de un sistema informático diseñado para filtrar el acceso a los recursos de comunicaciones; evitando el acceso no autorizado y permitiendo al mismo tiempo comunicaciones autorizadas.
+Un [Cortafuegos][1] es un componente de hardware de un sistema informático diseñado para ofrecer multiples funciones en un único dispositivo de red; incluyendo al menos un antivirus, un cortafuegos y un sistema de detección/prevención de intrusos.
 
 [3]:https://es.wikipedia.org/wiki/Unified_Threat_Management
 
 * ><i>"Los clientes insatisfechos son la mejor fuente de aprendizaje."</i><br>
 <cite style="display:block; text-align: right">[Bill Gates](https://es.wikipedia.org/wiki/Bill_Gates)</cite>
+
+## 3.1 Características ✔
+*
 
 ---
 ## Mas Recursos
