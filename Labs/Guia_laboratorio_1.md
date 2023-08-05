@@ -84,10 +84,10 @@ $ git config --global user.email johndoe@example.com
 |MAC Gateway|3C-A0-67-E8-D8-77|
 |ISP|Dobleclick Software E Ingeneria|
 |[IP Publica][5]|138.0.90.4|
-|Sistema Autónomo|AS264646|
+|[Sistema Autónomo][6]|AS264646|
 
 
->Nota: Para obtener los parámetros de la red, usaremos el comando [arp][11] y algún servicio web/HTTP.
+>Nota: Para obtener los parámetros de la red, usaremos el comando [arp][11] y algún servicio web/HTTP como [cual-es-mi-ip.net][5], [ipinfo.io][6] o [asrank.caida.org][9_1].
 
 
 ## 6. [Retardo de la red](#) ✔
@@ -152,6 +152,7 @@ $ git config --global user.email johndoe@example.com
 [3]:http://speedtest.claro.net.co/
 [4]:https://www.nperf.com/es/
 [5]:https://www.cual-es-mi-ip.net/
+[6]:https://ipinfo.io/
 
 [9_1]:https://asrank.caida.org/
 
