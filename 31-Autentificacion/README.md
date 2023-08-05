@@ -16,7 +16,7 @@ En el contexto de seguridad de redes de datos, la autenticación es el proceso d
 # 1. [Hotspot](#agenda)
 El [punto caliente][1] o hotspot es un lugar que ofrece acceso a Internet a través de un punto de acceso inalámbrico y un router conectado a un proveedor de servicios de Internet.
 
-[1]:https://es.wikipedia.org/wiki/Hotspot_(telecomunicaciones)/
+[1]:https://es.wikipedia.org/wiki/Hotspot_(telecomunicaciones)#
 
 * ><i>"Los clientes insatisfechos son la mejor fuente de aprendizaje."</i><br>
 <cite style="display:block; text-align: right">[Bill Gates](https://es.wikipedia.org/wiki/Bill_Gates)</cite>
