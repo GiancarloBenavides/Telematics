@@ -21,7 +21,7 @@ Un [Cortafuegos][1] es un componente de software o hardware de un sistema inform
 * ><i>"Los clientes insatisfechos son la mejor fuente de aprendizaje."</i><br>
 <cite style="display:block; text-align: right">[Bill Gates](https://es.wikipedia.org/wiki/Bill_Gates)</cite>
 
-## 1.1 Características ✔
+## 1.1. Características ✔
 * Es [firewall][13_1] un subsistema del sistema o red informática.
 * El subsistema esta diseñado para bloquear el [acceso no autorizado][13_2].
 * La implementación puede ser por software como en [ufw][13_3] [ipfw][13_4] en las computadores.
@@ -35,7 +35,7 @@ Un [Cortafuegos][1] es un componente de software o hardware de un sistema inform
 [13_5]:https://es.wikipedia.org/wiki/Unified_Threat_Management
 [13_6]:https://es.wikipedia.org/wiki/Inteligencia_artificial
 
-### 1.2 Generaciones de cortafuegos ✔
+### 1.2. Generaciones de cortafuegos ✔
 * [Primera generación:][131_1] filtrado de paquetes. 
 * [Segunda generación:][131_2] cortafuegos de estado de paquetes.
 * [Tercera generación:][131_3] cortafuegos de aplicación.
@@ -53,8 +53,17 @@ Las [Listas de control de acceso][1] es un mecanismo para determinar los permiso
 * ><i>"Los clientes insatisfechos son la mejor fuente de aprendizaje."</i><br>
 <cite style="display:block; text-align: right">[Bill Gates](https://es.wikipedia.org/wiki/Bill_Gates)</cite>
 
-## 2.1 Características ✔
-* 
+## 2.1. Aplicaciones ✔
+* Sistemas de archivos.
+* Sistemas de bases de datos.
+* Redes de Computadoras.
+
+## 2.2. Redes de computadoras ✔
+* Similares a un Cortafuegos.
+* Permiten controlar el flujo del tráfico.
+* Su principal objetivo es filtrar tráfico.
+* Pero puede categorizar el trafico.
+
 
 # 3. [UTM](#agenda)
 Un [Cortafuegos][1] es un componente de hardware de un sistema informático diseñado para ofrecer multiples funciones en un único dispositivo de red; incluyendo al menos un antivirus, un cortafuegos y un sistema de detección/prevención de intrusos.
@@ -64,9 +73,19 @@ Un [Cortafuegos][1] es un componente de hardware de un sistema informático dise
 * ><i>"Los clientes insatisfechos son la mejor fuente de aprendizaje."</i><br>
 <cite style="display:block; text-align: right">[Bill Gates](https://es.wikipedia.org/wiki/Bill_Gates)</cite>
 
-## 3.1 Características ✔
-*
+## 3.1. Ventajas ✔
+* Flexibilidad
+* Bajo costo
+* Reduce la complejidad
+* Integración Completa
+
+## 3.2. Desventajas ✔
+* Único punto de falla
+* Puede tener problemas de rendimiento al tener todas las herramientas activas.
+* Para algunos servicios requiere suscripción.
 
 ---
 ## Mas Recursos
 - [Wiki Mikrotik](https://wiki.mikrotik.com/wiki/Main_Page) (Wiki)
+- [LDAP](https://es.wikipedia.org/wiki/Protocolo_ligero_de_acceso_a_directorios) (Wikipedia)
+- [NFS](https://es.wikipedia.org/wiki/Network_File_System) (Wikipedia)
