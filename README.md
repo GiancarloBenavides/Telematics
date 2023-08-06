@@ -33,14 +33,11 @@
     1. [Tunelado][43]
 
 [11]:https://github.com/GiancarloBenavides/Telematics/tree/master/11-Comunicaciones
-
 [21]:https://github.com/GiancarloBenavides/Telematics/tree/master/21-Caracterizacion
 [22]:https://github.com/GiancarloBenavides/Telematics/tree/master/22-Direccionamiento
 [23]:https://github.com/GiancarloBenavides/Telematics/tree/master/23-Enrutamiento
-
 [31]:https://github.com/GiancarloBenavides/Telematics/tree/master/31-Autentificacion
 [32]:https://github.com/GiancarloBenavides/Telematics/tree/master/32-Encolamiento
-
 [41]:https://github.com/GiancarloBenavides/Telematics/tree/master/41-Traduccion
 [42]:https://github.com/GiancarloBenavides/Telematics/tree/master/42-Filtrado
 [43]:https://github.com/GiancarloBenavides/Telematics/tree/master/43-Tunelado
