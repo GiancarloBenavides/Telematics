@@ -42,7 +42,7 @@ En internet existen subdominios de dentro de un dominio y dominios de nivel supe
 ## 1.2. Identificador de recursos uniforme ✔
 Una [URI][12_1] o identificador de recursos uniforme es una cadena de caracteres que identifica los recursos físicos o virtuales de una red de forma unívoca.
 
-![Componentes uri](../img/uri.svg)
+![Esquema uri](../img/uri.svg "Componentes uri")
 
 [12_1]:https://es.wikipedia.org/wiki/Identificador_de_recursos_uniforme
 
