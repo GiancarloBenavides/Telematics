@@ -74,7 +74,7 @@ La técnica de [Tunneling][2] en un enlace [PtMP][2_] consiste en encapsular un 
 [22_2]:https://es.wikipedia.org/wiki/L2TP
 [22_3]:https://es.wikipedia.org/wiki/IPsec
 
-
+<br>
 
 ---
 ## Mas Recursos
