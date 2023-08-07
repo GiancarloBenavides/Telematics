@@ -71,7 +71,7 @@ Un [canal de comunicaciones][2] es un medio de transmisión por el que pasan las
 [21_7]:https://es.wikipedia.org/wiki/Transformada_de_Fourier
 [21_8]:https://es.wikipedia.org/wiki/Hercio
 
-### 2.1.1 Ejemplo de señales
+### 2.1.1. Ejemplo de señales.
 |Señal [<sup>(1)</sup>][211] |F. minima|F. maxima|Ancho de banda|
 |:--|--:|:--|--:|
 | [__Voz__][211_1]   | 300 Hz | 3.4 KHz | 3.1 Khz|
@@ -85,7 +85,7 @@ Un [canal de comunicaciones][2] es un medio de transmisión por el que pasan las
 [211_2]:https://es.wikipedia.org/wiki/Audici%C3%B3n
 [211_3]:https://es.wikipedia.org/wiki/Espectro_visible
 
-### 2.1.2 Ejemplo medios de Tx - UTP
+### 2.1.2. Ejemplo medios de Tx - UTP.
 |Medio - Categoría [<sup>(1)</sup>][211] |Ancho de banda|Distancia|
 |:--|:--:|--:|
 |[UTP - Cat 3][212_1]|16 MHz|100 mts|
@@ -101,24 +101,24 @@ Un [canal de comunicaciones][2] es un medio de transmisión por el que pasan las
 
 >Nota: 1:[Los medios de la tabla son característicos de las redes de area local][212].
 
-### 2.1.2. Representación
+### 2.1.3. Representación.
 
 ![Representación](../img/wb.svg "Ancho de Banda")
 
-## 2.3. Capacidad (C) ✔
-* Maxima [información][23_1] que un canal puede transmitir de forma fiable.
-* Fiable significa que la [probabilidad de error][23_2] es despreciable. 
-* Está limitada por su [relación señal a ruido][23_3] (SNR) y el ancho de banda.
-* Se calcula empleando el [teorema de Shannon-Hartley][23_4].
-* Se mide en [bits por segundo][23_5] (b/s). 
+## 2.2. Capacidad (C) ✔
+* Maxima [información][22_1] que un canal puede transmitir de forma fiable.
+* Fiable significa que la [probabilidad de error][22_2] es despreciable. 
+* Está limitada por su [relación señal a ruido][22_3] (SNR) y el ancho de banda.
+* Se calcula empleando el [teorema de Shannon-Hartley][22_4].
+* Se mide en [bits por segundo][22_5] (b/s). 
 
-[23_1]:https://es.wikipedia.org/wiki/Informaci%C3%B3n
-[23_2]:https://es.wikipedia.org/wiki/Teorema_de_Shannon-Hartley
-[23_3]:https://es.wikipedia.org/wiki/Relaci%C3%B3n_se%C3%B1al/ruido
-[23_4]:https://es.wikipedia.org/wiki/Teorema_de_Shannon-Hartley
-[23_5]:https://es.wikipedia.org/wiki/Bits_por_segundo
+[22_1]:https://es.wikipedia.org/wiki/Informaci%C3%B3n
+[22_2]:https://es.wikipedia.org/wiki/Teorema_de_Shannon-Hartley
+[22_3]:https://es.wikipedia.org/wiki/Relaci%C3%B3n_se%C3%B1al/ruido
+[22_4]:https://es.wikipedia.org/wiki/Teorema_de_Shannon-Hartley
+[22_5]:https://es.wikipedia.org/wiki/Bits_por_segundo
 
-### 2.2.1. Ecuaciones de Shannon - Hartley
+### 2.2.1. Ecuaciones de Shannon - Hartley.
 
 $$
 \begin{aligned}
@@ -127,7 +127,7 @@ C = B \cdot log_{2}\left(1+SNR\right) &= B \cdot log_{2}\left(1+ \frac{P_S}{P_N}
 \end{aligned}
 $$
 
-### 2.2.2. Representación
+### 2.2.2. Representación.
 
 ![Representación](../img/channel_capacity.svg "Ca")
 
@@ -179,7 +179,7 @@ La calidad de servicio o [QoS][3] mide la calidad de las prestaciones que provee
 [34_1]:https://en.wikipedia.org/wiki/Token_bucket
 [34_2]:https://en.wikipedia.org/wiki/Leaky_bucket
 
-## 3.5. Protocolos
+## 3.5. Protocolos ✔
 * [RSVP][35_1] - Protocolo de reserva de recursos
 * [MPLS][35_2] - Protocolo de conmutación de etiquetas
 * [VPLS][35_3] - Servicio de LAN privada virtual
@@ -191,6 +191,8 @@ La calidad de servicio o [QoS][3] mide la calidad de las prestaciones que provee
 [35_3]:https://es.wikipedia.org/wiki/Virtual_Private_LAN_Service
 [35_4]:https://en.wikipedia.org/wiki/SD-WAN
 [35_5]:https://en.wikipedia.org/wiki/Secure_access_service_edge
+
+<br>
 
 ---
 ## Mas Recursos
