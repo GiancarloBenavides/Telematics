@@ -250,6 +250,7 @@ El [nivel de una red][413_1] o proveedor de internet indica como participa esta 
 [413_1]:https://es.wikipedia.org/wiki/Red_tier_1
 [413_2]:https://en.wikipedia.org/wiki/Tier_2_network
 
+</br>
 
 ---
 ## Mas Recursos
