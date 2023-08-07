@@ -213,42 +213,43 @@ Un Regional Internet Registry ([__RIR__][32]), es una organización que supervis
 
 
 # 4. [Redes](#agenda)
-Una [red informática][2] es un conjunto de nodos conectados entre sí por medio de dispositivos físicos que envían y reciben impulsos eléctricos, ondas electromagnéticas o cualquier otro medio para el transporte de datos, con el propósito de permitir a muchos equipos informáticos compartir información, recursos y ofrecer servicios.
+Una [red informática][4] es un conjunto de nodos conectados entre sí por medio de dispositivos físicos que envían y reciben impulsos eléctricos, ondas electromagnéticas o cualquier otro medio para el transporte de datos, con el propósito de permitir a muchos equipos informáticos compartir información, recursos y ofrecer servicios.
 
 
-## 3.1. Tipos de redes ✔
+## 4.1. Tipos de redes ✔
 
-### 3.1.1. Redes por capa 
-* Red conectada por concentradores - [Dominio de colisión][311_1].
-* Red conectada por conmutadores - [Dominio de difusión][311_2].
-* Red conectada por enrutadores - [Dominio de encaminamiento][311_3].
-* Red conectada por pasarelas - [Dominio inter-protocolo][311_4].
+### 4.1.1. Redes por capa 
+* Red conectada por concentradores - [Dominio de colisión][411_1].
+* Red conectada por conmutadores - [Dominio de difusión][411_2].
+* Red conectada por enrutadores - [Dominio de encaminamiento][411_3].
+* Red conectada por pasarelas - [Dominio inter-protocolo][411_4].
 
-[311_1]:https://es.wikipedia.org/wiki/Dominio_de_colisi%C3%B3n
-[311_2]:https://es.wikipedia.org/wiki/Dominio_de_difusi%C3%B3n
-[311_3]:https://es.wikipedia.org/wiki/Encaminamiento
-[311_4]:https://es.wikipedia.org/wiki/Puerta_de_enlace
+[411_1]:https://es.wikipedia.org/wiki/Dominio_de_colisi%C3%B3n
+[411_2]:https://es.wikipedia.org/wiki/Dominio_de_difusi%C3%B3n
+[411_3]:https://es.wikipedia.org/wiki/Encaminamiento
+[411_4]:https://es.wikipedia.org/wiki/Puerta_de_enlace
 
-### 3.1.2. Redes por tecnología
-* Red Gpon - sobre [Fibra óptica][312_1].
-* Red Ethernet - sobre [Par trenzado][312_2].  
-* Red HFC - sobre [Coaxial][312_3] y fibra.  
-* Red ADSL - sobre [Red telefónica conmutada][312_4].
+### 4.1.2. Redes por tecnología
+* Red Gpon - sobre [Fibra óptica][412_1].
+* Red Ethernet - sobre [Par trenzado][412_2].  
+* Red HFC - sobre [Coaxial][412_3] y fibra.  
+* Red ADSL - sobre [Red telefónica conmutada][412_4].
 
-[312_1]:https://es.wikipedia.org/wiki/Fibra_%C3%B3ptica
-[312_2]:https://es.wikipedia.org/wiki/Cable_de_par_trenzado
-[312_3]:https://es.wikipedia.org/wiki/Cable_coaxial
-[312_4]:https://es.wikipedia.org/wiki/Red_telef%C3%B3nica_conmutada
+[412_1]:https://es.wikipedia.org/wiki/Fibra_%C3%B3ptica
+[412_2]:https://es.wikipedia.org/wiki/Cable_de_par_trenzado
+[412_3]:https://es.wikipedia.org/wiki/Cable_coaxial
+[412_4]:https://es.wikipedia.org/wiki/Red_telef%C3%B3nica_conmutada
 
-### 3.1.3. Redes por nivel
-El [nivel de una red][313_1] o proveedor de internet indica como participa esta con acuerdos de interconexión o peering en internet asi:
+### 4.1.3. Redes por nivel
+El [nivel de una red][413_1] o proveedor de internet indica como participa esta con acuerdos de interconexión o peering en internet asi:
 
-* [__Red de nivel 1:__][313_1] ISP de mayor nivel cuya red que se empareja de forma gratuita con todas las redes de internet, sin comprar tránsito IP o pagar por interconexión.
-* [Red de nivel 2:][313_2] una red que se empareja de forma gratuita con algunas redes, pero compra tránsito IP o paga por emparejamiento para alcanzar al menos una parte de Internet.
-* [Red de nivel 3:][313_1] Una red que únicamente compra tránsito/peering de otras redes para participar en Internet.
+* [__Red de nivel 1:__][413_1] ISP de mayor nivel cuya red que se empareja de forma gratuita con todas las redes de internet, sin comprar tránsito IP o pagar por interconexión.
+* [Red de nivel 2:][413_2] una red que se empareja de forma gratuita con algunas redes, pero compra tránsito IP o paga por emparejamiento para alcanzar al menos una parte de Internet.
+* [Red de nivel 3:][413_1] Una red que únicamente compra tránsito/peering de otras redes para participar en Internet.
 
-[313_1]:https://es.wikipedia.org/wiki/Red_tier_1
-[313_2]:https://en.wikipedia.org/wiki/Tier_2_network
+[413_1]:https://es.wikipedia.org/wiki/Red_tier_1
+[413_2]:https://en.wikipedia.org/wiki/Tier_2_network
+
 
 ---
 ## Mas Recursos
