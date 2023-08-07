@@ -8,7 +8,7 @@ Un túnel en el contexto de las redes de ordenadores es un protocolo que encapsu
 ## Agenda
 1. [Tunneling PtP](#1-tunneling-ptp).
 1. [Tunneling PtMP orientado a datagramas](#2-tunneling-ptmp-arientado-a-datagramas).
-1. [Tunneling PtMP orientado a flujo](#3-orientados-a-datagramas).
+1. [Tunneling PtMP orientado a flujo](#3-tunneling-ptmp-arientado-a-flujo).
 1. [VPN](#4-vpn).
 
 <br>
@@ -55,9 +55,8 @@ La técnica de [Tunneling][1] en un enlace [PtP][1_] consiste en encapsular un p
 
 
 # 2. [Tunneling PtMP orientado a datagramas](#agenda)
-La técnica de [Tunneling][2] en un enlace [PtMP][2_] consiste en encapsular un protocolo de red sobre otro dentro de una red de computadoras para conectar uno o varios puntos separados en una LAN segura.
+La técnica de [Tunneling][1] en un enlace [PtMP][2_] consiste en encapsular un protocolo de red sobre otro dentro de una red de computadoras para conectar uno o varios puntos separados en una LAN segura.
 
-[2]:https://es.wikipedia.org/wiki/T%C3%BAnel_(inform%C3%A1tica)#
 [2_]:https://es.wikipedia.org/wiki/Red_multipunto
 
 * ><i>"Muchos matemáticos derivan parte de su autoestima sintiéndose orgullosos herederos de una larga tradición de pensamiento racional, me temo que idealizan sus ancestros culturales."</i><br>
@@ -93,10 +92,9 @@ La técnica de [Tunneling][2] en un enlace [PtMP][2_] consiste en encapsular un 
 
 
 # 3. [Tunneling PtMP orientado a flujo](#agenda)
-La técnica de [Tunneling][2] en un enlace [PtMP][2_] consiste en encapsular un protocolo de red sobre otro dentro de una red de computadoras para uno o varios puntos separados a una LAN segura.
+La técnica de [Tunneling][1] en un enlace [PtMP][3_] consiste en encapsular un protocolo de red sobre otro dentro de una red de computadoras para uno o varios puntos separados a una LAN segura.
 
-[2]:https://es.wikipedia.org/wiki/T%C3%BAnel_(inform%C3%A1tica)#
-[2_]:https://es.wikipedia.org/wiki/Red_multipunto
+[3_]:https://es.wikipedia.org/wiki/Red_multipunto
 
 * ><i>"Muchos matemáticos derivan parte de su autoestima sintiéndose orgullosos herederos de una larga tradición de pensamiento racional, me temo que idealizan sus ancestros culturales."</i><br>
 <cite style="display:block; text-align: right">[Edsger Dijkstra](https://es.wikipedia.org/wiki/Edsger_Dijkstra)</cite>
@@ -125,7 +123,7 @@ La técnica de [Tunneling][2] en un enlace [PtMP][2_] consiste en encapsular un 
 ## 3.3. Ejemplos ✔
 * [IKEv2][33_1] - Internet key exchange version 2 - 2005.
 * [SSTP][33_2] - Secure Socket Tunneling Protocol - 2007.
-* [IPsec][33_3] - internet protocol security - 1995.
+* [IPsec][33_3] - internet protocol security (Modo túnel) - 1995.
 * [OVPN][33_4] - OpenVPN - 2002.
 
 
@@ -134,9 +132,48 @@ La técnica de [Tunneling][2] en un enlace [PtMP][2_] consiste en encapsular un 
 [33_3]:https://es.wikipedia.org/wiki/IPsec
 [33_4]:https://es.wikipedia.org/wiki/OpenVPN
 
+# 4. [Tunneling PtMP orientado a flujo](#agenda)
+Una red privada virtual o [VPN][4] es una tecnología que sirve para autenticar y conectar con seguridad a usuarios conectados mediante una red insegura.
+
+[4]:https://es.wikipedia.org/wiki/Red_privada_virtual
+
+* ><i>"Muchos matemáticos derivan parte de su autoestima sintiéndose orgullosos herederos de una larga tradición de pensamiento racional, me temo que idealizan sus ancestros culturales."</i><br>
+<cite style="display:block; text-align: right">[Edsger Dijkstra](https://es.wikipedia.org/wiki/Edsger_Dijkstra)</cite>
+
+
+## 4.1. Características ✔
+* Controla el acceso - [mecanismos autentificación][41_1] LDAP - RADIUS.
+* Garantiza integridad - [funciones Hash][41_2] SHA - MD5.
+* Proporciona confidencialidad - [criptografía][41_3] AES - RSA.
+
+[41_1]:https://es.wikipedia.org/wiki/Autenticaci%C3%B3n
+[41_2]:https://es.wikipedia.org/wiki/Funci%C3%B3n_hash
+[41_3]:https://es.wikipedia.org/wiki/Criptograf%C3%ADa
+
+## 4.2. Ventajas ✔
+* Integridad, confidencialidad y seguridad de datos.
+* Reducen los costos y son sencillas de usar.​
+* Acceso a contenido no disponible en una región.
+* Facilidad de creación de canales privados.
+
+
+## 4.3. Tipos ✔
+* VPN punto a punto (WAN) - (Router a Router).
+* VPN punto multi-punto (LAN) - (Router a PC).
+* VPN over LAN.
+* [mRPV][43] - VPN over Mobile.
+
+[43]:https://es.wikipedia.org/wiki/Red_privada_virtual_m%C3%B3vil
+
+## 4.3. Clasificación ✔
+
+![Clasificación VPN](../img/vpn-classification.svg "Clasificación VPN")
+
 <br>
 
 ---
 ## Mas Recursos
+- [Red privada virtual]() (Wikipedia)
 - [Red punto a punto](https://es.wikipedia.org/wiki/Red_punto_a_punto) (Wikipedia)
 - [Red multi-punto](https://es.wikipedia.org/wiki/Red_multipunto) (Wikipedia)
+
