@@ -73,10 +73,10 @@ Un [Cortafuegos][1] es un componente de hardware de un sistema informático dise
 * ><i>"Los clientes insatisfechos son la mejor fuente de aprendizaje."</i><br>
 <cite style="display:block; text-align: right">[Bill Gates](https://es.wikipedia.org/wiki/Bill_Gates)</cite>
 
-## 3.2. Servicios ✔
+## 3.1. Servicios ✔
 * Cortafuegos - Filtro de contenidos, NAT.
-* Antivirus - antispam, antiphishing, antispyware.
-* Tuneles - VPN.
+* Antivirus - anti-spam, anti-phishing, anti-spyware.
+* Túneles - VPN.
 * Detección/Prevención de Intrusos (IDS/IPS).
 
 ## 3.2. Ventajas ✔
@@ -90,9 +90,11 @@ Un [Cortafuegos][1] es un componente de hardware de un sistema informático dise
 * Puede tener problemas de rendimiento al tener todas las herramientas activas.
 * Para algunos servicios requiere suscripción.
 
+<br>
+
 ---
 ## Mas Recursos
-- [Wiki Mikrotik](https://wiki.mikrotik.com/wiki/Main_Page) (Wiki)
+- [Wiki MikroTik](https://wiki.mikrotik.com/wiki/Main_Page) (Wiki)
 - [LDAP](https://es.wikipedia.org/wiki/Protocolo_ligero_de_acceso_a_directorios) (Wikipedia)
 - [NFS](https://es.wikipedia.org/wiki/Network_File_System) (Wikipedia)
 - [ufw](https://es.wikipedia.org/wiki/Uncomplicated_Firewall) (Wikipedia)
