@@ -9,7 +9,6 @@ La gestión de los servicios que ofrece un sistema de comunicaciones digital, pu
 1. [Encaminamiento](#1-encaminamiento-de-paquetes).
 1. [Sistemas Autónomos](#2-sistemas-autónomos).
 
-
 <br>
 
 ---
@@ -33,7 +32,7 @@ Los métodos de encaminamiento puedes ser:
 * __Estáticos o deterministas:__ la cuantificación de todas las métricas se hace fuera de linea y se mantiene inalterada ante un cambio de estado del sistema.
 * __Dinámicos o adaptativos:__ la valoración de las métricas se modifica continuamente según los cambios de estado del sistema, cuantificando en cada iteración una solución del problema buscando que en un número de iteraciones converja a la solución optima.
 
-### 1.2.1 Basados en vector de distancias
+### 1.2.1. Basados en vector de distancias
 * El [vector de distancias][121] resuelve el problema de la ruta mas corta.
 * Cambios en la topología de red no se reflejan rápidamente
 * No escala bien en sistemas demasiado grandes.
@@ -44,7 +43,7 @@ Los métodos de encaminamiento puedes ser:
 [121]:https://es.wikipedia.org/wiki/Vector_de_distancias
 
 
-### 1.2.2 Basados en el estado del enlace
+### 1.2.2. Basados en el estado del enlace
 * El [estado del enlace][122] resuelve la ruta mas optima.
 * Este método converge rápidamente
 * Escala bien en sistemas de muchos nodos.
@@ -70,7 +69,7 @@ graph TD;
     E --> |4| D;
 ```
 
-### 1.3.1 Algoritmo de Bellman-Ford
+### 1.3.1. Algoritmo de Bellman-Ford
 * El algoritmo de [Bellman-Ford][131_1] fue desarrollado por Richard Bellman, Samuel End y Lester Ford.
 * Genera el camino mas corto en un grafo dirigido ponderado.
 * El peso o ponderación de las aristas puede ser negativo.
@@ -81,7 +80,7 @@ graph TD;
 [131_2]:https://es.wikipedia.org/wiki/Routing_Information_Protocol
 
 
-### 1.3.2 Algoritmo de Dijkstra
+### 1.3.2. Algoritmo de Dijkstra
 * El algoritmo de [Dijkstra][132_1] fue desarrollado por Edsger Dijkstra.
 * Converge mas rápidamente que el algoritmo de de Bellman-Ford.
 * El peso o ponderación de las aristas no puede ser negativo.
@@ -175,6 +174,7 @@ El sistema autónomo [AS3356][25_1] y [AS3549][25_2] pertenecen a una red de [40
 [25_4]:https://es.wikipedia.org/wiki/Lumen_Technologies
 [25_5]:https://es.wikipedia.org/wiki/Red_tier_1
 
+<br>
 
 ---
 ## Mas Recursos
