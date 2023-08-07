@@ -3,7 +3,7 @@
 <p>Creado por <code>Giancarlo Ortiz</code> para explicar los fundamentos de los <code>Sistemas de comunicaciones</code> en los cursos de telemática y redes de computadores.</p>
 
 ## Túneles
-La gestión de los servicios que ofrece un sistema de comunicaciones digital, pueden estar distribuidos en diferentes componentes de hardware y de software, los conocimientos para configurar estos componentes dependen del fabricante pero conociendo la base técnica es posible adaptar las soluciones a la perspectiva de las diferentes marcas. 
+Un túnel en el contexto de las redes de ordenadores es un protocolo que permite la comunicación segura entre dos puntos separados por una red pública o no controlada como Internet.
 
 ## Agenda
 1. [Encaminamiento](#2-sistema-descentralizados).
