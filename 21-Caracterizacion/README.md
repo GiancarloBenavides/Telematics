@@ -198,7 +198,7 @@ La [Corporación de Internet para la Asignación de Nombres y Números][31] es u
 ## 3.2. Registros Regionales de Internet ✔
 Un Regional Internet Registry ([__RIR__][32]), es una organización que supervisa la asignación y el registro de números de Internet en una región del mundo. Los recursos incluyen direcciones IP (tanto IPv4 como IPv6) y números de sistemas autónomos (para su uso en encaminamiento BGP).
 
-![](../img/rirs.svg)
+![Registros por region](../img/rirs.svg "RIRS")
 
 [32]:https://es.wikipedia.org/wiki/Registro_Regional_de_Internet
 
