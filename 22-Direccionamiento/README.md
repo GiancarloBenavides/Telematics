@@ -56,7 +56,7 @@ Algunos elementos posibles son:
 * __Fragmento:__ identificador de una parte del recurso.
 
 
-### 1.2.2. Ejemplos
+### 1.2.2. Ejemplos.
 Algunos ejemplos de recursos son:
 * https://es.wikipedia.org/wiki/Localizador_de_recursos_uniforme
 * https://www.youtube.com/watch?v=4IuNKK2y49s
@@ -112,7 +112,7 @@ Existen varias [etiquetas][2_1] numéricas que identifican recursos en una red, 
 * La segunda esta reservada para la dirección de broadcast.
 
 
-### 2.2.1. Direcciones IPv4
+### 2.2.1. Direcciones IPv4.
 Las direcciones [IPV4][221] se expresan mediante un número binario de 32 bits (4 bytes) permitiendo un espacio de $2^{32}$ direcciones únicas posibles, aproximadamente 4.294 Millones.
 
 <code>Ejemplo:</code> representar la ip [__192.168.254.172__](#) en formato binario.
@@ -126,7 +126,7 @@ Las direcciones [IPV4][221] se expresan mediante un número binario de 32 bits (
 [221]:https://es.wikipedia.org/wiki/Direcci%C3%B3n_IP
 
 
-### 2.2.2. Direcciones IPv6
+### 2.2.2. Direcciones IPv6.
 Las direcciones [IPV6][222] se expresan mediante un número binario de 128 bits (16 bytes) permitiendo un espacio de $2^{128}$ direcciones posibles, aproximadamente 340 sextillones.
 
 <code>Ejemplo:</code> representar los primeros 64 bits de la ip [__2001:0DB8:AC10:FE01:1319:8A2E:0370:7334__](#) en formato binario.
@@ -186,7 +186,7 @@ Algunas motivaciones para dividir una red en sub-redes conectadas por enrutadore
 
 </br>
 
-### 3.2.1. Mascaras Classful - [1985][321]
+### 3.2.1. Mascaras Classful - [1985][321_1].
 |Mascara de red|Clase|Inicio|Fin|Red|Broadcast|
 |--|:--:|--|--|--:|--:|
 |255.0.0.0|__A__|0000 $\overline{0}$|0111 $\overline{1}$|0.0.0.0|127.255.255.255|
@@ -197,11 +197,11 @@ Algunas motivaciones para dividir una red en sub-redes conectadas por enrutadore
 
 Nota: 1: [Las mascaras se definen por defecto según la clase (los primeros 4 bits de la dirección) y todas las sub-redes van a tener el mismo tamaño][321].
 
-[321]:https://es.wikipedia.org/wiki/Subred
+[321_1]:https://es.wikipedia.org/wiki/Subred
 
 </br>
 
-### 3.2.2. Sub-redes - Mascaras de tamaño variable - [1987][322_1]
+### 3.2.2. Sub-redes - Mascaras de tamaño variable - [1987][322_1].
 |Mascara de red|Clase|Bits|Sub-redes|Host|Broadcast 1|
 |--|:--:|--:|:--|--:|--:|
 |255.255.128.0|__C__|1|2|32.766|X.X.127.255|
@@ -220,7 +220,7 @@ Nota: 1: [En la tabla se representan las sub-redes de la clase C cuyo desarrollo
 
 </br>
 
-### 3.2.3. Mascaras para enrutamiento entre dominios sin clases - [1993][323_1]
+### 3.2.3. Mascaras para enrutamiento entre dominios sin clases - [1993][323_1].
 * Uso [más eficiente][323_1] de las direcciones IPv4.
 * Asignación de prefijos [CIDR][323_2] de longitud arbitraria.
 * El software moderno podrá utilizar [VLSM][323_3] todas las redes definibles.
@@ -235,27 +235,27 @@ Nota: 1: [En la tabla se representan las sub-redes de la clase C cuyo desarrollo
 
 </br>
 
-### 3.1.3. Redes privadas - [1994][313]
+### 3.2.4. Redes privadas - [1994][324_1].
 |Redes|Clase|Host/red|Inicio|Fin|CIDR|Reservado|
 |--:|:--:|--:|--:|--:|:--:|:--:|
 |1|A|16.777.214|10.0.0.0|10.255.255.255|/8|No|
-|1|A|4.194.302|100.64.0.0|100.127.255.255|/10|[1][313_1]|
-|1|A|16.777.214|127.0.0.0|127.255.255.255|/8|[2][313_2]|
-|1|B|65.534|169.254.0.0|169.254.255.255|/16|[3][313_3]|
+|1|A|4.194.302|100.64.0.0|100.127.255.255|/10|[1][324_1]|
+|1|A|16.777.214|127.0.0.0|127.255.255.255|/8|[2][324_2]|
+|1|B|65.534|169.254.0.0|169.254.255.255|/16|[3][324_3]|
 |16|B|65.534|172.16.0.0|172.31.255.255|/12|No|
 |256|C|254|192.168.0.0|192.168.255.255|/16|No|
-|256|D|254|224.0.0.0|239.255.255.255|/4|[4][313_4]|
+|256|D|254|224.0.0.0|239.255.255.255|/4|[4][324_4]|
 
 Notas: 1: [Reservado para despliegues Carrier Grade NAT][313_1].
 2: [Reservado para las direcciones de loopback][313_2].
 3: [Reservado para asignación Automática sin DHCP][313_3].
 4: [Reservado para multidifusión IP][313_4].
 
-[313]:https://es.wikipedia.org/wiki/Red_privada
-[313_1]:https://es.wikipedia.org/wiki/Carrier_Grade_NAT
-[313_2]:https://es.wikipedia.org/wiki/Loopback
-[313_3]:https://es.wikipedia.org/wiki/Direcci%C3%B3n_de_Enlace-Local
-[313_4]:https://es.wikipedia.org/wiki/Multidifusi%C3%B3n_IP
+[324_1]:https://es.wikipedia.org/wiki/Red_privada
+[324_1]:https://es.wikipedia.org/wiki/Carrier_Grade_NAT
+[324_2]:https://es.wikipedia.org/wiki/Loopback
+[324_3]:https://es.wikipedia.org/wiki/Direcci%C3%B3n_de_Enlace-Local
+[324_4]:https://es.wikipedia.org/wiki/Multidifusi%C3%B3n_IP
 
 </br>
 
