@@ -46,6 +46,8 @@ Si desea dirigir las solicitudes de un determinado puerto a una máquina interna
 /ip firewall nat add chain=dstnat dst-port=80 action=dst-nat protocol=tcp to-address=192.168.1.10 to-port=8080 
 ```
 
+<br>
+
 ---
 ## Mas Recursos
 - [Wiki MikroTik](https://wiki.mikrotik.com/wiki/Main_Page) (MikroTik - Wiki)
