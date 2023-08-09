@@ -1,6 +1,6 @@
 # Telematics
 <p><code>Fundamentos de Telemática</code></p>
-<p>Creado por <code>Giancarlo Ortiz</code> para explicar los fundamentos de los <code>Sistemas de comunicaciones</code> en los cursos de telemática y redes de computadores.</p>
+<p>Creado por <code>GncDev</code> para explicar los fundamentos de los <code>Sistemas de comunicaciones</code> en los cursos de telemática y redes de computadores.</p>
 
 ## Control de colas
 En el contexto de gestionar la calidad de servicio QoS de redes de computadoras (gestión de ancho de banda, retraso de la transmisión, disponibilidad, ...) las colas de prioridad se usan para controlar el trafico (limitar y priorizar).
@@ -37,10 +37,36 @@ Una fila o [Cola][1] es un tipo de dato abstracto, caracterizada por ser una sec
 
 [11_1]:https://es.wikipedia.org/wiki/Cola_de_prioridades
 
-## 1.3. Representación ✔
+
+## 1.3. Colas en MikroTik ✔
+* [RED][13_1] - random early drop.
+* [BFIFO][13_2] - bytes first-in first-out.
+* [PFIFO][13_2] - package first-in first-out.
+* [MQ-PFIFO][13_2] - multiple package first-in first-out.
+* [SFQ][13_3] - stochastic fairness queuing.
+* [PCQ][13_4] - per connection queue.
+
+[13_1]:https://wiki.mikrotik.com/wiki/Manual:Queue#RED
+[13_2]:https://wiki.mikrotik.com/wiki/Manual:Queue#PFIFO.2C_BFIFO_and_MQ_PFIFO
+[13_3]:https://wiki.mikrotik.com/wiki/Manual:Queue#SFQ
+[13_4]:https://wiki.mikrotik.com/wiki/Manual:Queue#PCQ
+
+
+## 1.3.1. Colas simples.
+* Por origen/destino de red.
+* Dirección IP de cliente.
+* Interfase.
+
+
+## 1.3.2. Árbol de colas.
+* Por protocolo. 
+* Por puerto.
+* Por tipo de conexión.
+
+
+## 1.4. Representación ✔
 
 ![Representación](../img/queue.svg "Cola")
-
 
 # 2. [Canal de comunicaciones](#agenda)
 Un [canal de comunicaciones][2] es un medio de transmisión por el que pasan las señales portadoras de información que pretenden intercambiar un emisor y un receptor.
