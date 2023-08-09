@@ -1,3 +1,11 @@
+---
+title: "BibTeX references in R Markdown"
+author: "John Doe"
+date: '2022-07-19'
+bibliography: bibliography.bib
+output: html_document
+---
+
 [![Licencia](https://img.shields.io/badge/license-MIT-blue.svg)](http://kmonsoor.mit-license.org/) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/matplotlib)
 
 
@@ -41,3 +49,36 @@
 [41]:https://github.com/GiancarloBenavides/Telematics/tree/master/41-Traduccion
 [42]:https://github.com/GiancarloBenavides/Telematics/tree/master/42-Filtrado
 [43]:https://github.com/GiancarloBenavides/Telematics/tree/master/43-Tunelado
+
+
+# Objetivo
+
+# Hello {name}!
+
+This is text in `markdown` **notation**
+
+@book{Hemingway1952,
+  title={The Old Man and the Sea},
+  author={Hemingway, Ernest},
+  year={1952},
+  publisher={Charles Scribner's Sons}
+}
+
+@book{Hemingway1952,
+  title={The Old Man and the Sea},
+  author={Hemingway, Ernest},
+  year={1952},
+  publisher={Charles Scribner's Sons}
+}
+
+ ```{r setup, include=FALSE}
+ options(htmltools.dir.version = TRUE)
+ pacman::p_load(RefManageR)
+ bib <- ReadBib("merit_pref_int.bib", check = FALSE)
+
+
+## BibTeX references in R Markdown
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Praesent enim urna, dapibus et bibendum vel, consectetur et turpis.
+Cras a molestie nulla. [@Hemingway1952]
