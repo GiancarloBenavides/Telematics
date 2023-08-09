@@ -1,6 +1,6 @@
 # Telematics
 <p><code>Fundamentos de Telemática</code></p>
-<p>Creado por <code>Giancarlo Ortiz</code> para explicar los fundamentos de los <code>Sistemas de comunicaciones</code> en los cursos de telemática y redes de computadores.</p>
+<p>Creado por <code>GncDev</code> para explicar los fundamentos de los <code>Sistemas de comunicaciones</code> en los cursos de telemática y redes de computadores.</p>
 
 ## Filtrado
 En un sistema informático o una red informática debe diseñarse con la capacidad de bloquear el acceso no autorizado a servicios o recursos de red privilegiados, permitiendo al mismo tiempo comunicaciones autorizadas y a servicios públicos. 
@@ -64,6 +64,20 @@ Las [Listas de control de acceso][1] es un mecanismo para determinar los permiso
 * Su principal objetivo es filtrar tráfico.
 * Pero puede categorizar el trafico.
 
+## 2.3. ACL en MikroTik ✔
+* [Web proxy][23_1] - access
+
+```mikrotik
+/ip proxy access
+ add path=*.flv action=deny
+ add path=*.avi action=deny
+ add path=*.mp4 action=deny
+ add path=*.mp3 action=deny
+ add path=*.zip action=deny
+ add path=*.rar action=deny
+```
+
+[23_1]:https://wiki.mikrotik.com/wiki/Manual:IP/Proxy#Proxy_based_firewall_%E2%80%93_Access_List
 
 # 3. [UTM](#agenda)
 Un [Cortafuegos][1] es un componente de hardware de un sistema informático diseñado para ofrecer multiples funciones en un único dispositivo de red; incluyendo al menos un antivirus, un cortafuegos y un sistema de detección/prevención de intrusos.
