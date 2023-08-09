@@ -1,11 +1,3 @@
----
-title: "BibTeX references in Markdown"
-author: "Giancarlo"
-date: '2023-08-09'
-bibliography: library.bib
-output: html_document
----
-
 [![Licencia](https://img.shields.io/badge/license-MIT-blue.svg)](http://kmonsoor.mit-license.org/) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/matplotlib)
 
 
