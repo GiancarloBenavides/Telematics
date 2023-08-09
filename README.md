@@ -50,23 +50,13 @@ output: html_document
 [42]:https://github.com/GiancarloBenavides/Telematics/tree/master/42-Filtrado
 [43]:https://github.com/GiancarloBenavides/Telematics/tree/master/43-Tunelado
 
+</br>
 
-## Objetivo
+---
+
+### Objetivo
 Proporcionar el conocimiento y generar las habilidades necesarias en la configuración y gestión de dispositivos de redes.
 
 
-## Metodología
+### Metodología
 De conformidad con la importancia de desarrollar competencias en el proceso académico y la consolidación de los conceptos en casos de uso real se ha diseñado actividades de reflexión y evaluación por cada secuencia de aprendizaje; donde cada una de ellas pone en práctica conceptos fundamentales relacionados con el desarrollo de la cátedra e incluidos en la previa exposición del contenido temático de la asignatura.
-
-
-## BibTeX references in R Markdown
- ```{r setup, include=FALSE}
- options(htmltools.dir.version = TRUE)
- pacman::p_load(RefManageR)
- bib <- ReadBib("merit_pref_int.bib", check = FALSE)
-
-
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Praesent enim urna, dapibus et bibendum vel, consectetur et turpis.
-Cras a molestie nulla. [@Hemingway1952]
