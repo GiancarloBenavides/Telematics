@@ -1,6 +1,6 @@
 # Telematics
 <p><code>Fundamentos de Telemática</code></p>
-<p>Creado por <code>Giancarlo Ortiz</code> para explicar los fundamentos de los <code>Sistemas de comunicaciones</code> en los cursos de telemática y redes de computadores.</p>
+<p>Creado por <code>GncDev</code> para explicar los fundamentos de los <code>Sistemas de comunicaciones</code> en los cursos de telemática y redes de computadores.</p>
 
 ## Direccionamiento
 A cada dispositivo o host que se conecta a una red IP como Internet se le asigna al menos una dirección única en esa red. Esta dirección es utilizada por los protocolos de internet de la capa tres y superiores para garantizar una comunicación segura y sin errores.
