@@ -3,8 +3,8 @@ import subprocess
 import optparse
 import re
 
-
 def get_arguments() -> list:
+    ''' Cambiar la dirección MAC de una interface. '''
     parser = optparse.OptionParser(usage="%prog [OPTION]... [NEW MAC]...")
     parser.add_option(
         "-i", "--interface", dest="interface", help="Source Interface")
@@ -16,6 +16,7 @@ def get_arguments() -> list:
     return options.interface, args[0]
 
 def get_mac(interface):
+    ''' Obtener la dirección MAC de una interface. '''
     results = subprocess.check_output(["ifconfig", interface])
     mac = re.search(r"(\w\w:){5}\w\w", str(results))    
     if mac:
@@ -25,6 +26,7 @@ def get_mac(interface):
 
 
 def changue_mac(interface: str, mac: str) -> None:
+    ''' Cambiar la dirección MAC de una interface. '''
     subprocess.call(["ifconfig", interface, "down"])
     subprocess.call(["ifconfig", interface, "hw", "ether", mac])
     subprocess.call(["ifconfig", interface, "up"])
