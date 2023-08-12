@@ -34,8 +34,5 @@ mac = get_mac(interface)
 with open('bck.txt', 'a') as file:
     file.write(f"{mac}\n")
 
-# changue_mac(interface, new_mac)
-
-
 # echo mac>> bck-mac.txt
 print(mac.group(0))
