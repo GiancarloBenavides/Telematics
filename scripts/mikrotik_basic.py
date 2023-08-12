@@ -1,8 +1,19 @@
+#!/usr/bin/python
+
+### Para usar instalar paquete pip
+# https://pypi.org/project/RouterOS-api/
+# pip install RouterOS-api
+import routeros_api
+
+
 config={
-    "ip_lan":"192.168.100.1/24",
+    "name":"RM"
+    "lan":"192.168.100.0",
+    "mask":"24",
+    "host":"1",
+    "port";2,
 
 }
-
 
 /system identity set name=RM
 
@@ -41,7 +52,7 @@ config={
 
 /ip firewall nat add chain=srcnat action=masquerade out-interface="ether3"
 /ip firewall nat add chain=dstnat dst-port=80 protocol=tcp action=dst-nat to-address="192.168.100.10" to-port=8080
-/ip route add dst-address="0.0.0.0/0" gateway=ether3 #########################
+/ip route add dst-address="0.0.0.0/0" gateway="10.40.40.1" #########################
 
 
 ##############################
