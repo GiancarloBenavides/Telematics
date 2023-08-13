@@ -14,7 +14,8 @@ cost = 100000000/bw_in_bps
 /interface bridge add name="loopback"
 # Asignar una ip a la interface de loopback (1-ii)
 #----------------------------------
-/ip address add address="10.255.255.100/32" interface="loopback"
+option_one = /ip address add address="10.255.255.100/32" interface="loopback"
+option_two = /ip address add address="10.255.255.100" network="10.255.255.100" interface="loopback"
 # Crear una instancia de OSPF con la interface de loopback (2)
 #----------------------------------
 /routing ospf instance set 0 router-id="10.255.255.100"
