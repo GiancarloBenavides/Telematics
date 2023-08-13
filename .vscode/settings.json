@@ -22,5 +22,9 @@
         "virtualización",
         "Virtualización"
     ],
-    "svg.preview.background": "editor"
+    "svg.preview.background": "editor",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8"
+    },
+    "python.formatting.provider": "none"
 }
