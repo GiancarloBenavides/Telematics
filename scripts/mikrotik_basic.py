@@ -45,8 +45,9 @@ config={
 /ip dhcp-client add interface=ether3 disabled=no
 
 /ip dhcp-server lease add address="192.168.100.10" client-id="RM-master" server="dhcp_lan" mac-address=[/ip dhcp-server lease get number=0 mac-address]
-/ip dhcp-server lease make-static numbers=0 
-/ip dhcp-server lease set address="192.168.100.10" client-id="RM-master" numbers=0 
+
+#/ip dhcp-server lease make-static numbers=0 
+#/ip dhcp-server lease set address="192.168.100.10" client-id="RM-master" numbers=0 
 
 /ip dns set servers=8.8.8.8,2.2.2.2 allow-remote-requests=yes
 
