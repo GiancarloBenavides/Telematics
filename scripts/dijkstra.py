@@ -1,22 +1,31 @@
-def dijkstra(Grafo, salida):
-    dist, prev = {}, {}
-    result = []
+#!/usr/bin/python
+###################################
+###         ENRUTAMIENTO        ### 
+###################################
+# Algoritmo de Dijkstra
+# Mínima distancia
+# Autor: @Gncdev
+#----------------------------------
+def dijkstra(grafo: dict, salida) -> tuple:
+    ''' Calcular el camino mas corto entre dos nodos de una red. '''
+    distancias, previos = {}, {}
+    resultado = []
 
-    for vertice in Grafo:
-        dist[vertice] = float("inf")
-        prev[vertice] = None
-    dist[salida] = 0
+    for nodo in grafo:
+        distancias[nodo] = float("inf")
+        previos[nodo] = None
+    distancias[salida] = 0
 
-    Q = [vertice for vertice in Grafo]
+    Q = [nodo for nodo in grafo]
 
     while Q:
-        u = min(Q, key=dist.get)
+        u = min(Q, key=distancias.get)
         Q.remove(u)
-        result.append(u)
+        resultado.append(u)
 
-        for vecino in Grafo[u]:
-            if vecino in Q and dist[vecino] > dist[u] + Grafo[u][vecino]:
-                dist[vecino] = dist[u] + Grafo[u][vecino]
-                prev[vecino] = u
+        for vecino in grafo[u]:
+            if vecino in Q and distancias[vecino] > distancias[u] + grafo[u][vecino]:
+                distancias[vecino] = distancias[u] + grafo[u][vecino]
+                previos[vecino] = u
 
-    return result, dist, prev
+    return resultado, distancias, previos

@@ -1,23 +1,35 @@
-def bellman_ford(graph, source):
-    distance, predecessor = dict(), dict()
+#!/usr/bin/python
+###################################
+###         ENRUTAMIENTO        ### 
+###################################
+# Algoritmo de bellman ford
+# Mínima distancia
+# Autor: @Gncdev
+#----------------------------------
+
+def bellman_ford(grafo: dict, source: str) -> tuple:
+    ''' Calcular el camino mas corto entre dos nodos de una red. '''
+    distancias, previos = dict(), dict()
 
     # Paso 1: Preparar la distancia y el predecesor para cada nodo
-    for node in graph:
-        distance[node], predecessor[node] = float('inf'), None
-    distance[source] = 0
+    for nodo in grafo:
+        distancias[nodo], previos[nodo] = float('inf'), None
+    distancias[source] = 0
 
     # Paso 2: Relajar los bordes
-    for _ in range(len(graph) - 1):
-        for node in graph:
-            for neighbour in graph[node]:
-                
-                # If the distance between the node and the neighbour is lower than the current, store it
-                if distance[neighbour] > distance[node] + graph[node][neighbour]:
-                    distance[neighbour], predecessor[neighbour] = distance[node] + graph[node][neighbour], node
+    for _ in range(len(grafo) - 1):
+        for nodo in grafo:
+            for vecino in grafo[nodo]:
+
+                # Si las distancias entre el nodo y el vecino es inferior a la actual, almacenarlo
+                if distancias[vecino] > distancias[nodo] + grafo[nodo][vecino]:
+                    distancias[vecino], previos[vecino] = distancias[nodo] + \
+                        grafo[nodo][vecino], nodo
 
     # Paso 3: Comprobar si hay ciclos de peso negativos
-    for node in graph:
-        for neighbour in graph[node]:
-            assert distance[neighbour] <= distance[node] + graph[node][neighbour], "Negative weight cycle."
- 
-    return distance, predecessor
+    for nodo in grafo:
+        for vecino in grafo[nodo]:
+            assert distancias[vecino] <= distancias[nodo] + \
+                grafo[nodo][vecino], "Ciclo de peso negativo"
+
+    return distancias, previos
