@@ -49,4 +49,5 @@
 /ip firewall nat add chain=dstnat dst-port=80 protocol=tcp action=dst-nat to-address="192.168.100.10" to-port=8080
 # Crear la ruta por defecto - proximo salto (16)
 #----------------------------------
-/ip route add dst-address="0.0.0.0/0" gateway="10.40.40.1"
+option_one = /ip route add dst-address="0.0.0.0/0" gateway="10.40.40.1"
+option_two = /ip route add gateway=10.1.1.1
