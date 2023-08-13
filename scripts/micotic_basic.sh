@@ -2,7 +2,7 @@
 ###            BASIC            ### 
 ###################################
 # Laboratorio 5 – Enrutamiento OSPF
-# Comandos configuracion MikroTik
+# Comandos configuración MikroTik
 # Eenrutador principal RM
 # Autor: @Gncdev
 #----------------------------------
