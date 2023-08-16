@@ -19,6 +19,7 @@ option_two = /ip address add address="10.255.255.100" network="10.255.255.100" i
 # Crear una instancia de OSPF con la interface de loopback (2)
 #----------------------------------
 /routing ospf instance set 0 router-id="10.255.255.100"
+
 # Agregar las interfaces por donde se va a conpartir rutas OSPF (3)
 #----------------------------------
 /routing ospf interface add interface=ether1 cost=10 priority=0
