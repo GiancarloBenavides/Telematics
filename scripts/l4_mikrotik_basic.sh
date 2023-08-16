@@ -6,6 +6,8 @@
 # Eenrutador principal RM
 # Autor: @Gncdev
 #----------------------------------
+# Reiniciar el router (2)
+/system reset-configuration no-defaults=yes
 # Identificar el router (5)
 /system identity set name=RM
 # Agregar etiquetas a las interfaces (6)
