@@ -3,7 +3,7 @@
 ###################################
 # Laboratorio 5 – Enrutamiento OSPF
 # Comandos configuracion MikroTik
-# Eenrutador principal RM
+# Enrutador principal RM
 # Autor: @Gncdev
 #----------------------------------
 bw_in_bps=100 * 1024 * 1024

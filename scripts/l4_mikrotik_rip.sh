@@ -3,7 +3,7 @@
 ###################################
 # Laboratorio 4 – Enrutamiento RIP
 # Comandos configuracion MikroTik
-# Eenrutador principal RM
+# Enrutador principal RM
 # Autor: @Gncdev
 #----------------------------------
 # Agregar las interfaces que publicaran mensajes Rip (1-i)

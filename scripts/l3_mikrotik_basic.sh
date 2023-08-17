@@ -3,7 +3,7 @@
 #######################################
 # Laboratorio 3 – Enrutamiento Estatico
 # Comandos configuración MikroTik
-# Eenrutador principal RM
+# Enrutador principal RM
 # Autor: @Gncdev
 #--------------------------------------
 # Identificar el router (5)

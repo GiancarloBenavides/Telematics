@@ -3,7 +3,7 @@
 ###################################
 # Laboratorio 4 – Enrutamiento RIP
 # Comandos configuración MikroTik
-# Eenrutador principal RM
+# Enrutador principal RM
 # Autor: @Gncdev
 #----------------------------------
 # Reiniciar el router (2)
