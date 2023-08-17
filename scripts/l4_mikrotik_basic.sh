@@ -46,4 +46,4 @@
 # Crear la ruta por defecto - proximo salto (16)
 #----------------------------------
 option_one = /ip route add dst-address="0.0.0.0/0" gateway="10.40.40.1"
-option_two = /ip route add gateway=10.40.40.1
+option_two = /ip route add gateway=10.16.16.1
