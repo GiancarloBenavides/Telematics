@@ -10,7 +10,7 @@
 #----------------------------------
 routing rip interface add interface=ether1 receive=v1-2 send=v
 routing rip interface add interface=ether2 receive=v1-2 send=v
-# Configurar Rip (1-ii)
+# Configurar redistribucion de rutas Rip (1-ii)
 #----------------------------------
 routing rip set redistribute-connected=yes
 # Agregar las redes que se van a compartir (2)
