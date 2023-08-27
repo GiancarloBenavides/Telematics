@@ -61,19 +61,10 @@ Para todos los efectos:
 1. Agregar una regla NAT en el cortafuegos para garantizar el enrutamiento en sistemas de IP publica como internet.
     1. Crear una regla [source NAT][5_5] en el cortafuegos para los paquetes IP que salen hacia la WAN.
     1. Agregar una acción para que la regla anterior permita enmascarar la ip de origen.
-1. Agregar una regla NAT en el cortafuegos para mapear ([Port Forwarding][fwd]) un servicio web de la red LAN. 
-    1. Crear una regla [destination NAT][5_6] para el protocolo TCP para los paquetes que llegan desde la WAN por el puerto HTTP 80 .
-    1. Agregar una acción para que la regla anterior permita redirigir la solicitud a 192.168.1.10:8080.
-    1. levantar un [servicio Web][web] en el pc 192.168.1.10 en el puerto 8080
 1. Agregar la [ruta por defecto][5_7] 0.0.0.0/0.
 
-```bash
-# El servidor HTTP DEV puede servir para ejecutar un servicio de prueba
-# En Win32 para servir el contenido de la carpeta public en el puerto 8080
-.\devd.exe -aol --port=8080 .\public
-```
 
-## 4. [Configurar enrutamiento MikroTik-01](#) ✔
+## 4. [Configurar Hotspot MikroTik-01](#) ✔
 1. Agregar una [dirección de bucle invertido][8_1] (Virtual) que esta siempre activa para identificar el router en la red OSPF.
     1. Crear un puente de red llamado "loopback"
     1. Agregar una dirección 10.255.255.1/32 a ese puente
@@ -104,19 +95,9 @@ Para todos los efectos:
 1. Agregar una regla NAT en el cortafuegos para garantizar el enrutamiento en sistemas de IP publica como internet.
     1. Crear una regla [source NAT][5_5] en el cortafuegos.
     1. Agregar una acción para enmascarar la ip de origen.
-1. Agregar una regla NAT en el cortafuegos para mapear ([Port Forwarding][fwd]) un servicio web de la red LAN. 
-    1. Crear una regla [destination NAT][5_6] para el protocolo TCP por el puerto HTTP 80.
-    1. Agregar una acción para la regla anterior para redirigir la solicitud a 192.168.2.10:8080.
-    1. levantar un [servicio Web][web] en el pc 192.168.2.10 en el puerto 8080
 1. Agregar la [ruta por defecto][5_7] 0.0.0.0/0.
 
-```bash
-# El servidor HTTP DEV puede servir para ejecutar un servicio de prueba
-# En Win32 para servir el contenido de la carpeta public en el puerto 8080
-.\devd.exe -aol --port=8080 .\public
-```
-
-## 6. [Configurar enrutamiento MikroTik-02](#) ✔
+## 6. [Configurar Hotspot MikroTik-02](#) ✔
 1. Agregar una [dirección de bucle invertido][8_1] (Virtual) que esta siempre activa para identificar el router en la red OSPF.
     1. Crear un puente de red llamado "loopback"
     1. Agregar una dirección 10.255.255.2/32 a ese puente
@@ -148,19 +129,9 @@ Para todos los efectos:
 1. Agregar una regla NAT en el cortafuegos para garantizar el enrutamiento en sistemas de IP publica como internet.
     1. Crear una regla [source NAT][5_5] en el cortafuegos para los paquetes IP que salen hacia la WAN.
     1. Agregar una acción para que la regla anterior permita enmascarar la ip de origen.
-1. Agregar una regla NAT en el cortafuegos para mapear ([Port Forwarding][fwd]) un servicio web de la red LAN. 
-    1. Crear una regla [destination NAT][5_6] para el protocolo TCP para los paquetes que llegan desde la WAN por el puerto HTTP 80 .
-    1. Agregar una acción para que la regla anterior permita redirigir la solicitud a 192.168.3.10:8080.
-    1. levantar un [servicio Web][web] en el pc 192.168.3.10 en el puerto 8080
 1. Agregar la [ruta por defecto][5_7] 0.0.0.0/0.
 
-```bash
-# El servidor HTTP DEV puede servir para ejecutar un servicio de prueba
-# En Win32 para servir el contenido de la carpeta public en el puerto 8080
-.\devd.exe -aol --port=8080 .\public
-```
-
-## 8. [Configurar enrutamiento MikroTik-03](#) ✔
+## 8. [Configurar Hotspot MikroTik-03](#) ✔
 1. Agregar una [dirección de bucle invertido][8_1] (Virtual) que esta siempre activa para identificar el router en la red OSPF.
     1. Crear un puente de red llamado "loopback"
     1. Agregar una dirección 10.255.255.3/32 a ese puente

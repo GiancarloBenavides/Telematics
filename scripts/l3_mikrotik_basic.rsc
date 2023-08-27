@@ -37,21 +37,13 @@
 # Crear cliente DHCP - solo router maestro que se conecta a internet
 #--------------------------------------
 /ip dhcp-client add interface=ether3 disabled=no
-# Crear la ruta por defecto - proximo salto (Paso 12)
+# Crear una regla de source NAT para permitir que los equipos de la LAN tengan internet (Paso 12)
+#--------------------------------------
+/ip firewall nat add chain=srcnat action=masquerade out-interface=ether3
+# Crear la ruta por defecto - proximo salto (Paso 13)
 #--------------------------------------
 # ---> option_one
 /ip route add gateway=10.16.16.1
 # ---> option_two
 # /ip route add dst-address=0.0.0.0/0 gateway=10.40.40.1
-#######################################
-###            ESTATICO             ### 
-#######################################
-# Crear una regla de source NAT para permitir que los equipos de la LAN tengan internet (Paso 1)
-#--------------------------------------
-/ip firewall nat add chain=srcnat action=masquerade out-interface=ether3
-# Crear una regla de source NAT para permitir que los equipos de la LAN tengan internet (Paso 1)
-#--------------------------------------
-/ip route add dst-address=10.10.1.0/24 gateway=10.22.1.1
-/ip route add dst-address=10.11.1.0/24 gateway=10.22.1.1
-/ip route add dst-address=10.22.1.0/24 gateway=10.22.1.1
-/ip route add dst-address=10.33.1.0/24 gateway=10.1.1.100
+

@@ -52,8 +52,9 @@ Para todos los efectos:
     1. Agregar la [dirección][5_1] de la interfaz externa que conectara redes futuras en el segmento IP 10.10.1.0/24.
     1. Agregar la [dirección][5_1] del bridge (interna) con una IP 192.168.1.1 privada, clase C.
 1. Agregar un [Pool][5_2] en el segmento de la LAN que asigne direcciones entre 192.168.1.100-192.168.1.200.
-1. Agregar un servidor [DHCP][5_3] y la información de puerta de enlace y DNS que enviara a los PC conectados a la LAN. 
-1. Agregar la [ruta por defecto][5_4] 0.0.0.0/0.
+1. Agregar un servidor [DHCP][5_3] y la información de puerta de enlace y DNS que enviara a los PC conectados a la LAN.
+1. Crear una regla [source NAT][5_4] en el cortafuegos para enmascarar la ip de origen.
+1. Agregar la [ruta por defecto][5_5] 0.0.0.0/0.
 
 ## 4. [Configurar enrutamiento MikroTik-01](#) ✔
 1. Agregar las [rutas estáticas][8_1] necesarias para que los tres router conozcan la ruta a los otros dos.
@@ -75,8 +76,9 @@ Para todos los efectos:
     1. Agregar la [dirección][5_1] de la interfaz externa que conecta con R3 en el segmento IP 10.22.1.0/24.
     1. Agregar la [dirección][5_1] del bridge (interna) con una IP 192.168.1.1 privada, clase C.
 1. Agregar un [Pool][5_2] en el segmento de la LAN que asigne direcciones entre 192.168.1.100-192.168.1.200.
-1. Agregar un servidor [DHCP][5_3] y la información de puerta de enlace y DNS que enviara a los PC conectados a la LAN. 
-1. Agregar la [ruta por defecto][5_4] 0.0.0.0/0.
+1. Agregar un servidor [DHCP][5_3] y la información de puerta de enlace y DNS que enviara a los PC conectados a la LAN.
+1. Crear una regla [source NAT][5_4] en el cortafuegos para enmascarar la ip de origen.
+1. Agregar la [ruta por defecto][5_5] 0.0.0.0/0.
 
 ## 6. [Configurar enrutamiento MikroTik-02](#) ✔
 1. Agregar las [rutas estáticas][8_1] necesarias para que los tres router conozcan la ruta a los otros dos.
@@ -98,8 +100,9 @@ Para todos los efectos:
     1. Agregar la [dirección][5_1] de la interfaz externa que conectara redes futuras en el segmento IP 10.33.1.0/24.
     1. Agregar la [dirección][5_1] del bridge (interna) con una IP 192.168.1.1 privada, clase C.
 1. Agregar un [Pool][5_2] en el segmento de la LAN que asigne direcciones entre 192.168.1.100-192.168.1.200.
-1. Agregar un servidor [DHCP][5_3] y la información de puerta de enlace y DNS que enviara a los PC conectados a la LAN. 
-1. Agregar la [ruta por defecto][5_4] 0.0.0.0/0.
+1. Agregar un servidor [DHCP][5_3] y la información de puerta de enlace y DNS que enviara a los PC conectados a la LAN.
+1. Crear una regla [source NAT][5_4] en el cortafuegos para enmascarar la ip de origen.
+1. Agregar la [ruta por defecto][5_5] 0.0.0.0/0.
 
 ## 8. [Configurar enrutamiento MikroTik-03](#) ✔
 1. Agregar las [rutas estáticas][8_1] necesarias para que los tres router conozcan la ruta a los otros dos.
@@ -134,7 +137,9 @@ Para todos los efectos:
 [5_1]:https://wiki.mikrotik.com/wiki/Manual:IP/Address
 [5_2]:https://wiki.mikrotik.com/wiki/Manual:IP/Pools
 [5_3]:https://wiki.mikrotik.com/wiki/Manual:IP/DHCP_Server
-[5_4]:https://wiki.mikrotik.com/wiki/Manual:IP/Route#Default_route
+[5_4]:https://wiki.mikrotik.com/wiki/Manual:IP/Firewall/NAT#Source_NAT
+[5_5]:https://wiki.mikrotik.com/wiki/Manual:IP/Route#Default_route
+
 
 [8_1]:https://wiki.mikrotik.com/wiki/Manual:IP/Route
 [8_2]:https://wiki.mikrotik.com/wiki/Manual:Tools/Ping
